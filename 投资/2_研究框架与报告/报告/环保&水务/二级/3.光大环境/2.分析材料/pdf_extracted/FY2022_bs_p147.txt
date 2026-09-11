@@ -1,0 +1,37 @@
+Consolidated Statement of Financial Position
+綜合財務狀況表
+31 December 2022 二零二二年十二月三十一日
+2022 2021
+二零二二年 二零二一年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+NON-CURRENT ASSETS 非流動資產
+Investment properties 投資物業 14 168,581 181,512
+Property, plant and equipment 物業、廠房及設備 15 8,943,821 8,921,701
+Right-of-use assets 使用權資產 16(a) 907,321 1,009,094
+10,019,723 10,112,307
+Goodwill 商譽 17 1,561,486 2,353,687
+Intangible assets 無形資產 18 30,794,582 30,474,870
+Interests in joint ventures 合營企業權益 19 965,932 811,375
+Interests in associates 聯營公司權益 20 592,922 606,970
+Contract assets 合約資產 23 96,984,420 101,971,151
+Finance lease receivables 融資租賃應收款項 24 13,367 15,464
+Other financial assets 其他財務資產 21 197,546 142,748
+Other receivables, deposits and 其他應收款項、按金及
+prepayments 預付款項 25 3,105,883 4,076,627
+Deferred tax assets 遞延稅項資產 33 376,031 440,770
+Total non-current assets 非流動資產總額 144,611,892 151,005,969
+CURRENT ASSETS 流動資產
+Inventories 存貨 22 1,014,432 1,258,539
+Contract assets 合約資產 23 12,445,930 11,907,704
+Finance lease receivables 融資租賃應收款項 24 770 771
+Other financial assets 其他財務資產 21 221,717 222,880
+Debtors, other receivables, deposits 應收賬款、其他應收款項、
+and prepayments 按金及預付款項 25 20,476,261 20,138,476
+Tax recoverable 可收回稅項 44,053 96,303
+Pledged bank deposits 已抵押銀行存款 26 1,163,850 553,704
+Deposits with banks with maturity 存款期超過三個月之
+period over three months 銀行存款 26 27,651 4,339
+Cash and cash equivalents 現金及現金等價物 27 10,591,242 15,046,943
+Total current assets 流動資產總額 45,985,906 49,229,659
+Annual Report 2022 | 二零二二年年報 145

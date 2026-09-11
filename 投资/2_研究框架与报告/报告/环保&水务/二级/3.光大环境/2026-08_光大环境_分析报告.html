@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国光大环境（0257.HK）分析报告 · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+:root{--ink:#1a1a2e;--sub:#5a6270;--line:#e3e6eb;--bg:#f7f8fa;--card:#ffffff;--red:#c0392b;--amber:#b7791f;--green:#1e7e4a;--blue:#1f4e79;--accent:#8b0000;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:15px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 60px;}
+header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+header.hero h1{font-size:26px;letter-spacing:1px;}
+header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+header.hero .price{margin-top:14px;font-size:15px;}
+header.hero .price b{font-size:22px;}
+header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:24px 0;font-size:13.5px;position:sticky;top:0;z-index:9;}
+nav.toc a{color:var(--blue);text-decoration:none;margin:0 10px 0 0;display:inline-block;}
+nav.toc a:hover{text-decoration:underline;}
+h2.sec{font-size:20px;margin:44px 0 14px;padding-left:12px;border-left:5px solid var(--blue);}
+h3{font-size:16px;margin:20px 0 8px;color:var(--blue);}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:14px 0;}
+.card.warn{border-left:5px solid var(--amber);}
+.card.bad{border-left:5px solid var(--red);}
+.card.good{border-left:5px solid var(--green);}
+.tbl-scroll{overflow-x:auto;}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:10px 0;}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}
+th{background:#eef1f5;font-weight:600;white-space:nowrap;}
+tr:nth-child(even) td{background:#fafbfc;}
+.chart{width:100%;height:340px;margin:8px 0;}
+.caliber{font-size:12px;color:var(--sub);margin-bottom:6px;}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:middle;}
+.dg{background:var(--green);}.dy{background:var(--amber);}.dr{background:var(--red);}.dw{background:#b9c0ca;}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+.tag.g{background:#e2f3e9;color:var(--green);}.tag.y{background:#fbf0dc;color:var(--amber);}.tag.r{background:#f9e3e0;color:var(--red);}
+.big{font-size:17px;font-weight:700;}
+.hl{background:#fff6d8;padding:0 3px;}
+.conclusion{background:#1f2a44;color:#fff;border-radius:10px;padding:24px 26px;margin:20px 0;}
+.conclusion .verdict{font-size:22px;font-weight:800;letter-spacing:2px;}
+.conclusion p{margin-top:10px;font-size:14.5px;opacity:.95;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:760px){.grid2{grid-template-columns:1fr;}.chart{height:300px;}nav.toc{position:static;}}
+footer{margin-top:50px;padding:24px;text-align:center;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);}
+ul.tight{padding-left:20px;}
+ul.tight li{margin:5px 0;}
+ol.tight{padding-left:22px;}
+ol.tight li{margin:5px 0;}
+.src{font-size:12px;color:var(--sub);}
+blockquote{border-left:4px solid var(--line);padding:6px 14px;color:var(--sub);font-size:13.5px;margin:8px 0;background:#fafbfc;}
+details.fold{border:1px solid var(--line);border-radius:8px;background:#fbfcfd;margin:12px 0;}
+details.fold>summary{cursor:pointer;padding:10px 14px;font-size:13.5px;font-weight:600;color:var(--blue);list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+details.fold>summary::-webkit-details-marker{display:none;}
+details.fold>summary::after{content:"▸ 点击展开";font-size:12px;font-weight:400;color:var(--sub);white-space:nowrap;}
+details.fold[open]>summary::after{content:"▾ 点击折叠";}
+details.fold[open]>summary{border-bottom:1px solid var(--line);}
+details.fold .fold-body{padding:6px 14px 14px;}
+.kv{font-size:13.5px;}
+.kv b{color:var(--blue);}
+.model-stamp{margin-top:10px;font-size:12px;color:var(--sub);opacity:.8;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>中国光大环境（0257.HK）分析报告</h1>
+    <div class="meta">二级市场 ｜ 报告日期 2026-08 ｜ 数据区间 FY2021–FY2025 年报 ｜ 港币 ｜ <b>全量版：含 Markdown 详版全部内容</b></div>
+    <div class="price">全文唯一基准价 <b>5.10 HKD</b>（2026-07-31 收盘）｜ 市值 313.3 亿 HKD ｜ PB 0.60[自算] / PE静态 8.0 / 股息率 5.29% ｜ 标的类型 <b>T1-T3 逆向价值</b>（尺子 = 双锚交叉）</div>
+    <div class="meta" style="margin-top:8px">🟡 <b>当前状态｜结论 v1.0（未变）｜最近验证 2026-09-09（FY2026 中期业绩公告，窗口 08-28 逾期 12 天补跑）</b>：三条证伪条件是 <b>OR</b> 关系，<b>第三条明确触发</b>——现金／短债 <b>0.320</b>（年末 0.351），不仅没回 0.5 反而再降 3.1pct，所以第 4 节“现金流已挤干”的读法<b>不成立</b>；另两条均不可定案——OCF &lt;45亿 <b>❌ 不可验</b>（港股业绩公告不含现金流量表，已另开 9 月中期报告全文窗口）、减值条件 <b>⚠️ 可读数但本报告未给量化门槛、不可判定</b>。结论维持不买且<b>买点不上调</b>。本窗口最高价值的读数在第 5 节以外：光大<b>加派</b>中期股息（港仙 15.0→<b>16.0</b>）而同日对质对象［在职关联标的·不披露］<b>砍息 24.63%</b> → 股息是个体治理变量、不是板块变量。正文未作任何修改，逐条对答案见 <a href="#s7" style="color:#ffd479">第 7 节回访区</a>。</div>
+  </div>
+</header>
+<div class="wrap">
+
+<nav class="toc">
+  <b>目录：</b>
+  <a href="#quick">⚡ 速读区</a><a href="#s0">0 结论</a><a href="#s1">1 行业</a><a href="#s2">2 公司治理</a><a href="#s3">3 主营拆解</a><a href="#s4">4 财务</a><a href="#s5">5 估值</a><a href="#s6">6 风险证伪</a><a href="#s7">7 回访区</a><a href="#appx">附录</a>
+</nav>
+
+<!-- ═══════════ 速读区 ═══════════ -->
+<h2 class="sec" id="quick">⚡ 速读区（一页版）</h2>
+
+<div class="conclusion">
+  <div class="verdict">3.0 HKD 以下才投，现价 5.10 不动</div>
+  <p>港股环保里报表质量最好的一家——现金流一年收 121 亿、分红覆盖 7 倍、利润大头归你。但股价两年翻倍（+119%），好消息已经卖到 5.10 了。四个估值指标全在自身历史最贵两成。买点：<b>3.0 港元以下</b>（PB 0.35、隐含股息率 9%），且 FY2026 中报 OCF ≥ 45 亿（半年）、减值不靠少提粉饰。</p>
+</div>
+
+<div class="card">
+  <h3>这家公司是干嘛的</h3>
+  <p>给地方政府烧垃圾发电（收处理费＋卖电＋卖蒸汽），顺带做污水（光大水务）和生物质发电。客户主要是地方政府和电网——所以它最大的资产也是一堆<b>政府欠条</b>（占总资产的 70%，比北水的 63% 还高），最大的风险同样是政府还不还得起。</p>
+</div>
+
+<div class="grid2">
+  <div class="card good">
+    <h3>好消息（为什么值得盯着）</h3>
+    <ol class="tight">
+      <li><b>真金白银收回 121 亿</b>——五年前还是净流出 16 亿，现在一年收 121 亿，分红只花 15 亿（覆盖 7 倍，北水才 3.1 倍）</li>
+      <li><b>赚的钱基本归你</b>：公司赚 100 块，利息吃掉 38 块（北水吃 60），合作股东只分走 17 块（北水分走 42）——同样的利润，光大股东实际拿到的是北水的两倍多</li>
+      <li><b>垃圾照烧、蒸汽卖爆</b>：收入五年跌 45% 听着吓人，其实跌掉的全是"垫钱替政府建厂"的一次性收入；真正的运营收入年年在涨，处理量、发电量、供热量全部创历史新高</li>
+      <li><b>分红在加码</b>：每股股息 22 → 23 → 27 港仙，分红比例从 30% 提到 42%——管理层自己在为现金流拐点背书</li>
+    </ol>
+  </div>
+  <div class="card bad">
+    <h3>坏消息（为什么现在不买）</h3>
+    <ol class="tight">
+      <li><b>市场比你早两年知道</b>：股价从 2023 年低点 2.33 涨到 5.10（+119%）。现在的价格在它自己近 4 年里排在<b>最贵的 6%</b>（北水那次好歹还在中间位置）</li>
+      <li><b>政府欠条越堆越高</b>：应收账款五年涨 84%，收入却跌 45%——欠条第一次超过了全年收入（100.3%）。北水的欠条占比五年在降，光大的原地不动</li>
+      <li><b>短债玩得太凶</b>：短期要还的债一年暴增 60% 到 299 亿，账上现金只够还 35%，一半家当已经抵押给银行——它赌的是银行一直续贷</li>
+      <li><b>利润拐点有水分</b>：2025 年利润 +16%，但其中省下的利息＋少提的坏账两项加起来超过了全部增量——主业利润其实是持平的</li>
+      <li><b>换了审计师</b>：2024 年起安永换成毕马威，恰好是利润最低、减值最大的那年。可能是正常轮换，但要盯</li>
+    </ol>
+  </div>
+</div>
+
+<div class="card">
+  <h3>只记三个数</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:130px">数</th><th style="width:150px">它是什么</th><th>含义</th></tr>
+    <tr><td class="big">5.10 → 3.0</td><td>现价 → 买入价上限</td><td>更严格算是 2.70。不到位就不动</td></tr>
+    <tr><td class="big">7.0 倍</td><td>现金流对分红的覆盖倍数</td><td>全场最硬的一个数，分红安全垫极厚</td></tr>
+    <tr><td class="big">70%</td><td>总资产里政府欠条的占比</td><td>比北水还高 7 个点。命运 = 地方政府 + 电网的还钱能力</td></tr>
+  </table></div>
+</div>
+
+<div class="card warn">
+  <h3>什么时候买（三个条件缺一不可）</h3>
+  <ol class="tight">
+    <li>股价跌到 <b>3.0 港元以下</b>（对应股息率 9%、PB 0.35）</li>
+    <li><b>FY2026 中报</b>：半年经营现金流 ≥ 45 亿，且坏账不是靠"少提"做利润、短债窟窿开始回补</li>
+    <li>把<b>中国水务（00855）</b>也按同样流程分析一遍，确认光大仍是可选项</li>
+  </ol>
+  <details class="fold">
+    <summary>和北水二选一怎么选 · 交叉结论</summary>
+    <div class="fold-body">
+      <p><b>质量四项全是光大赢</b>（利息负担、少数股东、分红覆盖、性价比），<b>价格四项全是北水赢</b>（股息率、便宜程度、欠条占比方向、短债）。翻译：光大是更好的公司，北水是更便宜的股票——但两家现在都不到买入价，所以真正的答案是"都不买，都盯着"。若两家同时跌回买入区，优先光大（利润分给谁是永久性差异，欠条和短债是可以变的）。</p>
+    </div>
+  </details>
+  <details class="fold">
+    <summary>半年后（2027-02，中报出来后）拿这张清单对答案 · 6 项</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>当时的判断</th><th>验证问题</th></tr>
+      <tr><td>现金流拐点可持续</td><td>半年 OCF ≥ 45 亿？</td></tr>
+      <tr><td>坏账不是靠"少提"粉饰</td><td>减值计提方向是否恢复正常？</td></tr>
+      <tr><td>短债窟窿</td><td>短债还是 299 亿吗？现金覆盖回到 0.5 了吗？</td></tr>
+      <tr><td>A 股上市</td><td>有进展吗？定价高于还是低于港股？</td></tr>
+      <tr><td>中期分红</td><td>≥ 13.5 港仙吗？</td></tr>
+      <tr><td>水务分部</td><td>见底了吗？</td></tr>
+    </table></div>
+  </details>
+</div>
+
+<!-- ═══════════ 详版正文 ═══════════ -->
+<h2 class="sec" id="s0">0. 一句话结论</h2>
+<div class="card bad">
+  <p><b>【3.0 HKD 以下才投，现价 5.10 不动】</b>（买入价锚依据：PB 0.35、零增长股息率 9%，见第 5 节双锚），因为核心逻辑是<b>这家公司已完成建造出清（建造收入五年 -90%，占比降至 10%）、现金流先于利润两年反转（OCF 从 -15.6 亿到 +121.3 亿，FCF 覆盖分红 7.0 倍），且利润大头留给上市公司股东（少数股东仅分 16.6%，北水 42%）</b>；但<b>市场比北水那次知道得更早、付得更多</b>——2023 低点 2.33 以来股价 <b>+119%</b>（2024 +52%、2025 +25%，正是 OCF 拐点被定价的两年），当前 PB 0.60 的便宜程度分位仅 <b>15.4%</b>（#13 🔴）、股息率分位 17.8%（#14 🔴）。最大风险不是业务，而是两件事叠加：<b>买入价不含安全边际</b> + <b>政府端债权 1,291 亿（占总资产 70%）横盘不降、应收/营收首次突破 100%</b>——现价隐含减值率 16.2% 虽仍是账面拨备的 8.0 倍（#16 🟢），但账面拨备只有 2.02%，且拨备增速（+24%）远超敞口增速（-0.9%），追认还在进行中。</p>
+  <h3>买入条件（全部满足才升级为"买入"）</h3>
+  <ol class="tight">
+    <li>股价 ≤ <b>3.0 HKD</b>（PB 0.35，隐含股息率 9%）</li>
+    <li>FY2026 中报 OCF ≥ 45 亿（半年）且减值计提不再靠"少提"粉饰利润、短债结构回摆（现金/短债回到 0.5 以上）</li>
+    <li>对中国水务（00855，ROE÷PB 14.0 全组最高）做完底稿级对比后光大仍是可选项</li>
+  </ol>
+</div>
+<div class="card">
+  <div class="caliber">图 1 ｜ 价格锚与现价位置（绿带 = 买入区 2.70–3.00，红色虚线 = 现价 5.10）｜ 口径：DDM 零增长 DPS 27 港仙 ÷ 要求回报 9–11%；分位锚 = 自身 4.3 年 25% 分位 ｜ 取价日 2026-07-31</div>
+  <div id="c_anchor" class="chart" style="height:300px"></div>
+</div>
+
+<h2 class="sec" id="s1">1. 行业：蛋糕与利润流向</h2>
+<div class="card">
+  <ul class="tight">
+    <li><b>需求驱动与见顶情况</b> <span class="tag g">同行印证（跨子行业）</span>：环保基建增量已见顶。光大 FY2025 新增投资仅 8 个项目 32.47 亿（在手项目 605 个 1,646.91 亿——新增仅为存量的 2%）；北水同期 capex 五年 -82%、首创环保年报写行业进入"存量提质增效"阶段。三家口径一致：<b>增量时代结束是行业事实</b>。但垃圾焚烧的运营端不同于水务：光大 FY2025 垃圾处理量、发电量、供热供汽量均创历史新高（供热供汽 +39%）<span class="tag y">仅公司口径</span>——<b>产能利用率上升与新增投资熄火并存</b>，是"建造死、运营活"的行业形态</li>
+    <li><b>谁付钱、账期、定价机制</b> <span class="src">年报披露</span>：三个钱袋——①地方政府垃圾处理费（应收账款主体）②电网公司上网电价（含可再生能源国补，拖欠常态化）③供热供汽（工商业客户，现结为主，FY2025 +39% 是回款质量最好的增量）。合约资产 1,049 亿是 BOT 特许权模式的会计沉淀，回收期 10-25 年</li>
+    <li><b>政策主变量</b>：① 地方化债节奏（决定 1,291 亿政府端债权回收速度）② 国补结算批次与确权进度 ③ 垃圾处理费顺价机制 ④ 国办函〔2025〕84 号<span class="tag g">一手数据，北水报告已核验原文</span>——第(三)条"不得拖欠付费"+第(七)条"专项债券资金有序处理社会资本方垫付成本"对光大 1,049 亿合约资产同样是最直接的回款政策通道；第(五)条"合理调整项目投资回报率、适当延长合作期限"同样威胁其特许权内含收益率。<b>84 号文对光大与北水是同一把双刃剑</b></li>
+    <li><b>本节判断</b>：未来 3-5 年蛋糕<b>不变</b>（焚烧处理量刚性，供热是唯一增量），钱被<b>融资成本低、能收回账、能把蒸汽卖出去的存量运营商</b>赚走。三源覆盖：增量见顶[同行印证]、84 号文[一手数据]；垃圾焚烧子行业格局与国补政策仍[仅公司口径]（待补：绿色动力/光大绿环同业年报对质）——<b>但本报告第 0 节的买入逻辑支柱是现金流与估值，不依赖行业判断，可接受</b></li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s2">2. 公司：位置与治理</h2>
+<div class="card">
+  <ul class="tight">
+    <li><b>股权与集团背景</b>：控股股东中国光大集团（央企金控）。相对北水（北京市国企）多一层含义：融资背书更强（99% 人民币借贷、平均成本 2.6%[推算] vs 北水 3.0%），但集团金控属性下环保板块的战略优先级存疑——FY2025 拟发 A 股（深交所）是集团给出的最明确加注信号</li>
+    <li><b>管理层"说-做"对账（五年扫读核心增量）</b>：</li>
+  </ul>
+  <div class="tbl-scroll"><table>
+    <tr><th>说（哪一年）</th><th>做（后续实际）</th><th>结论</th></tr>
+    <tr><td>FY2022 收缩口风急转（新增项目大幅减少）</td><td>capex 85.9 亿 → 54.7 → 37.6 → 23.7 → <b>18.6 亿</b>，五年 <b>-78%</b></td><td>✅ 说到做到，比北水早一年</td></tr>
+    <tr><td>FY2024"二次创业""两化一型""十五五预规划"</td><td>FY2025 归母 +16% 扭转三连降；供热供汽 +39%</td><td>✅ 首年兑现，但成色打七折（见第 4 节）</td></tr>
+    <tr><td>FY2025 主席王思联"直面积弊、承压奋进、破局突围"</td><td>拟发 A 股、国际业务盈利首破 1 亿、"六大战役"</td><td>口风罕见坦白（"积弊"二字），观察期</td></tr>
+    <tr><td>FY2021 扩张叙事（全年新增投资超百亿级）</td><td>五年后新增仅 32.47 亿，产能扩张终结</td><td>❌ 扩张叙事已终结，与北水同构</td></tr>
+  </table></div>
+  <ul class="tight">
+    <li><b>审计师换所</b>：<b>FY2024 起由安永换为毕马威</b>，恰逢利润五年低点 + 大额减值年；KAM 从 3 项收敛为 2 项、"建造服务收益确认"KAM 消失。换所官方理由待查公告。<b>KAM 拨备口径分段</b>（EY 仅应收 / KPMG 应收+合约资产）导致拨备率序列不可跨段比较</li>
+    <li><b>历史资本配置</b>：五年 capex 累计 220.4 亿 + FY2021 单年新投资高峰，换来的是营收 -45%、归母 -42%（FY2021→FY2024）。<b>过去五年的资本配置同样是失败的</b>（钱变成了 1,291 亿政府端债权），与北水的区别只在：光大的运营资产质量更好，出清动作更快</li>
+    <li><b>股息政策转折</b>：DPS 34→24→22→23→<b>27 港仙</b>，派息率从 30% 档跳到 <b>42.3%</b>（FY2024 起）——在 FCF 转正后立刻提高分红比例，是管理层对现金流拐点的自我背书</li>
+    <li><b>本节判断</b>：公司位置在<b>变好</b>（出清快于北水、集团加注 A 股、口风从遮掩转坦白），治理<b>中性</b>——审计师换所与减值节奏两处存疑，但股东回报结构与分红动作是实打实的加分项</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s3">3. 主营拆解：收入质量分层表</h2>
+<div class="card">
+  <h3>收入质量分层表</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>分部</th><th>收入占比<br>(FY2025)</th><th>EBITDA(亿)</th><th>归母(亿)</th><th>趋势</th><th>现金转化</th><th>质量评级</th></tr>
+    <tr><td><span class="dot dg"></span>环保能源（垃圾焚烧发电+供热）</td><td>54.5%</td><td>71.1 (+3%)</td><td>45.1 (+17%)</td><td>量创新高、供热+39%</td><td>中（处理费+电价+国补）</td><td>★★★★</td></tr>
+    <tr><td><span class="dot dy"></span>环保水务（光大水务 1857.HK 并表）</td><td>19.4%</td><td>19.2 (-13%)</td><td>6.0 (-26%)</td><td><b>连续两年双位数下滑，唯一未见底</b></td><td>中</td><td>★★</td></tr>
+    <tr><td><span class="dot dy"></span>绿色环保（生物质/危废）</td><td>24.4%</td><td>16.4 (+62%)</td><td>+0.9（扭亏）</td><td>扭亏靠少提减值，经营量未证实</td><td>差（国补依赖最重）</td><td>★★</td></tr>
+    <tr><td><span class="dot dr"></span>建造服务（跨分部）</td><td>10%</td><td>—</td><td>—</td><td>五年 -90%，已出清</td><td>差（转合约资产）</td><td>★</td></tr>
+  </table></div>
+  <ul class="tight">
+    <li><b>增长的真实来源</b>：没有收入增长（五年 -45%，全部由建造 -90% 造成；运营收入 166→198 亿 +19% 年年为正）。<b>FY2025 利润增长的真实来源是费用端</b>：财务费用 -6.1 亿（-20%）+ 绿色环保少提减值 ≈ +3.7 亿，两项合计超过归母增量 5.5 亿——<b>核心经营利润实际持平略降</b></li>
+    <li><b>转型叙事验证（三重印证，可信）</b>：① 建造收入占比 56%→10%；② capex 五年 -78%；③ <b>审计师 FY2024 起取消"建造服务收益确认"KAM</b>——与北水同样拿到第三方背书</li>
+    <li><b>本节判断</b>：高质量收入占比<b>上升且 90%</b>（#1 🟢，比北水的 56.5% 纯粹得多）；但要接受与北水相同的形态——转型成功 = 收入下降 + 利润靠省息，外加光大特有的一条：<b>分部结构里只有能源一根引擎</b>，水务在恶化、绿色环保的扭亏还未经受"正常计提年"的检验</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s4">4. 财务：三张表 + 一个循环</h2>
+<div class="card">
+  <h3>16 项打灯：<span class="tag g">🟢 6</span><span class="tag y">🟡 4</span><span class="tag r">🔴 6</span></h3>
+  <ul class="tight">
+    <li><span class="dot dr"></span><b>#6 短债覆盖 0.35</b>：现金 104.7 亿 / 短债 299.4 亿，全表最差；流动比率 107%，52% 资产已抵押</li>
+    <li><span class="dot dr"></span><b>#7 应收+合约资产占总资产 70.1%</b>：1,290.8 亿政府端债权，五年 67–71% 横盘不降（北水同期 69.8%→63.0% 在降）</li>
+    <li><span class="dot dr"></span><b>#8 贸易应收/营收 100.3%</b>：首次突破 100%——干一年活收不回一年钱</li>
+    <li><span class="dot dr"></span><b>#9 拨备 +24% vs 敞口 -0.9%</b>：在追认存量坏账，但拨备率仅 2.02%，尚未经市场化交易检验</li>
+    <li><span class="dot dr"></span><b>#13 PB 便宜程度分位 15.4%</b>、<b>#14 股息率分位 17.8%</b>：四个估值指标全在偏贵侧</li>
+    <li><span class="dot dg"></span><b>#4 FCF 覆盖分红 7.0x</b>（北水 3.1x）、<b>#12 少数股东分利 16.6%</b>（北水 42%）、<b>#10 利差 +2.8pct</b>、<b>#16 隐含减值率 8.0x 账面拨备</b></li>
+  </ul>
+  <details class="fold">
+    <summary>16 项打灯完整明细（触发数据 + 灯色）· 16 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th style="width:34px">#</th><th style="width:150px">指标</th><th>触发数据</th><th style="width:56px">灯</th></tr>
+      <tr><td>1</td><td>运营类收入占比趋势</td><td>运营 72% / 建造 10%，五年建造 -90%</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>2</td><td>OCF/净利润（5 年合计）</td><td>OCF 255.4 / 净利 296.0 = <b>0.86</b></td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>3</td><td>自由现金流（5 年）</td><td>FCF 18.1 亿 &lt; 五年分红 82.3 亿</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>4</td><td>分红覆盖（FY2025）</td><td>FCF 102.7 / 分红 14.7 = <b>7.0x</b></td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>5</td><td>净负债/净资产</td><td>165%（191%→188%→165%，连续两年改善）</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>6</td><td>短债覆盖</td><td>104.7/299.4 = <b>0.35x</b>，全表最差</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>7</td><td>应收+合约资产占总资产</td><td>1,290.8/1,843 = <b>70.1%</b>，五年横盘不降</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>8</td><td>贸易应收/营收</td><td><b>100.3%</b>，首次突破 100%</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>9</td><td>拨备率趋势</td><td>拨备 +24% vs 敞口 -0.9%，追认中，但拨备率仅 2.02%</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>10</td><td>利差</td><td>EBITDA/总资产 5.4% vs 融资成本 2.6%[推算] = +2.8pct</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>11</td><td>财务费用/归母净利</td><td>61%（北水 149%）</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>12</td><td>少数股东分利</td><td>16.6%（北水 42%）</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>13</td><td>PB 便宜程度分位</td><td>PB 0.60，便宜程度 <b>15.4%</b></td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>14</td><td>股息率分位与可持续性</td><td>5.29%，分位 17.8%；DPS 三年连升 22→23→27</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>15</td><td>ROE÷PB 同行排序</td><td>13.0，排第二（中国水务 14.0 第一）</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>16</td><td>价格隐含减值率</td><td>(522.2−313.3)/1,290.8 = <b>16.2%</b> = 账面 2.02% 的 <b>8.0x</b></td><td><span class="dot dg"></span>🟢</td></tr>
+    </table></div>
+  </details>
+</div>
+
+<div class="card warn">
+  <h3>这家公司的资金循环</h3>
+  <p>借长期贷款（885.5 亿有息负债，99% 人民币、平均成本 2.6%[推算]）→ 投 BOT 重资产（五年 capex 220.4 亿）→ 换运营收入（EBITDA 率 40%+）→ 但政府端债权 1,291 亿横盘不降、短债一年激增 60% → FY2025 OCF 121.3 亿（拐点），分红 14.7 亿（覆盖 7 倍），主动还债 82.7 亿。</p>
+  <ul class="tight">
+    <li><b>利润成色</b>：FY2025 归母 39.25 亿（+16%）扭转三连降，但拐点成色打七折（费用端贡献超过全部增量）。#11 财务费用/归母 61% 🟡（北水 149% 🔴）、#12 少数股东分利 16.6% 🟢（北水 42% 🔴）</li>
+    <li><b>应收红旗区</b>：KAM 应收五年 +84% vs 营收 -45%；应收/营收<b>首次突破 100%</b>（#8 🔴）。北水同口径占总资产五年在降（69.8%→63.0%），<b>光大在 67-71% 横盘不降，这是两家最重要的反向差异</b>。拨备 FY2025 +24% vs 敞口 -0.9%（#9 🔴）：在追认存量坏账。光大的真实坏账率还没有被市场化交易检验过</li>
+    <li><b>现金流（最硬的一张牌）</b>：OCF 五年 -15.6 → 40.1 → 25.0 → 67.8 → <b>121.3 亿</b>，FY2024/25 连续两年 OCF/净利 >1.7；FCF FY2024 首次转正、FY2025 达 102.7 亿，<b>分红覆盖 7.0 倍</b>（#4 🟢）；筹资连续四年净流出（FY2025 -82.7 亿主动还债）</li>
+    <li><b>债务结构（最差的一盏灯）</b>：净负债/净资产 191%→188%→<b>165%</b>（#5 🟡，连续两年改善）；但<b>短债激增 60% 至 299.4 亿，现金覆盖仅 0.35</b>（#6 🔴）、52% 资产已抵押。管理层用短期化换低息（财务费用 -20% 的代价），缓冲是未动用银行额度 342.8 亿</li>
+  </ul>
+</div>
+
+<div class="card bad">
+  <div class="caliber">图 2 ｜ KAM 应收 + 贸易应收/营收比 + 两类应收占总资产 ｜ 单位：亿 HKD / % ｜ 出处：各年报 KAM 页与附注 ｜ 取数 2026-08</div>
+  <div id="c_ar" class="chart"></div>
+  <details class="fold">
+    <summary>应收与减值五年明细 · 4 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>亿 HKD</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+      <tr><td>KAM 应收账面</td><td>131.1</td><td>153.2</td><td>199.8</td><td>211.3</td><td><b>241.5</b></td></tr>
+      <tr><td>合约资产</td><td>—</td><td>—</td><td>—</td><td>1,072.8</td><td>1,049.3</td></tr>
+      <tr><td>两类应收/总资产</td><td>66.9%</td><td>68.2%</td><td>70.0%</td><td>70.9%</td><td><b>70.1%</b></td></tr>
+      <tr><td>贸易应收/营收</td><td>40.4%</td><td>54.9%</td><td>76.1%</td><td>81.7%</td><td><b>100.3%</b></td></tr>
+    </table></div>
+    <div class="fold-body src">读法：KAM 应收五年 +84% vs 营收 -45%；应收/营收首次突破 100%。北水同口径占总资产五年在降（69.8%→63.0%），<b>光大在 67-71% 横盘不降</b>——两家最重要的反向差异。</div>
+  </details>
+</div>
+
+<div class="card">
+  <div class="caliber">图 3 ｜ OCF / capex / 自由现金流 ｜ 单位：亿 HKD ｜ 五年合计 OCF 255.4 − capex 220.4 = FCF 18.1 ｜ 出处：各年报现金流量表</div>
+  <div id="c_cash" class="chart"></div>
+  <details class="fold">
+    <summary>现金流四行明细（含筹资净额）· 4 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>亿 HKD</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th><th>五年合计</th></tr>
+      <tr><td>经营现金流 OCF</td><td>-15.6</td><td>40.1</td><td>25.0</td><td>67.8</td><td><b>121.3</b></td><td><b>238.5</b></td></tr>
+      <tr><td>capex</td><td>-85.9</td><td>-54.7</td><td>-37.6</td><td>-23.7</td><td><b>-18.6</b></td><td>-220.4</td></tr>
+      <tr><td>自由现金流 FCF</td><td>-101.5</td><td>-14.6</td><td>-12.7</td><td>44.2</td><td><b>102.7</b></td><td><b>18.1</b></td></tr>
+      <tr><td>筹资净额</td><td>+53.0</td><td>-3.8</td><td>-18.2</td><td>-49.1</td><td><b>-82.7</b></td><td>-100.8</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：FY2024/25 连续两年 OCF/净利 >1.7，FCF FY2024 首次转正、FY2025 达 102.7 亿。筹资连续四年净流出 = 主动还债。五年合计 FCF 18.1 亿 &lt; 五年分红 82.3 亿（#3 🟡）——历史有水分，当下已挤干。</div>
+  </details>
+</div>
+
+<h2 class="sec" id="s5">5. 估值：价格隐含的预期</h2>
+<div class="card">
+  <h3>自身纵向分位（窗口 4.3 年 / 1,061 个交易日）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:100px">指标</th><th style="width:110px">当前</th><th style="width:100px">区间</th><th style="width:80px">中位</th><th><b>便宜程度分位</b></th><th>灯</th></tr>
+    <tr><td>股价（FX-free）★</td><td>5.10</td><td>2.35–5.86</td><td>3.61</td><td><b>5.8%</b></td><td><span class="dot dr"></span>🔴</td></tr>
+    <tr><td>PB (#13)</td><td><b>0.60</b></td><td>0.305–0.724</td><td>0.457</td><td><b>15.4%</b></td><td><span class="dot dr"></span>🔴</td></tr>
+    <tr><td>PE（静态）</td><td>8.0</td><td>2.4–10.3</td><td>4.6</td><td>17.9%</td><td><span class="dot dr"></span>🔴</td></tr>
+    <tr><td>股息率 (#14)</td><td><b>5.29%</b></td><td>4.05%–13.03%</td><td>6.71%</td><td><b>17.8%</b></td><td><span class="dot dr"></span>🔴</td></tr>
+  </table></div>
+  <blockquote><b>四个指标全部在"偏贵"侧</b>，比北水（38-55%）严峻得多。2023 低点 2.33（0.30x PB）以来 +119%——纪律#3：<b>"市场很悲观"的说法对光大完全不成立</b>，市场从 2024 年（+52%）就开始为 OCF 拐点付钱。<br><b>#14 缓释</b>：DPS 三年连升（22→23→27 港仙）、派息率仅 42%、FCF 覆盖 7 倍——分位红是股价涨得比 DPS 快，不是股息恶化；若 FY2026 DPS 升到 32 港仙（派息率 50%），5.29% 在现价就变成 6.3%。</blockquote>
+</div>
+
+<div class="card">
+  <h3>收益率锚（第二个锚）</h3>
+  <p>DPS = 27 港仙，零增长假设，要求回报 9–11%（净负债率 165% + 短债 0.35 覆盖的标的不应更低）：</p>
+  <div class="tbl-scroll"><table>
+    <tr><th>要求回报 r</th><th>g=0 对应股价</th><th>对应 PB</th></tr>
+    <tr><td>9%</td><td><b>3.00</b></td><td>0.35</td></tr>
+    <tr><td>10%</td><td>2.70</td><td>0.32</td></tr>
+    <tr><td>11%</td><td>2.45</td><td>0.29</td></tr>
+  </table></div>
+  <p><b>交叉结果：分位锚 3.22 落在贴现区间（2.45–3.00）顶部之上 7%</b>——3.22 只在超出最友好假设的情形下成立，故买入区上限取 3.0、严格买入价 2.70（r=10%）。现价 5.10 高出上限 70%，<b>比北水那次离买入区更远</b>（北水现价高出其区间顶 26%）。</p>
+</div>
+
+<div class="card">
+  <h3>同行横向（2026-08-03 东财快照，复用北水底稿）</h3>
+  <div class="caliber">图 4 ｜ ROE÷PB 同行排序（花 1 块钱买到的净资产，一年替你赚几分）｜ 出处：底稿 Sheet5 同行快照</div>
+  <div id="c_peers" class="chart" style="height:280px"></div>
+  <div class="tbl-scroll"><table>
+    <tr><th>公司</th><th>币种</th><th>市值(亿)</th><th>PB</th><th>ROE%</th><th><b>ROE÷PB</b>(#15)</th></tr>
+    <tr><td>中国水务 00855</td><td>HKD</td><td>75.8</td><td>0.50</td><td>6.98</td><td><b>14.0</b></td></tr>
+    <tr><td><b>光大环境 00257</b></td><td>HKD</td><td>313.3</td><td><b>0.60</b></td><td>7.82</td><td><b>13.0</b></td></tr>
+    <tr><td>粤海投资 00270</td><td>HKD</td><td>548.5</td><td>1.28</td><td>11.01</td><td>8.6</td></tr>
+    <tr><td>［在职关联标的·不披露］ ［代码略］</td><td>HKD</td><td>234.1</td><td>0.76</td><td>5.01</td><td>6.6</td></tr>
+    <tr><td>洪城环境 600461</td><td>RMB</td><td>119.2</td><td>1.23</td><td>3.11</td><td>2.5</td></tr>
+    <tr><td>兴蓉环境 000598</td><td>RMB</td><td>220.5</td><td>1.13</td><td>2.64</td><td>2.3</td></tr>
+    <tr><td>首创环保 600008</td><td>RMB</td><td>219.5</td><td>1.07</td><td>1.39</td><td>1.3</td></tr>
+  </table></div>
+  <p>#15 🟢：光大排第二且 ROE 在升。剔除项：仙股首创环境与康达环保常年不分红、日成交额不足光大 1%，流动性折价主导，不构成真实替代。</p>
+</div>
+
+<div class="card warn">
+  <h3>替代品一页纸 ①：中国水务 00855（#15 榜首对质）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:30px">#</th><th style="width:24%">问题</th><th>回答</th><th style="width:14%">证据级别</th></tr>
+    <tr><td>①</td><td>商业模式差异</td><td>光大＝垃圾焚烧（政府处理费+电价+国补，账期长）；中水＝城市供水+直饮水（居民端现金收费，账期短）</td><td>[常识判断]</td></tr>
+    <tr><td>②</td><td>它的 ROE÷PB 高在哪</td><td>高在 PB 更低（0.50 vs 0.60），<b>ROE 反而是光大更高</b>（7.82 vs 6.98）——"更便宜"是价格差不是质量差</td><td>东财快照</td></tr>
+    <tr><td>③</td><td>它的折价原因</td><td>体量小（市值 75.8 亿，光大 1/4）、直饮水 capex 扩张期、市场担心负债率</td><td>[未验证]</td></tr>
+    <tr><td>④</td><td>光大相对它的唯一优势</td><td>现金流规模与确定性（OCF 121 亿）、流动性（市值 4 倍）、报表已底稿级验证</td><td>半验证</td></tr>
+    <tr><td>⑤</td><td>为什么还是买光大</td><td><b>差距 14.0 vs 13.0 在口径误差内，不构成否决</b>；但中水未做底稿，列为买入条件③</td><td>—</td></tr>
+  </table></div>
+</div>
+
+<div class="card warn">
+  <h3>替代品一页纸 ②：光大 vs 北水（回答北水报告买入条件③）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>维度</th><th>［在职关联标的·不披露］</th><th>光大环境</th><th>优</th></tr>
+    <tr><td>财务费用/归母 (#11)</td><td>149% 🔴</td><td>61% 🟡</td><td><b>光大</b></td></tr>
+    <tr><td>少数股东分利 (#12)</td><td>42% 🔴</td><td>16.6% 🟢</td><td><b>光大</b></td></tr>
+    <tr><td>FCF/分红覆盖 (#4)</td><td>3.1x</td><td>7.0x</td><td><b>光大</b></td></tr>
+    <tr><td>ROE÷PB (#15)</td><td>6.6</td><td>13.0</td><td><b>光大</b></td></tr>
+    <tr><td>政府端债权占总资产 (#7)</td><td>63% 且五年在降</td><td>70% 且横盘</td><td>北水</td></tr>
+    <tr><td>短债覆盖 (#6)</td><td>0.51</td><td>0.35</td><td>北水</td></tr>
+    <tr><td>股息率（现价）</td><td>7.14%</td><td>5.29%</td><td>北水</td></tr>
+    <tr><td>便宜程度分位 (#13)</td><td>38.3% 🟡</td><td>15.4% 🔴</td><td>北水</td></tr>
+  </table></div>
+  <p><b>对质结论</b>：<b>报表质量四项全部光大占优，价格四项全部北水占优</b>——"为什么买北水而不是光大"的诚实答案是：<b>不买谁的问题不存在，两家现在都不在买入区</b>；若两者同时回到各自买入价（北水 1.82 / 光大 3.0），同等折价下应优先光大（利润归属结构是永久性差异）。</p>
+</div>
+
+<div class="card bad">
+  <h3>当前价格隐含的假设（#16）</h3>
+  <p>归母权益 522.2 亿 − 市值 313.3 亿 = 隐含折价 208.9 亿 ÷ 被质疑资产 1,290.8 亿 = <b>隐含减值率 16.2% = 账面拨备 2.02% 的 8.0 倍</b>（#16 🟢 >5x）。</p>
+  <div class="tbl-scroll"><table>
+    <tr><th>PB 档位</th><th>股价</th><th>隐含减值率</th><th>÷账面拨备</th><th>档位含义</th></tr>
+    <tr><td>0.30</td><td>2.55</td><td>28.3%</td><td>14.0x</td><td>2023 低点档</td></tr>
+    <tr><td>0.35</td><td>3.00</td><td>~26%</td><td>~13x</td><td><b>我的买入区上限</b></td></tr>
+    <tr><td><b>0.60</b></td><td><b>5.10（现价）</b></td><td><b>16.2%</b></td><td><b>8.0x 🟢</b></td><td>市场仍比账面悲观</td></tr>
+    <tr><td>0.75</td><td>6.38</td><td>10.1%</td><td>5.0x</td><td>2021 高点档</td></tr>
+  </table></div>
+  <p><b>#13 与 #16 必须一起读</b>：相对自身历史已不便宜（🔴），相对账面价值仍深度折价（🟢）——市场已经从"极度悲观"走到"半信半疑"，而我入场需要的赔率存在于"极度悲观"区。</p>
+</div>
+
+<h2 class="sec" id="s6">6. 风险与证伪条件</h2>
+<div class="card">
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:44%">风险</th><th>概率</th><th>杀伤力</th><th>先行指标</th></tr>
+    <tr><td><span class="dot dr"></span>政府端债权 1,291 亿实际减值远超账面 2.02%</td><td>中</td><td><b>极高</b></td><td>KAM 拨备净增速、应收/营收比、是否出现折价出售应收</td></tr>
+    <tr><td><span class="dot dr"></span>短债滚动失败 / 银行额度收缩</td><td>低-中</td><td><b>极高</b></td><td>短债 299.4 亿与现金覆盖 0.35、未动用额度 342.8 亿、抵押率 52%</td></tr>
+    <tr><td><span class="dot dy"></span>减值政策钟摆回摆（FY2026 补提）</td><td>中</td><td>高</td><td>绿色环保分部减值计提额；FY2025 扭亏是否可持续</td></tr>
+    <tr><td><span class="dot dy"></span>A 股发行折价发行或流产</td><td>中</td><td>中-高</td><td>深交所审核进度；发行定价 vs 港股价</td></tr>
+    <tr><td><span class="dot dy"></span>水务分部继续恶化</td><td>中</td><td>中</td><td>1857.HK 独立披露；分部 EBITDA 连续第三年双位数下滑即坐实</td></tr>
+    <tr><td><span class="dot dy"></span>审计师换所背后存在分歧</td><td>低</td><td>高</td><td>换所公告官方理由；KPMG 首两年 KAM 措辞与拨备基准变化</td></tr>
+    <tr><td><span class="dot dy"></span>政府协商调降存量项目回报率（84 号文第(五)条）</td><td>中</td><td>中-高</td><td>特许权补充协议公告；#10 利差收窄</td></tr>
+    <tr><td><span class="dot dr"></span><b>估值已修复，安全边际不足</b>（当下事实）</td><td><b>已发生</b></td><td>中-高</td><td>PB 便宜分位（现 15.4%）；回撤至 3.0-3.2 区间再评估</td></tr>
+    <tr><td><span class="dot dy"></span>永续证券继续扩容（78.6 亿，票息隐性分利）</td><td>中</td><td>低-中</td><td>新发永续公告、票息率</td></tr>
+  </table></div>
+</div>
+<div class="card bad">
+  <h3>证伪条件</h3>
+  <p>① 如果 <b>FY2026 中报 OCF 低于 45 亿（半年）、同时减值重新大额计提</b>，则"现金流拐点+利润拐点"双双存疑——FY2025 的 121 亿 OCF 含不可持续的回款集中释放，+16% 归母是计提政策制造的。</p>
+  <p>② <b>短债覆盖跌破 0.3 或未动用额度明显下滑</b>，"银行滚动"前提被打破。</p>
+  <p>③ <b>A 股发行以低于 0.5x PB 定价</b>——等于集团与市场共同否定账面价值，#16 的"深度折价"论据崩塌。</p>
+</div>
+<div class="card">
+  <h3>反方陈述（为什么聪明人会回避它）</h3>
+  <p>这是一家总资产 70% 是政府欠条、应收已超全年营收、短债覆盖只有 0.35、一半资产已抵押给银行的公司；它的利润拐点是财务费用和减值政策做出来的，核心经营利润在下滑；它的股价两年翻倍，四个估值指标全部处于自身历史最贵的两成区间；它唯一的增长引擎供热供汽占收入不到一成。买它等于下注地方化债、银行信贷、减值政策连续性三件事，而你对三件事都没有信息优势。5.10 的价格已经把"活下来"定价完了，剩下的上行需要"账面净资产被相信"——那需要国补大规模确权或 A 股高价发行，都不在你的控制内。宁可错过，不必参与。</p>
+</div>
+
+<h2 class="sec" id="s7">7. 回访区</h2>
+<div class="card warn">
+<h3>🟡 初验｜2026-09-09｜FY2026 中期业绩公告（59 页，[A] 公司公告 PDF）← <b>第三条证伪线明确触发</b></h3>
+<p><b>结论：v1.0 维持（仍不买）</b>。验证窗口原定 2026-08-28（公司公告的董事会日），<b>实际 09-09 才跑、逾期 12 天</b>（如实记）。</p>
+<div class="tbl-scroll"><table><tr><th>预设证伪条件（本报告原文，<b>OR</b> 关系）</th><th>业绩公告可否验</th><th>实际读数</th><th>判定</th></tr><tr><td>① FY2026 中报半年 OCF &lt;45 亿</td><td><b>❌ 不可验</b></td><td>59 页公告全文<b>无现金流量表</b>（港股「中期業績公佈」只给损益表、资产负债表、附注与股息）</td><td>⏳ 留 09 下旬中期报告全文补验；<b>不得记作“未触发”</b></td></tr><tr><td>② 减值回摆证实 FY2025 扭亏靠少提</td><td><b>⚠️ 可读数但不可判定</b></td><td>减值合计 3.868→<b>4.393 亿</b>（+13.6%）；拆开看信贷类 ECL 2.084→<b>2.895 亿（+38.9%）</b>（应收账款 ECL 1.934→2.695 亿）、资产耗损类 1.784→1.498 亿（-16.0%）</td><td>方向是<b>继续加提而非回摆</b>；但<b>本条本来就没写量化门槛</b>，数取到了也无法判成立与否</td></tr><tr><td>③ 现金／短债未回 0.5（第 6 节写作“跌破 0.3”，台账口径为“未回 0.5”）</td><td>✅ 可验</td><td>现金及银行结余 <b>99.18 亿</b>（年末 105.24，-6%）／流动计息借贷 <b>310.13 亿</b>（年末 299.40）＝<b>0.320</b>（年末 <b>0.351</b>）</td><td><b>✅ 明确触发且反向恶化</b>（未跌破 0.3，但“回到 0.5”无期）</td></tr><tr><td>四：A 股发行以低于 0.5x PB 定价</td><td>✅ 可验（看有无公告）</td><td>本公告未提 A 股发行进展</td><td>未落地，本条未触发</td></tr></table></div>
+<p><b>因为三条是 OR，第三条成立即意味着</b>：报告第 4 节把 FY2025 的 121 亿 OCF 读成“现金流拐点”、并用它托底短债风险的那段推论，<b>本期不成立</b>——半年里现金只降了 6% 而短债又增了 3.6%，计息借贷总额 885→<b>905 亿</b>（+2%）。但这不改变结论方向，因为<b>原结论就是不买</b>；它改变的是“如果将来要买，不能拿现金流当安全垫”。</p>
+<p><b>对本报告结论不利的读数（不回避）</b>：</p>
+<ul class="tight"><li><b>经营层面在好转</b>：归母盈利 <b>24.31 亿港元（+10%）</b>，行政费用 <b>-21.3%</b>、财务费用 <b>-12.5%</b>，增值税退税 4.31 亿。</li><li><b>公司自己加派股息</b>：中期每股 15.0→<b>16.0 港仙（+6.7%）</b>，总额 9.83 亿——管理层对自身现金流的信心比我第 4 节的担心强。</li><li><b>银行端没收紧</b>：总额度 910 亿、<b>未动用 314 亿</b>（报告第 6 节预设的“额度明显下滑”未发生，342.8→314 亿 属正常波动）；期后又发两笔低息中票（绿色环保 10 亿@<b>1.61%</b>、光大水务 15 亿@<b>1.80%</b>）——融资渠道不仅通畅而且变便宜。</li><li><b>BVPS 实际跑赢了我的假设</b>：归母每股资产净值 8.501→<b>9.285 港元（+9%）</b>，意味着本报告第 5 节的<b>双锚已过期</b>（分位锚 3.25 元、股息率锚 3.20 元 [推算]）——但 BVPS 升高本身就是本报告怀疑的东西（总资产 70% 是政府欠条），<b>不能先怀疑净资产真实性、又拿它涨了 9% 去上调买点</b>——故本次买点不动。</li><li>审计师：毕马威按 HKSRE 2410 审阅（第 6 节“换所背后存在分歧”风险<b>未出现异常信号</b>）。</li></ul>
+<p><b>对本报告结论有利的读数</b>：</p>
+<ul class="tight"><li>减值不仅没回摆，<b>信贷类 ECL +38.9%</b>，应收质量持续恶化——第 6 节首行风险（政府端债权减值远超账面 2.02%）方向得到佐证。</li><li><b>首次出现联营企业权益全额耗损</b>：安庆京环绿色环境固废综合处置公司权益 <b>耗损 0.630 亿、可收回金额评为零</b>（去年同期 0），叠上危废固废 PPE 耗损 0.868 亿——<b>固废危废这条线已经在出现项目级归零</b>，第 3 节将其归为“增长引擎”的读法存疑。</li><li>内地占总投资及收益 <b>&gt;94%</b>，已抵押资产及股权净值 <b>997.56 亿</b>——抵押依赖未缓解。</li></ul>
+<h3>🧭 方法论反思（2026-09-09）</h3>
+<ol class="tight"><li><b>本条证伪条件的第二条是废条</b>：“减值回摆证实 FY2025 扭亏靠少提”无量化门槛（多少亿？同比几 %？哪个口径？）——数取到了却依然无法判定。已升为验证日历<b>维护规则 10</b>：每条证伪条件必须含 ①指标名 ②阈值数 ③比较基准 ④取数口径与附注位置。</li><li><b>港股业绩公告不含现金流量表——同坑第二次</b>（#1 ［在职集团·不披露］ 08-26 首例）。日历规则 8 在［在职集团·不披露］实测后立下、本次<b>预测成功</b>（该行备注预写的“先确认有没有现金流量表”动作直接执行）——规则已升为硬规则。</li><li><b>股息是个体治理变量、不是板块变量</b>：同一个中报季，［在职集团·不披露］砍息 24.63%、光大加息 6.7%（金科环境 FY2025 分红率更达 <b>92.78%</b>）——台账 #5（港股水务板块性折价）不能拿单一标的的股息行为作板块推论，已在台账加注。</li><li><b>本报告第 5 节的双锚已过期</b>（BVPS +9%），但修锚必须等中期报告全文补齐 OCF 后一次做完，避免“只拿利于上调买点的那一个数先改锚”。</li></ol>
+</div>
+<p class="read">（以下为 2026-08-03 定稿时预设的回访计划，原文保留不改）</p>
+<div class="card">
+  <ul class="tight">
+    <li><b>T+6 个月（2027-02-01，FY2026 中报后）</b>：股价 ___（基准 5.10）；核对项：半年 OCF ≥45 亿？减值计提方向、短债/现金覆盖是否回到 0.5、A 股进度、中期 DPS。</li>
+    <li><b>T+12 个月（2027-08-01，FY2026 年报后）</b>：股价 ___；核对项：KAM 拨备净增速是否回落、应收/营收是否回到 100% 以下、绿色环保扭亏是否持续、水务是否见底、重跑 PB/股息率分位（窗口可拉到 5.3 年）。</li>
+    <li><b>复盘三问</b>：① 我在 5.10 拒绝买入，如果它涨到 6.5+，原因是基本面还是流动性？② 3.0 的买入价等到了么？等到时敢不敢下手？③ "光大质量优于北水"的判断在两家 FY2026 年报后是否仍成立？</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="appx">附：取数底稿关键行</h2>
+<div class="card">
+  <div class="caliber">完整版见 <code>2.分析材料/2026-08_光大环境_取数底稿.xlsx</code> ｜ 单位：HKD 百万（KAM 应收为亿）</div>
+  <div class="tbl-scroll"><table>
+    <tr><th>指标</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th><th>出处</th></tr>
+    <tr><td>营业收入</td><td>49,895.4</td><td>37,321.2</td><td>32,090.2</td><td>30,258.0</td><td><b>27,520.5</b></td><td>底稿 Sheet2</td></tr>
+    <tr><td>归母净利润</td><td>6,804.1</td><td>4,601.9</td><td>4,429.2</td><td>3,377.2</td><td><b>3,925.2</b></td><td>底稿 Sheet2</td></tr>
+    <tr><td>经营现金流</td><td>-1,562.6</td><td>4,009.3</td><td>2,495.1</td><td>6,782.3</td><td><b>12,128.3</b></td><td>底稿 Sheet3</td></tr>
+    <tr><td>自由现金流</td><td>-10,151.0</td><td>-1,458.8</td><td>-1,264.6</td><td>4,415.9</td><td><b>10,266.0</b></td><td>底稿 Sheet3</td></tr>
+    <tr><td>资本开支</td><td>8,588.4</td><td>5,468.1</td><td>3,759.7</td><td>2,366.4</td><td><b>1,862.3</b></td><td>底稿 Sheet3</td></tr>
+    <tr><td>借贷总额</td><td>99,125.7</td><td>94,724.2</td><td>94,624.4</td><td>91,669.1</td><td>88,548.6</td><td>底稿 Sheet4</td></tr>
+    <tr><td>其中短债</td><td>13,940.7</td><td>20,178.2</td><td>23,118.4</td><td>18,704.1</td><td><b>29,939.6</b></td><td>底稿 Sheet4</td></tr>
+    <tr><td>永续证券</td><td>0</td><td>3,455</td><td>5,709</td><td>6,802</td><td>7,862</td><td>底稿 Sheet4</td></tr>
+    <tr><td>归母权益</td><td>51,777.5</td><td>47,374.1</td><td>48,140.9</td><td>48,211.0</td><td>52,219.8</td><td>底稿 Sheet4</td></tr>
+    <tr><td>KAM 应收（亿）</td><td>131.1</td><td>153.2</td><td>199.8</td><td>211.3</td><td>241.5</td><td>各年报 KAM</td></tr>
+    <tr><td>未动用额度（亿）</td><td>—</td><td>—</td><td>—</td><td>—</td><td>342.8</td><td>25 年报 MD&A</td></tr>
+    <tr><td>已抵押资产（亿/%）</td><td>—</td><td>—</td><td>—</td><td>—</td><td>980.3 / 52%</td><td>25 年报 MD&A</td></tr>
+    <tr><td>DPS（港仙）</td><td>34</td><td>24</td><td>22</td><td>23</td><td>27</td><td>各年报</td></tr>
+    <tr><td>年末收盘价</td><td>6.26</td><td>3.49</td><td>2.54</td><td>3.87</td><td>4.82</td><td>新浪源日线</td></tr>
+  </table></div>
+  <blockquote><b>口径</b>：全部 HKD 原币（列账货币=股价货币，估值天然 FX-free）；已与 AKShare 人民币口径交叉验证；FY2021 分部数为 FY2022 年报重列数；估算项与待补项见 <code>3_财务数据分析.md</code> 数据质量声明。</blockquote>
+</div>
+
+<footer>
+  本页为<b>全量版</b>：内容与 <code>2026-08_光大环境_分析报告.md</code>、<code>2026-08_光大环境_速读版.md</code> 一致（图表与折叠区为 HTML 独有的呈现增强）。<br>
+  数据源：FY2021–FY2025 年报（逐项出处见取数底稿）｜ 全文唯一基准价 5.10 HKD（2026-07-31）｜ 生成 2026-08<br>
+  本页不构成投资建议。
+  <div class="model-stamp">本文由 <b>qoder cantus</b> 生成</div>
+</footer>
+</div>
+
+<script>
+const G='#1e7e4a', B='#1f4e79', R='#c0392b', Y='#b7791f', GR='#8fa0b5';
+const YRS=['FY2021','FY2022','FY2023','FY2024','FY2025'];
+const base={
+  tooltip:{trigger:'axis'},
+  grid:{left:56,right:56,top:44,bottom:34},
+  legend:{top:6,textStyle:{fontSize:12}},
+  textStyle:{fontFamily:'-apple-system,"PingFang SC",sans-serif'}
+};
+function mk(id,opt){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const c=echarts.init(el);
+  c.setOption(Object.assign({},base,opt));
+  window.addEventListener('resize',()=>c.resize());
+}
+
+/* 图 1：价格锚 vs 现价 —— 横向条形，买入区用 markArea 标出 */
+mk('c_anchor',{
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},valueFormatter:v=>v+' HKD'},
+  legend:{show:false},
+  grid:{left:126,right:70,top:26,bottom:30},
+  xAxis:{type:'value',name:'HKD',max:5.5,splitLine:{lineStyle:{type:'dashed'}}},
+  yAxis:{type:'category',data:['DDM r=11%','DDM r=10%','分位锚 25%','DDM r=9%','现价'],axisLabel:{fontSize:11.5}},
+  series:[{
+    type:'bar',barWidth:14,
+    data:[
+      {value:2.45,itemStyle:{color:GR}},
+      {value:2.70,itemStyle:{color:GR}},
+      {value:3.22,itemStyle:{color:Y}},
+      {value:3.00,itemStyle:{color:G}},
+      {value:5.10,itemStyle:{color:R}}
+    ],
+    label:{show:true,position:'right',fontSize:12,formatter:'{c}'},
+    markArea:{silent:true,itemStyle:{color:'rgba(30,126,74,.10)'},label:{show:true,position:'insideTop',formatter:'买入区',fontSize:11,color:G},data:[[{xAxis:2.70},{xAxis:3.00}]]},
+    markLine:{symbol:'none',data:[{xAxis:5.10,lineStyle:{color:R,type:'dashed'}}]}
+  }]
+});
+
+/* 图 2：KAM 应收 + 贸易应收/营收 + 两类/总资产 */
+mk('c_ar',{
+  legend:{top:6,data:['KAM 应收（亿 HKD）','贸易应收/营收','两类应收/总资产']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:[
+    {type:'value',name:'亿 HKD',splitLine:{lineStyle:{type:'dashed'}}},
+    {type:'value',name:'%',min:30,max:110,interval:20,splitLine:{show:false},axisLabel:{formatter:'{value}%'}}
+  ],
+  series:[
+    {name:'KAM 应收（亿 HKD）',type:'bar',barWidth:30,itemStyle:{color:'#c9d4e2'},data:[131.1,153.2,199.8,211.3,241.5],
+     label:{show:true,position:'top',fontSize:11}},
+    {name:'贸易应收/营收',type:'line',yAxisIndex:1,smooth:true,symbolSize:9,lineStyle:{width:3},itemStyle:{color:R},
+     data:[40.4,54.9,76.1,81.7,100.3],label:{show:true,fontSize:11,formatter:'{c}%'},
+     markLine:{symbol:'none',data:[{yAxis:100,lineStyle:{color:R,type:'dashed'},label:{formatter:'100% 红线',position:'insideEndTop',fontSize:11}}]}},
+    {name:'两类应收/总资产',type:'line',yAxisIndex:1,smooth:true,symbolSize:7,lineStyle:{width:2,type:'dashed'},itemStyle:{color:Y},
+     data:[66.9,68.2,70.0,70.9,70.1],label:{show:true,fontSize:10,position:'bottom',formatter:'{c}%'}}
+  ]
+});
+
+/* 图 3：OCF / capex / FCF */
+mk('c_cash',{
+  legend:{top:6,data:['经营现金流 OCF','capex','自由现金流 FCF']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:{type:'value',name:'亿 HKD',splitLine:{lineStyle:{type:'dashed'}}},
+  series:[
+    {name:'经营现金流 OCF',type:'bar',barWidth:20,itemStyle:{color:G},data:[-15.6,40.1,25.0,67.8,121.3]},
+    {name:'capex',type:'bar',barWidth:20,itemStyle:{color:GR},data:[-85.9,-54.7,-37.6,-23.7,-18.6]},
+    {name:'自由现金流 FCF',type:'line',smooth:true,symbolSize:9,lineStyle:{width:3},itemStyle:{color:R},
+     data:[-101.5,-14.6,-12.7,44.2,102.7],label:{show:true,fontSize:11,position:'bottom'},
+     markLine:{symbol:'none',data:[{yAxis:0,lineStyle:{color:'#999'}}]}}
+  ]
+});
+
+/* 图 4：同行 ROE÷PB */
+mk('c_peers',{
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+  legend:{show:false},
+  grid:{left:86,right:70,top:20,bottom:30},
+  xAxis:{type:'value',name:'ROE÷PB',splitLine:{lineStyle:{type:'dashed'}}},
+  yAxis:{type:'category',data:['首创环保','兴蓉环境','洪城环境','［在职关联标的·不披露］','粤海投资','光大环境','中国水务'],axisLabel:{fontSize:12}},
+  series:[{
+    type:'bar',barWidth:18,
+    data:[
+      {value:1.3,itemStyle:{color:GR}},
+      {value:2.3,itemStyle:{color:GR}},
+      {value:2.5,itemStyle:{color:GR}},
+      {value:6.6,itemStyle:{color:Y}},
+      {value:8.6,itemStyle:{color:B}},
+      {value:13.0,itemStyle:{color:G}},
+      {value:14.0,itemStyle:{color:G}}
+    ],
+    label:{show:true,position:'right',fontSize:12,formatter:'{c}'}
+  }]
+});
+</script>
+</body>
+</html>

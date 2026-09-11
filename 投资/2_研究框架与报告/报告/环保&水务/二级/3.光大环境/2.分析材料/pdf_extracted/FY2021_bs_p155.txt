@@ -1,0 +1,37 @@
+Consolidated Statement of Financial Position
+綜合財務狀況表
+31 December 2021 二零二一年十二月三十一日
+2021 2020
+二零二一年 二零二零年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+NON-CURRENT ASSETS 非流動資產
+Investment properties 投資物業 14 181,512 176,860
+Property, plant and equipment 物業、廠房及設備 15 8,921,701 6,114,910
+Right-of-use assets 使用權資產 16(a) 1,009,094 822,265
+10,112,307 7,114,035
+Goodwill 商譽 17 2,353,687 2,016,817
+Intangible assets 無形資產 18 30,474,870 24,926,597
+Interests in joint ventures 合營企業權益 19 811,375 1,011,847
+Interests in associates 聯營公司權益 20 606,970 495,616
+Contract assets 合約資產 23 101,971,151 79,619,686
+Finance lease receivables 融資租賃應收款項 24 15,464 16,100
+Other financial assets 其他財務資產 21 142,748 716,807
+Other receivables, deposits and 其他應收款項、按金及
+prepayments 預付款項 25 4,076,627 3,587,975
+Deferred tax assets 遞延稅項資產 33 440,770 246,945
+Total non-current assets 非流動資產總額 151,005,969 119,752,425
+CURRENT ASSETS 流動資產
+Inventories 存貨 22 1,258,539 1,059,140
+Contract assets 合約資產 23 11,907,704 12,467,366
+Finance lease receivables 融資租賃應收款項 24 771 337
+Other financial assets 其他財務資產 21 222,880 –
+Debtors, other receivables, deposits 應收賬款、其他應收款項、
+and prepayments 按金及預付款項 25 20,138,476 13,201,126
+Tax recoverable 可收回稅項 96,303 668
+Pledged bank deposits 已抵押銀行存款 26 553,704 837,770
+Deposits with banks with maturity 存款期超過三個月之銀行
+period over three months 存款 26 4,339 7,585
+Cash and cash equivalents 現金及現金等價物 27 15,046,943 10,860,693
+Total current assets 流動資產總額 49,229,659 38,434,685
+Annual Report 2021 | 二零二一年年報 153

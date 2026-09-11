@@ -1,0 +1,52 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued) 關鍵審計事項（續）
+We have fulfilled the responsibilities described in the Auditor’s 我們已履行本報告「核數師就審計綜合財務報表
+responsibilities for the audit of the consolidated financial 須承擔的責任」一節中所闡述的責任，包括有關
+statements section of our report, including in relation to these 該等事項的責任。因此，我們的審計包括執行為
+matters. Accordingly, our audit included the performance of 應對綜合財務報表重大錯報風險的評估而設的程
+procedures designed to respond to our assessment of the 序。審計程序（包括處理以下事項的程序）的結
+果，為我們就隨附的綜合財務報表的審計意見提
+risks of material misstatement of the consolidated financial
+供基礎。
+statements. The results of our audit procedures, including
+the procedures performed to address the matters below,
+provide the basis for our audit opinion on the accompanying
+consolidated financial statements.
+How our audit addressed the key audit
+Key audit matter matter
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+Service concession arrangements
+服務特許經營權安排
+The Group has entered into Build-Operate-Transfer (“BOT”), We evaluated the management’s assessment
+Transfer-Operate-Transfer (“TOT”) and Build-Operate- of the BOT, TOT and BOO arrangements of
+Own (“BOO”) arrangements with local governments in the Group by reviewing and understanding
+Mainland China in respect of its environmental energy the terms of the respective agreements. In
+projects, greentech projects and environmental water particular, we evaluated the management’s
+projects. The assessment on whether the BOT, TOT and assessment as to whether the grantors control
+BOO arrangements fall within the scope of HK(IFRIC) or regulate what services the Group must
+Interpretation 12 Service Concession Arrangements provide with the infrastructures, to whom
+requires significant management judgement. Management’s it must provide them, and at what price. In
+assessment included whether the grantors control or addition, we evaluated the management’s
+regulate what services the Group must provide with the assessment as to whether the grantors
+infrastructures, to whom it must provide them, and at what control any significant residual interest in
+price; and whether the grantors control, through ownership, the infrastructures at the end of the term
+beneficial entitlement or otherwise, any significant residual of the arrangements, including whether the
+interest in the infrastructures at the end of the term of the infrastructures for the service concession
+arrangements. arrangements will be used for their entire or
+貴集團就旗下環保能源項目、綠色環保項目及環保水務項目與 substantially entire useful lives.
+中國大陸當地政府訂立建造—運營－轉移（「BOT」）、轉移—運 我們已透過審視及了解 貴集團BOT、TOT及
+營－轉移（「TOT」）及建造—運營—擁有（「 BOO」）安排。在評估 BOO安排的相關協議條款，評價管理層對有關安
+BOT、TOT及BOO安排是否屬於《香港（國際財務報告詮釋委員 排所作的評估。特別是，我們已評價管理層就授
+會）詮釋》第12號「服務特許經營權安排」範圍內時，管理層需要 權人可否控制或監管 貴集團利用基礎設施所須
+作出重大判斷。管理層的評估包括授權人可否控制或監管 貴 提供的服務、服務的提供對象及收取的價格等方
+集團利用基礎設施所須提供的服務、服務的提供對象及收取的 面所作的評估。此外，我們亦已評價管理層就授
+價格；以及授權人在有關安排的有效期結束時，能否通過所有 權人在有關安排的有效期結束時能否控制基礎設
+權、實益享有權或其他方式，控制基礎設施的任何重大剩餘權 施的任何重大剩餘權益所作的評估（包括服務特許
+益。 經營權安排所涉及的基礎設施是否將於其整個或
+大致上整個可使用年期使用）。
+The details of the Group’s service concession arrangements
+are disclosed in notes 3 and 51 to the financial statements.
+貴集團的服務特許經營權安排詳情於財務報表附註3及附註51
+披露。
+Annual Report 2021 | 二零二一年年報 143

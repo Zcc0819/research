@@ -1,0 +1,72 @@
+Notes to Financial Statements
+財務報表附註
+31 December 2021 二零二一年十二月三十一日
+3 SIGNIFICANT ACCOUNTING JUDGEMENTS 3 重大會計判斷及估計（續）
+AND ESTIMATES (continued)
+Estimation uncertainty (continued) 估計之不確定性（續）
+Estimation of fair value of investment properties 估計投資物業之公允值
+As described in note 14 to the financial statements, the 誠如財務報表附註14所述，本集團之投資
+Group’s investment properties were revalued at the end 物業已於報告期末根據獨立測量師行提供之
+of the reporting period based on the appraised market
+經評定市場價值進行重新估值。有關估值乃
+value provided by independent firms of surveyors. Such
+基於若干假設進行，故受限於不明朗因素
+valuations were based on certain assumptions, which
+以及或會與實際結果有重大差異。在作出估
+are subject to uncertainty and might materially differ from
+the actual results. In making the estimation, the Group 計時，本集團會考慮在活躍市場同類物業
+considers information from current prices in an active 之當前價格資料，並會使用主要基於各個
+market for similar properties and uses assumptions 報告期末之現行市況作出之假設。於二零
+that are mainly based on market conditions existing at 二一年十二月三十一日，投資物業之賬面值
+the end of each reporting period. The carrying amount
+為港幣181,512,000元（二零二零年：港幣
+of investment properties at 31 December 2021 was
+176,860,000元）。進一步詳情載於財務報表
+HK$181,512,000 (2020: HK$176,860,000). Further details
+附註14。
+are given in note 14 to the financial statements.
+Income taxes 所得稅
+Determining income tax provisions involves judgement on 釐定所得稅撥備涉及對若干交易之日後稅項
+the future tax treatment of certain transactions. The Group 處理方法作出判斷。本集團會根據現行稅務
+carefully evaluates the tax implications of transactions in 法律及法規審慎評估交易之相關稅務影響，
+accordance with prevailing tax laws and regulations, and
+從而計提稅項撥備。本集團會定期重新考慮
+tax provisions are set up accordingly. The tax treatment
+有關交易之稅項處理方法，並會將稅務法
+of such transactions is reconsidered periodically to take
+律、法規、相關詮釋及慣例以及其他相關政
+into account all changes in tax laws, regulations, relevant
+策之所有變動列為考慮因素。於日常業務過
+interpretations and practices, and other related policies.
+There are many transactions and calculations for which 程中有多項交易及計算未能明確釐定最終稅
+the ultimate tax determination is uncertain during the 項。倘該等事宜之最終稅項結果與最初入賬
+ordinary course of the business. Where the final tax 之金額有所不同，該等差額將影響於作出有
+outcome of these matters is different from the amounts 關釐定期間之所得稅及遞延稅項撥備。於二
+that were initially recorded, such differences will impact
+零二一年十二月三十一日，應付即期稅項之
+on the income tax and deferred tax provision in the
+賬面值為港幣190,832,000元（二零二零年：
+periods in which such determination is made. The carrying
+港幣212,959,000元）。
+amount of current tax payable at 31 December 2021 was
+HK$190,832,000 (2020: HK$212,959,000).
+Deferred tax assets are recognised for temporary 本集團會就暫時可扣減差異確認遞延稅項資
+deductible differences. As those deferred tax assets 產。由於上述遞延稅項資產僅限於將來很可
+can only be recognised to the extent that it is probable 能取得應課稅盈利而令未使用稅項抵免得以
+that future taxable profits will be available against which
+運用之情況下予以確認，故管理層須作出判
+the unused tax credits can be utilised, management’s
+斷，評估產生未來應課稅盈利之可能性。管
+judgement is required to assess the probability of future
+理層會於各個報告期末重新評估上述估計。
+taxable profits. Management reassesses these estimates
+at the end of each reporting period. Additional deferred 倘未來應課稅盈利有可能令遞延稅項資產得
+tax assets are recognised if it becomes probable that 以收回，便會確認額外的遞延稅項資產。於
+future taxable profits will allow the deferred tax assets 二零二一年十二月三十一日，遞延稅項資產
+to be recovered. The carrying amount of deferred tax 之賬面值為港幣440,770,000元（二零二零
+assets at 31 December 2021 was HK$440,770,000 (2020:
+年：港幣246,945,000元）。進一步詳情載於
+HK$246,945,000). Further details are included in note 33
+財務報表附註33。
+to the financial statements.
+210 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

@@ -1,0 +1,88 @@
+Notes to Financial Statements
+財務報表附註
+31 December 2023
+二零二三年十二月三十一日
+3. SIGNIFICANT ACCOUNTING JUDGEMENTS 3.
+重大會計判斷及估計（續）
+AND ESTIMATES (continued)
+Estimation uncertainty (continued)
+估計之不確定性（續）
+Income taxes
+所得稅
+Determining income tax provisions involves judgement on
+釐定所得稅撥備涉及對若干交易之日
+the future tax treatment of certain transactions. The Group
+後稅項處理方法作出判斷。本集團會根
+carefully evaluates the tax implications of transactions in
+據現行稅務法律及法規審慎評估交易
+accordance with prevailing tax laws and regulations, and
+之相關稅務影響，從而計提稅項撥備。
+tax provisions are set up accordingly. The tax treatment
+本集團會定期重新考慮有關交易之稅
+of such transactions is reconsidered periodically to take
+項處理方法，並會將稅務法律、法規、
+into account all changes in tax laws, regulations, relevant
+相關詮釋及慣例以及其他相關政策之
+interpretations and practices, and other related policies.
+所有變動列為考慮因素。於日常業務過
+There are many transactions and calculations for which
+程中有多項交易及計算未能明確釐定
+the ultimate tax determination is uncertain during the
+最終稅項。倘該等事宜之最終稅項結果
+ordinary course of the business. Where the final tax
+與最初入賬之金額有所不同，該等差額
+outcome of these matters is different from the amounts
+將影響於作出有關釐定期間之所得稅
+that were initially recorded, such differences will impact
+及遞延稅項撥備。於二零二三年十二月
+on the income tax and deferred tax provision in the
+三十一日，應付即期稅項之賬面值為港
+periods in which such determination is made. The carrying 539,330,000
+幣 元（二零二二年：港幣
+amount of current tax payable at 31 December 2023 was 197,011,000
+元）。
+HK$539,330,000 (2022: HK$197,011,000).
+Deferred tax assets are recognised for temporary
+本集團會就暫時可扣減差異確認遞延稅
+deductible differences. As those deferred tax assets
+項資產。由於上述遞延稅項資產僅限於
+can only be recognised to the extent that it is probable
+將來很可能取得應課稅盈利而令未使
+that future taxable profits will be available against which
+用稅項抵免得以運用之情況下予以確
+the unused tax credits can be utilised, management’s
+認，故管理層須作出判斷，評估產生未
+judgement is required to assess the probability of future
+來應課稅盈利之可能性。管理層會於各
+taxable profits. Management reassesses these estimates
+個報告期末重新評估上述估計。倘未來
+at the end of each reporting period. Additional deferred
+應課稅盈利有可能令遞延稅項資產得以
+tax assets are recognised if it becomes probable that
+收回，便會確認額外的遞延稅項資產。
+future taxable profits will allow the deferred tax assets
+於二零二三年十二月三十一日，遞延稅
+to be recovered. The carrying amount of deferred tax 613,814,000
+項資產之賬面值為港幣 元
+assets at 31 December 2023 was HK$613,814,000 (2022: 376,031,000
+（二零二二年：港幣 元）。
+HK$376,031,000). Further details are included in note 33 33
+進一步詳情載於財務報表附註 。
+to the financial statements.
+4. OPERATING SEGMENT INFORMATION 4.
+經營分部資料
+The Group manages its business by divisions, which
+本集團之業務按業務種類劃分為多個分
+are organised by business lines. In a manner consistent
+部並加以管理。按照公司內部就資源分
+with the way in which information is reported internally
+配及表現評估而向本集團最高管理層呈
+to the Group’s most senior executive management for
+報資料之一貫方式，本集團呈報了四個
+the purposes of resource allocation and performance
+須予報告分部。
+assessment, the Group has presented four reportable
+segments.
+211
+Annual Report 2023
+二零二三年年報

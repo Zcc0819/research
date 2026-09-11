@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>未来式智能 投资 memo（一级） · 2026-09 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--ink:#1a2233;--mut:#5b6472;--line:#e3e7ee;--bg:#f6f7f9;--card:#fff;--accent:#1f4e79;--red:#c0392b;--amber:#b7791f;--green:#5b8c5a;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.85 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px;}
+  header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+  header.hero h1{margin:0 0 10px;font-size:26px;letter-spacing:1px;color:#fff;}
+  header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+  header.hero .price{margin-top:14px;font-size:15px;}
+  header.hero .price b{font-size:22px;}
+  header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+  .tag{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:12px;padding:1px 10px;font-size:12px;margin:2px 3px;}
+  section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:26px 28px;margin:22px 0;}
+  h2{font-size:19px;border-left:4px solid var(--accent);padding-left:10px;margin:4px 0 14px;color:var(--accent);}
+  h3{font-size:16px;margin:18px 0 8px;}
+  blockquote{margin:14px 0;padding:12px 16px;border-left:4px solid var(--amber);background:#fdf6ec;border-radius:0 8px 8px 0;color:#4a3a1a;}
+  .verdict{border-left-color:var(--accent);background:#eef3fa;color:#1a2f4a;}
+  .tablebox,.tbl-scroll{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin:10px 0;}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}
+  th{background:#f0f3f8;white-space:nowrap;}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .caliber{font-size:12.5px;color:var(--mut);margin:6px 0 0;}
+  .chart{width:100%;height:340px;margin:8px 0 2px;}
+  details.fold{border:1px solid var(--line);border-radius:8px;margin:12px 0;background:#fbfcfd;}
+  details.fold summary{cursor:pointer;padding:10px 14px;font-weight:600;color:var(--accent);list-style:none;}
+  details.fold summary::before{content:"▸ ";color:var(--mut);}
+  details.fold[open] summary::before{content:"▾ ";}
+  details.fold .body{padding:4px 14px 14px;}
+  .grade{display:inline-block;min-width:20px;text-align:center;border-radius:3px;padding:0 4px;font-size:12px;font-weight:700;color:#fff;}
+  .gA{background:#5b8c5a;}.gB{background:#4bacc6;}.gC{background:#b7791f;}.gD{background:#999;}
+  footer{color:var(--mut);font-size:12.5px;text-align:center;padding:26px 20px 40px;line-height:1.9;}
+  ul{padding-left:22px;}
+  li{margin:5px 0;}
+  b{color:#10203a;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>未来式智能 投资 memo（一级）</h1>
+    <div class="meta">一级市场 · 假想题（观察池自主研究，非真实交易）｜ 报告日期 2026-09-09 ｜ 观点配置 Noah v1.1（[C9] MOIC 门槛 3x ／ [C10] 保护条款上浮 60%）｜ 标的类型 <b>T5 投入期</b>（只登记不实盘 [V2][V3]）｜ 信息模式 B 公开信息-only ｜ <b>全量版：含 Markdown 详版全部内容</b></div>
+    <div class="price">2025 收入口径 <b>≈2,800 万元</b>（创始人访谈 [C/D]）｜ 有效 PS 锚推演现值 <b>2.5-3.4 亿元</b>｜ 出价上限 <b>≤3 亿投后</b>（干净条款）/ ≤4.8 亿（带回购对赌 [C10]）</div>
+    <div style="margin-top:12px">
+      <span class="tag">台账 #13</span>
+      <span class="tag">验证 2027-09-09（中间点 2027-04-30 青矩年报）</span>
+      <span class="tag">结论：条件投（核数前置）</span>
+      <span class="tag">期望 MOIC ≈3.3x ≥ 3x 门槛</span>
+      <span class="tag">首条"条件投"定价结论</span>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+
+<!-- ============ 速读区 ============ -->
+<section id="quick">
+  <h2>速读区（一页版）</h2>
+  <h3>1. 一句话</h3>
+  <p>国内四家 AI Agent 快评标的里证据最硬的一家——上市公司青矩技术的半年报给它做了审计级背书；但收入数字全部出自老板的嘴，<b>≤3 亿投后才出价，出价前必须先查账</b>。</p>
+  <h3>2. 这家公司是干嘛的</h3>
+  <p>帮大企业造"数字员工"的公司：灵搭是造 Agent 的工厂（电网公司用它审合同，审核效率提升 80%），袋袋是雇数字员工的"京东"（2026-05 刚上线）。创始团队三人全部来自阿里达摩院——CEO 做过通义千问前身 AliceMind 的产品，一个管技术（清华+哥大博士），一个管交付（达摩院商业化总监）。</p>
+  <h3>3. 好消息 / 坏消息</h3>
+  <div class="tablebox"><table>
+    <tr><th>好消息</th><th>坏消息</th></tr>
+    <tr><td>北交所上市公司青矩技术真金白银投了 360 万 + 合资 1,000 万，半年报白纸黑字（支持投资）</td><td>收入 700 万→2,800 万→"冲亿元"全是创始人访谈口径，无任何审计佐证（削弱投资）</td></tr>
+    <tr><td>合资公司 3 个月做出产品并入选中关村典型案例，交付速度有审计级旁证（支持投资）</td><td>宣称 20+ 电网客户，公开可查中标公示只有 1 条（削弱投资）</td></tr>
+    <tr><td>团队-赛道匹配顶配，2023 年"不做模型做 Agent"的判断对过一次（支持投资）</td><td>工程审计赛道的收入归青矩并表——增长故事被合资结构切走一块（削弱投资）</td></tr>
+    <tr><td>司法记录全零 + 领编信通院智能体标准（支持投资）</td><td>31 人团队冲亿元收入，人力瓶颈；大厂免费 Agent 平台封死通用故事（削弱投资）</td></tr>
+  </table></div>
+  <h3>4. 只记三个数</h3>
+  <div class="tablebox"><table>
+    <tr><th>数字</th><th>它是什么</th></tr>
+    <tr><td class="num"><b>360 万元</b></td><td>青矩技术半年报披露的直投金额——本案唯一 A 级证据锚，也是未来 12 个月的追踪变量</td></tr>
+    <tr><td class="num"><b>2,800 万元</b></td><td>2025 收入口径（"翻了四倍"）——全案定价建在这个没人验过的数上，所以核数是出价前提</td></tr>
+    <tr><td class="num"><b>3 亿元</b></td><td>可出价的投后上限（干净条款）——按 3x MOIC 门槛反推 3.3 亿，留边际取 3 亿</td></tr>
+  </table></div>
+  <h3>5. 什么时候买</h3>
+  <ul>
+    <li>☐ 估值 ≤3 亿投后（干净条款），或 ≤4.8 亿带回购+收入对赌</li>
+    <li>☐ 收入核数通过：2025 审计口径 ≥2,000 万且 Top1 客户占比 ≤50%</li>
+    <li>☐ 电网合同抽样确认"续约"是真续约，不是 PoC 重签</li>
+    <li>☐ 创始人持股穿透 ≥40%，无代持/纠纷；新一轮不是 down round</li>
+  </ul>
+  <p><b>四条齐才出价；核数不过，价格再低也不投。</b></p>
+  <details class="fold"><summary>6. 一年后对答案清单 · 5 项</summary><div class="body">
+    <ul>
+      <li>☐ 青矩技术 FY2026 年报（2027-04-30 前后）：对未来式的 360 万投资减值没减值？青矩未来收入是多少？</li>
+      <li>☐ 非关联公开中标计数 ≥3 条了吗（基线：盐城 1 条）？</li>
+      <li>☐ 社保人数从 31 人涨到 50+ 了吗（收入若真翻倍人不涨不合常理）？</li>
+      <li>☐ 新一轮融资落地了吗？估值多少 vs 本 memo 的 3 亿上限？是 down round 吗？</li>
+      <li>☐ 2026"冲亿元"目标兑现度（看下轮融资通稿口径）？</li>
+    </ul>
+  </div></details>
+  <details class="fold"><summary>7. 黑话词典 · 7 个术语</summary><div class="body">
+    <ul>
+      <li><b>代理变量法</b>：标的没报表，就盯关联上市公司的年报——青矩每年必须审计披露对它的投资价值，等于免费给我们请了审计师。</li>
+      <li><b>反向 captive</b>：一般是股东给标的输送收入（要打折），本案反过来——合资公司的收入归青矩报表，标的的增长故事被切走一块。</li>
+      <li><b>外部化基线</b>：不认识的客户公开招标选了它，才算硬证据；本案基线只有 1 条。</li>
+      <li><b>期望 MOIC</b>：牛/中/熊三档按概率加权的回报倍数；一级及格线 3 倍，本案 3.3 倍——刚过线。</li>
+      <li><b>核数前置</b>：查账不是投后动作，是出价的前提——收入砍三成结论就翻，不查账等于闭眼定价。</li>
+      <li><b>Down round</b>：新一轮估值低于上轮 = 聪明钱已重新定价，接盘即站岗。</li>
+      <li><b>绿灯褪色开关</b>：最强的利好证据也要预先写好"它什么时候失效"——青矩背书的三个失效条件已单独登记。</li>
+    </ul>
+  </div></details>
+</section>
+
+<!-- ============ 0 结论 ============ -->
+<section id="s0">
+  <h2>0. 一句话结论</h2>
+  <blockquote class="verdict"><b>条件投：≤3 亿投后（干净条款）/≤4.8 亿（带回购对赌）才出价，出价前必须完成收入核数</b>（3 亿档按 [C9] 3x MOIC 门槛反推，4.8 亿档按 [C10] 保护条款上浮 60%），核心逻辑是 <b>产业方验证锚为真（青矩技术 360 万直投＋1,000 万 JV 三个月出产品入选中关村案例，均为半年报审计披露 [A]）＋工商增资痕迹与融资叙事咬合（643.67→732.72 万，+12.15%，与 Pre-A 时点吻合 [B]）＋团队-赛道匹配顶配（达摩院产品/技术/商业化三角），而当前体量（收入 2,800 万级 [C/D]）下 3 亿投后对应有效 PS 约 10.7x，落在推演区间内、期望 MOIC ≈3.3x 过线</b>；最大风险是<b>收入链全部是创始人访谈口径（D 级）且外部中标痕迹只有 1 条，"20+ 电网客户 100% 续约"完全未经独立验证——核数不过则本结论整体作废</b>。</blockquote>
+  <p>投资性质：财务回报型（假想题；对 Noah 无产业协同可注入。青矩才是产业协同型玩家，它已占住了那个位置）。</p>
+  <p>⚠️ 证据声明：第 0 节建立在 <span class="grade gA">A</span> 级（青矩技术 2025 半年报：360 万 FVOCI 直投、JV 53.20% 并表结构、青未智源合伙人含杨劲松/邹阳）与 <span class="grade gB">B</span> 级（工商增资痕迹、信通院标准领编、专利受理、31 人年报口径）上；<b>收入 700 万→2,800 万链与全部客户数据为 <span class="grade gC">C</span>/<span class="grade gD">D</span> 级（创始人访谈单源）</b>，估值锚 1.5 亿为 C 级单源（艾媒）——<b>在收入核数（2024/2025 原表＋灵搭/袋袋拆分＋电网合同抽样）完成前，本结论为阶段性结论</b>（待补证据见 9.5）。</p>
+  <div class="chart" id="chartVal"></div>
+  <p class="caliber">数据口径：出价档位 vs 有效 PS 锚推演现值区间（亿元）。区间 2.5-3.4 亿 = 有效 PS 9-12x × 2025 收入 2,800 万 [C/D]；3 亿干净档、4.8 亿条款档 [C10]；天使 1.5 亿为 2025-03 历史锚 [C 单源]。检索日 2026-09-09。</p>
+</section>
+
+<!-- ============ 1 市场 ============ -->
+<section id="s1">
+  <h2>1. 市场：真需求还是叙事</h2>
+  <ul>
+    <li><b>自下而上空间</b>：不重复拍"中国 Agent 千亿"行研 TAM。有意义的切片是<b>能源（电网）＋金融的企业级 Agent 采购</b>——电网体系省级公司 27 家＋直属产业单位，客单价 100-200 万/年（由 2025 收入 2,800 万 ÷ 20+ 客户反推 [C/D 推算]），仅电网存量盘即 3,000-5,000 万/年可续费腹地；金融、高端制造为第二曲线。空间不大不小——<b>养得活一家专精公司，撑不起平台估值</b>。</li>
+    <li><b>付费意愿证据链</b>：省钱型（合同审核效率 +80% [D]）而非创新预算型，方向健康；但公开可验的非关联续费中标记录<b>只有 1 条</b>（盐城高新区能源科技集团，2026-06-25 [C]）——"100% 续约"是访谈口径，📡 最低标准下只能记为"存疑待核"。</li>
+    <li><b>为什么是现在</b>：2025-08 国务院"人工智能+"意见提出 2027 年智能体应用普及率超 70% [B 政策文件]；国资采购预算到位＋推理成本下降，To B Agent 采购窗口真实打开。</li>
+    <li><b>产业方视角</b>：我会买吗？会——合同审核/工程审计这类"高频低危"文书场景是 Agent 落地最顺的一类；青矩用真金白银和 JV 回答了这个问题（A 级）。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：需求是［必须买（省钱型，政策加持）］（证据等级：A 政策与青矩行为/C-D 客户口径）｜方向：[支持投资] ｜ 触发依据：青矩以 55% 出资＋并表的方式下场，产业方用行为投票；但客户面宽度未经独立验证。</blockquote>
+</section>
+
+<!-- ============ 2 产品技术 ============ -->
+<section id="s2">
+  <h2>2. 产品与技术：落地真相</h2>
+  <ul>
+    <li><b>生产环境真实使用</b>：华东电网合同审核项目 2023 年即上线（种子项目 [D]）；JV"AI智慧工程审计平台"成立 3 个月推出并入选中关村科学城典型案例（唯一工程领域 AI 项目）[A 半年报]——<b>交付速度有 A 级旁证</b>，这在 Agent 公司里罕见。</li>
+    <li><b>评测体系</b>：任务成功率 72%→91% [D]、"多专家调度"基准提升 15%+ [D]——有评测意识，但口径与基线全部不可见，只能记线索。</li>
+    <li><b>三本账</b>：token/算力成本、延迟、准确率均未披露（未验证）；Pre-A 资金用途明确写"算力" [C]——推理成本是真实成本项，毛利结构待核。</li>
+    <li><b>标准产品 vs 定制</b>：灵搭是"生成 Agent 的工厂"（图形化编排，月均产 120+ Agent [D]）——<b>平台叙事</b>；但能源/金融大 B 客户的交付现实通常是"平台＋重实施"，31 人团队 [B] 做 20+ 电网客户，要么产品化程度真的高，要么客户数/交付深度有水分——两个解释都进 9.5 待核。</li>
+    <li><b>壁垒在哪一层</b>：<b>行业 know-how＋央国企客户关系</b>（信通院标准领编 [B] 是投标时的认证型壁垒），不在算法层；灵搭的编排能力大厂均可复制。</li>
+    <li><b>基础模型升级＝加深</b>——应用层公司，底模每强一代它的 Agent 成功率跟着涨；风险在<b>大厂平台向下渗透行业场景</b>而非上游清零。</li>
+    <li><b>客户决策链</b>：电网采购走集团框架＋子公司立项，周期长但续约粘性高；决策链细节未验证。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：产品是［真落地（至少工程审计与合同审核两场景有 A/B 级痕迹）］，壁垒［行业 know-how＋标准话语权，中等偏真］（证据等级：A/B 骨架＋D 血肉）｜方向：[支持投资] ｜ 触发依据：JV 三个月出产品入选案例是交付能力的审计级旁证；但产品数据全为 D 级。</blockquote>
+</section>
+
+<!-- ============ 3 商业模式 ============ -->
+<section id="s3">
+  <h2>3. 商业模式与单位经济</h2>
+  <ul>
+    <li><b>一单的账</b>：客单价约 100-200 万/年 [C/D 推算]，交付成本（实施人力＋算力）未披露——毛利率未验证。31 人 [B] ÷ 2,800 万收入 [C/D] = 人均产出约 90 万，To B AI 公司里属健康偏上（若收入为真）。</li>
+    <li><b>CAC 与回收、NRR</b>：公开信息不可得——「未验证」，本节判断降为假设进 9.5。唯一线索："100% 续约" [D] 若为真则 NRR&gt;100%，但这恰是最需要核数的那句话。</li>
+    <li><b>规模效应方向</b>：灵搭若真是"工厂"，收入翻倍时交付人力半倍（产品型）；若实为项目制，则是人力型——<b>这决定它值 3 倍 PS 还是 12 倍 PS</b>，公开信息无法裁决（核数时看人员结构与分项毛利）。</li>
+    <li><b>收入质量</b>：① 电网客户是<b>市场化外部客户</b>（非股东关联方），captive 污染轻；② 但 <b>JV 工程审计赛道的收入归青矩并表（53.20%）</b>，未来式只享少数权益 [A]——增长故事里"工程审计"一块不能全额记给它；③ 袋袋"上线一个月 ARR 1,200 万" [D] 口径游戏空间大（B 端打包 or C 端订阅？），不采信为收入证据。</li>
+  </ul>
+  <div class="chart" id="chartRev"></div>
+  <p class="caliber">数据口径：收入轨迹（万元）。2024/2025 为创始人访谈口径 [C/D 单源链]（"2024 年收入 700 万，2025 年翻了四倍"）；2026 亿元为公司目标 [D]，空心柱标记，不作定价输入。</p>
+  <blockquote><b>本节判断</b>：这是［产品公司（叙事）/项目公司（待证）］，规模化方向未决（证据等级：C/D）｜方向：[待验证→核数看分项毛利与人员结构] ｜ 触发依据：单位经济的关键三数（毛利/NRR/交付人力比）全部公开不可得。</blockquote>
+</section>
+
+<!-- ============ 4 竞争 ============ -->
+<section id="s4">
+  <h2>4. 竞争格局</h2>
+  <ul>
+    <li><b>真实竞对清单</b>：<b>大厂 Agent 平台</b>（阿里百炼、字节扣子、腾讯元器——免费/低价平台层，最危险）；<b>同梯队创业公司</b>（实在智能、中数睿智、澜码等）；<b>行业 ISV 自带 AI 化</b>（南瑞、国网信通等"客户自己养团队做"——央企信息化子公司是 To 电网生意的地头蛇）；"客户不做"选项弱（文书场景 ROI 明确）。</li>
+    <li><b>大厂阴影测试</b>：如果阿里明天认真做电网合同审核 Agent，它靠什么活？答案只能是<b>行业 know-how 沉淀＋央国企信任关系＋标准话语权</b>——成立但不厚；大厂通常不亲自下场做重交付行业单，更可能的格局是"大厂平台＋它做行业层"，竞合关系。</li>
+    <li><b>地头蛇风险单列</b>：国网信通产业集团若把同类能力做进集团统谈框架，电网腹地会被从内部收编——比大厂更近的威胁；先行指标是电网系统内智能体采购的中标人分布（公开可观测）。</li>
+    <li><b>我方资源注入</b>：不适用（假想题）。<b>注意：青矩已占住"产业方注资＋场景输血"的位置</b>（工程审计），后来的财务投资人买不到这个待遇，只能买市场化那部分故事。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：它［能］活到中局，凭<b>行业 know-how＋标准话语权＋产业方绑定</b>；终局位置（独立上市体量 vs 被并购）未决（证据等级：B/C）｜方向：[中性] ｜ 触发依据：竞争位不差但腹地窄；地头蛇（国网系 ISV）是未定价的真威胁。</blockquote>
+</section>
+
+<!-- ============ 5 团队 ============ -->
+<section id="s5">
+  <h2>5. 团队（一票否决项）</h2>
+  <ul>
+    <li><b>创始人-事情匹配度：顶配</b>。杨劲松（字节飞书 AI 产品负责人→达摩院产品/商业化总监，2021 参与 AliceMind 即通义千问前身 [C]）是"懂产业的做产品"；且 2023 年逆势不做基模做 Agent，三年后被行业追认——<b>方向判断有前科可查且对了一次</b>。</li>
+    <li><b>铁三角结构</b>：CEO 产品/商业化＋CSO 王骏（清华硕士＋哥大博士，Google Research/阿里云/达摩院 [C]）技术＋COO 邹阳（达摩院商业化总监 [C]）交付，角色互补无明显短板。</li>
+    <li><b>股权红线核查</b>：司法全零（裁判文书/被执行/行政处罚/股权出质均 0 [C]）；实缴两源冲突（334.39 vs 500 万 [C]）为小额差异不构成红旗；<b>创始人持股比例未验证</b>（股东穿透在登录墙内，9.5 登记）。</li>
+    <li><b>团队真实性交叉验证（本节最硬的一条）</b>：<b>杨劲松、邹阳出现在青矩未来员工持股平台"青未智源"合伙人名单里</b> <span class="grade gA">A</span>——核心团队真金白银深度绑定 JV，上市公司披露级的"说-做一致"。</li>
+    <li><b>核心团队流失</b>：检索未见离职报道 [C]；31 人小团队，关键人风险天然高。</li>
+    <li><b>接受产业资本的真实动机</b>：要场景＋要订单（青矩输血工程审计），动机与产业方给的东西匹配，无错配迹象。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：［通过］——无一票否决项，且是四家快评标的中团队-事情匹配度最高的（证据等级：A 交叉验证＋C 履历）｜方向：[支持投资] ｜ 触发依据：青未智源合伙人名单的 A 级交叉验证＋"2023 判断对过一次"的可查前科。</blockquote>
+</section>
+
+<!-- ============ 6 财务核验 ============ -->
+<section id="s6">
+  <h2>6. 财务核验</h2>
+  <ul>
+    <li><b>三件套执行</b>：① <b>代理变量（A 级）</b>：青矩技术半年报——360 万 FVOCI 直投（+382.74%）＋JV 结构完整披露；未来 12 个月唯一可持续获得的 A 级观测变量是<b>青矩年报里对未来式的账面价值是否减值＋青矩未来的收入/净利</b>。② <b>外部化基线（B/C 级）</b>：非关联公开中标记录 = <b>1 条</b>（盐城 2026-06-25）——不是 0，但与"20+ 电网客户"差了一个数量级；电网采购多走内部框架不上政采网，口径上可解释，<b>但公开可证伪的收入独立性底线就是这 1 条</b>。③ <b>中标金额下限</b>：盐城单金额未披露，下限估计不可得。</li>
+    <li><b>收入链核对</b>：700 万（2024）→"翻四倍"2,800 万（2025）→"冲亿元"（2026 目标）全部为创始人访谈口径 [C/D 单源链]——方向可信（融资语境反复引用且无人证伪），<b>绝对值与结构完全未验证</b>；且 2026 目标是 3.6 倍增速，激进。</li>
+    <li><b>收入集中度与关联方</b>：电网客户非关联 ✅；Top 客户集中度未知；JV 关联收入流向青矩（并表方在对方）——<b>罕见的"反向 captive"：关联交易吃掉的是它的增长故事而非虚增它的收入</b>。</li>
+    <li><b>月 burn 与现金跑道</b>：未验证；Pre-A 资金用于算力 [C]，2026-05 报道新一轮进行中 [C/D]——12 个月三轮（天使→青矩→Pre-A），弹药靠持续融资而非自身造血。</li>
+    <li><b>历史轮次条款</b>：不可见（9.5）。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：数字［方向可信、绝对值未验证、结构未知］（证据等级：锚点 A；收入链 C/D）｜方向：[中性偏待验证] ｜ 触发依据：产业方 A 级背书与收入 D 级口径之间的落差，就是本案全部的不确定性所在——直接产生第 0 节"出价前必须核数"的硬条件。</blockquote>
+</section>
+
+<!-- ============ 7 估值 ============ -->
+<section id="s7">
+  <h2>7. 估值与条款</h2>
+  <ul>
+    <li><b>估值锚定</b>：① 历史锚——天使 1.5 亿（2025-03 [C 单源]）÷ 2024 收入 700 万 ≈ <b>21.4x PS</b>；② Pre-A 估值未披露，工商增幅 12.15% [B] 只给股比不给价；③ 青矩 360 万直投股比未披露，无法反推。</li>
+    <li><b>有效 PS 锚推演链（三步逐步写明）</b>：上市可比——港股/A 股 AI 应用与垂直软件可比公司 2026E PS 约 15-20x [C 行情区间]（剔除智谱式流通盘扭曲标的）→ <b>流动性折扣 35%</b>（Pre-A 阶段无退出通道）→ 9.75-13x → <b>Captive 折扣 ×0.9（轻折）</b>——电网收入是市场化客户不打重折，但 JV 把工程审计增长划走、青矩关系构成轻度依赖 → <b>有效 PS ≈ 9-12x</b> × 2025 收入 2,800 万 [C/D] ≈ <b>2.5-3.4 亿元合理现值区间</b>。</li>
+    <li><b>期望 MOIC 测算 [C9 框架]</b>（3 亿投后进场、2030 退出）：牛市 25% × 8x（2030 收入 3 亿 × 8x PS = 24 亿）＋ 中性 50% × 2.4x（1.2 亿 × 6x = 7.2 亿）＋ 熊市 25% × 0.35x（3,000 万滞涨 × 3.5x = 1.05 亿）→ <b>期望 ≈3.3x ≥ 3x 门槛 [C9]</b> ✅。门槛价精确反推：期望退出值 9.86 亿 ÷ 3 = <b>3.3 亿投后为上限</b>，取 3 亿留安全边际。</li>
+    <li><b>敏感性</b>：2025 收入若核出 2,000 万（-30%），合理现值区间降至 1.8-2.4 亿、3 亿进场的期望 MOIC 跌破 3x → <b>结论翻为"不投"</b>——"核数前置"不是流程洁癖而是定价前提。</li>
+    <li><b>条款方案（假想）</b>：<b>≤3 亿投后（干净条款）</b>；若卖方要价 3-4.8 亿，必须带<b>回购（创始人连带）＋2026/2027 收入对赌（审计口径可验证里程碑）＋反稀释</b>——按 [C10]，3 亿 ×1.6 = <b>4.8 亿</b>；&gt;4.8 亿任何条款都不接（条款保护下行，不制造上行）。</li>
+    <li><b>回购可执行性评估</b>：31 人轻资产公司＋创始人个人财力未知——<b>签得出、大概率拿不回</b>，回购在本案只值"谈判折价筹码"不值"安全垫"，4.8 亿档实际慎用。</li>
+  </ul>
+  <div class="chart" id="chartMoic"></div>
+  <p class="caliber">数据口径：三档情景 MOIC（3 亿元投后入场、2030 退出）。虚线为一级门槛 3x [C9]；期望 3.3x = 概率加权。收入为 C/D 级口径，测算为框架演示非精确预测。</p>
+  <blockquote><b>本节判断</b>：可接受估值上限 <b>3 亿投后（干净）/4.8 亿（带回购＋对赌）</b>，必备条款：收入对赌（审计口径）＋回购＋反稀释（证据等级：测算基于 C/D 级收入）｜方向：[支持投资（条件价位内）] ｜ 触发依据：期望 MOIC 3.3x 过线——本节是第 0 节"条件投"的直接来源；也是台账前 12 条里第一次出现"条件投"定价。</blockquote>
+</section>
+
+<!-- ============ 8 退出 ============ -->
+<section id="s8">
+  <h2>8. 退出路径</h2>
+  <div class="tablebox"><table>
+    <tr><th>通道</th><th>概率</th><th>预期回报倍数</th><th>前提</th></tr>
+    <tr><td>IPO（北交所/科创板）</td><td>低-中（5 年维度）</td><td>5-10x</td><td>收入过 3 亿＋盈亏平衡；北交所对小体量友好（青矩即北交所公司，路径有镜像）</td></tr>
+    <tr><td>并购</td><td><b>中-高（最可能）</b></td><td>2-4x</td><td>青矩增持并表 / 大厂收编行业 Agent 团队 / 电网系 ISV 买 know-how——买家名单真实存在</td></tr>
+    <tr><td>老股转让</td><td>中</td><td>锚下轮 ±20%</td><td>Agent 赛道热度维持；轮次节奏快（12 个月三轮）说明接手盘存在</td></tr>
+    <tr><td>回购（兜底）</td><td>可签不可执</td><td>≈0</td><td>31 人轻资产公司无回购兑付能力</td></tr>
+    <tr><td>集团收购整合</td><td>不适用（假想题）</td><td>—</td><td>青矩已占该位置——<b>注意它是潜在买家而非我方</b></td></tr>
+  </table></div>
+  <blockquote><b>本节判断</b>：最可能的退出是［并购（青矩增持或大厂收编）］，该通道［勉强给得起］3x——并购退出通常 2-3 倍封顶，本案 3.3x 期望里牛市档（IPO 口径 8x）贡献了 2 个点，<b>若把牛市档退出方式也压成并购（5x），期望降至 2.5x 不过线</b>（证据等级：C）｜方向：[削弱投资] ｜ 触发依据：退出结构对 IPO 档依赖偏高，这是"取 3 亿不取 3.3 亿"留边际的原因，也是熊市档概率不能再上调的红线。</blockquote>
+</section>
+
+<!-- ============ 9 风险 ============ -->
+<section id="s9">
+  <h2>9. 风险与投前证伪清单</h2>
+  <div class="tablebox"><table>
+    <tr><th>风险</th><th>概率</th><th>杀伤力</th><th>先行指标（公开可观测，含指标名+阈值+基准+取数口径）</th></tr>
+    <tr><td>🔴 收入口径证伪：2,800 万注水或确认口径激进</td><td>中</td><td>致命</td><td>核数（内部）；公开代理：<b>青矩技术年报（巨潮资讯网）对未来式 FVOCI 账面价值较 360 万成本减值，或青矩未来收入披露为 0/不披露</b></td></tr>
+    <tr><td>🔴 外部化停滞：电网之外复制失败，收入困在存量</td><td>中</td><td>高</td><td><b>政采网+公共资源交易平台中标计数：以 2026-06 盐城 1 条为基线，至 2027-09 新增非关联中标 &lt;3 条即触发</b>（检索词"未来式智能"，月度跑）</td></tr>
+    <tr><td>🔴 融资断档/down round：新一轮 12 个月内未落地或降价</td><td>中</td><td>高</td><td><b>国家企业信用信息公示系统工商变更：至 2027-09 注册资本无新增幅（对比基线 732.7167 万）即断档；增资对应估值低于 Pre-A 即 down round</b></td></tr>
+    <tr><td>🟡 交付人力瓶颈：31 人撑不住亿元目标，靠外包稀释毛利</td><td>中</td><td>中</td><td><b>天眼查企业年报社保人数：2026 年报（2027 年中可查）较 31 人未增至 50+ 即触发</b>（收入真翻 3.6 倍人不翻倍不合常理）</td></tr>
+    <tr><td>🟡 大厂平台/国网系 ISV 下场收编场景</td><td>中</td><td>高</td><td>电网智能体采购中标人分布（公共资源平台）；百炼/扣子发布能源行业解决方案</td></tr>
+    <tr><td>🟢 最强绿灯褪色（验证日历规则 9 单独登记）：<b>青矩背书失效</b></td><td>低</td><td>高</td><td>青矩年报对未来式减值/处置；青矩未来停摆（工商注销/吊销）；杨劲松、邹阳退出青未智源合伙人（工商变更）</td></tr>
+  </table></div>
+  <p><b>投前证伪清单</b>（尽调中发现即终止）：① 收入核数不过（审计口径 2025 收入 &lt;2,000 万，或 Top1 客户占比 &gt;50%）；② 电网合同抽样发现"续约"实为一次性 PoC 重签；③ 创始人持股穿透后 &lt;40% 或存在代持/纠纷；④ 新一轮为 down round（聪明钱重新定价）。</p>
+  <blockquote><b>反方陈述</b>（为什么这轮其他机构没抢到白菜价）：其实有人抢——12 个月三轮、国资系（中关村资本）进场，说明市场定价大概率已高于本 memo 的 3 亿上限；卖方手里有"青矩 A 级背书＋政策风口＋达摩院团队"三张牌，凭什么按 10x PS 卖给你？最可能的现实是：这轮估值 5-8 亿，本 memo 的结论在真实市场里等价于"出价出不到、继续观察"——<b>承认这一点，条件投才不是自欺</b>。</blockquote>
+</section>
+
+<!-- ============ 9.5 待补 ============ -->
+<section id="s95">
+  <h2>9.5 待补证据清单</h2>
+  <div class="tablebox"><table>
+    <tr><th>当前判断</th><th>现依据及证据等级</th><th>需要什么材料升级</th><th>拿到后回改哪节</th></tr>
+    <tr><td>收入 700→2,800 万及"冲亿元"</td><td>创始人访谈单源 C/D</td><td>2024/2025 审计报表或原始账（核数）</td><td>第 0/3/6/7 节（结论的定价基座）</td></tr>
+    <tr><td>"20+ 电网客户 100% 续约"</td><td>D</td><td>合同清单＋续约记录抽样</td><td>第 1/3 节</td></tr>
+    <tr><td>灵搭产品化程度（产品 vs 项目公司）</td><td>D</td><td>分项毛利＋人员结构（研发/交付比）</td><td>第 3/7 节（决定 PS 档位）</td></tr>
+    <tr><td>天使估值 1.5 亿</td><td>艾媒单源 C</td><td>第二源或增资协议</td><td>第 7 节历史锚</td></tr>
+    <tr><td>Pre-A 估值/金额、青矩 360 万对应股比</td><td>未披露</td><td>股东协议/增资公告</td><td>第 7 节</td></tr>
+    <tr><td>创始人持股与条款堆叠</td><td>登录墙内不可得</td><td>工商档案调取＋股东协议</td><td>第 5/6 节</td></tr>
+    <tr><td>袋袋 ARR 1,200 万构成</td><td>D</td><td>分产品收入拆分</td><td>第 3 节</td></tr>
+    <tr><td>实缴 334.39 vs 500 万</td><td>C 两源冲突</td><td>公示系统回查</td><td>采集表第 1 节（微调）</td></tr>
+  </table></div>
+  <p class="caliber">纪律：本表非空，第 0 节已声明"阶段性结论"；核数材料到手先回来销表，再动结论。</p>
+</section>
+
+<!-- ============ 10 回访 ============ -->
+<section id="s10">
+  <h2>10. 回访区（对答案清单）</h2>
+  <ul>
+    <li><b>中间点</b>（2027-04-30 前后）：青矩技术 FY2026 年报（巨潮资讯网）——对未来式 FVOCI 账面价值、青矩未来收入/净利首次年度披露，9.5 表代理变量对答案；</li>
+    <li><b>T+12 个月</b>（2027-09-09）：① 新一轮融资落地没有？估值 vs 本 memo 3 亿上限；② 非关联中标计数 ≥3 了吗（基线盐城 1 条）；③ 社保人数过 50 了吗；④ 2026"冲亿元"兑现度（下轮融资通稿口径）；⑤ 青矩背书褪色开关三项逐条查。</li>
+    <li>复盘三问：（到期填）</li>
+  </ul>
+</section>
+
+<!-- ============ 附录 ============ -->
+<section id="appendix">
+  <h2>附录：数据质量声明与学习卡</h2>
+  <h3>数据质量声明</h3>
+  <ul>
+    <li><b>证据分布</b>：A 级 4 项（青矩半年报：360 万直投、JV 53.20% 并表结构、青未智源合伙人名单、青矩未来案例入选）；B 级 5 项（工商增资痕迹、信通院标准领编、专利受理 CN122311277A、31 人年报口径、"人工智能+"政策文件）；融资时间线/司法全零/中标公示为 C 级；<b>收入与全部客户/产品数据为 C/D 级创始人访谈单源，未单独支撑任何结论，只作定价输入并强制挂"核数前置"条件</b>。</li>
+    <li><b>单源链风险</b>：700 万→2,800 万→"冲亿元"全部源自杨劲松受访口径→媒体转述，无独立审计；方向与融资事件咬合故采信方向，绝对值待核数。</li>
+    <li><b>采集边界声明</b>：企查查中标明细/股东穿透在登录墙内不可得；实缴资本两源冲突（334.39 vs 500 万）不选边，待公示系统回查。</li>
+    <li><b>采集表</b>：<code>2.分析材料/1_2026-09_未来式智能_公开信息采集表.md</code>（七轨，逐条带来源与检索日期）。</li>
+  </ul>
+  <details class="fold"><summary>一级市场学习卡 · 9 个术语/方法</summary><div class="body"><div class="tbl-scroll"><table>
+    <tr><th>术语</th><th>解释</th><th>本案演示</th></tr>
+    <tr><td>代理变量法</td><td>用关联上市公司审计披露锚定无报表标的</td><td>青矩技术半年报 360 万 FVOCI＋JV 53.20% 并表——本案唯一 A 级锚，未来 12 个月的年报追踪变量</td></tr>
+    <tr><td>反向 captive</td><td>关联结构吃掉标的增长故事而非虚增其收入</td><td>JV 工程审计收入归青矩并表，未来式只享少数权益——与教科书 captive（股东给标的导收入）方向相反</td></tr>
+    <tr><td>外部化基线</td><td>非关联客户公开中标数是收入独立性的可证伪底线</td><td>基线 = 1 条（盐城 2026-06）；证伪线设"12 个月新增 &lt;3 条"</td></tr>
+    <tr><td>有效 PS 锚推演链</td><td>上市可比 PS → 流动性折扣 → Captive 折扣 → 有效区间</td><td>15-20x → ×0.65 → ×0.9 → 9-12x × 2,800 万 ≈ 2.5-3.4 亿</td></tr>
+    <tr><td>期望 MOIC</td><td>各情景（概率×倍数）加总对 3x 门槛 [C9]</td><td>25%×8 + 50%×2.4 + 25%×0.35 ≈ 3.3x → 门槛价 3.3 亿，取 3 亿留边际</td></tr>
+    <tr><td>条款分档溢价 [C10]</td><td>带回购/对赌的报价上限可比干净条款高约 60%</td><td>3 亿 → 4.8 亿；但回购可执行性差（31 人轻资产），4.8 档慎用</td></tr>
+    <tr><td>退出方式-估值口径一致性</td><td>最可能退出是并购时，不能用 IPO 倍数给牛市档</td><td>牛市档若从 IPO 8x 压成并购 5x，期望 MOIC 3.3→2.5x 直接不过线——第 8 节的"削弱"来源</td></tr>
+    <tr><td>绿灯褪色开关</td><td>最强支持性证据必须单独登记失效条件（验证日历规则 9）</td><td>青矩背书三开关：年报减值/青矩未来停摆/杨邹退伙青未智源</td></tr>
+    <tr><td>核数前置</td><td>C/D 级收入不能直接定价，核数是出价的前提不是投后动作</td><td>收入 -30% 敏感性即翻结论——"条件投"的条件本体</td></tr>
+  </table></div><p class="caliber">读法：前五条是本次实际用到的定价方法链，后四条是本案新增的纪律落点（含台账首条"条件投"的自查）。</p></div></details>
+</section>
+
+<footer>
+  数据截止 2026-09-09 ｜ 本页为全量版：内容与 <b>2026-09_未来式智能_投资memo.md</b> 一致（图表与折叠区为 HTML 独有的呈现增强）｜ 一级假想题，结论只登记不实盘 [V2][V3]｜ 台账 #13 ｜ 公开发布级：全文公开信息可复现，逐条证据等级见采集表 ｜ 断网时 ECharts 不加载，全部数据表格仍完整可读。
+</footer>
+</div>
+
+<script>
+(function(){
+  if (typeof echarts === 'undefined') return;
+  var G = {textStyle:{fontFamily:'-apple-system,"PingFang SC",sans-serif'},color:['#1f4e79','#c0392b','#b7791f','#5b8c5a','#8064a2','#4bacc6']};
+  function mk(id, opt){var el=document.getElementById(id);if(!el)return;var c=echarts.init(el);c.setOption(Object.assign({},G,opt));window.addEventListener('resize',function(){c.resize();});}
+
+  // 出价档位 vs 有效 PS 锚现值区间（亿元）
+  mk('chartVal',{
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    grid:{left:56,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['天使 2025-03\n（历史锚 [C]）','PS 锚区间下限\n（9x）','PS 锚区间上限\n（12x）','出价上限\n干净条款','出价上限\n带回购对赌 [C10]'],axisLabel:{interval:0,fontSize:11}},
+    yAxis:{type:'value',name:'估值（亿元）'},
+    series:[{name:'估值档位',type:'bar',barWidth:'46%',
+      label:{show:true,position:'top'},
+      data:[{value:1.5,itemStyle:{color:'#aab'}},{value:2.5,itemStyle:{color:'#5b8c5a'}},{value:3.4,itemStyle:{color:'#5b8c5a'}},{value:3.0,itemStyle:{color:'#1f4e79'}},{value:4.8,itemStyle:{color:'#b7791f'}}],
+      markLine:{symbol:'none',data:[{yAxis:3.3,label:{formatter:'3x 门槛精确反推 3.3'},lineStyle:{color:'#c0392b',type:'dashed'}}]}}]
+  });
+
+  // 收入轨迹（万元）
+  mk('chartRev',{
+    tooltip:{trigger:'axis'},
+    grid:{left:64,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['2024 [C/D]','2025 [C/D]','2026 目标 [D]']},
+    yAxis:{type:'value',name:'收入（万元）'},
+    series:[{name:'收入',type:'bar',barWidth:'46%',
+      label:{show:true,position:'top'},
+      data:[700,2800,{value:10000,itemStyle:{color:'rgba(31,78,121,.25)',borderColor:'#1f4e79',borderWidth:1.5,borderType:'dashed'},label:{formatter:'10000（目标）'}}],
+      itemStyle:{color:'#1f4e79'}}]
+  });
+
+  // 三档情景 MOIC（3 亿投后入场）
+  mk('chartMoic',{
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    grid:{left:52,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['熊市 25%','中性 50%','牛市 25%','期望(加权)']},
+    yAxis:{type:'value',name:'MOIC（倍）'},
+    series:[{name:'MOIC',type:'bar',barWidth:'46%',
+      label:{show:true,position:'top',formatter:'{c}x'},
+      data:[{value:0.35,itemStyle:{color:'#c0392b'}},{value:2.4,itemStyle:{color:'#b7791f'}},{value:8,itemStyle:{color:'#5b8c5a'}},{value:3.3,itemStyle:{color:'#1f4e79'}}],
+      markLine:{symbol:'none',data:[{yAxis:3,label:{formatter:'一级门槛 3x [C9]'},lineStyle:{color:'#c0392b',type:'dashed'}}]}}]
+  });
+})();
+</script>
+</body>
+</html>

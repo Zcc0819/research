@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寒武纪（688256.SH）分析报告 · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--red:#c0392b;--yellow:#b7791f;--green:#1e7e34;--ink:#1a202c;--muted:#667085;--line:#e5e7eb;--bg:#f7f8fa;--accent:#1f4e79;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px 64px;}
+  header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+  header.hero h1{margin:0 0 10px;font-size:26px;letter-spacing:1px;}
+  header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+  header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+  header.hero .tag{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:2px 8px;margin:6px 3px 0;font-size:12px;}
+  nav.toc{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13px;}
+  nav.toc a{color:var(--accent);text-decoration:none;margin-right:14px;white-space:nowrap;display:inline-block;margin-bottom:4px;}
+  section{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px 22px;margin:16px 0;}
+  h2{font-size:19px;border-left:4px solid var(--accent);padding-left:10px;margin:4px 0 14px;}
+  h3{font-size:15px;margin:18px 0 8px;color:var(--accent);}
+  .caliber{font-size:12px;color:var(--muted);margin:-6px 0 8px;}
+  .tablebox{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;font-size:13px;min-width:560px;}
+  th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;}
+  th{background:#f1f4f8;white-space:nowrap;}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;}
+  .chart{width:100%;height:340px;margin:8px 0 4px;}
+  .light{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px;}
+  .lg{background:var(--green);}.ly{background:var(--yellow);}.lr{background:var(--red);}.ln{background:#9aa4b2;}
+  .grid16{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;}
+  .cell16{border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:12.5px;background:#fcfcfd;}
+  .cell16 b{display:block;font-size:12.5px;}
+  .verdict{background:#fff8f0;border:1px solid #f0d9b5;border-radius:8px;padding:14px 16px;font-size:14px;}
+  .quick{background:#eef4fb;border:1px solid #cfe0f3;border-radius:8px;padding:16px 18px;}
+  .quick h2{border-color:#2f6db3;}
+  .pill{display:inline-block;border-radius:12px;padding:1px 10px;font-size:12px;margin-right:6px;color:#fff;}
+  .pr{background:var(--red);}.py{background:var(--yellow);}.pg{background:var(--green);}
+  footer{font-size:12px;color:var(--muted);padding:20px 4px;}
+  blockquote{margin:8px 0;padding:8px 12px;background:#f8f9fb;border-left:3px solid #cbd5e1;font-size:13px;color:#374151;}
+  /* 折叠区：正文只留结论，明细收进来，避免全量版一屏刷不完 */
+  details.fold{border:1px solid var(--line);border-radius:8px;background:#fbfcfd;margin:12px 0;}
+  details.fold>summary{cursor:pointer;padding:10px 14px;font-size:13.5px;font-weight:600;color:var(--accent);
+  list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  details.fold>summary::-webkit-details-marker{display:none;}
+  details.fold>summary::after{content:"▸ 点击展开";font-size:12px;font-weight:400;color:var(--muted);white-space:nowrap;}
+  details.fold[open]>summary::after{content:"▾ 点击折叠";}
+  details.fold[open]>summary{border-bottom:1px solid var(--line);}
+  details.fold .fold-body{padding:6px 14px 14px;}
+  ul{margin:6px 0;padding-left:22px;}
+  li{margin:3px 0;}
+  @media (max-width:640px){header.hero h1{font-size:20px;}.chart{height:280px;}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>寒武纪（688256.SH）分析报告</h1>
+    <div class="meta">基准股价 <b>1,199.93 元</b>（2026-08-07 收盘，腾讯 qt，全文唯一基准价）｜ 市值 7,539 亿元（已核实：2026-05 每 10 股转增 4.9，股本 421.7→628.3 百万股，Q12 已关闭）｜ 数据区间 FY2020–FY2025（招股书补 2017–2019；2026-08-08 增补 FY2026 中报/一季报中间点验证）</div>
+    <div class="meta" style="margin-top:8px">🟡 <b>当前状态｜结论 v1.1（未变）｜最近验证 2026-08-08</b>：FY2026 中报已对答案（原中间点 2027-02 系港股节奏误植）。<b>两条重估条件未齐，维持不建仓</b>——OCF ✅ 转正 +3.11 亿但同比降 66%，存货毛额 53.33→<b>90.15 亿</b>（+69%）继续升 ❌；<b>证伪 B（单季存货计提 &gt;2 亿）初步触发</b> [推算]，待 FY2026 年报附注定案。详见<b>第 7 节回访区</b>；正文未作任何修改。</div>
+    <div>
+      <span class="tag">标的类型 T5 投入期成长（T4 迁移候选）</span>
+      <span class="tag">尺子：PS + 单位经济 + 现金跑道</span>
+      <span class="tag">结论：不建仓（只登记不实盘）</span>
+      <span class="tag">台账 #8 ｜ 终验 2027-04-30</span>
+      <span class="tag">✅ 中间点 2026-08-08 已对：维持不建仓</span>
+      <span class="tag">仅本地归档</span>
+    </div>
+    <div class="meta" style="margin-top:8px;"><b>全量版：含 Markdown 详版全部内容</b>（文本源：2026-08_寒武纪_分析报告.md ＋ 速读版）</div>
+  </div>
+</header>
+<div class="wrap">
+
+<nav class="toc">
+  <a href="#quick">速读区</a><a href="#s0">0 一句话结论</a><a href="#s1">1 行业</a><a href="#s2">2 公司与治理</a><a href="#s3">3 主营拆解</a><a href="#s4">4 财务</a><a href="#lights">16 项打灯</a><a href="#s5">5 估值</a><a href="#s6">6 风险与证伪</a><a href="#s7">7 回访区</a><a href="#appendix">附录</a><a href="#learn">学习卡</a>
+</nav>
+
+<!-- ============ 速读区 ============ -->
+<section class="quick" id="quick">
+  <h2>速读区（大白话，30 秒版）</h2>
+  <p><b>一句话</b>：这家公司刚开始赚钱是真的，但股价已经把"未来十年一路顺风"的钱都收走了，而且赚的利润还压在仓库里没变成现金——<b>不买，进观察池，等两个信号</b>。</p>
+  <p><b>它是干嘛的</b>：设计 AI 芯片（不建厂，找代工），A 股唯一纯 AI 训练芯片公司；美国管制英伟达高端芯片后国产替代的最纯受益者。前几年靠地方政府智算中心大单，这两年真正开始把芯片卖给商业客户。</p>
+  <div class="tablebox"><table style="min-width:0;">
+    <tr><th>只记三个数</th><th>它是什么</th></tr>
+    <tr><td class="num"><b>+20.59 亿 / -4.98 亿</b></td><td>2025 年账面赚的钱 / 同年经营实际流出的现金——利润是真的，但还没变成钱</td></tr>
+    <tr><td class="num"><b>49.44 亿</b></td><td>仓库里囤的芯片（占家当三分之一强），是最大的赌注也是最大的雷</td></tr>
+    <tr><td class="num"><b>44%</b></td><td>现在的股价要求它未来十年每年利润增长这么多才回本——比 A 股任何公司的历史都猛</td></tr>
+  </table></div>
+  <p><b>什么时候买</b>：T5 阶段不设价位买点，等两个信号同时出现再重新定价：① 2026 中报经营现金流转正且存货开始减少；② 2026 全年利润翻倍（归母 &gt;40 亿）。两条齐前涨了也不追。</p>
+  <p style="margin-bottom:0;"><b>对答案（中报提前出，2026-08-08 已对）</b>：现金流转正了（+3.11 亿）——但去年同期也转正过后来又负了；存货没减反而从 53 亿堆到 90 亿；一季度减值已碰到 2 亿警戒线。<b>两个信号只来了半个，继续不买，下次看 2026 年报。</b></p>
+</section>
+
+<!-- ============ 0 结论 ============ -->
+<section id="s0">
+  <h2>0. 一句话结论</h2>
+  <div class="verdict">
+    <b>不建仓（T5 练手标的，结论只登记不实盘）。</b>核心逻辑：利润拐点是真的（FY2025 归母 +20.59 亿、研发/营收降至 18%、经营杠杆已证明），但<b>现价隐含"十年归母 CAGR ≈44%"的乐观档之上情景</b>，且经营自身造血（OCF 转正）这张 T4 入场券还没拿到。最大风险：<b>存货回旋镖</b>——53.33 亿存货余额 × 7.3% 拨备率 + 单一供应商预付占 94.32%，需求或供应链任一证伪，净利率与估值同时塌缩。
+  </div>
+  <ul>
+    <li><b>重估触发条件</b>（两条同时成立才升 T4 用三档情景带定价）：① FY2026 中报 OCF 转正 + 存货绝对额环比下降；② FY2026 全年归母 &gt;40 亿。</li>
+    <li><b>位置参考（非买点）</b>：PS 116x；回历史中位 PB 13.1 对应 <b>≈247 元（-79%）</b>（2026-08-08 修正：2026-05 转增后 BVPS 摊薄至 18.84 元，原 366.6 元系旧股本口径；分位序列重算待底稿 Sheet5b 修订）。</li>
+    <li><b>中间点验证（2026-08-08，FY2026 中报）</b>：重估条件①不满足——OCF +3.11 亿转正 ✅ 但存货毛额 53.33→90.15 亿续升 ❌，<b>不升 T4，维持不建仓</b>；详见第 7 节。</li>
+    <li><b>如果不到重估条件</b>：愿意错过"股价继续涨但 OCF 未转正"的右侧行情；例外催化剂＝出口管制再收紧引发订单二次跳升。</li>
+  </ul>
+</section>
+
+<!-- ============ 1 行业 ============ -->
+<section id="s1">
+  <h2>1. 行业：蛋糕与利润流向</h2>
+  <ul>
+    <li><b>需求</b>：AI 算力 + 国产替代。板块盈利四家 PE 均 &gt;100x，需求叙事非一家之言 <code>[同行印证]</code>；总量与持续年数无一手统计 <code>[仅公司口径]</code>。</li>
+    <li><b>格局</b>：招股书自认"英伟达占绝对优势地位" <code>[一手数据·招股书]</code>；寒武纪是 A 股唯一纯 AI 训练芯片标的，稀缺性即溢价来源 <code>[同行印证]</code>。</li>
+    <li><b>谁付钱</b>：FY2021–23 地方政府智算平台（回款分化：昆山 15% 坏账 vs 南京近零）→ FY2024–25 匿名商业客户 <code>[年报披露]</code>。</li>
+    <li><b>政策主变量</b>：美国实体清单（2019 末列入；FY2025 审计程序删除出口核对＝出口实质消失）。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：3-5 年蛋糕[变大]，钱被[有产能保障的设计商+代工环节]赚走——寒武纪能否分到取决于供应链而非需求。三源缺口：需求总量与政策原文仅公司口径（未解问题 Q11）。</blockquote>
+</section>
+
+<!-- ============ 2 公司 ============ -->
+<section id="s2">
+  <h2>2. 公司：位置与治理（说-做对账）</h2>
+  <div class="tablebox"><table>
+    <tr><th>当年怎么说</th><th>后来怎么做</th><th>判定</th></tr>
+    <tr><td>招股书：募投三项目 36 个月建设期（2020–2023 应见产出）</td><td>FY2020 末仅投 2.41 亿；边缘项目延期至 2023-07（进度 59.76%）；2022 定增项目 2024 年调减 2.5 亿永久补流</td><td>⚠️ 投放慢+两轮"收缩补流"，说明实际资金需求低于募资口径</td></tr>
+    <tr><td>招股书：云端业务 80.94% 依赖曙光关联销售（自认红旗）</td><td>上市当年即出清（FY2020 对曙光销售仅 236 万），FY2025 关联交易仅剩 21 万</td><td>✅ 最大红旗兑现出清，六年干净</td></tr>
+    <tr><td>招股书：集群业务"除横琴二期外无在手订单"（自认项目制）</td><td>FY2021–23 靠昆山→南京→台州逐年轮换的政府大单撑营收，FY2024 并线消失</td><td>✅ 自认属性被六年验证：集群=脉冲收入</td></tr>
+    <tr><td>FY2021："云边端一体"，思元220 出货近百万片</td><td>FY2022 终止某边缘芯片资本化，FY2023 边缘收入 -71.39%，FY2025 仅 342 万</td><td>⚠️ 边缘线实质放弃，年报从未明说，全靠数字串出</td></tr>
+    <tr><td>FY2023：云端下滑归因"受供应链影响"</td><td>同年集群 +31.85%（用同样的自家芯片）→ 归因存疑，更像直销客户采购冻结</td><td>⚠️ 归因与数字矛盾，列待验证（Q14）</td></tr>
+    <tr><td>FY2020–24：连续披露"持续亏损风险"</td><td>FY2025 扭亏后删除；审计报告日提前一个月（3-12）</td><td>✅ 说-做同步，披露节奏诚实</td></tr>
+  </table></div>
+  <ul>
+    <li><b>股权结构与关联交易</b>：实控人陈天石（FY2020 持股 29.87%）；中科院计算所"智能处理器专利永久独占许可"；计算所系持股 5%+ 但交易层面已无输送观察点 [年报披露]。</li>
+    <li><b>历史资本配置</b>：IPO 25.8 亿 + 2022 定增 + 2025 定增，累计融资供养六年 FCF -67 亿；两轮募投收缩补流，资金效率打问号，但账上净现金 55.78 亿、零有息负债，没乱花。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：位置在[变好]（客户切向商业、关联出清、经营杠杆兑现），治理[中性偏助力]（披露诚实、会计干净，募投执行力弱）。</blockquote>
+</section>
+
+<!-- ============ 3 主营 ============ -->
+<section id="s3">
+  <h2>3. 主营拆解：收入质量</h2>
+  <div class="caliber">数据口径：各年报分产品表（百万元）；FY2024 起集群并入云端披露（口径断点，FY2023/24 不可环比）。取数日 2026-08。</div>
+  <div id="chartSeg" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>百万元</th><th class="num">FY2021</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th></tr>
+    <tr><td>云端产品线</td><td class="num">80.2</td><td class="num">219.4</td><td class="num">90.6</td><td class="num">1,166.3</td><td class="num">6,476.9</td></tr>
+    <tr><td>边缘产品线</td><td class="num">175.2</td><td class="num">37.8</td><td class="num">10.8</td><td class="num">6.5</td><td class="num">3.4</td></tr>
+    <tr><td>智能计算集群</td><td class="num">455.6</td><td class="num">458.5</td><td class="num">604.5</td><td class="num">—（并入云端）</td><td class="num">—</td></tr>
+    <tr><td>IP 授权及软件</td><td class="num">6.9</td><td class="num">1.1</td><td class="num">0.2</td><td class="num">0.4</td><td class="num">2.3</td></tr>
+    <tr><td>云端毛利率</td><td class="num">58.5%</td><td class="num">63.5%</td><td class="num">60.6%</td><td class="num">56.7%</td><td class="num">55.2%</td></tr>
+  </table></div>
+  <details class="fold">
+    <summary>收入质量分层表（FY2025 分部 · 占比/毛利率/增速/现金转化/质量评级）· 4 行</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>分部（FY2025）</th><th>收入占比</th><th>毛利率</th><th>增速</th><th>现金转化</th><th>质量评级</th></tr>
+      <tr><td>云端产品线</td><td>99.7%（64.77 亿）</td><td>55.2%（四年缓降自 63.5%）</td><td>+455%</td><td>差（OCF -4.98 亿，利润变存货+应收）</td><td>中——利润真、现金未跟上</td></tr>
+      <tr><td>边缘产品线</td><td>0.05%</td><td>—</td><td>-47%</td><td>—</td><td>已实质放弃</td></tr>
+      <tr><td>IP 授权及软件</td><td>0.04%</td><td>—</td><td>+475%（基数极低）</td><td>—</td><td>华为断供后趋零，未恢复</td></tr>
+      <tr><td>智能计算集群</td><td>FY2024 起并入云端（口径断点）</td><td>—</td><td>不可环比</td><td>政府项目回款分化</td><td>项目制脉冲（招股书 P2 自认）</td></tr>
+    </table></div>
+    <div class="fold-body" style="font-size:12px;color:var(--muted);">读法：唯一有量级的分部现金转化评为“差”，另两条线已趋零——所谓“云边端一体”实际只剩单个锚。</div>
+  </details>
+  <ul>
+    <li><b>增长的真实来源</b>：FY2021–23 是政府智算平台大单轮换（第一大客户 62.46%→65.88%）；FY2024–25 切换为云端芯片产品销售，FY2025 第一大客户降至 26.21%、前五 88.66%——六年首次实质分散，但绝对集中度仍高。</li>
+    <li><b>转型叙事验证</b>：产品收入占比 36.6%(FY21)→99.7%(FY25)，配合关联出清与客户分散，<b>转型是真</b>；代价是云端毛利率放量让价（63.5%→55.2%）与库存前置（存货 49.44 亿）。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：高质量收入占比[上升]，转型[真]——产品收入占比 36.6%→99.7%，第一大客户 79.15%→26.21% 首次实质分散；代价是毛利率放量让价（63.5%→55.2%）与库存前置。"经常性"尚未证明：单一产品线依赖 99.7% 创六年新高。</blockquote>
+</section>
+
+<!-- ============ 4 财务 ============ -->
+<section id="s4">
+  <h2>4. 财务：三张表 + 一个循环</h2>
+  <div class="caliber">数据口径：年报主要会计数据 + AKShare 三大报表（交叉一致，FY22 归母含 -21 万追溯重列）；亿元。取数日 2026-08。</div>
+  <div id="chartCore" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>亿元</th><th class="num">FY2021</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th><th class="num">5年合计</th></tr>
+    <tr><td>营业收入</td><td class="num">7.21</td><td class="num">7.29</td><td class="num">7.09</td><td class="num">11.74</td><td class="num">64.97</td><td class="num">—</td></tr>
+    <tr><td>归母净利</td><td class="num">-8.25</td><td class="num">-12.56</td><td class="num">-8.48</td><td class="num">-4.52</td><td class="num"><b>+20.59</b></td><td class="num">-13.23</td></tr>
+    <tr><td>OCF</td><td class="num">-8.73</td><td class="num">-13.30</td><td class="num">-5.96</td><td class="num">-16.18</td><td class="num">-4.98</td><td class="num"><b>-49.15</b></td></tr>
+    <tr><td>FCF（OCF−capex）</td><td class="num">-13.78</td><td class="num">-16.14</td><td class="num">-6.96</td><td class="num">-19.84</td><td class="num">-10.67</td><td class="num"><b>-67.39</b></td></tr>
+  </table></div>
+  <h3>存货与拨备（最大的雷点序列）</h3>
+  <div class="caliber">数据口径：各年 KAM/附注披露的存货余额（毛额）/跌价准备（亿元）；拨备率＝跌价准备÷余额；2026H1 来自 FY2026 中报 P109（2026-08-08 增补）。</div>
+  <div id="chartInv" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>亿元</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th><th class="num">2026H1</th></tr>
+    <tr><td>存货账面余额</td><td class="num">4.99</td><td class="num">3.45</td><td class="num">20.44</td><td class="num">53.33</td><td class="num"><b>90.15</b></td></tr>
+    <tr><td>跌价准备</td><td class="num">2.12</td><td class="num">2.45</td><td class="num">2.70</td><td class="num">3.90</td><td class="num">7.68</td></tr>
+    <tr><td>拨备率</td><td class="num">42.5%</td><td class="num">71.2%</td><td class="num">13.2%</td><td class="num">7.3%</td><td class="num">8.5%</td></tr>
+  </table></div>
+  <blockquote><b>本节三句话</b>：利润[真，但仅一年且未变现金——FY2025 缺口 25.6 亿＝存货净增 31.7 亿+应收 3.7 亿]；现金[存量极够：净现金 55.78 亿、跑道 &gt;10 年；经营造血未转正]；债务[绝对安全，零有息]。存货低拨备系新货占比（方法六年未变），风险是需求证伪时的一次性回旋镖：每补提 10pct ≈ 5.3 亿，约当 FY25 归母 26%。</blockquote>
+</section>
+
+<!-- ============ 16 项打灯 ============ -->
+<section id="lights">
+  <h2>16 项判断标准打灯</h2>
+  <div class="caliber">依据 analysis-standards.md 判断标准表；计数 <span class="pill pg">绿 6</span><span class="pill py">黄 2</span><span class="pill pr">红 3</span> N/A 4（无分红/无有息债/溢价股所致，非数据缺失）。</div>
+  <div class="grid16">
+    <div class="cell16"><b><span class="light lg"></span>#1 经常性收入占比</b>产品收入 36.6%→99.7%（口径断点已注）</div>
+    <div class="cell16"><b><span class="light lr"></span>#2 OCF/净利</b>盈利年 FY2025 OCF 仍 -4.98 亿</div>
+    <div class="cell16"><b><span class="light lr"></span>#3 五年 FCF</b>-67.39 亿，全靠股权融资供血</div>
+    <div class="cell16"><b><span class="light ln"></span>#4 分红覆盖</b>N/A 从未派息</div>
+    <div class="cell16"><b><span class="light lg"></span>#5 净负债/净资产</b>净现金 55.78 亿，有息 0</div>
+    <div class="cell16"><b><span class="light lg"></span>#6 短债覆盖</b>无短期借款</div>
+    <div class="cell16"><b><span class="light lg"></span>#7 应收/总资产</b>5.0%，高点 13.3% 后回落</div>
+    <div class="cell16"><b><span class="light lg"></span>#8 应收/营收</b>10.3%（FY22 曾 105%，三年改善）</div>
+    <div class="cell16"><b><span class="light ly"></span>#9 拨备率趋势</b>存货拨备 71.2%→7.3%，回旋镖风险</div>
+    <div class="cell16"><b><span class="light ln"></span>#10 利差</b>N/A 无有息负债</div>
+    <div class="cell16"><b><span class="light lg"></span>#11 财务费用/归母</b>0.5%（利息为收入）</div>
+    <div class="cell16"><b><span class="light lg"></span>#12 少数股东分利</b>≈0，全资结构</div>
+    <div class="cell16"><b><span class="light lr"></span>#13 PB 便宜分位</b>28.4% &lt;30%，处历史偏贵侧</div>
+    <div class="cell16"><b><span class="light ln"></span>#14 股息率分位</b>N/A 恒 0</div>
+    <div class="cell16"><b><span class="light ly"></span>#15 ROE÷PB 排序</b>0.44，盈利四家中第 3</div>
+    <div class="cell16"><b><span class="light ln"></span>#16 隐含减值率</b>N/A 溢价股（市值=权益 63.7 倍），改倒推隐含增长</div>
+  </div>
+  <blockquote><b>T5 尺子读法</b>：红灯集中在现金流与统计估值位，绿灯集中在资产负债表——"资产负债表极干净、利润刚转正、现金未跟上、价格已充分定价"的投入期成长后段画像。</blockquote>
+</section>
+
+<!-- ============ 5 估值 ============ -->
+<section id="s5">
+  <h2>5. 估值：价格隐含的预期</h2>
+  <div class="caliber">T5 分流：禁用盈利锚说"贵/便宜"，只做位置标定+隐含情景倒推。取价日 2026-08-07；分位窗口 6.1 年（上市即全窗口，混合牛熊；基本面质变使分位天然显"贵"，该偏差为减弱项，已声明）。</div>
+  <h3>年度股价与 PB 档位</h3>
+  <div class="caliber">数据口径：东财日线年度聚合（annual，em 源）；档位价＝PB 档 × BVPS 18.84 元（2026-05 转增后新股本口径，2026-08-08 修正；原 28.09 元系旧股本）；注意 2020–2025 年末价为未复权旧股本口径，与转增后现价不可直接比；日度分位带未落盘 CSV，此处以年度序列替代并注明。</div>
+  <div id="chartPrice" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>年末收盘（元）</th><th class="num">2020</th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th><th class="num">2026-08-07</th></tr>
+    <tr><td>收盘价</td><td class="num">146.78</td><td class="num">95.10</td><td class="num">54.56</td><td class="num">134.96</td><td class="num">658.00</td><td class="num">1,355.55</td><td class="num"><b>1,199.93</b></td></tr>
+    <tr><td>年涨跌</td><td class="num">上市 113 日</td><td class="num">-35.6%</td><td class="num">-43.3%</td><td class="num">+151.5%</td><td class="num">+391.9%</td><td class="num">+106.3%</td><td class="num">YTD +32.0%</td></tr>
+  </table></div>
+  <h3>同行横向（腾讯 qt 同日快照）</h3>
+  <div class="caliber">数据口径：总市值亿元 / PE_TTM / PB；ROE=[推算]PB÷PE_TTM；亏损三家无 ROE÷PB。取数日 2026-08-07。</div>
+  <div id="chartPeer" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>公司</th><th class="num">市值（亿）</th><th class="num">PE_TTM</th><th class="num">PB</th><th class="num">ROE%[推算]</th><th class="num">ROE÷PB</th></tr>
+    <tr><td><b>寒武纪</b></td><td class="num">7,539</td><td class="num">226.3</td><td class="num">55.6</td><td class="num">24.6</td><td class="num">0.44</td></tr>
+    <tr><td>海光信息</td><td class="num">6,874</td><td class="num">252.2</td><td class="num">29.7</td><td class="num">11.8</td><td class="num">0.40</td></tr>
+    <tr><td>龙芯中科</td><td class="num">449</td><td class="num">亏损</td><td class="num">18.7</td><td class="num">—</td><td class="num">—</td></tr>
+    <tr><td>景嘉微</td><td class="num">278</td><td class="num">亏损</td><td class="num">4.1</td><td class="num">—</td><td class="num">—</td></tr>
+    <tr><td>澜起科技</td><td class="num">2,631</td><td class="num">102.9</td><td class="num">13.1</td><td class="num">12.7</td><td class="num">0.97</td></tr>
+    <tr><td>芯原股份</td><td class="num">1,212</td><td class="num">亏损</td><td class="num">38.5</td><td class="num">—</td><td class="num">—</td></tr>
+    <tr><td>兆易创新</td><td class="num">2,927</td><td class="num">101.8</td><td class="num">11.8</td><td class="num">11.6</td><td class="num">0.98</td></tr>
+  </table></div>
+  <h3>价格隐含的假设（本节核心，归母口径）</h3>
+  <ul>
+    <li><b>隐含增长</b>：市值 7,539 亿 ÷ FY25 归母 20.59 亿 = 静态 366x；按 10 年持有、要求回报 10%、退出 PE 25x：需 2035 归母 ≈ 7,539×1.1¹⁰÷25 ≈ <b>782 亿 → 隐含 CAGR ≈44%/年×10 年</b>（英伟达 FY2016–25 约 60% 为历史最强样本；A 股无先例）。</li>
+    <li><b>PB 档位敏感度</b>（BVPS 18.84 元，2026-05 转增后新股本口径）：中位 PB 13.1 → ≈247 元（-79%）；25% 档 5.7 → ≈107 元（-91%）→ 现价约八成是估值溢价（原口径 366.6/159.7 元、七成，系旧股本 BVPS 28.09，2026-08-08 修正）。</li>
+    <li><b>PS 口径</b>：当前 116x；FY2026 营收翻倍且股价不动，仍 58x——翻倍只消化一半。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：市场预期比我的判断更[乐观]，差在我要求先看到"存货变成经营现金流"再给成长定价。<b>现价隐含乐观档之上的情景</b>；板块盈利四家 ROE÷PB 全部 &lt;1，无便宜替代品——兆易 0.98 最优但无寒武纪的稀缺性弹性，稀缺性既是溢价来源也是脆弱点。</blockquote>
+</section>
+
+<!-- ============ 6 风险 ============ -->
+<section id="s6">
+  <h2>6. 风险与证伪条件</h2>
+  <div class="tablebox"><table>
+    <tr><th>风险</th><th>概率</th><th>杀伤力</th><th>先行指标（在哪看）</th></tr>
+    <tr><td>🔴 存货回旋镖：53.33 亿余额×7.3% 拨备，需求证伪则补提（每 10pct ≈5.3 亿，吃掉 FY25 归母 26%）</td><td>中</td><td>极高（利润+估值双杀）</td><td>季报存货跌价计提额（单季 &gt;2 亿=开始）；存货绝对额环比</td></tr>
+    <tr><td>🔴 供应链单点：预付第一名 7.02 亿占 94.32% + 实体清单</td><td>中</td><td>极高</td><td>该供应商产能公告；美方管制新闻；预付款异动</td></tr>
+    <tr><td>🔴 OCF 持续不转正：利润恒为存货+应收形态</td><td>中</td><td>高（T4 迁移证伪）</td><td>FY2026 中报 OCF；应收账龄"1 年以上"占比</td></tr>
+    <tr><td>🟡 客户再集中：FY2025 分散是单年现象</td><td>低-中</td><td>中</td><td>FY2026 半年报第一大客户占比是否 &lt;30%</td></tr>
+    <tr><td>🟡 毛利率续降：放量让价 55.2% 继续下行</td><td>中</td><td>中</td><td>与海光 FY2026 毛利率对比（行业性 vs 公司性）</td></tr>
+    <tr><td>🟡 估值中枢回归：现价七成是溢价</td><td>—</td><td>高（与基本面无关也可发生）</td><td>PB 分位月度跟踪</td></tr>
+  </table></div>
+  <p><b>证伪条件</b>：FY2026 中报 OCF 未转正且存货继续上升 → "利润拐点已确立、T4 迁移在途"不成立；单季存货计提 &gt;2 亿 → "新货低拨备合理"被证伪；两重估条件齐而未及时重估 → "等现金流验证"被证伪（错过）。类型误判也是证伪：验证时先问 T5 还成立吗。</p>
+  <p><b>中间点判定（2026-08-08，FY2026 中报+一季报）</b>：证伪 A 未触发（OCF +3.11 亿转正，AND 不成立）；<b>证伪 B 初步触发</b> [推算]（H1 存货计提 3.97 亿、Q1 存货部分 ≈2.2 亿 &gt;2 亿，待年报定案）；重估条件①不满足（存货续升、预付再翻四倍至 29.14 亿），维持不建仓；"Q1 正→Q2 被囤货吞回"模式第二年重演（Q1 +8.34 亿→Q2 -5.23 亿 [推算]）。</p>
+  <blockquote><b>反方陈述</b>：A 股唯一国产 AI 训练芯片纯标的，管制只紧不松，大模型厂商的算力采购是政治任务级需求；FY2025 营收 +453% 证明产品力，存货 49 亿是管制下的战略备货而非滞销（不囤片才是失职）；净现金 55.78 亿+零负债可以亏着打十年；赢家通吃行业用静态 PE 给拐点期公司定价必然错过全程——2016 年的英伟达同样"贵"了十年。若 FY2026 营收再翻倍，116x PS 两年内消化到 30x 以内，等 OCF 转正再买要付更高的确定性溢价。</blockquote>
+</section>
+
+<!-- ============ 7 回访 ============ -->
+<section id="s7">
+  <h2>7. 回访区（对答案清单）</h2>
+  <blockquote>⚠️ 时点更正：原写"2027-02-07 FY2026 中报后"系港股节奏误植——A 股中报 8 月底前披露，FY2026 中报 2026-08-07 已出，中间点提前对答案。</blockquote>
+  <ul>
+    <li><b>中间点（2026-08-08 已对）</b>：股价 1,199.93；OCF 转正？<b>是 +3.11 亿</b>（但同比 2025H1 +9.11 亿降 66%，Q2 单季 -5.23 亿 [推算]）；存货环比？<b>续升 53.33→90.15 亿（+69%）</b>；单季计提 &gt;2 亿？<b>初步触发</b>（Q1 ≈2.2 亿 [推算]）。判定：维持不建仓，不升 T4。</li>
+    <li><b>终验（2027-04/08，FY2026 年报后）</b>：归母 &gt;40 亿？___（H1 已 23.11 亿）；全年 OCF 转正？___；存货拐点？___；类型重判 T4？___；第一大客户 &lt;30%？___</li>
+  </ul>
+</section>
+
+<!-- ============ 附录 ============ -->
+<section id="appendix">
+  <h2>附录：取数底稿核心序列 + 数据质量声明</h2>
+  <details class="fold">
+    <summary>取数底稿（核心序列摘要，完整版见 xlsx）· 9 行</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>指标</th><th class="num">FY2021</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th><th>出处</th></tr>
+      <tr><td>营业收入（亿）</td><td class="num">7.21</td><td class="num">7.29</td><td class="num">7.09</td><td class="num">11.74</td><td class="num">64.97</td><td>各年报主要会计数据，AKShare 交叉一致</td></tr>
+      <tr><td>归母净利（亿）</td><td class="num">-8.25</td><td class="num">-12.56</td><td class="num">-8.48</td><td class="num">-4.52</td><td class="num">+20.59</td><td>同上；FY22 含 -21 万追溯重列</td></tr>
+      <tr><td>OCF（亿）</td><td class="num">-8.73</td><td class="num">-13.30</td><td class="num">-5.96</td><td class="num">-16.18</td><td class="num">-4.98</td><td>现金流量表</td></tr>
+      <tr><td>FCF（亿）</td><td class="num">-13.78</td><td class="num">-16.14</td><td class="num">-6.96</td><td class="num">-19.84</td><td class="num">-10.67</td><td>OCF−capex，五年合计 -67.39</td></tr>
+      <tr><td>存货账面价值（亿）</td><td class="num">2.87</td><td class="num">2.87</td><td class="num">0.99</td><td class="num">17.74</td><td class="num">49.44</td><td>资产负债表+KAM</td></tr>
+      <tr><td>存货拨备率</td><td class="num">—</td><td class="num">42.5%</td><td class="num">71.2%</td><td class="num">13.2%</td><td class="num">7.3%</td><td>各年 KAM</td></tr>
+      <tr><td>归母权益（亿）</td><td class="num">58.9</td><td class="num">48.5</td><td class="num">56.5</td><td class="num">54.2</td><td class="num">118.4</td><td>资产负债表</td></tr>
+      <tr><td>BVPS（元）</td><td class="num">14.95</td><td class="num">12.32</td><td class="num">13.75</td><td class="num">13.01</td><td class="num">28.09</td><td>A_财务指标（调整前口径）</td></tr>
+      <tr><td>年末收盘价（元）</td><td class="num">95.10</td><td class="num">54.56</td><td class="num">134.96</td><td class="num">658.00</td><td class="num">1,355.55</td><td>东财日线（annual）；2026-08-07 现价 1,199.93</td></tr>
+    </table></div>
+    <div class="fold-body"><blockquote>口径备注：人民币；研发投入用“研发投入合计”口径（不含股份支付）；分部序列 FY2023/24 集群并线断点；市值/股本口径矛盾已于 2026-08-08 核实关闭（见下方估值口径）。BVPS 行为转增前旧股本口径，估值档位均已改用转增后 18.84 元。</blockquote></div>
+    <div class="fold-body" style="font-size:12px;color:var(--muted);">读法：看第 2 行与第 3 行的反向——FY2025 归母转正 +20.59 亿而 OCF 仍 -4.98 亿，钱全变成了第 5 行的 49.44 亿存货，而第 6 行只提了 7.3% 拨备。</div>
+  </details>
+  <h3>数据质量声明</h3>
+  <ul>
+    <li><b>估算/推算</b>：同行 ROE=[推算]PB÷PE_TTM；同行归母=[推算]市值÷PE_TTM（TTM 非审计数）；同行股息率缺失（腾讯源不可得）；PB 档位对应市值=[推算]档位×归母权益 118.4 亿。</li>
+    <li><b>口径</b>：研发投入用"研发投入合计"（不含股份支付，FY25 另有 2.39 亿）；分部 FY2023/24 集群并线断点；FY2022 归母含 -21 万追溯重列（&lt;0.02%）。</li>
+    <li><b>估值口径</b>：取价日 2026-08-07（腾讯 qt，东财 spot 断连降级）；分位窗口 6.1 年（上市即全窗口，混合牛熊，基本面质变使分位偏"显贵"已声明）；<b>市值 7,539 亿口径已核实（Q12 关闭）：2026-05 每 10 股转增 4.9，股本 421.7→628.3 百万股；衍生修正：旧股本 BVPS 位置参考价 366.6 元→≈247 元，分位序列重算待 Sheet5b 修订</b>；本页年度股价图替代日度分位带（日线未落盘 CSV）。</li>
+    <li><b>待补项</b>：同行归母/OCF 审计数逐家实提；预付第一名供应商身份（Q13①）；Sheet5b 分位序列按新股本重算。存货结构已答（Q13②，FY2026 中报 P109：原材料 57.49 亿占 64%）。</li>
+  </ul>
+</section>
+
+<!-- ============ 学习卡 ============ -->
+<section id="learn">
+  <h2>学习卡：黑话词典 + 指标与估值方法 + 年报术语</h2>
+  <p style="font-size:12px;color:var(--muted);">下方五个折叠收纳了速读版黑话词典、《3_财务数据分析》与《1_历年年报文字总结》末尾学习卡的全部术语，读本页不需再翻 Markdown；招股书历史（2017–2019 + P1–P7 红旗）仍在 <code>2.分析材料/0_2026-08_寒武纪_招股书关键信息.md</code>。</p>
+
+  <details class="fold">
+    <summary>黑话词典（详版里看不懂的词来这查）· 9 个术语</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>术语</th><th>大白话</th></tr>
+      <tr><td>T5 投入期成长</td><td>靠烧钱研发换未来的公司，不能用“便宜/贵”评价，只能问“现价押的是哪种未来”</td></tr>
+      <tr><td>OCF（经营现金流）</td><td>做生意实际收到减去付出的现金，利润的验钞机——寒武纪 2025 年利润 20 亿但这项是负的</td></tr>
+      <tr><td>FCF（自由现金流）</td><td>验完钞再扣掉买设备的钱，公司真正攒下的钱——寒武纪五年合计负 67 亿，全靠股民输血</td></tr>
+      <tr><td>存货拨备率</td><td>对仓库里的货预先承认贬值的比例——寒武纪只提了 7.3%，旧货当年曾提到七成</td></tr>
+      <tr><td>PS（市销率）</td><td>市值÷年收入，给还没稳定赚钱的公司用的尺子——寒武纪约 116 倍，收入翻倍也只消化一半</td></tr>
+      <tr><td>PB 分位</td><td>现在的估值在自己历史里排第几——寒武纪处于偏高区，但因为它刚从亏损变盈利，这个排名天然显得“贵”，要打折看</td></tr>
+      <tr><td>实体清单</td><td>美国出口管制黑名单，寒武纪 2019 年就被列入——买先进代工和设计软件都受限</td></tr>
+      <tr><td>定增</td><td>上市后再向机构发新股融资——寒武纪 2025 年靠这个把家底从 54 亿充到 118 亿</td></tr>
+      <tr><td>存货回旋镖</td><td>囤货时利润没事，需求证伪时一次性计提减值砸回利润表——它 2020 年囤的货 2023 年才认亏出清过一轮</td></tr>
+    </table></div>
+  </details>
+
+  <details class="fold">
+    <summary>#2–#6 现金流与偿债 · 6 个指标</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>OCF（经营现金流）</td><td>主营业务实际收付的现金净额，利润的“验钞机”</td><td>寒武纪六年全负；FY2025 赚 20.59 亿但 OCF -4.98 亿，钱变成了存货</td></tr>
+      <tr><td>OCF/净利</td><td>五年 OCF 合计 ÷ 五年净利合计，&lt;0.8 说明利润含水</td><td>-49.15/-13.23，双负无比值意义，直接看“盈利年 OCF 仍负”打红</td></tr>
+      <tr><td>capex（资本开支）</td><td>购建固定资产/无形资产付的现金</td><td>五年合计 18.24 亿，芯片设计公司 capex 轻（对比制造）</td></tr>
+      <tr><td>FCF（自由现金流）</td><td>OCF − capex，公司真正可自由支配的钱</td><td>五年 FCF = -49.15 − 18.24 = <b>-67.39 亿</b>，全靠 IPO+定增供血</td></tr>
+      <tr><td>现金跑道</td><td>可用资金 ÷ 年烧钱额 = 还能烧几年</td><td>（13.17+42.61）÷ 4.98 ≈ 11 年，T5 标的里跑道极长</td></tr>
+      <tr><td>净负债率</td><td>（有息负债−现金）÷归母权益，负值=净现金</td><td>有息 0、现金 55.78 亿 → 净现金，破产风险为零</td></tr>
+    </table></div>
+    <div class="fold-body" style="font-size:12px;color:var(--muted);">读法：前四行说“钱一直在出”，后两行说“但短期死不了”——这正是 T5 只能用跑道而不能用估值分位判断的原因。</div>
+  </details>
+
+  <details class="fold">
+    <summary>#7–#12 资产质量与利润分配 · 4 个指标</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>应收/营收</td><td>卖了货收不回钱的比例，&gt;100% 说明一年营收全在账上挂着</td><td>FY2022 曾 7.66/7.29=105%，FY2025 降到 6.71/64.97=10.3%</td></tr>
+      <tr><td>存货拨备率</td><td>跌价准备÷存货余额（与年报文字卡的“可变现净值”配套的量化指标）</td><td>3.90/53.33=7.3%；每补提 10pct ≈ 5.3 亿，吃掉 FY25 归母的 26%</td></tr>
+      <tr><td>经营杠杆</td><td>费用不随收入等比增长时，收入放大→利润率跳升</td><td>研发稳定 11–15 亿，营收 7→65 亿，净利率一步到 31.7%</td></tr>
+      <tr><td>少数股东分利</td><td>1−归母/净利，子公司里别人拿走的利润</td><td>20.59/20.58≈100%，全资结构无分利</td></tr>
+    </table></div>
+  </details>
+
+  <details class="fold">
+    <summary>#13–#16 估值工具（T5 尺子的核心）· 6 个工具</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>数值分位 vs 便宜程度分位</td><td>数值分位=当前值在历史中的位置；便宜程度=1−数值分位，越高越便宜</td><td>PB 42.7 数值分位 71.6% → 便宜程度 28.4%，处偏贵侧</td></tr>
+      <tr><td>窗口偏差</td><td>分位窗口的牛熊构成决定分位天然偏向</td><td>6.1 年窗口内公司从亏损变盈利，历史低 PB 对应烂基本面，分位“显贵”有夸大</td></tr>
+      <tr><td>PS（市销率）</td><td>市值÷营收，亏损/刚盈利公司的替代锚</td><td>当前 7539/64.97=116x；营收翻倍也只能消化到 58x</td></tr>
+      <tr><td>ROE÷PB</td><td>账面回报÷买入价格，同行比价效率尺</td><td>寒武纪 24.6/55.6=0.44，输给兆易 0.98/澜起 0.97——买它买的不是回报效率</td></tr>
+      <tr><td>隐含增长倒推</td><td>市值×(1+要求回报)^n ÷ 退出 PE = 届时所需净利，再倒推 CAGR</td><td>7539×1.1¹⁰÷25=782 亿 → 十年归母 CAGR 44%，超过 A 股全部历史样本</td></tr>
+      <tr><td>PB 档位敏感度</td><td>股价 = BVPS × 目标 PB，把估值回归翻译成跌幅</td><td>回历史中位 PB 13.1 → ≈247 元（转增后 BVPS 18.84 元口径），较现价 -79%</td></tr>
+    </table></div>
+    <div class="fold-body" style="font-size:12px;color:var(--muted);">读法：最后两行是本篇结论的量化基础——现价隐含十年 44% 复合，而回历史中位估值就要跌七成。</div>
+  </details>
+
+  <details class="fold">
+    <summary>年报术语卡（读年报时遇到的词）· 15 个术语</summary>
+    <div class="fold-body tablebox"><table>
+      <tr><th>术语</th><th>大白话解释</th><th>在本标的里的样子</th></tr>
+      <tr><td>KAM（关键审计事项）</td><td>审计师认为最容易出错、花了最多功夫查的地方，等于免费红旗清单</td><td>寒武纪六年恒为 2 项：收入确认+（股份支付→存货），FY2022 的切换正对应经营拐点</td></tr>
+      <tr><td>无保留意见</td><td>审计师认为报表整体可信，最干净的意见类型</td><td>天健所六年均出具，无强调事项段</td></tr>
+      <tr><td>MD&amp;A（管理层讨论与分析）</td><td>管理层自己讲“为什么”的章节，A 股在第三节</td><td>FY2023 用“受供应链影响”解释云端 -58.73%</td></tr>
+      <tr><td>可变现净值</td><td>存货按“还能卖多少钱”和成本孰低入账，卖不掉的差额计提跌价</td><td>FY2023 对 87 万片旧芯片计提到拨备率 71.2%；FY2025 新货 53 亿仅计提 7.3%</td></tr>
+      <tr><td>存货拨备率</td><td>跌价准备÷存货余额，衡量对存货贬值的悲观程度</td><td>42.5%→71.2%→13.2%→7.3%，剧烈波动本身就是经营故事</td></tr>
+      <tr><td>股份支付</td><td>用股票/期权发工资，进损益但不出现金</td><td>FY2021 费用 2.10 亿；FY2025 研发口径特意剔除 2.39 亿</td></tr>
+      <tr><td>研发费用化 vs 资本化</td><td>费用化当期全进损益；资本化挂资产慢慢摊</td><td>寒武纪六年资本化率恒 0，账面净资产不含研发泡沫</td></tr>
+      <tr><td>募投项目/永久补流</td><td>募资承诺的项目；花不完的钱转为日常营运资金</td><td>2024 年调减稳定工艺平台 2.5 亿+IPO 节余 3.15 亿均永久补流</td></tr>
+      <tr><td>关联交易</td><td>与股东/兄弟公司的买卖，利益输送观察窗</td><td>曙光系交易从 2019 年 80.94% 云端收入降至 FY2025 的 21 万元</td></tr>
+      <tr><td>实体清单</td><td>美国出口管制黑名单，被列入后难买美系芯片代工/EDA</td><td>寒武纪 2019 年末被列入，FY2025 仍列风险首位，出口审计程序已删除</td></tr>
+      <tr><td>追溯重列</td><td>后一年年报修正前一年的比较数</td><td>FY2022 归母在 FY2023 年报中重列 -21 万元（&lt;0.02%）</td></tr>
+      <tr><td>前五大客户集中度</td><td>前五名客户收入占比，越高越依赖大单</td><td>82.10%→94.63%→88.66%，第一大客户三年轮换三个政府平台</td></tr>
+      <tr><td>银行承兑汇票背书</td><td>收到票据不等现金到手就转手支付出去</td><td>FY2024 背书转出 4.03 亿并终止确认</td></tr>
+      <tr><td>产销量表</td><td>A 股制造业特有披露：生产/销售/库存量三列</td><td>FY2023 销售量 -88.35%、库存量 870,996 片，囤货铁证</td></tr>
+      <tr><td>定增（向特定对象发行）</td><td>上市后再融资，向少数机构增发新股</td><td>FY2025 定增落地，BVPS 从 13.01 跳至 28.09 元</td></tr>
+    </table></div>
+  </details>
+</section>
+
+<footer>
+  本页为<b>全量版</b>：内容与 <b>2026-08_寒武纪_分析报告.md</b>、<b>2026-08_寒武纪_速读版.md</b> 一致（图表与折叠区为 HTML 独有的呈现增强）。<br>
+  数据截止 2026-08-08 ｜ 覆盖 FY2020–FY2025 年报 + 2020 年招股书 + 2020–2026 半年报七份 + 2026 一季报（2026-08-08 已同步中间点验证与股本口径修正）｜ 全文唯一基准价 1,199.93 元（2026-08-07）<br>
+  仅本地归档，不作投资建议；T5 尺子未经实盘验证，结论只登记不实盘。断网时 ECharts 不加载，全部数据表格仍完整可读。
+</footer>
+</div>
+
+<script>
+(function(){
+  if (typeof echarts === 'undefined') return;
+  var G = {textStyle:{fontFamily:'-apple-system,"PingFang SC",sans-serif'},color:['#1f4e79','#c0392b','#b7791f','#5b8c5a','#8064a2','#4bacc6']};
+  function mk(id, opt){var el=document.getElementById(id);if(!el)return;var c=echarts.init(el);c.setOption(Object.assign({},G,opt));window.addEventListener('resize',function(){c.resize();});}
+
+  // 分部收入堆叠柱（百万元）
+  mk('chartSeg',{
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    legend:{data:['云端','边缘','智能计算集群','IP授权及软件'],top:0},
+    grid:{left:60,right:20,top:36,bottom:28},
+    xAxis:{type:'category',data:['FY2021','FY2022','FY2023','FY2024*','FY2025*']},
+    yAxis:{type:'value',name:'百万元'},
+    series:[
+      {name:'云端',type:'bar',stack:'s',data:[80.2,219.4,90.6,1166.3,6476.9]},
+      {name:'边缘',type:'bar',stack:'s',data:[175.2,37.8,10.8,6.5,3.4]},
+      {name:'智能计算集群',type:'bar',stack:'s',data:[455.6,458.5,604.5,null,null]},
+      {name:'IP授权及软件',type:'bar',stack:'s',data:[6.9,1.1,0.2,0.4,2.3]}
+    ]
+  });
+
+  // 营收/归母/OCF（亿元）
+  mk('chartCore',{
+    tooltip:{trigger:'axis'},
+    legend:{data:['营业收入','归母净利','OCF'],top:0},
+    grid:{left:52,right:20,top:36,bottom:28},
+    xAxis:{type:'category',data:['FY2021','FY2022','FY2023','FY2024','FY2025']},
+    yAxis:{type:'value',name:'亿元'},
+    series:[
+      {name:'营业收入',type:'bar',data:[7.21,7.29,7.09,11.74,64.97]},
+      {name:'归母净利',type:'bar',data:[-8.25,-12.56,-8.48,-4.52,20.59]},
+      {name:'OCF',type:'line',symbol:'circle',lineStyle:{width:3},data:[-8.73,-13.30,-5.96,-16.18,-4.98]}
+    ]
+  });
+
+  // 存货余额 + 拨备率
+  mk('chartInv',{
+    tooltip:{trigger:'axis'},
+    legend:{data:['存货余额（亿）','拨备率（%）'],top:0},
+    grid:{left:52,right:52,top:36,bottom:28},
+    xAxis:{type:'category',data:['FY2022','FY2023','FY2024','FY2025','2026H1']},
+    yAxis:[{type:'value',name:'亿元'},{type:'value',name:'%',max:80}],
+    series:[
+      {name:'存货余额（亿）',type:'bar',data:[4.99,3.45,20.44,53.33,90.15]},
+      {name:'拨备率（%）',type:'line',yAxisIndex:1,symbol:'circle',lineStyle:{width:3},data:[42.5,71.2,13.2,7.3,8.5]}
+    ]
+  });
+
+  // 年度股价 + PB 档位标记线
+  mk('chartPrice',{
+    tooltip:{trigger:'axis'},
+    legend:{data:['年末收盘价'],top:0},
+    grid:{left:60,right:20,top:36,bottom:28},
+    xAxis:{type:'category',data:['2020','2021','2022','2023','2024','2025','2026-08-07']},
+    yAxis:{type:'value',name:'元'},
+    series:[{name:'年末收盘价',type:'line',symbol:'circle',symbolSize:8,lineStyle:{width:3},
+      data:[146.78,95.10,54.56,134.96,658.00,1355.55,1199.93],
+      markLine:{symbol:'none',label:{position:'insideEndTop',fontSize:11},data:[
+        {yAxis:1199.93,name:'现价',label:{formatter:'现价 1199.93'},lineStyle:{color:'#c0392b',type:'solid'}},
+        {yAxis:246.8,name:'中位PB档',label:{formatter:'中位 PB 13.1 → ≈247（转增后口径）'},lineStyle:{color:'#b7791f'}},
+        {yAxis:107.4,name:'25%PB档',label:{formatter:'25% 档 PB 5.7 → ≈107'},lineStyle:{color:'#5b8c5a'}}
+      ]}}]
+  });
+
+  // 同行散点：PB(x) vs ROE(y)，气泡=市值
+  mk('chartPeer',{
+    tooltip:{formatter:function(p){var d=p.data;return d[3]+'<br/>PB '+d[0]+' ｜ ROE '+d[1]+'%[推算]<br/>市值 '+d[2]+' 亿 ｜ ROE÷PB '+d[4];}},
+    grid:{left:52,right:24,top:30,bottom:40},
+    xAxis:{type:'value',name:'PB',nameLocation:'middle',nameGap:26},
+    yAxis:{type:'value',name:'ROE %[推算]'},
+    series:[{type:'scatter',symbolSize:function(d){return Math.sqrt(d[2])/2.2+8;},
+      label:{show:true,position:'top',fontSize:11,formatter:function(p){return p.data[3];}},
+      data:[
+        [55.62,24.6,7539,'寒武纪',0.44],
+        [29.70,11.8,6874,'海光信息',0.40],
+        [13.05,12.7,2631,'澜起科技',0.97],
+        [11.83,11.6,2927,'兆易创新',0.98]
+      ],
+      markLine:{symbol:'none',lineStyle:{type:'dashed',color:'#999'},label:{fontSize:11},
+        data:[[{coord:[0,0],name:''},{coord:[60,60],name:'ROE÷PB=1'}]]}
+    }]
+  });
+})();
+</script>
+<div class="model-stamp" style="text-align:center;font-size:12px;color:#5a6270;margin-top:20px;padding:10px;border-top:1px solid #e3e6eb;">本文由 <b>qoder cantus</b> 生成</div>
+</body>
+</html>

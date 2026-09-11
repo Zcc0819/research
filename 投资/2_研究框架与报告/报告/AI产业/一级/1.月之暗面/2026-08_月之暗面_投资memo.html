@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>月之暗面（Moonshot AI）投资 memo（一级） · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--ink:#1a2233;--mut:#5b6472;--line:#e3e7ee;--bg:#f6f7f9;--card:#fff;--accent:#1f4e79;--red:#c0392b;--amber:#b7791f;--green:#5b8c5a;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.85 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px;}
+  header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+  header.hero h1{margin:0 0 10px;font-size:26px;letter-spacing:1px;color:#fff;}
+  header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+  header.hero .price{margin-top:14px;font-size:15px;}
+  header.hero .price b{font-size:22px;}
+  header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+  .tag{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:12px;padding:1px 10px;font-size:12px;margin:2px 3px;}
+  section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:26px 28px;margin:22px 0;}
+  h2{font-size:19px;border-left:4px solid var(--accent);padding-left:10px;margin:4px 0 14px;color:var(--accent);}
+  h3{font-size:16px;margin:18px 0 8px;}
+  blockquote{margin:14px 0;padding:12px 16px;border-left:4px solid var(--amber);background:#fdf6ec;border-radius:0 8px 8px 0;color:#4a3a1a;}
+  .verdict{border-left-color:var(--accent);background:#eef3fa;color:#1a2f4a;}
+  .tablebox,.tbl-scroll{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin:10px 0;}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}
+  th{background:#f0f3f8;white-space:nowrap;}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .caliber{font-size:12.5px;color:var(--mut);margin:6px 0 0;}
+  .chart{width:100%;height:340px;margin:8px 0 2px;}
+  details.fold{border:1px solid var(--line);border-radius:8px;margin:12px 0;background:#fbfcfd;}
+  details.fold summary{cursor:pointer;padding:10px 14px;font-weight:600;color:var(--accent);list-style:none;}
+  details.fold summary::before{content:"▸ ";color:var(--mut);}
+  details.fold[open] summary::before{content:"▾ ";}
+  details.fold .body{padding:4px 14px 14px;}
+  .grade{display:inline-block;min-width:20px;text-align:center;border-radius:3px;padding:0 4px;font-size:12px;font-weight:700;color:#fff;}
+  .gA{background:#5b8c5a;}.gB{background:#4bacc6;}.gC{background:#b7791f;}.gD{background:#999;}
+  footer{color:var(--mut);font-size:12.5px;text-align:center;padding:26px 20px 40px;line-height:1.9;}
+  ul{padding-left:22px;}
+  li{margin:5px 0;}
+  b{color:#10203a;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>月之暗面（Moonshot AI）投资 memo（一级）</h1>
+    <div class="meta">一级市场 · 假想题（观察池自主研究，非真实交易）｜ 报告日期 2026-08-08 ｜ 观点配置 Noah v1.0 ｜ 标的类型 <b>T5 投入期</b>（只登记不实盘 [V2][V3]）｜ 信息模式 B 公开信息-only ｜ <b>全量版：含 Markdown 详版全部内容</b></div>
+    <div class="price">最新一轮估值 <b>350 亿美元</b>（F 轮投后，2026-08 关闭，超募 3 倍 [C]）｜ G 轮传闻投前 500 亿美元 [C]｜ 可接受上限 <b>≤150 亿美元</b>（干净条款）</div>
+    <div style="margin-top:12px">
+      <span class="tag">台账 #9</span>
+      <span class="tag">验证 2027-08-08（递表则提前）</span>
+      <span class="tag">结论：不投（350 亿价位）</span>
+      <span class="tag">期望 MOIC ≈1.5x &lt; 3x 门槛</span>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+
+<!-- ============ 速读区 ============ -->
+<section id="quick">
+  <h2>速读区（一页版）</h2>
+  <h3>1. 一句话</h3>
+  <p>公司是真的能打，但 350 亿美元的价格已经把"再打四年好牌"提前收完钱了——<b>不投，跌到 150 亿美元以下再谈</b>。</p>
+  <h3>2. 这家公司是干嘛的</h3>
+  <p>做 Kimi 大模型的公司：把模型 API 和会员卖给程序员和企业（像卖"智能水电煤"），模型开源免费给全世界用换口碑，靠调用收费赚钱。老板杨植麟是清华+CMU 的技术天才，阿里是它最大股东。</p>
+  <h3>3. 好消息 / 坏消息</h3>
+  <div class="tablebox"><table>
+    <tr><th>好消息</th><th>坏消息</th></tr>
+    <tr><td>ARR 5 个月 1→3 亿美元，七成是 API（支持投资）</td><td>估值 8 个月涨 8 倍，收入只涨 3 倍（削弱投资）</td></tr>
+    <tr><td>K3 提价 2.1 倍仍放量，定价权为真（支持投资）</td><td>DeepSeek/通义同级模型免费，涨价有天花板（削弱投资）</td></tr>
+    <tr><td>OpenRouter 中国模型霸榜前六，Kimi 带头（支持投资）</td><td>创始人 2024 年套现数千万美金 + 仲裁未决（削弱投资）</td></tr>
+    <tr><td>2026 年融资超 39 亿美元，弹药最厚（支持投资）</td><td>白宫点名 K3"窃取 Anthropic 技术"，海外有政策尾巴（削弱投资）</td></tr>
+  </table></div>
+  <h3>4. 只记三个数</h3>
+  <div class="tablebox"><table>
+    <tr><th>数字</th><th>它是什么</th></tr>
+    <tr><td class="num"><b>3 亿美元</b></td><td>年化收入 ARR（2026-06），5 个月前才 1 亿</td></tr>
+    <tr><td class="num"><b>350 亿美元</b></td><td>最新一轮估值——对应期望回报只有 1.5 倍，不够一级 3 倍的及格线</td></tr>
+    <tr><td class="num"><b>2.67%</b></td><td>已上市同行智谱的流通盘——它的万亿市值是"小盘子炒出来的"，提醒我们别拿二级价格当真锚</td></tr>
+  </table></div>
+  <h3>5. 什么时候买</h3>
+  <ul>
+    <li>☐ 估值回到 150 亿美元以下（干净条款），或 250 亿以下带回购保护</li>
+    <li>☐ 招股书确认 API 毛利为正、烧钱可控（9.5 清单逐条销号）</li>
+    <li>☐ 仲裁案落地，创始人股权无实质受损</li>
+    <li>☐ 没有"降价融资"（down round）</li>
+  </ul>
+  <p><b>四条齐前，涨到天上去也不追。</b></p>
+  <details class="fold"><summary>6. 半年后对答案清单 · 5 项</summary><div class="body">
+    <ul>
+      <li>☐ 递表/上市了吗？定价多少（vs 350/500 亿传闻）？</li>
+      <li>☐ ARR 到 6 亿美元了吗？（到了＝"估值透支"判断可能错）</li>
+      <li>☐ OpenRouter 开源第一还是 Kimi 吗？</li>
+      <li>☐ 仲裁结案了吗？结果如何？</li>
+      <li>☐ 智谱解禁后股价崩没崩（板块温度计）？</li>
+    </ul>
+  </div></details>
+  <details class="fold"><summary>7. 黑话词典 · 7 个术语</summary><div class="body">
+    <ul>
+      <li><b>ARR</b>：年化收入，月收入×12，未审计。</li>
+      <li><b>MOIC</b>：回报倍数，投 1 块拿回几块；一级及格线 3 倍，本案 1.5 倍。</li>
+      <li><b>OpenRouter</b>：全球最大"模型超市"，调用量榜 = 模型界销量榜。</li>
+      <li><b>开源平权</b>：免费模型能力追平后，收费的很难涨价——最大长期威胁。</li>
+      <li><b>Down round</b>：新一轮估值低于上轮 = 聪明钱已觉得贵。</li>
+      <li><b>流通盘</b>：可自由交易的股票比例；智谱仅 2.67%，市值不能当尺子。</li>
+      <li><b>双重身份</b>：阿里 = 最大股东 + 算力供应商 + 竞品（通义）母公司，三身份打架。</li>
+    </ul>
+  </div></details>
+</section>
+
+<!-- ============ 0 结论 ============ -->
+<section id="s0">
+  <h2>0. 一句话结论</h2>
+  <blockquote class="verdict"><b>不投：350 亿估值只看不买，≤150 亿美元且无治理恶化才谈</b>（按 3x MOIC 门槛反推 [自定]），核心逻辑是 <b>API 货币化被验证为真（ARR 5 个月 1→3 亿美元、占比 70%+、涨价不降量[C]），但 8 个月里估值膨胀 8.1 倍而 ARR 只涨 3 倍——倍数扩张贡献了涨幅的大头，当前价位隐含"再连续完美执行四年 + IPO 窗口不关"才勉强打平</b>；最大风险是开源平权压价 + 地缘知产指控（白宫点名 K3）+ 未决仲裁三重折价没有被价格补偿。</blockquote>
+  <p>投资性质：财务回报型（假想题；无产业协同可注入）。</p>
+  <p>⚠️ 证据声明：第 0 节建立在 <span class="grade gA">A</span> 级（阿里年报 8 亿美元/36%、智谱与 MiniMax 招股书数）与 <span class="grade gB">B</span> 级（官网定价/开源发布）上；ARR 轨迹为 <span class="grade gC">C</span> 级单源链（公司放风→媒体转述），<b>在递表披露审计数与仲裁进展前，本结论为阶段性结论</b>（待补证据见 9.5）。</p>
+  <div class="chart" id="chartVal"></div>
+  <p class="caliber">数据口径：估值时间线（亿美元，对数轴）。2024-02 的 25 亿与阿里 8 亿/36%（FY2024 年报，A 级）互洽；2025-12 至 2026-08 各轮为媒体多源一致 [C]；500 亿为 G 轮传闻 [C]，空心点标记。检索日 2026-08-07/08。</p>
+</section>
+
+<!-- ============ 1 市场 ============ -->
+<section id="s1">
+  <h2>1. 市场：真需求还是叙事</h2>
+  <ul>
+    <li><b>自下而上空间</b>：全球 GenAI 支出 2026 年数千亿美元级已成共识，不重复拍 TAM；有意义的切片是<b>模型 API/订阅</b>——Anthropic/OpenAI 的 ARR 曲线（数百亿美元级）已验证"模型即服务"付费意愿 [C，行业共识]。</li>
+    <li><b>付费意愿证据链</b>：Kimi 的 ARR 是<b>创新型续费</b>（API + 开发者订阅 + 59 元/月会员），不是 PoC 项目款——K2.5 发布后 20 天收入超 2025 全年 [C]；没人续费的 API 会立刻断流，这比中标加总硬。</li>
+    <li><b>为什么是现在</b>：推理成本下降 + Agent 负载爆发；中国开源模型 2026 春占 HuggingFace 下载量 41% 超美国、OpenRouter 前六全是中国模型 [C]——海外开发者"好用便宜"的需求是真窗口。</li>
+    <li><b>产业方视角</b>：我会买吗？会——按 token 买，谁强买谁；但<b>按 token 买和按 350 亿美元股权买是两回事</b>。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：需求是［必须买］（证据等级：B/C）｜方向：[支持投资] ｜ 触发依据：ARR 5 个月 3 倍且 API 占比 70%+、OpenRouter 中国模型连续 13 周调用量第一。</blockquote>
+</section>
+
+<!-- ============ 2 产品技术 ============ -->
+<section id="s2">
+  <h2>2. 产品与技术：落地真相</h2>
+  <ul>
+    <li><b>生产环境真实使用</b>：OpenRouter token 用量榜首（K2.5 领衔）+ K3 开源"开发者热情远超预期" [C]；SimilarWeb 月访问约 3,300 万 [C]——生产调用量，不是 benchmark 刷分。</li>
+    <li><b>工程能力</b>：GTC 2026 主会场演讲 + K2.5 技术路线完整披露 [C]；K3 为 2.8 万亿参数、原生多模态、100 万 token 上下文，2026-07-27 全量权重开源（全球参数最大开源模型）[B]。</li>
+    <li><b>三本账</b>：K3 定价输入 ¥20/输出 ¥100 每百万 token（≈$3/$15），缓存命中 $0.30 [B 官网]；<b>较 K2.6 提价 2.1 倍仍放量</b> [C]——毛利未披露，但"涨价不降量"说明定价权为真。</li>
+    <li><b>标准产品 vs 定制</b>：几乎全标准品（API/订阅），无交付包袱——与智谱（政企项目制，毛利率 50%+ 但重交付 [A 招股书]）的模式分野。</li>
+    <li><b>壁垒在哪一层</b>：<b>时间差 + 开发者心智（开源分发）</b>。"OpenRouter 默认选项"的位置有自增强性（工具链适配→教程→再适配）。</li>
+    <li><b>基础模型升级对它＝加深护城河</b>——它自己就是基础模型；风险在同级开源竞品而非上游。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：产品是［真落地］，壁垒［时间差］（领先窗口约 6-12 个月，需代代续上）（证据等级：B/C）｜方向：[支持投资] ｜ 触发依据：OpenRouter 登顶 + 提价 2.1 倍不降量。</blockquote>
+</section>
+
+<!-- ============ 3 商业模式 ============ -->
+<section id="s3">
+  <h2>3. 商业模式与单位经济</h2>
+  <ul>
+    <li><b>一单的账</b>：API 按 token 计费、毛利未披露（未验证）；2.8T 参数模型推理成本显著——<b>毛利是否为正只有递表能回答</b>（9.5 登记）。</li>
+    <li><b>CAC 与回收</b>：2024 年模式是"月投流数千万、70% 用户靠买" [C]，2025-02 被杨植麟亲手砍掉；当前增长靠模型代差与开源口碑，<b>边际 CAC≈0</b>。C 端 MAU 3,600 万→967 万（2025-09）[C] 是主动弃阵地。</li>
+    <li><b>规模效应方向</b>：API 70%+ 续费属性 → 收入翻倍销售费用不翻倍；算力成本是主变量（与阿里云深度绑定）。</li>
+    <li><b>收入质量</b>：预收/订阅制、无长账期应收、无关联收入——教科书级。</li>
+  </ul>
+  <div class="chart" id="chartArr"></div>
+  <p class="caliber">数据口径：ARR 轨迹（亿美元）。2025 全年 &lt;0.3 为推算（"K2.5 后 20 天超 2025 全年" [C]）；2026-02/04/06 为融资语境多源转述 [C]，单源链未审计。</p>
+  <blockquote><b>本节判断</b>：这是［产品公司］，规模化后［更赚］——前提是毛利为正（未验证）（证据等级：C）｜方向：[支持投资，但挂未验证条件] ｜ 触发依据：ARR 结构 70% API + 零 CAC 增长。</blockquote>
+</section>
+
+<!-- ============ 4 竞争 ============ -->
+<section id="s4">
+  <h2>4. 竞争格局</h2>
+  <ul>
+    <li><b>真实竞对清单</b>：<b>DeepSeek</b>（开源生态位正主、商业化克制——最危险的价格破坏者）；<b>阿里通义</b>（下载量王+云分发，且是大股东，双重身份）；<b>字节豆包</b>（C 端 7.1 亿 MAU 级流量+资本）；智谱（政企/已上市）、MiniMax（同梯队）。"客户不自建"随开源成熟而普及——<b>既是 Kimi 的机会（分发）也是天花板（免费替代）</b>。</li>
+    <li><b>大厂阴影测试</b>：基座模型是大厂补贴得起的游戏。生存依赖三点：① 技术代差连续续上（K2→K2.5→K3 三个回合已证）；② 开源全球心智 [C]；③ 资本弹药（2026 年融资超 39 亿美元 [C]）。</li>
+    <li><b>阿里双重身份</b>：FY2024 投 8 亿美元持约 36% 优先股 [A]；同时是最大股东、核心算力供应商、通义母公司——采购定价公允性与资源倾斜持续性是结构性疑点（9.5 登记）。</li>
+    <li><b>我方资源注入</b>：不适用（假想题）。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：它［能］活到终局，凭<b>技术代差 × 开源分发的连续兑现</b>；但终局是"全球开源基座之一"而非"中国版 OpenAI 平台"（证据等级：B/C）｜方向：[中性偏支持] ｜ 触发依据：三个回合代差兑现 + OpenRouter 持续第一；威胁同样清晰。</blockquote>
+</section>
+
+<!-- ============ 5 团队 ============ -->
+<section id="s5">
+  <h2>5. 团队（一票否决项）</h2>
+  <ul>
+    <li><b>创始人-事情匹配度</b>：杨植麟（清华→CMU，Transformer-XL/XLNet 一作级履历）做基座模型是顶配；2025-02"自砍投流"与 2026 激进开源两次转向，决策颗粒度显示真 CEO 素质 [C]。</li>
+    <li><b>股权红线</b>：① <b>2024-04 A 轮后套现数千万美金</b>（界面报道）[C]——公司刚一岁，治理折价项；② <b>循环智能系仲裁未决</b>（5 家投资方，涉张予彤授股程序）[C]——招股书必披露；③ 朱啸虎口径金沙江已获 9.5% 股份仍不满 [C]，补偿谈判空间仍在。</li>
+    <li><b>核心团队</b>：约 300 人（社保 233 <span class="grade gB">B</span> vs 宣称约 300 <span class="grade gD">D</span>）支撑 3 亿美元 ARR，人效极高；未见预训练核心流失报道 [C]。张予彤升总裁（2025-12）负责商业化与融资——信号也是风险。</li>
+    <li><b>说-做对账</b>："不着急上市"（2025-12-31）→ 股东决议筹备上市（2026-07）→ 辟谣"本月递表"（2026-08-03）[D/C]——<b>PR 口径与行为背离，行为（股改+股东决议）才是证据</b>。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：［通过，但带治理折价］——不触发一票否决（无欺诈实锤、无团队崩解）；折价理由：创始人早期套现 + 未决仲裁 + 授股程序争议（证据等级：C）｜方向：[削弱投资] ｜ 触发依据：三条均 C 级多源一致，招股书后可升级定级。</blockquote>
+</section>
+
+<!-- ============ 6 财务核验 ============ -->
+<section id="s6">
+  <h2>6. 财务核验</h2>
+  <ul>
+    <li><b>三件套适用性修正</b>：本标的非项目制，<b>外部化基线/中标加总不适用</b>（政府采购检索无记录）——如实登记为空，改用替代轨迹：ARR 披露链 [C] + 第三方调用量 [C] + 官方定价页 [B]。</li>
+    <li><b>代理变量（A 级锚）</b>：阿里 8 亿美元/36%（FY2024 年报）——估值序列起点经审计背书；智谱/MiniMax 招股书提供审计级赛道参照。</li>
+    <li><b>ARR 轨迹（C 级单源链）</b>：2026-02 破 1 亿 → 04 破 2 亿 → 06 破 3 亿美元 [C]——方向可信（多轮融资语境反复引用且无人证伪），绝对值待审计。</li>
+    <li><b>月 burn 与现金跑道</b>：2026 年融资超 39 亿美元 [C]，弹药行业最厚；burn 未验证（9.5）。</li>
+    <li><b>历史轮次条款</b>：清算优先权/回购/对赌堆叠完全不可见（未验证，9.5）——假想题无法完成的一步。</li>
+  </ul>
+  <blockquote><b>本节判断</b>：数字［方向可信、绝对值未验证］（证据等级：ARR 链 C；锚点 A）｜方向：[中性] ｜ 触发依据：ARR 与融资事件互相咬合，无独立证伪；但单源。</blockquote>
+</section>
+
+<!-- ============ 7 估值 ============ -->
+<section id="s7">
+  <h2>7. 估值与条款</h2>
+  <ul>
+    <li><b>估值锚定（下轮倒推）</b>：现价锚 = F 轮投后 350 亿美元 [C]；G 轮传闻投前 500 亿美元 [C]。</li>
+    <li><b>有效 PS 锚推演链</b>：上市可比 → 智谱 2026E 收入约 5-6 亿元（H1 1.91 亿 +325% [A 招股书]）支撑 5,000 亿+港元市值，PS 数百倍但<b>流通盘仅 2.67%、解禁后波动巨大</b> [C]——情绪镜像不是定价锚；一级可比 → 自身轮次链 25→43→200→315→350 亿美元。<b>对 IPO 候选标的，流动性折扣反转为"IPO 溢价"</b>。</li>
+    <li><b>期望 MOIC 测算 [自定框架]</b>（2030 退出）：牛市 25% × 4.3x（ARR 100 亿 ×15x=1,500 亿）＋ 中性 50% × 1.7x（50 亿 ×12x=600 亿）＋ 熊市 25% × 0.34x（15 亿 ×8x=120 亿）→ <b>期望 ≈1.5x &lt; 3x 门槛</b>。门槛价反推：期望市值 525 亿 ÷ 3 ≈ <b>入场 ≤150-175 亿美元</b>；带保护条款放宽至 ~250 亿。G 轮 500 亿进 → 期望仅 ~1.05x，比买二级还差。</li>
+    <li><b>敏感性</b>：ARR 中枢下调 30% → 期望 ~1.1x；牛市概率上调到 40% → 也只 ~1.9x。<b>350 亿价位在任何合理概率分布下都喂不饱一级回报要求</b>。</li>
+    <li><b>条款方案（假想）</b>：无新钱位置（F 轮超募 3 倍提前关闭 [C]）；老股转让必锚最新轮。</li>
+  </ul>
+  <div class="chart" id="chartMoic"></div>
+  <p class="caliber">数据口径：三档情景 MOIC（350 亿美元入场、2030 退出）。虚线为一级门槛 3x [自定]；期望 1.5x = 概率加权。ARR 为 C 级单源链，测算为框架演示非精确预测。</p>
+  <blockquote><b>本节判断</b>：可接受估值上限 <b>150 亿美元（干净条款）/ 250 亿美元（带保护条款）</b>，必备条款：回购兜底 + 反稀释 + IPO 折扣（证据等级：测算基于 C 级 ARR）｜方向：[削弱投资] ｜ 触发依据：期望 MOIC 1.5x &lt; 3x 门槛；本节是第 0 节"不投"的直接来源。</blockquote>
+</section>
+
+<!-- ============ 8 退出 ============ -->
+<section id="s8">
+  <h2>8. 退出路径</h2>
+  <div class="tablebox"><table>
+    <tr><th>通道</th><th>概率</th><th>预期回报倍数</th><th>前提</th></tr>
+    <tr><td>IPO</td><td>高（股改完成+股东决议+承销商传闻 [C]，6-18 个月）</td><td>0.5-4x（波动极大）</td><td>港股大模型板块情绪不崩；参考智谱 116→2,980→解禁回落 [C]</td></tr>
+    <tr><td>并购</td><td>极低</td><td>—</td><td>350 亿美元无人接盘；阿里增持触反垄断</td></tr>
+    <tr><td>老股转让</td><td>中</td><td>锚最新轮 ±20%</td><td>一级热度维持；窗口期依赖</td></tr>
+    <tr><td>回购（兜底）</td><td>不可执行</td><td>—</td><td>公司现金再多也不会为 350 亿估值回购兜底</td></tr>
+    <tr><td>集团收购整合</td><td>不适用</td><td>—</td><td>无产业方身份</td></tr>
+  </table></div>
+  <blockquote><b>本节判断</b>：最可能的退出是［港股 IPO 后解禁卖出］，该通道［给得起］回报但<b>给的是波动率不是 alpha</b>——入场价决定一切（证据等级：C）｜方向：[中性] ｜ 触发依据：智谱先例显示该板块二级定价与基本面脱钩（2.67% 流通盘效应）。</blockquote>
+</section>
+
+<!-- ============ 9 风险 ============ -->
+<section id="s9">
+  <h2>9. 风险与投前证伪清单</h2>
+  <div class="tablebox"><table>
+    <tr><th>风险</th><th>概率</th><th>杀伤力</th><th>先行指标（公开可观测）</th></tr>
+    <tr><td>🔴 开源平权压价：DeepSeek/通义同级模型免费，API 溢价窗口收窄</td><td>高</td><td>高</td><td>OpenRouter 周调用量排名变化；K3 后继者与 DeepSeek 新版发布时间差</td></tr>
+    <tr><td>🔴 二级板块退潮：智谱解禁后走势若崩盘，一级 350/500 亿锚失效</td><td>中</td><td>高</td><td>2513.HK 股价（7-08 已解禁）；港股 AI 板块成交额</td></tr>
+    <tr><td>🔴 地缘/知产清算：白宫指控升级为实体清单或 Anthropic 诉讼</td><td>低-中</td><td>高</td><td>美商务部/法院公开文件；K3 海外分发渠道异动</td></tr>
+    <tr><td>🟡 治理爆雷：仲裁不利裁决 / F-G 轮再传创始人减持</td><td>低-中</td><td>高</td><td>招股书"法律诉讼"章节；工商/股东变更</td></tr>
+    <tr><td>🟡 阿里双重身份反噬：算力折扣回收或资源转向通义</td><td>中</td><td>中</td><td>阿里财报 AI capex 表述；月之暗面多云采购信号</td></tr>
+    <tr><td>🟡 毛利为证伪区：API 毛利若为负，增长越快亏得越快</td><td>未验证</td><td>高</td><td>招股书毛利率（递表即知）</td></tr>
+  </table></div>
+  <p><b>投前证伪清单</b>（发现即终止）：① 招股书显示 API 毛利为负或跑道 &lt;18 个月；② 仲裁裁决致创始人股权/控制权实质受损；③ G 轮低于 F 轮 350 亿定价（down round = 聪明钱已重新定价）。</p>
+  <blockquote><b>反方陈述</b>（为什么聪明钱在抢）：ARR 曲线是 Anthropic 早期形状，5 个月 3 倍且 70% API，收入质量是全球顶级 VC 最认的那种；开源分发是 DeepSeek 验证过的国家级叙事，Kimi 是其中商业化最坚决的；港股窗口开着，智谱 10 倍涨幅在先，500 亿 IPO 大概率被秒——F/G 轮赚的是"一级半"套利，不是十年持有，用 VC 的 MOIC 尺子量它本身就量错了。</blockquote>
+</section>
+
+<!-- ============ 9.5 待补 ============ -->
+<section id="s95">
+  <h2>9.5 待补证据清单</h2>
+  <div class="tablebox"><table>
+    <tr><th>当前判断</th><th>现依据及证据等级</th><th>需要什么材料升级</th><th>拿到后回改哪节</th></tr>
+    <tr><td>ARR 3 亿美元及 70% API 占比</td><td>公司放风→媒体转述，C 单源链</td><td>招股书审计收入与分部</td><td>第 0/3/6/7 节</td></tr>
+    <tr><td>毛利与 burn 未验证</td><td>无</td><td>招股书毛利表、现金流量表</td><td>第 3/6/7 节（可能推翻"产品公司更赚"）</td></tr>
+    <tr><td>治理折价幅度</td><td>套现/仲裁均为 C 级报道</td><td>招股书法律诉讼与股东章节、F/G 轮老股转让披露</td><td>第 5 节定级</td></tr>
+    <tr><td>条款堆叠</td><td>完全不可见</td><td>股东协议（假想题拿不到）</td><td>第 6/7 节</td></tr>
+    <tr><td>阿里持股稀释与关联采购</td><td>FY2024 36% [A]，之后无披露</td><td>阿里 FY2026 年报 + 招股书关联交易节</td><td>第 4/6 节</td></tr>
+    <tr><td>社保 233 vs 宣称 300 缺口</td><td>B/D 各一</td><td>招股书员工数</td><td>第 5 节（微调）</td></tr>
+  </table></div>
+  <p class="caliber">纪律：本表非空，第 0 节已声明"阶段性结论"；递表后先回来销表，再改结论。</p>
+</section>
+
+<!-- ============ 10 回访 ============ -->
+<section id="s10">
+  <h2>10. 回访区（对答案清单）</h2>
+  <ul>
+    <li><b>中间点</b>（递表时，预计 2026Q4-2027Q1）：招股书收入/毛利/burn/仲裁披露 vs 9.5 表逐条销号；</li>
+    <li><b>T+12 个月</b>（2027-08-08）：① 是否递表/上市、定价估值 vs 350/500 亿传闻；② ARR 是否 ≥6 亿美元（"估值透支"的证伪线）；③ OpenRouter 开源第一是否仍是 Kimi 系；④ 仲裁状态；⑤ 智谱解禁后走势（板块锚）。</li>
+    <li>复盘三问：（到期填）</li>
+  </ul>
+</section>
+
+<!-- ============ 附录 ============ -->
+<section id="appendix">
+  <h2>附录：数据质量声明与学习卡</h2>
+  <h3>数据质量声明</h3>
+  <ul>
+    <li><b>证据分布</b>：A 级 3 项（阿里 FY2024 年报持股、智谱招股书、MiniMax 招股书）；B 级 4 项（社保人数、官网定价页、K3 开源发布、产品下线公告）；ARR/估值/MAU/融资额均为 C 级媒体多源链；D 级仅公司表态（"消息不实"等），未单独支撑任何结论。</li>
+    <li><b>单源链风险</b>：ARR 1→2→3 亿美元全部源自公司放风→媒体转述，无独立审计；方向与融资事件咬合故采信，绝对值待招股书。</li>
+    <li><b>工具修正声明</b>：外部化基线/中标加总对本标的不适用（非项目制），已如实登记为空并换用替代轨迹；流动性折扣对 IPO 候选标的反转为溢价处理。</li>
+    <li><b>采集表</b>：<code>2.分析材料/1_2026-08_月之暗面_公开信息采集表.md</code>（七轨，逐条带来源与检索日期）。</li>
+  </ul>
+  <details class="fold"><summary>一级市场学习卡 · 8 个术语/方法</summary><div class="body"><div class="tbl-scroll"><table>
+    <tr><th>术语</th><th>解释</th><th>本案演示</th></tr>
+    <tr><td>ARR（年度经常性收入）</td><td>订阅/调用类收入年化值，一级 SaaS/模型公司的"准收入"口径，未经审计</td><td>Kimi ARR 2026-02 破 1 亿→06 破 3 亿美元 [C]，5 个月 3 倍</td></tr>
+    <tr><td>期望 MOIC（加权回报倍数）</td><td>各情景（概率 × 回报倍数）加总，一级投资的门槛尺</td><td>本案 25%×4.3 + 50%×1.7 + 25%×0.34 ≈ 1.5x &lt; 3x 门槛 → 不投</td></tr>
+    <tr><td>有效 PS 锚推演链</td><td>上市可比 PS → 流动性折扣 → Captive 折扣 → 有效区间</td><td>本案修正：IPO 候选标的流动性折扣反转为"IPO 溢价"；智谱 2.67% 流通盘扭曲 PS 数百倍，只作情绪镜像</td></tr>
+    <tr><td>三件套适用性修正</td><td>外部化基线/中标加总只适用项目制公司；产品型公司改用"ARR 链+第三方调用量"</td><td>政府采购检索为空如实登记，改用 OpenRouter 用量 [C] + 官方定价页 [B]</td></tr>
+    <tr><td>代理变量法</td><td>用关联上市公司审计披露锚定标的</td><td>阿里年报 8 亿美元/36% → 估值序列起点 22-25 亿美元获 A 级背书</td></tr>
+    <tr><td>Down round</td><td>新一轮估值低于上轮，聪明钱重新定价的信号</td><td>本案证伪条件③：G 轮若 &lt;350 亿定价即终止</td></tr>
+    <tr><td>双重身份风险</td><td>股东同时是供应商/竞对，利益输送与资源断供双向风险</td><td>阿里：最大股东（36%）+ 算力供应商 + 通义母公司</td></tr>
+    <tr><td>说-做对账（PR 版）</td><td>口头表态不可作证据，行为（股改/股东决议）才可</td><td>"不着急上市"（2025-12）→ 股东决议筹备上市（2026-07）→ 辟谣递表（2026-08）</td></tr>
+  </table></div><p class="caliber">读法：前四条是本次实际用到的方法，后四条是一级通用纪律在本案的落点。</p></div></details>
+</section>
+
+<footer>
+  数据截止 2026-08-08 ｜ 本页为全量版：内容与 <b>2026-08_月之暗面_投资memo.md</b>、<b>2026-08_月之暗面_速读版.md</b> 一致（图表与折叠区为 HTML 独有的呈现增强）｜ 一级假想题，结论只登记不实盘 [V2][V3]｜ 公开发布级：全文公开信息可复现，逐条证据等级见采集表 ｜ 断网时 ECharts 不加载，全部数据表格仍完整可读。<br>
+  本文由 <b>kimi-K3</b> 生成
+</footer>
+</div>
+
+<script>
+(function(){
+  if (typeof echarts === 'undefined') return;
+  var G = {textStyle:{fontFamily:'-apple-system,"PingFang SC",sans-serif'},color:['#1f4e79','#c0392b','#b7791f','#5b8c5a','#8064a2','#4bacc6']};
+  function mk(id, opt){var el=document.getElementById(id);if(!el)return;var c=echarts.init(el);c.setOption(Object.assign({},G,opt));window.addEventListener('resize',function(){c.resize();});}
+
+  // 估值时间线（亿美元，对数轴）
+  mk('chartVal',{
+    tooltip:{trigger:'axis',formatter:function(p){var d=p[0];return d.name+'<br/>估值 '+d.data+' 亿美元';}},
+    grid:{left:64,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['2024-02 A轮','2025-12','2026-03','2026-05 D轮','2026-06','2026-08 F轮','G轮传闻']},
+    yAxis:{type:'log',name:'亿美元（对数轴）',logBase:10,min:10,max:1000},
+    series:[{name:'投后估值',type:'line',symbol:'circle',symbolSize:9,lineStyle:{width:3},
+      label:{show:true,position:'top',fontSize:11},
+      data:[25,43,180,200,315,350,{value:500,symbol:'emptyCircle',symbolSize:12,itemStyle:{color:'#c0392b'},label:{formatter:'500? [传闻]'}}],
+      markLine:{symbol:'none',data:[
+        {yAxis:150,name:'可投上限',label:{formatter:'可投上限 150'},lineStyle:{color:'#5b8c5a',type:'dashed'}}
+      ]}}]
+  });
+
+  // ARR 轨迹（亿美元）
+  mk('chartArr',{
+    tooltip:{trigger:'axis'},
+    grid:{left:52,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['2025 全年(推算)','2026-02','2026-04','2026-06']},
+    yAxis:{type:'value',name:'ARR（亿美元）'},
+    series:[{name:'ARR',type:'bar',barWidth:'46%',
+      label:{show:true,position:'top'},
+      data:[{value:0.28,itemStyle:{color:'#aab'}},1,2,3],
+      itemStyle:{color:'#1f4e79'}}]
+  });
+
+  // 三档情景 MOIC
+  mk('chartMoic',{
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+    grid:{left:52,right:24,top:36,bottom:30},
+    xAxis:{type:'category',data:['熊市 25%','中性 50%','牛市 25%','期望(加权)']},
+    yAxis:{type:'value',name:'MOIC（倍）'},
+    series:[{name:'MOIC',type:'bar',barWidth:'46%',
+      label:{show:true,position:'top',formatter:'{c}x'},
+      data:[{value:0.34,itemStyle:{color:'#c0392b'}},{value:1.7,itemStyle:{color:'#b7791f'}},{value:4.3,itemStyle:{color:'#5b8c5a'}},{value:1.5,itemStyle:{color:'#1f4e79'}}],
+      markLine:{symbol:'none',data:[{yAxis:3,label:{formatter:'一级门槛 3x'},lineStyle:{color:'#c0392b',type:'dashed'}}]}}]
+  });
+})();
+</script>
+</body>
+</html>

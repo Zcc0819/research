@@ -1,0 +1,32 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued) 關鍵審計事項（續）
+How our audit addressed the key audit
+Key audit matter matter
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+Impairment assessment of debtors
+應收賬款的耗損評估
+Debtors of the Group amounted to HK$13,110,600,000, We evaluated the management’s impairment
+after an impairment provision of HK$661,888,000, as assessment of debtors by understanding
+at 31 December 2021. The management performed an and reviewing the management’s provision
+impairment assessment of debtors by applying the simplified matrix, testing the debtors’ ageing analysis,
+approach to provide for expected credit losses (“ECLs”), discussing with the management about
+taking into account the debtors’ financial position, historical the status of significant overdue individual
+settlement records, past experience and other factors. The debtors’ balances, and reviewing the historical
+Group has established a provision matrix that is based on settlement pattern of individual debtors.
+its historical credit loss experience, adjusted for forward- We also reperformed the management’s
+looking factors specific to the debtors and the economic calculation of ECLs for debtors.
+environment, which involved significant management’s 我們已透過了解及審視管理層之撥備矩陣、測試
+judgement and estimation uncertainty. 應收賬款的賬齡分析，與管理層討論個別嚴重逾
+於二零二一年十二月三十一日， 貴集團的應收賬款為港幣 期的應收賬款結餘的情況，以及審視個別債務人
+13,110,600,000元（已扣除耗損撥備港幣661,888,000元）。管 的過往償還模式，評價管理層所作的應收賬款耗
+理層已就應收賬款作出耗損評估，有關評估應用簡化處理方法 損評估。此外，就管理層計算應收賬款預期信貸
+來提撥預期信貸虧損，並經計及債務人之財政狀況、過往償還 虧損之方法而言，我們亦已再次進行有關計算。
+記錄、過往經驗及其他因素。 貴集團已基於其過往信貸虧損
+經驗制定撥備矩陣，並因應與債務人及經濟環境相關並具有前
+瞻性之特定因素作出調整，而此涉及重大管理層判斷及估算不
+確定性。
+The details of the Group’s debtors are included in notes 3
+and 25 to the financial statements.
+貴集團應收賬款的詳情載於財務報表附註3及附註25。
+Annual Report 2021 | 二零二一年年報 145

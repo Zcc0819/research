@@ -1,0 +1,41 @@
+Notes to Financial Statements
+財務報表附註
+31 December 2021 二零二一年十二月三十一日
+3 SIGNIFICANT ACCOUNTING JUDGEMENTS 3 重大會計判斷及估計（續）
+AND ESTIMATES (continued)
+Estimation uncertainty (continued) 估計之不確定性（續）
+Impairment losses for debtors 應收賬款之耗損虧損
+The Group uses a provision matrix to calculate ECLs 本集團使用撥備矩陣計算應收賬款之預期信
+for debtors. The provision matrix is initially based on the 貸虧損。撥備矩陣最初基於本集團之過往觀
+Group’s historical observed default rates. The Group will 察所得違約率。本集團會調整矩陣，根據具
+calibrate the matrix to adjust the historical credit loss 有前瞻性之資料調整過往信貸虧損經驗。於
+experience with forward-looking information. At each 各個報告日期，本集團會更新過往觀察所得
+reporting date, the historical observed default rates are 違約率，並會分析具有前瞻性之估計數字之
+updated and changes in the forward-looking estimates are 變動。
+analysed.
+The assessment of the correlation among historical 對過往觀察所得違約率、經濟狀況預測及預
+observed default rates, forecast economic conditions 期信貸虧損之相關性之評估屬重大估算。預
+and ECLs is a significant estimate. The amount of ECLs 期信貸虧損金額受經濟情況及經濟狀況預測
+is sensitive to changes in circumstances and forecast 之變動影響。本集團過往信貸虧損經驗及經
+economic conditions. The Group’s historical credit loss 濟狀況預測亦可能無法反映客戶日後之實際
+experience and forecast of economic conditions may also 違約情況。本集團應收賬款之預期信貸虧損
+not be representative of a customer’s actual default in the 資料於財務報表附註25披露。
+future. The information about the ECLs on the Group’s
+debtors is disclosed in note 25 to the financial statements.
+The carrying amount of debtors at 31 December 2021 was 於二零二一年十二月三十一日，應收賬款
+HK$13,110,600,000 (2020: HK$6,192,604,000). 賬面值為港幣13,110,600,000元（二零二零
+年：港幣6,192,604,000元）。
+Impairment losses for goodwill 商譽之耗損虧損
+As explained in the accounting policy set out in note 2.4 誠如財務報表附註2.4下有關「業務合併及商
+to the financial statements for “Business combinations and 譽」之會計政策所闡釋，商譽會被分配至預
+goodwill”, goodwill is allocated to a cash-generating unit 期可受惠於合併協同效益之一個現金生產單
+or to a group of cash-generating units that are expected 位或一個現金生產單位組別，以便進行耗損
+to benefit from the synergies of the combination for 評估，而此需要作出重大判斷。根據《香港
+the purpose of impairment assessment, which requires 會計準則》第36號「資產耗損」，本集團確定
+significant judgement. The Group determined that the 獲分配商譽之現金生產單位組別為本集團就
+group of cash-generating units to which goodwill was 內部申報目的而監察商譽之最低層次，且監
+allocated reflected the lowest level at which goodwill 察層面不會大於一個經營分部。
+was monitored for internal reporting and was not larger
+than an operating segment in accordance with HKAS 36
+Impairment of Assets.
+208 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

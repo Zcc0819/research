@@ -1,0 +1,60 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued)
+關鍵審計事項（續）
+Assessing impairment of intangible assets, property, plant and equipment and right-of-use assets
+(continued)
+無形資產、物業、廠房及設備以及使用權資產的耗損評估（續）
+Refer to notes 15, 16 and 18 to the consolidated financial statements and the accounting policies in note 2.4.
+15 16 18 2.4
+參見綜合財務報表附註 、 和 以及附註 中的會計政策。
+How the matter was addressed in our
+The Key Audit Matter audit
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+In assessing the value in use, the projected cash flows • with the assistance of our internal
+associated with the CGUs are discounted. The preparation valuation specialists, assessing the
+of discounted cash flow forecasts can be highly subjective appropriateness the methodology applied
+and requires the exercise of significant management by management with reference to the
+judgement and estimation, in particular in determining requirements of the prevailing accounting
+revenue growth rates, gross profit margins and discount standards and the reasonableness of the
+rates applied. discount rates used by benchmarking
+against other comparable companies
+在評估使用價值時，對與現金產生單位相關的預計現金流
+and considering the risks specific to
+量進行貼現。貼現現金流預測的編製可能具有高度的主觀
+each relevant CGU subject to impairment
+性，需要管理層做出重大判斷和估計，特別是在確定收入增
+assessment;
+長率、毛利率和所應用的貼現率方面。
+•
+在我們內部估值專家的協助下，參考現行
+We identified assessing impairment of intangible assets,
+會計準則規定，評估管理層所應用方法是
+property, plant and equipment and right-of-use assets as
+否適當，並透過與其他可資比較的公司進
+a key audit matter because of the significant management
+行基準比較及考慮進行耗損評估的各相關
+judgement and estimation required in making assumptions
+現金產生單位的特定風險，評估所使用貼
+and estimations which are inherently uncertain and could be
+現率是否合理；
+subject to management bias.
+• obtaining from management sensitivity
+我們將無形資產、物業、廠房及設備以及使用權資產的耗損
+analyses of the key assumptions adopted
+評估確定為一個關鍵審計事項，因為管理層在做出假設和
+in the discounted cash flow forecasts to
+估計時需要進行重要的判斷和估計，而這些假設和估計本
+evaluate the impact of changes in the key
+質上是不確定的，並且可能會受到管理層偏見的影響。
+assumptions to the conclusions reached
+and whether there are any indicators of
+management bias;
+•
+從管理層獲得貼現現金流預測中採用的關
+鍵假設的敏感性分析，以評估關鍵假設的
+變化對得出結論的影響，以及是否存在管
+理層偏向的指標；
+154
+China Everbright Environment Group Limited
+中國光大環境（集團）有限公司

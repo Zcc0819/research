@@ -1,0 +1,72 @@
+Consolidated Statement of Cash Flows
+綜合現金流量表
+Year ended 31 December 2024
+截至二零二四年十二月三十一日止年度
+2024 2023
+Notes
+二零
+HK
+二
+$
+四’00 年
+0
+二零
+HK
+二
+$
+三’00 年
+0
+附註 港幣千元 港幣千元
+OPERATING ACTIVITIES
+Profit before tax 經營活動 4,867,141 7,124,484
+Adjustments for: 除稅前盈利
+Depreciation of property, plant and 經調整：
+equipment 物業、廠房及設備折舊 8 668,991 657,564
+Depreciation of right-of-use assets 8 75,986 74,013
+Amortisation of intangible assets 使用權資產折舊 8 1,455,659 1,444,112
+Write-down of inventories to net 無形資產攤銷
+realisable value 存貨撇減至可變現淨值 8 – 35,405
+Finance costs 7 3,006,954 3,527,788
+Dividend income 財務費用 6 – (857)
+Interest income 股息收入 6 (87,187) (119,464)
+Share of losses/(profits) of 利息收入
+joint ventures 所佔合營企業虧損╱ 13,140 (113,439)
+Share of profits of associates （盈利） (393) (22,518)
+Fair value (gains)/losses, net: 所佔聯營公司盈利
+公允值（收益）╱虧損
+Other financial assets 淨額：
+– unlisted equity investment 其他財務資產 6 (464) 1,586
+Other financial assets －非上市股本 投資
+– unlisted investments 其他財務資產 6 (670) 51,343
+Fair value gain on investment －非上市投資
+properties 投資物業公允值收益 6 (1,060) (1,383)
+Expected credit losses on debtors,
+net 應收賬款預期信貸虧損 6 439,103 572,172
+Expected credit losses on other 淨額
+receivables, net 其他應收款項 6 117,790 21,599
+Reversal of expected credit losses 預期信貸虧損淨額
+on contract assets, net 合約資產預期信貸虧損 6 (12,835) (91,022)
+Impairment of goodwill 淨額撥回 6 63,697 –
+Impairment of property, 商譽耗損
+plant and equipment 物業、廠房及設備耗損 6 600,124 380,086
+Impairment of intangible assets 6 696,868 210,144
+Impairment of right-of-use assets 無形資產耗損 6 82,825 65,423
+Loss on disposal and write-off of 使用權資產耗損
+property, plant and equipment, net 出售及撇銷物業、廠房及 6 4,506 30
+Loss on disposal and write-off of 設備之虧損淨額
+intangible assets, net 出售及撇銷無形資產之 6 443 2,852
+Effect of foreign exchange rates 虧損淨額
+changes, net 匯率變動之影響淨額 (332,052) (711,502)
+Operating cash flows before working
+capital changes 營運資金變動前的 11,665,566 13,108,416
+經營現金流量
+(Increase)/decrease in inventories (109,046) 57,527
+Increase in contract assets 存貨（增加）／減少 (1,038,496) (1,097,470)
+Increase in debtors, other receivables, 合約資產增加
+deposits and prepayments 應收賬款、其他應收款項、 (2,235,952) (4,638,183)
+Decrease in creditors, other payables 按金及預付款項增加
+and accrued expenses 應付賬款、其他應付款項及 (528,986) (4,462,878)
+應計費用減少
+160
+China Everbright Environment Group Limited
+中國光大環境（集團）有限公司

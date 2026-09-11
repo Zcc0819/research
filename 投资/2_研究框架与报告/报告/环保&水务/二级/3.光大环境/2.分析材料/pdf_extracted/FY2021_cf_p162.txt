@@ -1,0 +1,47 @@
+Consolidated Statement of Cash Flows
+綜合現金流量表
+Year ended 31 December 2021 截至二零二一年十二月三十一日止年度
+2021 2020
+二零二一年 二零二零年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+CASH FLOWS FROM 融資活動所得
+FINANCING ACTIVITIES 現金流量
+Proceeds from issue of asset-backed 發行資產支持證券（「資產支
+securities (“ABS”), medium-term 持證券」）、中期票據（「中
+notes (“MTN”), and super and short- 期票據」）及超短期融資券
+term commercial papers (“SCP”), net （「超短期融資券」）所得
+of related expenses paid 款項（已扣除已付相關 30, 31, 32,
+開支） 40(b) 5,787,413 2,531,608
+Repayment of corporate bond, 償還公司債券、資產支持
+ABS and SCP 證券及超短期融資券 (1,041,289) (378,889)
+New bank and other loans 新增銀行及其他貸款 33,536,609 33,275,767
+Repayment of bank and other loans 償還銀行及其他貸款 (17,409,971) (16,376,833)
+Capital contributions received by non 非全資附屬公司從非控股
+wholly-owned subsidiaries from 股東收取所得之出資額
+non-controlling shareholders 267,196 456,313
+Acquisition of non-controlling interests 收購非控股權益 39 (2,521) (70,814)
+Decrease in amounts due to 應付附屬公司非控股股東
+non-controlling shareholders of 款項減少
+subsidiaries – (16,865)
+Decrease/(increase) in pledged bank 已抵押銀行存款減少╱
+deposits （增加） 310,801 (263,155)
+Interest paid 已付利息 40(a) (3,039,268) (2,246,018)
+Interest portion of lease payments 租賃款項之利息部份 (4,154) (4,264)
+Principal portion of lease payments 租賃款項之本金部份 (53,981) (55,296)
+Dividend paid to equity holders of 已付本公司權益持有人之
+the Company 股息 (2,150,041) (1,658,604)
+Dividend paid to non-controlling 已付附屬公司非控股股東之
+shareholders of subsidiaries 股息 (347,417) (226,684)
+Net cash flows from 融資活動所得現金流量
+financing activities 淨額 15,853,377 14,966,266
+NET INCREASE/(DECREASE) 現金及現金等價物
+IN CASH AND CASH 增加╱（減少）淨額
+EQUIVALENTS 3,865,799 (1,465,817)
+Cash and cash equivalents 年初現金及現金等價物
+at beginning of year 10,860,693 11,742,819
+Effect of foreign exchange 匯率變動之影響淨額
+rates changes, net 320,451 583,691
+CASH AND CASH EQUIVALENTS 年終現金及現金等價物
+AT END OF YEAR 27 15,046,943 10,860,693
+160 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

@@ -1,0 +1,47 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued) 關鍵審計事項（續）
+How our audit addressed the key audit
+Key audit matter matter
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+Impairment assessment of goodwill
+商譽的耗損評估
+The Group is required to test goodwill acquired in business Our procedures to evaluate the management’s
+combinations for impairment annually. The goodwill of impairment assessment of goodwill included:
+the Group amounted to HK$1,561,486,000, after an 我們為了評價管理層的商譽耗損評估而進行的
+impairment of HK$599,196,000, as at 31 December 程序包括：
+2022 and was allocated to the relevant individual cash-
+generating units (“CGUs”) or business segments. The – Assessing management’s identification of
+management’s impairment assessment of goodwill involved CGUs based on the Group’s accounting
+the estimation of the recoverable amounts of the CGUs or policies and our understanding of the
+business segments to which the goodwill was allocated. Group’s business;
+The recoverable amount of the Group’s goodwill as at – 根據 貴集團的會計政策及我們對 貴集
+31 December 2022 was determined using a value in use 團業務的了解，評估管理層對現金生產單
+calculation. Significant management estimates were used 位的識別；
+to determine the key assumptions, such as future revenue
+growth rate, operating margin, terminal growth rate and – Assessing the value in use calculation
+discount rate, that could be affected by expected future methodologies adopted by management;
+market or economic conditions. The assessment process – 評估管理層所採用的使用價值計算法；
+also involved the identification of CGUs by management.
+貴集團須每年就業務合併所得的商譽進行耗損測試。於 – Assessing the key assumptions, including
+二零二二年十二月三十一日， 貴集團的商譽為港幣 future revenue growth rate, operating
+1,561,486,000元（已扣除耗損港幣599,196,000元），其已 margin, terminal growth rate and discount
+獲分配至有關的獨立現金生產單位（「現金生產單位」）或業務 rate, based on our knowledge of the
+分部。管理層進行的商譽耗損評估涉及對獲分配商譽的現金 Group’s business and the industry. We
+生產單位或業務分部的可收回金額作出估計。 貴集團的商 also involved our valuation specialists to
+譽於二零二二年十二月三十一日的可收回金額乃採用使用價 assist in the assessment of the above key
+值計算法來釐定，管理層須使用重大估計來釐定各項主要假 assumptions, which included reference
+設，例如未來收益增長率、經營利潤率、長期增長率及貼現 to the observable market data and
+率，而彼等可能會受預期未來市場或經濟情況影響。此外， comparable companies in the industry;
+管理層在評估過程中亦須識別現金生產單位。 and
+– 根據我們對 貴集團業務及有關行業的認
+The details of the Group’s goodwill are included in notes 3, 識，評估各項主要假設（包括未來收益增長
+6 and 17 to the financial statements. 率、經營利潤率、長期增長率及貼現率）。
+貴集團的商譽詳情載於財務報表附註3、附註6及附註17。 此外，我們亦安排我們的估值專家協助評
+估上述主要假設，包括參考可觀察市場數
+據及業內可供比較的公司；及
+– Assessing the disclosures relating to
+assumptions used in the impairment
+assessment.
+– 評估與耗損評估所用之假設有關之披露。
+138 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

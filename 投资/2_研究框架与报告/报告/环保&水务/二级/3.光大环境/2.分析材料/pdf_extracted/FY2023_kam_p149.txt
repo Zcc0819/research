@@ -1,0 +1,67 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued)
+關鍵審計事項（續）
+How our audit addressed the key audit
+Key audit matter matter
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+Impairment assessment of intangible assets, property, plant and equipment and right-of-use assets
+無形資產、物業、廠房及設備以及使用權資產的耗損評估
+As at 31 December 2023, the carrying amounts of the We obtained an understanding of and
+Group's intangible assets ("IA"), property, plant and evaluated the Group’s procedures in the
+equipment ("PPE") and right-of-use assets ("ROU assets") identification of impairment indicators and
+amounted to HK$30,975,754,000, HK$8,772,807,000 and the determination of the relevant CGUs. We
+HK$807,201,000, respectively. assessed whether impairment losses are made
+with reference to the recoverable amounts
+於二零二三年十二月三十一日， 貴集團無形資產
+of the relevant CGUs being determined
+（「無形資產」）、物業、廠房及設備（「物業、廠房及設
+based on the higher of FVLCD and VIU. We
+備」）以及使用權資產（「使用權資產」）的賬面值分別為
+30,975,754,000 8,772,807,000 evaluated key assumptions and parameters
+港幣 元、港幣 元及港幣
+807,201,000 used in assessing VIU with reference to
+元。
+historical data and market information and
+Management performs impairment assessment on certain involved our internal valuation specialists to
+IA, PPE and ROU assets when an indication of impairment evaluate valuation methodologies and discount
+exists. Impairment losses on IA, PPE and ROU assets of rates used by benchmarking to comparable
+approximately HK$655,653,000 in aggregate have been companies and normal market practice. We
+recognised for the year ended 31 December 2023 to also performed sensitivity analyses on key
+reduce the carrying amounts of these IA, PPE and ROU inputs used, and assessed the disclosures
+assets to their recoverable amounts which are the higher of relating to assumptions used in the impairment
+the fair value less costs of disposal ("FVLCD") and value in assessment.
+use ("VIU").
+我們了解及評估 貴集團識別耗損跡象及釐
+當有耗損跡象時，管理層對若干無形資產、物業、廠房及設 定相關現金產生單位的程序。我們參考相關現
+備以及使用權資產進行耗損評估。截至二零二三年十二月 金產生單位（即根據公允值減出售成本及使用
+三十一日止年度，已確認無形資產、物業、廠房及設備以及 價值之較高者釐定）的可收回金額評估耗損虧
+655,653,000
+使用權資產的耗損虧損合共約港幣 元，以將該 損。我們參考歷史數據及市場資料評估於評估
+等無形資產、物業、廠房及設備以及使用權資產的賬面值減 使用價值中使用的關鍵假設及參數，涉及我們
+至其可收回金額（即公允值減出售成本（「公允值減出售成 的內部估值專家評估基準化測試可資比較公
+本」）與使用價值（「使用價值」之較高者）。 司與正常市場慣例所使用的估值方法及貼現
+率。我們亦對使用的關鍵輸入數據進行敏感度
+Management determined the recoverable amounts of the
+分析，以及評估與耗損評估所用之假設有關之
+relevant cash-generating units ("CGUs") as at 31 December
+披露。
+2023 to which these assets were allocated based on VIU.
+Significant judgements and estimations are involved in the
+assessments of the recoverable amounts of the relevant
+CGUs including assumptions on revenue growth rates,
+operating costs and discount rates.
+管理層已確定根據使用價值分配該等資產的相關現金產生
+單位（「現金產生單位」）截至二零二三年十二月三十一日的
+可收回金額。評估相關現金產生單位的可收回金額涉及重
+大判斷及估計，包括收益增長率、經營成本及貼現率的假
+設。
+The details of the Group's PPE, IA and ROU assets are
+included in notes 3, 6, 15, 16 and 18 to the financial
+statements.
+貴集團的物業、廠房及設備、無形資產以及使用權資產的詳
+3 6 15 16 18
+情載於財務報表附註 、 、 、 及 。
+147
+Annual Report 2023
+二零二三年年報

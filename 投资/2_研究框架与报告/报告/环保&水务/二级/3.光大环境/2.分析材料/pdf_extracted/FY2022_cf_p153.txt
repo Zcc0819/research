@@ -1,0 +1,41 @@
+Consolidated Statement of Cash Flows
+綜合現金流量表
+Year ended 31 December 2022 截至二零二二年十二月三十一日止年度
+2022 2021
+二零二二年 二零二一年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+CASH FLOWS FROM 投資活動所得現金流量
+INVESTING ACTIVITIES
+Dividend received 已收股息 – 165
+Purchase of items of property, plant 購買物業、廠房及設備
+and equipment (1,134,980) (2,148,755)
+Proceeds from disposal of items of 出售物業、廠房及設備
+property, plant and equipment 所得款項 46,018 27,511
+Principal portion of lease payments 租賃款項之本金部份 – (62,210)
+Additions of intangible assets 增置無形資產 (4,333,156) (6,439,608)
+Acquisition of subsidiaries 收購附屬公司 38 (392,935) (1,855,996)
+Disposal of a subsidiary 出售一間附屬公司 4,345 –
+Capital contributions to joint ventures 注資合營企業 (120,412) (73,404)
+Capital contribution to an associate 注資聯營公司 (36,968) –
+Dividend received from a joint venture 從合營企業收取之股息 14,070 –
+Proceeds from disposal of 出售使用權資產之所得款項
+right-of-use assets – 15,474
+Proceeds from disposal of 出售聯營公司之所得款項
+an associate 55,702 1,222
+Decrease/(increase) in amounts due 應收聯營公司款項減少╱
+from an associate （增加） (385) 8,201
+Increase in non-current portion of 預付款項非即期部份增加
+prepayments (111,998) (211,461)
+Repayment from finance lease 融資租賃應收款項還款
+receivables 705 727
+Purchase of other financial assets 購買其他財務資產 (102,008) (74,660)
+Proceeds from disposal and 出售及贖回其他財務資產
+redemption of other financial assets 所得款項 – 147,471
+Decrease in other financial assets 其他財務資產減少 – 236,900
+Decrease/(increase) in deposits with 存款期超過三個月之銀行存
+banks with maturity period over three 款減少╱（增加）
+months (23,684) 3,488
+Net cash flows used in 投資活動所動用之
+investing activities 現金流量淨額 (6,135,686) (10,424,935)
+Annual Report 2022 | 二零二二年年報 151

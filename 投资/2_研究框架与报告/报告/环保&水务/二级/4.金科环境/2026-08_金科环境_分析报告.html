@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金科环境（688466.SH）分析报告 · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+:root{--ink:#1a1a2e;--sub:#5a6270;--line:#e3e6eb;--bg:#f7f8fa;--card:#ffffff;--red:#c0392b;--amber:#b7791f;--green:#1e7e4a;--blue:#1f4e79;--accent:#8b0000;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:15px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 60px;}
+header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+header.hero h1{font-size:26px;letter-spacing:1px;}
+header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+header.hero .price{margin-top:14px;font-size:15px;}
+header.hero .price b{font-size:22px;}
+header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:24px 0;font-size:13.5px;position:sticky;top:0;z-index:9;}
+nav.toc a{color:var(--blue);text-decoration:none;margin:0 10px 0 0;display:inline-block;}
+nav.toc a:hover{text-decoration:underline;}
+h2.sec{font-size:20px;margin:44px 0 14px;padding-left:12px;border-left:5px solid var(--blue);}
+h3{font-size:16px;margin:20px 0 8px;color:var(--blue);}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:14px 0;}
+.card.warn{border-left:5px solid var(--amber);}
+.card.bad{border-left:5px solid var(--red);}
+.card.good{border-left:5px solid var(--green);}
+.tbl-scroll{overflow-x:auto;}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:10px 0;}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}
+th{background:#eef1f5;font-weight:600;white-space:nowrap;}
+tr:nth-child(even) td{background:#fafbfc;}
+.chart{width:100%;height:340px;margin:8px 0;}
+.caliber{font-size:12px;color:var(--sub);margin-bottom:6px;}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:middle;}
+.dg{background:var(--green);}.dy{background:var(--amber);}.dr{background:var(--red);}.dw{background:#b9c0ca;}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+.tag.g{background:#e2f3e9;color:var(--green);}.tag.y{background:#fbf0dc;color:var(--amber);}.tag.r{background:#f9e3e0;color:var(--red);}
+.big{font-size:17px;font-weight:700;}
+.hl{background:#fff6d8;padding:0 3px;}
+.conclusion{background:#1f2a44;color:#fff;border-radius:10px;padding:24px 26px;margin:20px 0;}
+.conclusion .verdict{font-size:22px;font-weight:800;letter-spacing:2px;}
+.conclusion p{margin-top:10px;font-size:14.5px;opacity:.95;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:760px){.grid2{grid-template-columns:1fr;}.chart{height:300px;}nav.toc{position:static;}}
+footer{margin-top:50px;padding:24px;text-align:center;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);}
+ul.tight{padding-left:20px;}
+ul.tight li{margin:5px 0;}
+ol.tight{padding-left:22px;}
+ol.tight li{margin:5px 0;}
+.src{font-size:12px;color:var(--sub);}
+blockquote{border-left:4px solid var(--line);padding:6px 14px;color:var(--sub);font-size:13.5px;margin:8px 0;background:#fafbfc;}
+/* 折叠区：正文只留结论，明细收进来，避免全量版一屏刷不完 */
+details.fold{border:1px solid var(--line);border-radius:8px;background:#fbfcfd;margin:12px 0;}
+details.fold>summary{cursor:pointer;padding:10px 14px;font-size:13.5px;font-weight:600;color:var(--blue);
+list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+details.fold>summary::-webkit-details-marker{display:none;}
+details.fold>summary::after{content:"▸ 点击展开";font-size:12px;font-weight:400;color:var(--sub);white-space:nowrap;}
+details.fold[open]>summary::after{content:"▾ 点击折叠";}
+details.fold[open]>summary{border-bottom:1px solid var(--line);}
+details.fold .fold-body{padding:6px 14px 14px;}
+.kv{font-size:13.5px;}
+.kv b{color:var(--blue);}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>金科环境（688466.SH）分析报告</h1>
+    <div class="meta">二级市场 ｜ 报告日期 2026-08 ｜ 数据区间 FY2021–FY2025 年报 + 2025 中期报 ｜ 人民币 ｜ <b>全量版：含 Markdown 详版全部内容</b></div>
+    <div class="meta" style="margin-top:8px">📄 <b>当前状态｜结论 v1.1（未变）｜最近验证 2026-09-09（两个逾期窗口补验＋FY2026 中报原始 PDF 复核）</b>：两个漏登窗口已清——① <b>锡东处置款足额到账</b>（实收 <b>1.630 亿元</b>，并已提前偿还该项目全部贷款），但<b>本报告“148.7M”对价口径有误</b>（公告口径为 <b>15,818.71 万元</b>）② <b>H2 2025 塌方是节奏、不是失单且是主动收缩</b>——Q1 末在手订单 <b>71,770.18 万元、同比 +1.27%</b>，证伪子条件“在手订单转正”<b>已成立</b>（本条首个成立的子条件）；⚠️ 但<b>结构反向</b>：运维类订单 <b>-6.85%</b>、设备端 +11.91%，“运营转型为真”在先行指标上<b>未获支持</b>。三条证伪条件为 AND、归母仅 1,302 万远低于 7,000 万门槛 → v1.1 维持。上轮 [B 待 PDF 核] 的读数<b>已全部升 [A]</b>。详见 <a href="#s7" style="color:#ffd479">第 7 节回访区</a>；正文未作任何修改。</div>
+    <div class="price">全文唯一基准价 <b>13.34 元</b>（2026-08-04 收盘）｜ 市值 16.42 亿 ｜ PB 1.43[自算] / PE静态 43.0 / 股息率 2.15% ｜ 标的类型 <b>T3 转型验证期</b>（尺子 = 双锚交叉）</div>
+  </div>
+</header>
+<div class="wrap">
+
+<nav class="toc">
+  <b>目录：</b>
+  <a href="#quick">⚡ 速读区</a><a href="#s0">0 结论</a><a href="#s1">1 行业</a><a href="#s2">2 公司治理</a><a href="#s3">3 主营拆解</a><a href="#s4">4 财务</a><a href="#s5">5 估值</a><a href="#s6">6 风险证伪</a><a href="#s7">7 回访区</a><a href="#appx">附录</a>
+</nav>
+
+<!-- ═══════════ 速读区 ═══════════ -->
+<h2 class="sec" id="quick">⚡ 速读区（一页版）</h2>
+
+<div class="conclusion">
+  <div class="verdict">观察，不买入</div>
+  <p>公司死不了（几乎没净负债），但利润腰斩、客户欠款比一年收入还多，而现价还比净资产贵 42%——市场把"明年会好"提前买了，你现在进场是替别人扛验证风险。买点：<b>10.9–12.0 元</b>（现价 13.34，还差 −11% 以上），且中报拨备不跳升、锡山回购款足额到账。</p>
+</div>
+
+<div class="card">
+  <h3>这家公司是干嘛的</h3>
+  <p>给自来水厂/污水厂做膜法深度处理的技术公司（张家港 10 万吨纳滤水厂、雄安、冬奥项目都是它做的）。正在从"卖工程"转型为"卖设备产品（新水岛<sup>®</sup>）＋替水厂做运营"，运营收入占比五年从 <b>21% 升到 60%</b>。</p>
+</div>
+
+<div class="grid2">
+  <div class="card good">
+    <h3>好消息（为什么值得盯着）</h3>
+    <ol class="tight">
+      <li><b>账上很安全</b>：净负债率只有 7.6%，货币资金 3.4 亿，短债覆盖 7.9 倍——熬得起</li>
+      <li><b>烧钱期结束了</b>：资本开支从每年 2.6 亿骤降到 0.58 亿，自由现金流五年来首次转正</li>
+      <li><b>一笔确定的钱在路上</b>：锡山污水厂被政府回购，1.49 亿（≈市值 9%）预计 2026 年 2 月到账</li>
+      <li><b>运营业务是真的</b>：毛利率 36.5%，可重复收入，转型方向没撒谎</li>
+      <li><b>同行里它最好</b>：ROE÷PB 在 5 家可比公司中排第一（虽然是矮子里拔将军）</li>
+    </ol>
+  </div>
+  <div class="card bad">
+    <h3>坏消息（为什么现在不买）</h3>
+    <ol class="tight">
+      <li><b>欠条比收入多</b>：应收款毛额 5.58 亿 &gt; 全年营收 5.23 亿，五年翻倍而收入原地——客户（主要是政府）越来越不给钱</li>
+      <li><b>坏账准备反而在少提</b>：拨备率从 17.8% 连降三年到 13.3%，按老标准该多提 2,500 万 ≈ 全年利润的 2/3——利润的水分藏在这</li>
+      <li><b>下半年利润没了</b>：2025 全年赚 3,779 万，上半年就赚了 3,057 万——下半年只剩约 720 万</li>
+      <li><b>不便宜</b>：PB 分位显得便宜（18%），但 PE 43 倍处历史最贵 93% 分位——股价跌是因为利润跌得更快</li>
+      <li><b>分红没谱</b>：五年五种分法（0.61元→送股→4.10元→不分→2.87元），股息不能当安全垫</li>
+    </ol>
+  </div>
+</div>
+
+<div class="card">
+  <h3>只记三个数</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:130px">数</th><th style="width:150px">它是什么</th><th>含义</th></tr>
+    <tr><td class="big">106.6%</td><td>应收毛额 / 营收</td><td>干一年活收不回一年钱，<b>最大的雷</b></td></tr>
+    <tr><td class="big">1.43</td><td>当前 PB</td><td>比净资产贵 42%，风险没打折</td></tr>
+    <tr><td class="big">10.9–12.0 元</td><td>双锚买入区</td><td>股息锚 10.87 ∪ PB 1.28 档 12.00</td></tr>
+  </table></div>
+</div>
+
+<div class="card warn">
+  <h3>什么时候买（三个条件缺一不可）</h3>
+  <ol class="tight">
+    <li>价格回到 <b>10.9–12.0 元</b>（现价 13.34，还差 −11% 以上）</li>
+    <li><b>FY2026 中报</b>：坏账拨备没有跳升 <b>且</b> 在手订单同比转正（证明利润修复是真的）</li>
+    <li><b>2026 年 2 月</b>锡山回购款 1.49 亿足额到账，且对价 ≥ 账面值</li>
+  </ol>
+  <details class="fold">
+    <summary>半年后（2027-04，FY2026 年报出来后）拿这张清单对答案 · 5 项</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>当时的判断</th><th>验证问题</th></tr>
+      <tr><td>"主动控制订单"是失单的遮羞布</td><td>FY2026 收入是否继续 &lt;5 亿？</td></tr>
+      <tr><td>拨备计提不足，利润要二次下修</td><td>FY2026 信用减值是否 &gt;1,500 万？</td></tr>
+      <tr><td>锡山回购平价到账</td><td>实际对价 = 1.487 亿？</td></tr>
+      <tr><td>财务费用继续吃利润</td><td>FY2026 财务费用是否 &gt;2,000 万？</td></tr>
+      <tr><td>分红维持 0.287 元是双锚前提</td><td>FY2026 分配方案 DPS ≥0.287？</td></tr>
+    </table></div>
+  </details>
+  <details class="fold">
+    <summary>黑话词典 · 6 个术语（不熟财报的先看这个）</summary>
+    <div class="fold-body">
+      <ul class="tight">
+        <li><b>完工百分比法</b>：工程做到几成就确认几成收入——进度是自己估的，利润弹性大，这是它连续五年的审计关键事项</li>
+        <li><b>KAM（审计关键事项）</b>：审计师觉得最容易出错/被操纵的科目，金科五年都是"收入确认＋应收坏账"两项</li>
+        <li><b>BOT/特许经营</b>：垫钱建厂换 20–30 年运营权，钱变成"无形资产"挂账上，靠水费慢慢收回</li>
+        <li><b>持有待售资产</b>：确定要卖的资产单列——锡山厂那 1.49 亿就挂在这，等政府付钱</li>
+        <li><b>拨备率</b>：预计收不回的欠款占比。欠款暴增时拨备率反而下降 = 利润在"省"出来</li>
+        <li><b>PB/PE 分位</b>：现价在自己历史里的位置。PB 便宜 + PE 最贵同时出现 = 资产还在、利润没了</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!-- ═══════════ 详版正文 ═══════════ -->
+<h2 class="sec" id="s0">0. 一句话结论</h2>
+<div class="card bad">
+  <p><b>【观察，不买入。】</b>资产负债表干净（净负债率 7.6%）、运营转型方向真实（运营收入占比 21%→60%），但归母净利腰斩至 3,779 万、应收毛额（5.58 亿）已超全年营收且拨备率逆势连降三年，而现价 PB 1.43 溢价净资产 42%——市场已定价"FY2026 修复"，没有为最大的风险（应收追认）留任何缓冲。PE 分位 93.4%（历史最贵）与 PB 分位 18.4%（历史便宜）的矛盾说明：<span class="hl">这不是便宜，是盈利消失</span>。</p>
+  <h3>买入条件（全部满足才升级为"买入"）</h3>
+  <ol class="tight">
+    <li>价格回到 <b>10.9–12.0 元</b>（股息率锚 10.87 ∪ PB 1.28 档 12.00，双锚区间，详见第 5 节）</li>
+    <li>FY2026 中报验证：拨备净增速未跳升 <b>且</b> 在手订单同比转正</li>
+    <li>锡山回购款 148.7M 实际到账且对价 ≥ 账面值</li>
+  </ol>
+</div>
+<div class="card">
+  <div class="caliber">图 1 ｜ 三条价格锚与现价的位置（绿带 = 买入区 10.9–12.0 元，红色虚线 = 现价 13.34 元）｜ 口径：PB 档位按 FY2025 归母权益 1,152M / 1.231 亿股[自算]；股息锚 = DPS 0.287 ÷ 历史 70 分位股息率 2.64% ｜ 取价日 2026-08-04</div>
+  <div id="c_anchor" class="chart" style="height:300px"></div>
+</div>
+
+<h2 class="sec" id="s1">1. 行业：蛋糕与利润流向</h2>
+<div class="card">
+  <ul class="tight">
+    <li><b>公司口径的行业叙事：</b>膜法水深度处理/污废水资源化，公司称高品质饮用水受"消费升级+政策支持"驱动、资源化空间广阔（2021年报 p13 起历年重复）——<span class="tag y">仅公司口径</span>未经同行印证，<b>本节不作为买入逻辑支柱</b></li>
+    <li><b>可观察的行业事实：</b>Sheet5 五家可比公司中三家 ROE≤0.3%（碧水源 0.22%、倍杰特 −2.03%、津膜为负）——<span class="hl">行业整体不赚钱</span>，蛋糕存量博弈，利润流向具备运营资产和技术差异化的少数玩家<span class="tag g">一手数据</span></li>
+    <li><b>利润流向的真正瓶颈：</b>客户端是水务平台/政府（ToG 占比 55–75%），瓶颈是<b>政府支付能力</b>；本公司应收五年翻倍是最直接的行业体温计<span class="tag y">同行印证待补</span>（碧水源/三达膜应收趋势）</li>
+    <li><b>三源覆盖声明：</b>本节仅源③（同行财务聚合）达标；源①（同行 MD&amp;A 互证）、源②（政策原文）未做，为待补项</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s2">2. 公司：位置与治理</h2>
+<div class="card">
+  <ul class="tight">
+    <li><b>沿革：</b>科创板 2020-05 IPO，膜系统应用技术起家，五年战略从"卖工程"→"产品化（新水岛<sup>®</sup>）＋运营（BOT/委托运维）＋AI（水萝卜<sup>®</sup>）"（详见文字总结第一节）</li>
+    <li><b>位置：</b>组合纳滤膜大型饮用水厂业绩全国领先（张家港 10 万吨级、雄安、冬奥项目，2021年报 p13）——技术有真实差异化，<b>但订单是"项目彩票"</b>：前五客户 52.75%、第一大 20.51%（2025年报 p54）</li>
+    <li><b>治理观察：</b>①大信会计师五年标准无保留（2025年报 p2）；②分红政策五年五个样（0.61元→送股→4.10元→年度不分→2.87元），2024 年才立《三年分红回报规划》；③FY2025 把利润下滑叙事从历年的"项目放缓"改为"主动控制订单"——<span class="hl">叙事一致性弱，管理层指引可信度打折</span></li>
+    <li><b>未发现项：</b>无控股股东风险/质押等重大治理红旗在本次取数范围内未发现（未专项核查，待补）</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s3">3. 主营拆解：收入质量分层</h2>
+<div class="card">
+  <h3>收入质量分层表</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>层</th><th>业务（FY2025 口径）</th><th>FY2025 收入</th><th>占比</th><th>毛利率</th><th>质量评级</th></tr>
+    <tr><td><span class="dot dg"></span>高质量</td><td>新水岛及水厂运维服务</td><td>313.0M（+12.2%）</td><td>59.8%</td><td>36.5%（H1）</td><td>可重复、可预期，但单项目驱动（唐山南堡），锡山 2026-02 退出后缩水</td></tr>
+    <tr><td><span class="dot dr"></span>低质量</td><td>新水岛及工艺包产品销售</td><td>210.2M（−37.6%）</td><td>40.2%</td><td>23.5%（H1）</td><td>完工百分比法确认（KAM①五年不变）、回款周期长、在手订单连降两年</td></tr>
+  </table></div>
+  <ul class="tight">
+    <li><b>五年结构：</b>运营占比 21.1%→25.4%→33.9%→45.2%→59.8%（各年年报 p9），<b>方向 🟢 但属"分母坍塌型改善"</b>——工艺包三年 −58%</li>
+    <li><b>增长引擎的真相：</b>运营收入两次跳增各对应一个大项目投运（2022 锡山/东莞/南堡首年、2024 南堡资源化），<span class="hl">不是滚动可复制增长</span>；在手订单 7.36→6.71→6.05 亿连降（2023 p12、2024 p14、2025年报），H1 2025 再 −11.7%</li>
+    <li><b>收入质量核心矛盾：</b>收入没涨（559→523M），应收毛额翻倍（273→558M）——<b>增量收入大半是欠条</b>（打灯 #8 🔴）</li>
+  </ul>
+</div>
+<div class="card">
+  <div class="caliber">图 2 ｜ 分部收入五年 + 在手订单 ｜ 单位：百万元 / 亿元 ｜ 出处：各年报分部数据与经营讨论节（FY2022 在手订单为[推算]）</div>
+  <div id="c_segment" class="chart"></div>
+</div>
+
+<h2 class="sec" id="s4">4. 财务：三张表 + 一个循环</h2>
+<div class="card">
+  <h3>16 项打灯：<span class="tag g">🟢 7</span><span class="tag y">🟡 6</span><span class="tag r">🔴 2</span><span class="tag">N/A 1</span></h3>
+  <ul class="tight">
+    <li><span class="dot dr"></span><b>#3 五年自由现金流 −448.9M</b>：OCF 349.9 − capex 798.8，利润表年年赚钱，股东层面五年倒贴 4.5 亿</li>
+    <li><span class="dot dr"></span><b>#8 贸易应收/营收 106.6%</b>：557.9 / 523.4，FY2021 才 48.8%——四年恶化一倍多</li>
+    <li><span class="dot dy"></span>黄灯 6 项集中在<b>资产质量与分配</b>：#4 分红覆盖 0.71、#7 应收占总资产 30.4%、#9 拨备率反向背离、#10 利差倒挂、#14 股息可持续性、#15 ROE 四连降</li>
+  </ul>
+  <details class="fold">
+    <summary>16 项打灯完整明细（触发数据 + 灯色）· 16 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th style="width:34px">#</th><th style="width:150px">指标</th><th>触发数据</th><th style="width:56px">灯</th></tr>
+      <tr><td>1</td><td>运营类收入占比趋势</td><td>21.1%→59.8%，五年单边上升且 &gt;50%</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>2</td><td>OCF/净利润（5 年合计）</td><td>349.9 / 326.4 = <b>1.07</b> ≥1.0</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>3</td><td>自由现金流（5 年）</td><td>OCF 349.9 − capex 798.8 = <b>−448.9M</b>，五年合计为负</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>4</td><td>分红覆盖（FY2025）</td><td>FCF 35.8M / 实际派现 ≈50.5M = <b>0.71</b>，未靠筹资、用存量现金补</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>5</td><td>净负债/净资产</td><td>(432.2−344.1)/1152.0 = <b>7.6%</b> &lt;80%</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>6</td><td>短债覆盖</td><td>344.1/43.4 = <b>7.9x</b> &gt;1.0</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>7</td><td>应收占总资产</td><td>(487.2+199.2)/2260.4 = <b>30.4%</b>，五年在 26–36% 区间震荡</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>8</td><td>贸易应收/营收</td><td>应收余额（毛）557.9/523.4 = <b>106.6%</b> &gt;100%</td><td><span class="dot dr"></span>🔴</td></tr>
+      <tr><td>9</td><td>拨备率趋势</td><td>拨备率 17.8%→13.3% 连降三年，而应收 +23.6%/年加速——<b>反向背离，未来追认压力</b></td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>10</td><td>利差</td><td>平均融资成本[推算] 3.8% vs 整体 ROA 1.65%（倒挂）；运维分部毛利率 36.5% 尚有利差</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>11</td><td>财务费用/归母净利</td><td>17.0/37.8 = <b>45%</b> &lt;50%，但一年内从 10%→45%</td><td><span class="dot dg"></span>🟢<span class="src">（趋势预警）</span></td></tr>
+      <tr><td>12</td><td>少数股东分利</td><td>五年合计 1−314.5/326.4 = <b>3.6%</b> &lt;25%</td><td><span class="dot dg"></span>🟢</td></tr>
+      <tr><td>13</td><td>PB 便宜程度分位</td><td>PB 1.425，数值分位 18.4% → 便宜程度 <b>81.6%</b> &gt;70%</td><td><span class="dot dg"></span>🟢<span class="src">（窗口偏差）</span></td></tr>
+      <tr><td>14</td><td>股息率分位与可持续性</td><td>股息率 2.15% 分位 48.6%；DPS 0.41→0.287 下降；FY2025 FCF 覆盖 0.71</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>15</td><td>ROE÷PB 同行排序</td><td>金科 2.33 排第一（三达膜 1.93、碧水源 0.46、倍杰特/津膜为负），但 ROE 连续四年下降</td><td><span class="dot dy"></span>🟡</td></tr>
+      <tr><td>16</td><td>价格隐含减值率</td><td>归母权益 1152 &lt; 市值 1642（PB 1.43&gt;1），公式不适用——<b>市场未定价任何减值，无此项安全边际</b></td><td><span class="dot dw"></span>N/A</td></tr>
+    </table></div>
+  </details>
+</div>
+
+<div class="card warn">
+  <h3>这家公司的资金循环</h3>
+  <p>借长期贷款（40.9→432.2M 有息负债）＋ IPO 募资 → 投 BOT/新水岛重资产（五年 capex 7.99 亿）→ 换运营收入（毛利率 36.5%）→ 但工艺包端持续失血（应收欠条化）＋ 财务费用开始反噬（17.0M，归母的 45%）→ FY2025 归母腰斩至 37.8M，其中还含<span class="hl">所得税转正 ≈12M[推算]的粉饰</span>。</p>
+  <ul class="tight">
+    <li><b>偿债无忧：</b>净负债率 7.6%、短债覆盖 7.9x、货币资金 3.44 亿——<b>死不了</b></li>
+    <li><b>利润有水分：</b>OCF/净利五年 1.07 🟢 是总量口径；结构上拨备率逆势连降三年（17.8%→13.3%），若按 FY2022 拨备率补提需多提 ≈25M，相当于 FY2025 归母的 2/3[估算]——<span class="hl">利润的水分藏在"没提的拨备"里</span></li>
+    <li><b>拐点信号（正面）：</b>FY2025 capex 骤降至 58.3M（投建高峰结束），FCF 首次转正 35.8M；锡山回购款 148.7M 预计 2026-02 到账（≈市值的 9%）。<b>FY2026 现金流大概率显著改善</b>——#3 红灯是"过去时"</li>
+    <li><b>H2 2025 归母仅 ≈7.2M[推算]</b>（H1 30.6M），收入 H2 同比 −34%——年报叙事称"主动控制"，斜率更像失单，FY2026 一季报见分晓</li>
+  </ul>
+</div>
+
+<div class="card bad">
+  <div class="caliber">图 3 ｜ 应收毛额 vs 拨备率：反向背离 ｜ 单位：百万元 / % ｜ 出处：各年报应收账款附注 ｜ 取数 2026-08</div>
+  <div id="c_ar" class="chart"></div>
+  <details class="fold">
+    <summary>应收与坏账明细五年（含拨备率）· 3 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>百万元</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+      <tr><td>应收账款（毛额）</td><td>273.0</td><td>298.1</td><td>361.8</td><td>451.4</td><td><b>557.9</b></td></tr>
+      <tr><td>坏账准备</td><td>35.1</td><td>53.2</td><td>61.9</td><td>66.2</td><td>74.5</td></tr>
+      <tr><td>拨备率</td><td>12.9%</td><td><b>17.8%</b></td><td>17.1%</td><td>14.7%</td><td><b>13.3%</b></td></tr>
+    </table></div>
+    <div class="fold-body src">读法：应收 +23.6%/年加速，拨备只 +12.6%/年——拨备率连降三年。风险不在账上，在前方（FY2026 中报若跳升即坐实）。</div>
+  </details>
+</div>
+
+<div class="card">
+  <div class="caliber">图 4 ｜ 现金循环：OCF / capex / 自由现金流 ｜ 单位：百万元 ｜ 五年合计 OCF 349.9 − capex 798.8 = FCF −448.9 ｜ 出处：各年报现金流量表</div>
+  <div id="c_cash" class="chart"></div>
+  <details class="fold">
+    <summary>现金流四行明细（含筹资净额）· 4 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>百万元</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th><th>五年合计</th></tr>
+      <tr><td>经营现金流 OCF</td><td>−33.4</td><td>84.3</td><td>109.7</td><td>95.2</td><td>94.1</td><td><b>349.9</b></td></tr>
+      <tr><td>capex</td><td>−114.3</td><td>−91.3</td><td>−275.5</td><td>−259.4</td><td><b>−58.3</b></td><td>−798.8</td></tr>
+      <tr><td>自由现金流 FCF</td><td>−147.7</td><td>−7.0</td><td>−165.8</td><td>−164.2</td><td><b>+35.8</b></td><td><b>−448.9</b></td></tr>
+      <tr><td>筹资净额</td><td>69.2</td><td>−5.2</td><td>193.3</td><td>67.8</td><td>−96.7</td><td>228.4</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：FY2023–24 是 BOT 投建高峰（capex 合计 5.35 亿，靠筹资 2.6 亿补），FY2025 capex 退坡使 FCF 首次转正——红灯 #3 的性质是"过去时"，但五年缺口 4.5 亿是既成事实。</div>
+  </details>
+</div>
+
+<div class="card warn">
+  <div class="caliber">图 5 ｜ 归母净利 vs 财务费用：利润被谁分走 ｜ 单位：百万元 ｜ 出处：各年报利润表</div>
+  <div id="c_profit" class="chart"></div>
+  <details class="fold">
+    <summary>利润表关键行：利润总额 / 所得税 / 财务费用 · 4 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>百万元</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+      <tr><td>利润总额</td><td>74.8</td><td>88.3</td><td>83.9</td><td>85.3</td><td><b>36.8</b></td></tr>
+      <tr><td>所得税费用</td><td>8.4</td><td>12.1</td><td>10.7</td><td>12.0</td><td><b>−0.6</b></td></tr>
+      <tr><td>归母净利</td><td>62.3</td><td>76.8</td><td>70.8</td><td>66.8</td><td><b>37.8</b></td></tr>
+      <tr><td>财务费用</td><td>−3.1</td><td>1.8</td><td>5.1</td><td>6.7</td><td><b>17.0</b></td></tr>
+    </table></div>
+    <div class="fold-body src">读法：①FY2025 <b>利润总额 36.8M &lt; 归母 37.8M</b>，原因是所得税转为 −0.6M（往年 +12M 左右）——若按往年税率，归母应在 25M 附近，<span class="hl">腰斩还不够，是"打了六折的腰斩"</span>；②财务费用从 −3.1M（净利息收入）翻到 +17.0M，一年内吃掉归母的 45%。</div>
+  </details>
+  <details class="fold">
+    <summary>资产负债表关键行：有息负债 / 货币资金 / 权益 · 3 行</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>百万元</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+      <tr><td>有息负债</td><td>94.4</td><td>122.1</td><td>313.7</td><td><b>452.1</b></td><td>432.2</td></tr>
+      <tr><td>货币资金</td><td>484.5</td><td>470.1</td><td>501.0</td><td>411.2</td><td><b>344.1</b></td></tr>
+      <tr><td>归母权益</td><td>1020.2</td><td>1076.5</td><td>1143.8</td><td>1115.0</td><td>1152.0</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：有息负债五年 4.6 倍（几乎全是 BOT 配套长借），货币资金同期 −29%——净负债从 −390M（净现金）收敛到 +88M。虽然 7.6% 净负债率仍安全，但<b>缓冲垫在变薄</b>。</div>
+  </details>
+</div>
+
+<h2 class="sec" id="s5">5. 估值：价格隐含的预期</h2>
+<div class="card">
+  <h3>自身纵向分位（窗口 6.2 年，2020-05 IPO 起，无更早数据）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:100px">锚</th><th style="width:110px">当前值</th><th style="width:150px">分位</th><th>读法</th></tr>
+    <tr><td>股价</td><td>13.34 元</td><td>12.1%</td><td>历史低位（FX-free 锚）</td></tr>
+    <tr><td>PB[自算]</td><td>1.425</td><td>18.4%（便宜程度 81.6%）</td><td>#13 <span class="dot dg"></span>🟢，但见窗口偏差声明</td></tr>
+    <tr><td>PE 静态</td><td>43.0</td><td><b>93.4%</b></td><td><span class="hl">历史最贵——EPS 跌得比股价快</span></td></tr>
+    <tr><td>股息率</td><td>2.15%</td><td>48.6%</td><td>中位，不构成安全垫</td></tr>
+  </table></div>
+  <blockquote><b>窗口偏差声明：</b>6.2 年窗口以 2020 科创板高估值开局（上市初 PB&gt;4），属"高开混合型"窗口，PB/股价分位<b>天然偏向显得现在便宜</b>，该偏差对"便宜"结论有利——#13 绿灯打八折使用。</blockquote>
+</div>
+
+<div class="card">
+  <h3>收益率锚（第二个锚）</h3>
+  <ul class="tight">
+    <li><b>DPS 序列</b> 0.061 / 0 / 0.41 / 0.41 / 0.287 元，五年无连续性；最保守口径取 FY2025 预案 0.287 元零增长：
+      <ul class="tight">
+        <li>要求回报率 9% → <b>3.19 元</b>；10% → <b>2.87 元</b>——<span class="hl">股息贴现锚低到没有意义</span>（当前派息率已 92.78%，无提升空间），说明本标的的价值不在股息，在资产与转型期权</li>
+        <li>退一步用"历史 70 分位股息率 2.64%"作要求收益锚：0.287 / 2.64% = <b>10.87 元</b></li>
+      </ul>
+    </li>
+    <li><b>PB 档位锚：</b>PB 1.28 → <b>12.00 元</b>；PB 1.0（平净资产）→ <b>9.36 元</b></li>
+    <li><b>双锚交叉：</b>统计锚（PB 1.28 档）12.00 元 vs 收益率锚 10.87 元，差 10%（&lt;20%，无需强制解释但注明）：取重叠区 <b>10.9–12.0 元为"有缓冲的观察买入区"</b>，现价 13.34 元高于区间上沿 <b>11%</b>。分位价（12.00）落在股息锚（10.87）上方，意味着统计锚只在"分红维持 0.287 元不减"假设下成立</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>同行横向（2026-08 东财快照，同币种无汇率问题）</h3>
+  <div class="caliber">图 6 ｜ ROE÷PB 同行排序（花 1 块钱买到的净资产，一年替你赚几分）｜ 出处：底稿 Sheet5 同行快照</div>
+  <div id="c_peers" class="chart" style="height:280px"></div>
+  <div class="tbl-scroll"><table>
+    <tr><th>公司</th><th>PB</th><th>ROE</th><th>ROE÷PB</th></tr>
+    <tr><td><b>金科环境</b></td><td><b>1.43</b></td><td><b>3.33%</b></td><td><b>2.33（第一）</b></td></tr>
+    <tr><td>三达膜</td><td>1.14</td><td>2.2%</td><td>1.93</td></tr>
+    <tr><td>金达莱</td><td>1.38</td><td>—</td><td>—</td></tr>
+    <tr><td>碧水源</td><td>0.48</td><td>0.22%</td><td>0.46</td></tr>
+    <tr><td>倍杰特 / 津膜</td><td>2.86 / 4.36</td><td>负 / 负</td><td>—</td></tr>
+  </table></div>
+  <p>#15 排名第一（免"替代品一页纸"），但 ROE 四连降不满足绿灯——<span class="hl">是重灾区里最好的，不等于值得买</span>。碧水源 PB 0.48 提示：市场对本子行业的定价下限比金科现价低得多。</p>
+</div>
+
+<div class="card bad">
+  <h3>当前价格隐含的假设（#16 变体）</h3>
+  <p>PB 1.43 = 市值溢价归母权益 <b>42.5%</b>。市场隐含定价：</p>
+  <ol class="tight">
+    <li>5.58 亿应收（占归母权益 <b>48%</b>）无重大减值</li>
+    <li>FY2026 利润修复至 <b>60M+</b> 档（对应 PE 回到 27x）</li>
+    <li>运营转型继续兑现</li>
+  </ol>
+  <p><b>三个假设错任何一个，现价没有缓冲。</b>#16 减值率框架因 PB&gt;1 不适用——<span class="hl">市场不悲观，是我们该悲观的理由</span>。</p>
+</div>
+
+<h2 class="sec" id="s6">6. 风险与证伪条件</h2>
+<div class="card">
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:44%">风险（按严重度）</th><th>证伪/验证条件</th><th style="width:90px">时点</th></tr>
+    <tr><td><span class="dot dr"></span>应收追认坏账，利润二次下修</td><td>FY2026 中报拨备净增速 vs 应收增速；账龄表"1 年以上"占比</td><td>2026-08</td></tr>
+    <tr><td><span class="dot dr"></span>H2 2025 塌方是失单而非节奏</td><td>FY2026 Q1 收入与新签订单公告</td><td>2026-04</td></tr>
+    <tr><td><span class="dot dy"></span>锡山回购缩水/延期</td><td>2026-02-17 处置完成公告，对价 vs 148.7M</td><td>2026-02</td></tr>
+    <tr><td><span class="dot dy"></span>财务费用侵蚀（利息费用化上行）</td><td>FY2026 中报财务费用年化 &gt;20M 则恶化</td><td>2026-08</td></tr>
+    <tr><td><span class="dot dy"></span>分红政策再变脸</td><td>2026 年度分配方案连续性</td><td>2027-04</td></tr>
+    <tr><td><span class="dot dy"></span>行业判断全靠公司口径</td><td>补做碧水源/三达膜 FY2025 MD&amp;A 行业段互证</td><td>待办</td></tr>
+  </table></div>
+</div>
+<div class="card good">
+  <h3>对我有利的意外</h3>
+  <p>锡山回购款到账后现金 ≈<b>4.9 亿</b>（市值的 <b>30%</b>），若管理层用于特别分红或回购，资产价值兑现路径打开。</p>
+</div>
+
+<h2 class="sec" id="s7">7. 回访区</h2>
+<div class="card good">
+<h3>✅📄 补验｜2026-09-09｜两个漏登窗口清库（FY2026 中报 215 页＋Q1 季报 19 页，[A] 巨潮原始 PDF）</h3>
+<p><b>结论：v1.1 维持</b>（观察不买入；10.9–12.0 元双锚区与三条买入条件均不动）。本次专补两个<b>只写在第 6 节风险表、从未入验证日历</b>的时点条件，并把上轮 [B 待 PDF 核] 的中报读数升为 [A]。</p>
+<p><b>▶ 窗口一：2026-02-17 锡山处置（买入条件③ 的前提）——实际逾期 6.7 个月</b></p>
+<div class="tbl-scroll"><table><tr><th>预设条件</th><th>实际读数（中报 P42/P47-48/P94-95）</th><th>判定</th></tr><tr><td>处置对价是否足额到账</td><td>合并现流表「处置固定资产、无形资产和其他长期资产收回的现金净额」<b>163,001,164 元</b>（去年同期 <b>0</b>）；公司明写投资活动净额转正 +6,226 万“主要系本期收到锡东工业污水处理项目处置款项”</td><td><b>✅ 足额到账，本窗口结案</b></td></tr><tr><td>款项用途</td><td>筹资净额 <b>-133,129,063 元</b>，公司明写“收到处置款项后提前偿还该项目所有贷款”（偿还债务 1.304 亿 vs 去年 0.149 亿）</td><td>✅ 钱到位且已降负债，不是登账处置</td></tr><tr><td>交易实质</td><td>锡山荷泰、锡山中荷、锡山荷信 <b>仍在 P126-127 子公司清单</b>内</td><td>⚠️ 本次是<b>资产回购、非股权处置</b>（满三免三减半仍适用）</td></tr><tr><td>❗ <b>本报告口径错误</b></td><td>本报告写对价 <b>148.7M</b>；中报 P47-48 披露回购对价总价款为 <b>15,818.71 万元</b>（买方无锡云隆，2026-02-10 公告）</td><td><b>差 947 万（+6.4%）</b>，须回查本报告原始出处（过程分扣分）；无论哪个口径，<b>实收 ≥ 对价</b></td></tr></table></div>
+<p>背景补齐：锡东项目触发回购，2025-12 签《终止协议》（特许经营权终止日 2025-03-31），锡山荷泰与无锡云隆签《回购协议》，本期完成资产现场交割；公告日 2023-11-14／2025-12-26／2026-02-10。</p>
+<p><b>▶ 窗口二：2026-04-30 Q1 订单——H2 2025 塌方是失单还是节奏？实际逾期 4.3 个月</b></p>
+<p>答案：<b>是节奏，而且是主动收缩</b>。Q1 收入 8,292 万（-35.91%）、归母 232 万（-79.91%）、扣非 60 万（-93.95%），但同期在手订单并未下滑：</p>
+<div class="tbl-scroll"><table><tr><th>在手订单（截至 2026-03-31，万元）</th><th>金额</th><th>同比</th></tr><tr><td><b>合计</b></td><td><b>71,770.18</b></td><td><b>+1.27%</b></td></tr><tr><td>新水岛及工艺包产品销售（设备端）</td><td>34,312.19</td><td><b>+11.91%</b></td></tr><tr><td>新水岛运维服务／资源化产品销售及运维技术服务（运营端）</td><td>37,457.99</td><td><b>-6.85%</b></td></tr><tr><td>TO B 工业</td><td>36,806.65</td><td>-0.81%</td></tr><tr><td>TO G 市政</td><td>34,963.53</td><td>+3.55%</td></tr><tr><td>污废水资源化</td><td>55,811.16</td><td>-6.67%</td></tr><tr><td>高品质饮用水</td><td>15,959.02</td><td><b>+44.08%</b></td></tr></table></div>
+<ul class="tight"><li>公司自述系“战略性转型，主动压降市政类传统工艺包业务市场开发”——<b>收入塌方有主动成分，存量订单未掉</b>。</li><li>✅ <b>证伪子条件“在手订单转正”已成立</b>——这是本条判断<b>首个成立的子条件</b>。但三条是 <b>AND</b>（拨备净增速平稳 ∧ 在手订单转正 ∧ 归母修复至 7,000 万级而股价未回落），H1 归母仅 <b>1,302 万</b>，第三条差得极远 → <b>错过型证伪未成立</b>。</li><li>⚠️ <b>但结构方向与本报告的看法相反</b>：本报告第 3 节把“运维／资源化占比提升”当作收入质量改善的主线，而订单先行指标是<b>运营端 -6.85%、设备端 +11.91%</b>——<b>“运营转型为真”在先行指标上未获支持</b>。另 H1 末在手订单合计 <b>6.145 亿</b>（新水岛及工艺包 2.413 亿＋中长期业务 3.732 亿），比 Q1 末 <b>环比 -14.4%</b>。</li></ul>
+<p><b>▶ 上轮 [B 待 PDF 核] 读数已全部升 [A]，并补到三个新事实</b>：</p>
+<ul class="tight"><li>H1 <b>OCF +5,556 万元</b>（同比增加 8,784 万）、销售商品收现 <b>3.149 亿（+27.32%）</b>——<b>收入在降而回款在升</b>，与第 6 节应收主线方向相反，如实记。</li><li>资产负债率 <b>47.44%</b>、流动比率 1.87、货币资金＋交易性金融资产 <b>4.270 亿</b>、<b>短期借款为零</b>（对比宁水集团同期从 0 借到 1.716 亿，两家同行现金纪律分化明显）。</li><li><b>FY2025 分红 3,505.82 万元 ＝ 归母的 92.78%</b>（2026-07 已实施）——与 #1 ［在职关联标的·不披露］同期<b>砍息 24.63%</b> 构成第二组反向对照（第一组：光大环境加派 6.7%）。</li><li>其他：累计交货 18 套（2026 年 5 套）；2026-04 Bluenexus 与 Medisun 签中东供货协议。</li></ul>
+<h3>🧭 方法论反思（2026-09-09）</h3>
+<ol class="tight"><li><b>只写在报告第 6 节等于没写。</b> 两个条件分别逾期 <b>6.7 个月</b>与 <b>4.3 个月</b>，而答案其实一直在公开披露里。已固化为验证日历<b>维护规则 7</b>（报告第 6 节带时点的条件必须逐条录入日历）。</li><li><b>口径错误只有回溯原始公告才能发现。</b> “148.7M”与公告的 15,818.71 万元差 6.4%——若本次只看现流表实收额就结案，这个错会永久留在报告里。<b>验证时必须双向核：不只核“实际值 vs 预设值”，还要核“预设值本身当初取对了没”</b>（台账双计分制的过程分）。</li><li><b>条件盯总量不盯结构的缺陷本次得到实证</b>：“在手订单转正”成立了，但支撑本报告主线的运营类订单在降——<b>条件成立与逻辑得分不是同一件事</b>。下次修条件时把“运营类订单同比不降”写进去。</li></ol>
+</div>
+<div class="card">
+  <div class="caliber">纪律：<b>正文永不修改，验证只在本节倒序追加</b>——报告主体保留下判断当时的原样，这是日后区分“逻辑想对了”与“方向蒙对了”的唯一依据。每条追加必须写清：读数 → 命中哪条预设条件 → 结论动没动（版本号）。</div>
+</div>
+
+<div class="card warn">
+  <h3>📄 v1.1｜2026-08-21｜FY2026 中报 ← 只部分对上答案</h3>
+  <p><b>结论：不变</b>（观察不买入；10.9–12.0 元双锚区与三条买入条件均不动）。数据为财媒／东财转述的主表读数 <b>[B 待 PDF 核]</b>，中报附注本次未取。</p>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:32%">预设条件（第 6 节／买入条件原文）</th><th style="width:140px">中报能不能验</th><th>实际读数</th><th>判定</th></tr>
+    <tr><td><span class="dot dr"></span>拨备净增速 vs 应收增速（时点 2026-08）</td><td>❌ 未取到中报附注</td><td>—</td><td><b>未验</b>，不得记作“未触发”</td></tr>
+    <tr><td><span class="dot dr"></span>账龄表“1 年以上”占比</td><td>❌ 未取到中报附注</td><td>—</td><td><b>未验</b></td></tr>
+    <tr><td>买入条件② 在手订单同比转正</td><td>❌ 转述中未见订单口径</td><td>—</td><td><b>未验</b></td></tr>
+    <tr><td>“归母修复至 7,000 万级而股价未回落”（错过侧证伪）</td><td>✅ 可验</td><td>归母 <b>1,302 万</b>（-57.39%）、扣非 <b>819 万</b>（-69.60%）</td><td>距 7,000 万级<b>更远了</b>，“等回调”未被证伪，结论增强</td></tr>
+    <tr><td><span class="dot dy"></span>财务费用年化 &gt;20M 则恶化</td><td>⚠️ 未取到明细</td><td>—</td><td><b>未验</b></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <h3>新增读数（第 6 节没预设，但直接冲击主论点）</h3>
+  <ul>
+    <li>营收 <b>2.09 亿</b>（-24.51%）继续缩。第 3 节“运营是接力棒”的论述目前<b>还没接上</b>——转型方向未变，但运营增量跟不上工程收入下滑的速度。</li>
+    <li>OCF <b>+5,556 万</b> 为正，本次唯一正面项。但需辨明是压 capex、收锡山尾款还是真实回款改善——PDF 到手前不算改善证据。</li>
+    <li><b>风险被外部口径印证</b>：FY2025 年报因<b>应收占营收 93%</b> 收到监管问询函（2026-06 已回复）。第 0 节“应收毛额已超全年营收”从我一个人的读表结论，变成了<b>交易所也在问的问题</b>——证据强度上一档。</li>
+  </ul>
+</div>
+
+<div class="card bad">
+  <h3>两个预设时点漏查（本次盘点才发现，归我的流程错）</h3>
+  <ul>
+    <li><span class="dot dy"></span>锡山回购缩水／延期——预设时点 <b>2026-02</b>（处置完成公告，对价 vs 148.7M），<b>至今未查</b>。而这是三条买入条件之一，也是“现金≥20% 市值”资产价值路径的前提。</li>
+    <li><span class="dot dr"></span>H2 2025 塌方是失单还是节奏——预设时点 <b>2026-04</b>（Q1 收入与新签订单公告），<b>至今未查</b>。</li>
+    <li>根因：这两个时点只写在本报告第 6 节表格里，<b>没有同步登进《验证日历》（**已于 2026-08-22 补登两行，状态标逾期待查**）</b>，所以到日子没人提醒。已归纳为一条机制教训：<b>报告第 6 节里带时点的条件，必须逐条录入验证日历</b>，否则等于没写。</li>
+  </ul>
+  <p><b>这条不能算我“对”的地方</b>：读数强化的是“盈利在消失”这个本来就很确定的事实，<b>而不是我真正押的“应收会不会追认”那一条</b>。两者不能互相替代：归母再跌一半也不能告诉我拨备够不够。</p>
+</div>
+
+<div class="card good">
+  <h3>下一个窗口</h3>
+  <ol>
+    <li>补下载 FY2026 中报 PDF，取应收账龄表与信用减值附注，把上表四个“未验”填掉（不改结论，只把证据从 [B] 升到 [A]）；</li>
+    <li>补查 2026-02-17 锡山处置完成公告与 2026-04 Q1 新签订单，两个漏查时点回填；</li>
+    <li><b>2027-04-30 FY2026 年报终验</b>（两条证伪条件的正式口径）。</li>
+  </ol>
+</div>
+
+<div class="card">
+  <div class="caliber"><b>原始回访表</b>（2026-08-04 登记时的空表，保留原样）</div>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:110px">日期</th><th style="width:30%">触发事件</th><th style="width:110px">当时价格</th><th>判断更新</th></tr>
+    <tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+  </table></div>
+</div>
+
+<h2 class="sec" id="appx">附：取数底稿关键行</h2>
+<div class="card">
+  <div class="caliber">完整版见 <code>2.分析材料/2_2026-08_金科环境_取数底稿.xlsx</code> ｜ 单位：人民币百万元（EPS/DPS 为元）</div>
+  <div class="tbl-scroll"><table>
+    <tr><th>项目</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+    <tr><td>营业收入</td><td>559.5</td><td>670.9</td><td>572.8</td><td>617.1</td><td>523.4</td></tr>
+    <tr><td>归母净利</td><td>62.3</td><td>76.8</td><td>70.8</td><td>66.8</td><td><b>37.8</b></td></tr>
+    <tr><td>OCF</td><td>−33.4</td><td>84.3</td><td>109.7</td><td>95.2</td><td>94.1</td></tr>
+    <tr><td>capex</td><td>−114.3</td><td>−91.3</td><td>−275.5</td><td>−259.4</td><td>−58.3</td></tr>
+    <tr><td>应收账款（净）</td><td>237.9</td><td>244.9</td><td>299.9</td><td>385.3</td><td>487.2</td></tr>
+    <tr><td>有息负债</td><td>94.4</td><td>122.1</td><td>313.7</td><td>452.1</td><td>432.2</td></tr>
+    <tr><td>货币资金</td><td>484.5</td><td>470.1</td><td>501.0</td><td>411.2</td><td>344.1</td></tr>
+    <tr><td>归母权益</td><td>1020.2</td><td>1076.5</td><td>1143.8</td><td>1115.0</td><td>1152.0</td></tr>
+    <tr><td>EPS（元）</td><td>0.61</td><td>0.75</td><td>0.58</td><td>0.55</td><td>0.31</td></tr>
+    <tr><td>DPS（元）</td><td>0.061</td><td>0</td><td>0.41</td><td>0.41（前三季度特别）</td><td>0.287（预案）</td></tr>
+  </table></div>
+  <blockquote><b>数据质量声明：</b>估算值清单、[推算] 口径、估值口径（取价日/窗口性质/PB 差异）、待补项——见 <code>2.分析材料/3_2026-08_金科环境_财务数据分析.md</code> 第八节，此处不重复。</blockquote>
+</div>
+
+<div class="card">
+  <h3>学习卡：本案用到的指标与工具</h3>
+  <details class="fold">
+    <summary>现金流与偿债类（#2–#6）· 7 个指标</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th style="width:150px">指标</th><th style="width:42%">计算与含义</th><th>本案演示</th></tr>
+      <tr><td><b>capex（资本开支）</b></td><td>现金流量表"购建固定资产、无形资产和其他长期资产支付的现金"。买设备建厂的钱，不进利润表但真金白银流出</td><td>五年 114/91/276/259/58M——FY2023/24 是 BOT 投建高峰，FY2025 骤降意味着"烧钱期结束"</td></tr>
+      <tr><td><b>FCF（自由现金流）</b></td><td>OCF − capex。主业赚的钱扣掉维持/扩张投入后，<b>真正可以分给股东或还债的钱</b>。利润可以调，FCF 难造假</td><td>五年合计 −448.9M（#3 🔴）：利润表年年赚钱，股东层面五年倒贴 4.5 亿</td></tr>
+      <tr><td><b>OCF/净利润（#2）</b></td><td>5 年合计比值。≥1 说明账面利润有现金支撑；&lt;0.8 说明利润是"纸上富贵"</td><td>349.9/326.4 = 1.07 🟢。但这是总量口径，掩盖不了拨备少提的结构问题——两个指标要一起看</td></tr>
+      <tr><td><b>有息负债</b></td><td>短期借款＋一年内到期的非流动负债＋长期借款＋应付债券（要付利息的才算，应付账款不算）</td><td>94→432M 五年 4.6 倍，几乎全是 BOT 配套长借</td></tr>
+      <tr><td><b>净负债率（#5）</b></td><td>(有息负债−货币资金)÷归母权益。把账上现金当"负的负债"抵扣后的真实杠杆</td><td>(432.2−344.1)/1152 = 7.6% 🟢——看着借了 4 亿，其实现金几乎能覆盖，这就是"死不了"的依据</td></tr>
+      <tr><td><b>短债覆盖（#6）</b></td><td>货币资金÷短期有息负债（短借＋一年内到期）。未来 12 个月会不会被钱逼死</td><td>344.1/43.4 = 7.9x 🟢，流动性无忧</td></tr>
+      <tr><td><b>分红覆盖（#4）</b></td><td>当年 FCF÷当年实际派现。分红的钱得是自己赚的，靠借钱/吃老本发的股息不可持续</td><td>35.8/50.5 = 0.71 🟡，缺口用存量现金补（货币资金 −16%）</td></tr>
+    </table></div>
+  </details>
+  <details class="fold">
+    <summary>资产质量与利润分配类（#7–#12）· 6 个指标</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th style="width:150px">指标</th><th style="width:42%">计算与含义</th><th>本案演示</th></tr>
+      <tr><td><b>应收占总资产（#7）</b></td><td>(应收账款＋合同资产)÷总资产。公司的资产里有多少是"别人的欠条"而非能产生现金流的设备</td><td>30.4% 🟡——每 3 块钱资产里有 1 块是欠条</td></tr>
+      <tr><td><b>贸易应收/营收（#8）</b></td><td>应收余额÷全年营收。&gt;100% 相当于干满一年活还收不回一年的钱，周转已严重失速</td><td>557.9/523.4 = 106.6% 🔴，FY2021 才 48.8%——四年恶化一倍多</td></tr>
+      <tr><td><b>拨备率趋势（#9）</b></td><td>看拨备增速 vs 应收增速的相对方向。拨备增速远超应收＝在追认旧坏账；拨备增速远低于应收＝坏账确认在延后，<b>未来有集中补提风险</b></td><td>本案属后者：拨备 +12.6% vs 应收 +23.6%，拨备率 17.8%→13.3%——<span class="hl">风险在前方不在账上</span></td></tr>
+      <tr><td><b>ROA（总资产回报率）</b></td><td>净利润÷总资产。不区分钱是股东的还是借的，衡量资产本身的赚钱效率</td><td>37.3/2260 = 1.65%——比银行理财还低，重资产转型目前是"增资产不增回报"</td></tr>
+      <tr><td><b>利差（#10）</b></td><td>资产回报 vs 平均融资成本（财务费用÷平均有息负债[推算]）。借 4% 的钱赚 2% 的回报＝越干越亏</td><td>融资成本 ≈3.8% vs ROA 1.65% 倒挂；只有运维分部（毛利率 36.5%）在赚超过资金成本的钱</td></tr>
+      <tr><td><b>财务费用/归母净利（#11）</b></td><td>利润被谁分走：&gt;100% 意味着股东赚的还不够付利息，在给银行打工</td><td>17.0/37.8 = 45%，一年前才 10%——绝对值未过线，斜率危险</td></tr>
+      <tr><td><b>少数股东分利（#12）</b></td><td>1−归母÷净利润。合并报表的利润有多少分给了子公司小股东，上市公司股东拿不到</td><td>五年合计 3.6% 🟢，没有"报表利润虽高但都是别人的"问题</td></tr>
+    </table></div>
+  </details>
+  <details class="fold">
+    <summary>估值工具类（#13–#16 与双锚）· 8 个概念</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th style="width:140px">概念</th><th style="width:42%">解释</th><th>本案演示</th></tr>
+      <tr><td><b>PB / PE / 股息率</b></td><td>市净率＝股价÷每股净资产（买资产）；市盈率＝股价÷每股收益（买盈利）；股息率＝每股分红÷股价（买现金回报）。三个视角可以给出矛盾的结论</td><td>PB 1.43（不算贵）/ PE 43（很贵）/ 股息率 2.15%（平庸）——矛盾根源是分母（利润）塌了</td></tr>
+      <tr><td><b>数值分位 vs 便宜程度</b></td><td>数值分位＝当前值在自己历史序列里排第几百分位。PB 的"便宜程度"＝1−数值分位（PB 越低越便宜，所以要取反）</td><td>PB 数值分位 18.4% → 便宜程度 81.6%（#13 🟢）；PE 分位 93.4% 直接读＝历史最贵区</td></tr>
+      <tr><td><b>分位窗口偏差</b></td><td>分位只能和自己的历史比；窗口若以高估值开局（如科创板 IPO 初期），现在永远显得"便宜"；以熊市开局则相反。<b>用分位前必须先声明窗口性质</b></td><td>6.2 年窗口含 2020 年 PB&gt;4 的高开局——"便宜 81.6%"天然偏乐观，打八折用</td></tr>
+      <tr><td><b>FX-free 锚</b></td><td>不依赖汇率换算的指标（股价、股息率），比需要换算的 PB/PE 更硬。港股分析时尤其重要</td><td>本案 A 股同币种，fx=1，全部指标免汇率问题</td></tr>
+      <tr><td><b>ROE÷PB（#15）</b></td><td>账面回报÷买入价格，等价于 1/PE 但用 ROE 表达更直观：<b>花 1 块钱买到的净资产，一年替你赚几分</b>。同行横向排序用，比值可跨币种</td><td>金科 3.33/1.43 = 2.33 同行第一，但是"矮子里拔将军"（5 家有 3 家 ROE≤0.3%）</td></tr>
+      <tr><td><b>股息锚（收益率锚）</b></td><td>用"DPS÷要求股息率"倒算股价：假设分红不变，股价跌到多少时股息回报才够有吸引力。是"统计分位锚"之外的第二个锚</td><td>0.287÷2.64%（历史 70 分位股息率）= 10.87 元</td></tr>
+      <tr><td><b>双锚交叉</b></td><td>买入价必须由两条独立逻辑交叉确认：锚①统计锚（历史分位/PB 档位）＋锚②收益率锚（股息贴现）。只有单个锚的买入价不可信；锚间价差 &gt;20% 要解释差异</td><td>锚① PB 1.28 档 = 12.00；锚②股息锚 = 10.87；差 10%，取重叠区 10.9–12.0 元</td></tr>
+      <tr><td><b>价格隐含减值率（#16）</b></td><td>(归母权益−市值)÷被质疑资产：市值低于净资产时，反算市场隐含对问题资产打了几折，再与账面拨备率比——市场比你悲观才有安全边际</td><td>本案 PB 1.43&gt;1，公式给出负数→不适用。启示反转：市场对 5.58 亿应收零折价，风险全由买入者自己扛</td></tr>
+      <tr><td><b>打灯逻辑（🔴🟡🟢）</b></td><td>阈值是通用缺省值，<b>趋势方向权重高于绝对值</b>：红线指标连续两年改善可降为黄；绿灯指标斜率恶化要加预警</td><td>#3 🔴但 capex 已退坡→"过去时红灯"；#11 🟢但一年从 10%→45%→带趋势预警</td></tr>
+    </table></div>
+  </details>
+</div>
+
+<footer>
+  本页为<b>全量版</b>：内容与 <code>2026-08_金科环境_分析报告.md</code>、<code>2026-08_金科环境_速读版.md</code> 一致（图表与折叠区为 HTML 独有的呈现增强）。<br>
+  数据源：FY2021–FY2025 年报 + 2025 中期报（逐项出处见取数底稿 6_取数日志）｜ 全文唯一基准价 13.34 元（2026-08-04）｜ 生成 2026-08<br>
+  本页不构成投资建议。
+</footer>
+</div>
+
+<script>
+const G='#1e7e4a', B='#1f4e79', R='#c0392b', Y='#b7791f', GR='#8fa0b5';
+const YRS=['FY2021','FY2022','FY2023','FY2024','FY2025'];
+const base={
+  tooltip:{trigger:'axis'},
+  grid:{left:56,right:56,top:44,bottom:34},
+  legend:{top:6,textStyle:{fontSize:12}},
+  textStyle:{fontFamily:'-apple-system,"PingFang SC",sans-serif'}
+};
+function mk(id,opt){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const c=echarts.init(el);
+  c.setOption(Object.assign({},base,opt));
+  window.addEventListener('resize',()=>c.resize());
+}
+
+/* 图 1：三条价格锚 vs 现价 —— 横向条形，买入区用 markArea 标出 */
+mk('c_anchor',{
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'},valueFormatter:v=>v+' 元'},
+  legend:{show:false},
+  grid:{left:126,right:70,top:26,bottom:30},
+  xAxis:{type:'value',name:'元',max:15,splitLine:{lineStyle:{type:'dashed'}}},
+  yAxis:{type:'category',data:['DDM 10% 要求回报','DDM 9% 要求回报','PB 1.0 平净资产','股息锚 2.64%','PB 1.28 档','现价'],axisLabel:{fontSize:11.5}},
+  series:[{
+    type:'bar',barWidth:14,
+    data:[
+      {value:2.87,itemStyle:{color:GR}},
+      {value:3.19,itemStyle:{color:GR}},
+      {value:9.36,itemStyle:{color:B}},
+      {value:10.87,itemStyle:{color:G}},
+      {value:12.00,itemStyle:{color:G}},
+      {value:13.34,itemStyle:{color:R}}
+    ],
+    label:{show:true,position:'right',fontSize:12,formatter:'{c}'},
+    markArea:{silent:true,itemStyle:{color:'rgba(30,126,74,.10)'},label:{show:true,position:'insideTop',formatter:'买入区',fontSize:11,color:G},data:[[{xAxis:10.9},{xAxis:12.0}]]},
+    markLine:{symbol:'none',data:[{xAxis:13.34,lineStyle:{color:R,type:'dashed'}}]}
+  }]
+});
+
+/* 图 2：分部收入堆叠 + 在手订单折线（双轴） */
+mk('c_segment',{
+  legend:{top:6,data:['工艺包/解决方案销售','运维+资源化服务','在手订单（亿）']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:[
+    {type:'value',name:'百万元',splitLine:{lineStyle:{type:'dashed'}}},
+    {type:'value',name:'亿元',min:0,max:9,splitLine:{show:false}}
+  ],
+  series:[
+    {name:'工艺包/解决方案销售',type:'bar',stack:'rev',barWidth:38,itemStyle:{color:R},data:[441.1,500.1,378.3,336.9,210.2]},
+    {name:'运维+资源化服务',type:'bar',stack:'rev',itemStyle:{color:G},data:[118.2,170.5,193.9,279.0,313.0],
+     label:{show:true,position:'top',fontSize:11,formatter:p=>[559.5,670.9,572.8,617.1,523.4][p.dataIndex]}},
+    {name:'在手订单（亿）',type:'line',yAxisIndex:1,smooth:true,symbolSize:8,lineStyle:{width:3},itemStyle:{color:Y},data:[4.33,5.77,7.36,6.71,6.05]}
+  ]
+});
+
+/* 图 3：应收毛额 vs 拨备率 —— 反向背离 */
+mk('c_ar',{
+  legend:{top:6,data:['应收账款毛额','坏账准备','拨备率']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:[
+    {type:'value',name:'百万元',splitLine:{lineStyle:{type:'dashed'}}},
+    {type:'value',name:'拨备率 %',min:8,max:22,interval:2,splitLine:{show:false},axisLabel:{formatter:'{value}%'}}
+  ],
+  series:[
+    {name:'应收账款毛额',type:'bar',barWidth:26,itemStyle:{color:'#c9d4e2'},data:[273.0,298.1,361.8,451.4,557.9],
+     label:{show:true,position:'top',fontSize:11}},
+    {name:'坏账准备',type:'bar',barWidth:26,barGap:'-100%',itemStyle:{color:B},data:[35.1,53.2,61.9,66.2,74.5]},
+    {name:'拨备率',type:'line',yAxisIndex:1,smooth:true,symbolSize:9,lineStyle:{width:3},itemStyle:{color:R},
+     data:[12.9,17.8,17.1,14.7,13.3],label:{show:true,fontSize:11,formatter:'{c}%'},
+     markLine:{symbol:'none',data:[{yAxis:17.8,lineStyle:{color:Y,type:'dashed'},label:{formatter:'FY2022 峰值 17.8%',position:'insideEndTop',fontSize:11}}]}}
+  ]
+});
+
+/* 图 4：OCF / capex / FCF */
+mk('c_cash',{
+  legend:{top:6,data:['经营现金流 OCF','capex','自由现金流 FCF']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:{type:'value',name:'百万元',splitLine:{lineStyle:{type:'dashed'}}},
+  series:[
+    {name:'经营现金流 OCF',type:'bar',barWidth:20,itemStyle:{color:G},data:[-33.4,84.3,109.7,95.2,94.1]},
+    {name:'capex',type:'bar',barWidth:20,itemStyle:{color:GR},data:[-114.3,-91.3,-275.5,-259.4,-58.3]},
+    {name:'自由现金流 FCF',type:'line',smooth:true,symbolSize:9,lineStyle:{width:3},itemStyle:{color:R},
+     data:[-147.7,-7.0,-165.8,-164.2,35.8],label:{show:true,fontSize:11,position:'bottom'},
+     markLine:{symbol:'none',data:[{yAxis:0,lineStyle:{color:'#999'}}]}}
+  ]
+});
+
+/* 图 5：归母净利 vs 财务费用 */
+mk('c_profit',{
+  legend:{top:6,data:['归母净利','财务费用','财务费用/归母净利']},
+  xAxis:{type:'category',data:YRS},
+  yAxis:[
+    {type:'value',name:'百万元',splitLine:{lineStyle:{type:'dashed'}}},
+    {type:'value',name:'占比 %',min:-10,max:60,splitLine:{show:false},axisLabel:{formatter:'{value}%'}}
+  ],
+  series:[
+    {name:'归母净利',type:'bar',barWidth:26,itemStyle:{color:B},data:[62.3,76.8,70.8,66.8,37.8],label:{show:true,position:'top',fontSize:11}},
+    {name:'财务费用',type:'bar',barWidth:26,itemStyle:{color:Y},data:[-3.1,1.8,5.1,6.7,17.0],label:{show:true,position:'top',fontSize:11}},
+    {name:'财务费用/归母净利',type:'line',yAxisIndex:1,smooth:true,symbolSize:9,lineStyle:{width:3},itemStyle:{color:R},
+     data:[-5.0,2.3,7.2,10.0,45.0],label:{show:true,fontSize:11,position:'bottom',formatter:'{c}%'}}
+  ]
+});
+
+/* 图 6：同行 ROE÷PB */
+mk('c_peers',{
+  tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+  legend:{show:false},
+  grid:{left:86,right:70,top:20,bottom:30},
+  xAxis:{type:'value',name:'ROE÷PB',splitLine:{lineStyle:{type:'dashed'}}},
+  yAxis:{type:'category',data:['倍杰特/津膜','碧水源','三达膜','金科环境'],axisLabel:{fontSize:12}},
+  series:[{
+    type:'bar',barWidth:18,
+    data:[{value:0,itemStyle:{color:'#ddd'}},{value:0.46,itemStyle:{color:GR}},{value:1.93,itemStyle:{color:B}},{value:2.33,itemStyle:{color:G}}],
+    label:{show:true,position:'right',fontSize:12,formatter:p=>p.value?p.value:'ROE 为负'}
+  }]
+});
+</script>
+<div class="model-stamp" style="text-align:center;font-size:12px;color:#5a6270;margin-top:20px;padding:10px;border-top:1px solid #e3e6eb;">本文由 <b>qoder cantus</b> 生成</div>
+</body>
+</html>

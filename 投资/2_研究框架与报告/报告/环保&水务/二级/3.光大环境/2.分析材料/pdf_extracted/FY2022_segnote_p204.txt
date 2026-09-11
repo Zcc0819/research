@@ -1,0 +1,47 @@
+Notes to Financial Statements
+財務報表附註
+31 December 2022 二零二二年十二月三十一日
+3 SIGNIFICANT ACCOUNTING JUDGEMENTS 3 重大會計判斷及估計（續）
+AND ESTIMATES (continued)
+Estimation uncertainty (continued) 估計之不確定性（續）
+Income taxes 所得稅
+Determining income tax provisions involves judgement on 釐定所得稅撥備涉及對若干交易之日後稅項
+the future tax treatment of certain transactions. The Group 處理方法作出判斷。本集團會根據現行稅務
+carefully evaluates the tax implications of transactions in 法律及法規審慎評估交易之相關稅務影響，
+accordance with prevailing tax laws and regulations, and 從而計提稅項撥備。本集團會定期重新考慮
+tax provisions are set up accordingly. The tax treatment 有關交易之稅項處理方法，並會將稅務法
+of such transactions is reconsidered periodically to take 律、法規、相關詮釋及慣例以及其他相關政
+into account all changes in tax laws, regulations, relevant 策之所有變動列為考慮因素。於日常業務過
+interpretations and practices, and other related policies. 程中有多項交易及計算未能明確釐定最終稅
+There are many transactions and calculations for which 項。倘該等事宜之最終稅項結果與最初入賬
+the ultimate tax determination is uncertain during the 之金額有所不同，該等差額將影響於作出有
+ordinary course of the business. Where the final tax 關釐定期間之所得稅及遞延稅項撥備。於二
+outcome of these matters is different from the amounts 零二二年十二月三十一日，應付即期稅項之
+that were initially recorded, such differences will impact 賬面值為港幣197,011,000元（二零二一年：
+on the income tax and deferred tax provision in the 港幣190,832,000元）。
+periods in which such determination is made. The carrying
+amount of current tax payable at 31 December 2022 was
+HK$197,011,000 (2021: HK$190,832,000).
+Deferred tax assets are recognised for temporary 本集團會就暫時可扣減差異確認遞延稅項資
+deductible differences. As those deferred tax assets 產。由於上述遞延稅項資產僅限於將來很可
+can only be recognised to the extent that it is probable 能取得應課稅盈利而令未使用稅項抵免得以
+that future taxable profits will be available against which 運用之情況下予以確認，故管理層須作出判
+the unused tax credits can be utilised, management’s 斷，評估產生未來應課稅盈利之可能性。管
+judgement is required to assess the probability of future 理層會於各個報告期末重新評估上述估計。
+taxable profits. Management reassesses these estimates 倘未來應課稅盈利有可能令遞延稅項資產得
+at the end of each reporting period. Additional deferred 以收回，便會確認額外的遞延稅項資產。於
+tax assets are recognised if it becomes probable that 二零二二年十二月三十一日，遞延稅項資產
+future taxable profits will allow the deferred tax assets 之賬面值為港幣376,031,000元（二零二一
+to be recovered. The carrying amount of deferred tax 年：港幣440,770,000元）。進一步詳情載於
+assets at 31 December 2022 was HK$376,031,000 (2021: 財務報表附註33。
+HK$440,770,000). Further details are included in note 33
+to the financial statements.
+4 OPERATING SEGMENT INFORMATION 4 經營分部資料
+The Group manages its business by divisions, which 本集團之業務按業務種類劃分為多個分部並
+are organised by business lines. In a manner consistent 加以管理。按照公司內部就資源分配及表現
+with the way in which information is reported internally 評估而向本集團最高管理層呈報資料之一貫
+to the Group’s most senior executive management for 方式，本集團呈報了四個須予報告分部。
+the purposes of resource allocation and performance
+assessment, the Group has presented four reportable
+segments.
+202 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

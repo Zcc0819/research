@@ -1,0 +1,49 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued)
+關鍵審計事項（續）
+Assessing impairment of intangible assets, property, plant and equipment and right-of-use assets
+無形資產、物業、廠房及設備以及使用權資產的耗損評估
+Refer to notes 15, 16 and 18 to the consolidated financial statements and the accounting policies in note 2.4.
+15 16 18 2.4
+參見綜合財務報表附註 、 和 以及附註 中的會計政策。
+How the matter was addressed in our
+The Key Audit Matter audit
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+As at 31 December 2024, the carrying amounts of Our audit procedures to assess the
+intangible assets, property, plant and equipment and right- impairment of intangible assets, property,
+of-use assets amounted to HK$29,839 million, HK$7,949 plant and equipment and right-of-use assets
+million and HK$714 million respectively. included the following:
+於二零二四年十二月三十一日，無形資產、物業、廠房及 我們評估無形資產、物業、廠房及設備以及使
+298.39
+設備及使用權資產之賬面值分別為港幣 億元、港幣 用權資產耗損的審計程序包括以下內容：
+79.49 7.14
+億元及港幣 億元。
+• evaluating management’s identification
+Management allocates intangible assets, property, plant and of CGUs and the allocation of assets to
+equipment and right-of-use assets to separately identifiable each relevant CGU with reference to the
+cash generating units (“CGUs”) and assesses if there are requirements of the prevailing accounting
+any indications of impairment of these CGUs. standards;
+•
+管理層將無形資產、物業、廠房及設備以及使用權資產分配 參考現行會計準則的要求，評估管理層對
+給單獨可識別的現金產生單位（「現金產生單位」），並評估 現金產生單位的識別以及向每個相關現金
+這些現金產生單位是否存在耗損跡象。 產生單位的資產分配；
+At the financial reporting date, management reviewed the • assessing the reasonableness of the
+CGUs to determine whether there were any indicators of revenue growth rates and gross profit
+impairment. When indicators of impairment are identified, margins adopted by management by
+management assesses the recoverable amounts of CGUs. referring to industry and other available
+An impairment loss is recognised as an expense in the third party information, the recent financial
+consolidated income statement if the carrying amounts performance of each relevant CGU
+of the CGUs exceed their recoverable amounts. The subject to impairment assessment and
+recoverable amounts of the CGUs are the higher of the fair management’s plans for future operations;
+value less costs of disposal and value in use. •
+通過參考行業和其他可用的第三方信息、
+在財務報告日，管理層審查了現金產生單位，以確定是否存 每個需要接受耗損評估的相關現金產生單
+在任何耗損跡象。當確定耗損指標時，管理層評估現金產生 位的近期財務表現以及管理層的未來運營
+單位的可收回金額。如果現金產生單位的賬面金額超過其 計劃，評估管理層採用的收入增長率和毛
+可收回金額，則耗損虧損在綜合損益表中確認為費用。現金 利率的合理性；
+產生單位的可收回金額為公允價值減去處置成本和使用價
+值中的較高者。
+145
+Annual Report 2024
+二零二四年年報

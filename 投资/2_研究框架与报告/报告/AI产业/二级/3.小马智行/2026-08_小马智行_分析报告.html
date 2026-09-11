@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小马智行（NASDAQ: PONY）分析报告 · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--red:#c0392b;--yellow:#b7791f;--green:#1e7e34;--ink:#1a202c;--muted:#667085;--line:#e5e7eb;--bg:#f7f8fa;--accent:#1f4e79;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px 64px;}
+  header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+  header.hero h1{margin:0 0 10px;font-size:26px;letter-spacing:1px;}
+  header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+  header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+  header.hero .tag{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:2px 8px;margin:6px 3px 0;font-size:12px;}
+  nav.toc{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:16px 0;font-size:13px;}
+  nav.toc a{color:var(--accent);text-decoration:none;margin-right:14px;white-space:nowrap;display:inline-block;margin-bottom:4px;}
+  section{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px 22px;margin:16px 0;}
+  h2{font-size:19px;border-left:4px solid var(--accent);padding-left:10px;margin:4px 0 14px;}
+  h3{font-size:15px;margin:18px 0 8px;color:var(--accent);}
+  .caliber{font-size:12px;color:var(--muted);margin:-6px 0 8px;}
+  .tablebox{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;font-size:13px;min-width:560px;}
+  th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top;}
+  th{background:#f1f4f8;white-space:nowrap;}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;}
+  .chart{width:100%;height:340px;margin:8px 0 4px;}
+  .light{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px;}
+  .lg{background:var(--green);}.ly{background:var(--yellow);}.lr{background:var(--red);}.ln{background:#9aa4b2;}
+  .grid16{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;}
+  .cell16{border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:12.5px;background:#fcfcfd;}
+  .cell16 b{display:block;font-size:12.5px;}
+  .verdict{background:#fff8f0;border:1px solid #f0d9b5;border-radius:8px;padding:14px 16px;font-size:14px;}
+  .quick{background:#eef4fb;border:1px solid #cfe0f3;border-radius:8px;padding:16px 18px;}
+  .quick h2{border-color:#2f6db3;}
+  .pill{display:inline-block;border-radius:12px;padding:1px 10px;font-size:12px;margin-right:6px;color:#fff;}
+  .pr{background:var(--red);}.py{background:var(--yellow);}.pg{background:var(--green);}
+  footer{font-size:12px;color:var(--muted);padding:20px 4px;}
+  blockquote{margin:8px 0;padding:8px 12px;background:#f8f9fb;border-left:3px solid #cbd5e1;font-size:13px;color:#374151;}
+  details.fold{border:1px solid var(--line);border-radius:8px;background:#fbfcfd;margin:12px 0;}
+  details.fold>summary{cursor:pointer;padding:10px 14px;font-size:13.5px;font-weight:600;color:var(--accent);
+  list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  details.fold>summary::-webkit-details-marker{display:none;}
+  details.fold>summary::after{content:"▸ 点击展开";font-size:12px;font-weight:400;color:var(--muted);white-space:nowrap;}
+  details.fold[open]>summary::after{content:"▾ 点击折叠";}
+  details.fold[open]>summary{border-bottom:1px solid var(--line);}
+  details.fold .fold-body{padding:6px 14px 14px;}
+  ul{margin:6px 0;padding-left:22px;}
+  li{margin:3px 0;}
+  @media (max-width:640px){header.hero h1{font-size:20px;}.chart{height:280px;}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>小马智行（NASDAQ: PONY / HKEX: 2026）分析报告</h1>
+    <div class="meta">基准股价 <b>8.33 USD</b>（2026-08-14 东财 105.PONY，全文唯一基准价）｜ 市值 36.19 亿美元 ｜ 数据区间 FY2022–FY2025 年度 + Q1'25–Q1'26 季度（美元列报）｜ 美股财报采集流程首次实测：SEC EDGAR × 东财 105 前缀三通道全通</div>
+    <div>
+      <span class="tag">标的类型 T5 投入期成长（早段）</span>
+      <span class="tag">尺子：PS + 单位经济 + 现金跑道</span>
+      <span class="tag">结论：不建仓 · 只登记不实盘</span>
+      <span class="tag">台账 #12 · 2026-08-14</span>
+      <span class="tag">验证 2027-04-30（中间点 2026-08 下旬 Q2'26）</span>
+    </div>
+    <div class="meta" style="margin-top:8px">🟡 <b>当前状态｜结论 v1.1（未变）｜最近验证 2026-08-18</b>：Q2'26 &amp; H1'26 中报已对答案，<b>三个预设中间点全部答在不利侧</b>（烧钱同比恶化 73%、车队半年仅 +199 台、NCI 分利再为正且翻倍）——原判断证据变硬，维持不建仓。详见 <a href="#s7" style="color:#ffd479">第 7 节回访区</a>；正文未作任何修改。</div>
+  </div>
+</header>
+<div class="wrap">
+
+<nav class="toc">
+  <a href="#quick">速读区</a>
+  <a href="#s0">0 一句话结论</a>
+  <a href="#lights">16 项打灯</a>
+  <a href="#s1">1 行业</a>
+  <a href="#s2">2 公司与治理</a>
+  <a href="#s3">3 主营拆解</a>
+  <a href="#s4">4 财务</a>
+  <a href="#s5">5 估值与隐含预期</a>
+  <a href="#s6">6 风险与证伪</a>
+  <a href="#s7">7 回访区</a>
+  <a href="#appendix">附 取数摘要</a>
+</nav>
+
+<section class="quick" id="quick">
+  <h2>速读区（30 秒版）</h2>
+  <p><b>一句话</b>：全球无人出租车赛道里商业模型验证最靠前、兜里钱最多的选手——车已经能自己赚回油钱（广深两城单车收支打平、日均 23 单），但公司整体一年还烧 2 亿美元；股价趴在上市以来最冷的 15% 分位，现价的 42% 是账上现金。<b>看着不贵，但 T5 纪律：只登记，不买。</b></p>
+  <p><b>只记三个数</b>：<span class="pill pg">23 单/天·单车效率≈真人司机</span><span class="pill pg">现金跑道 6–7 年</span><span class="pill pr">现价已预付"收入涨 10.7 倍"的门票</span></p>
+  <p><b>半年后对答案</b>（Q2'26 业绩 2026-08 下旬）：烧钱年化破 -2.5 亿美元没有？车队离 3,500 台还有多远（上期 1,776）？</p>
+</section>
+
+<section id="s0">
+  <h2>0. 一句话结论</h2>
+  <div class="verdict">
+    <p><b>不建仓（T5 练手标的，结论只登记不实盘）。</b>核心逻辑：①正面——广深两城车辆级 UE breakeven + 日均 23 单/车是全行业最硬的已披露商业化证据；15 亿美元现金池 vs 年烧 2 亿，跑道 6–7 年无融资风险；股价 8.33 处 21 个月窗口 14.8% 分位，且有每股 3.49 USD 现金硬底。②反面——公司级造血为零（四年 OCF 全负、FCF 烧钱加速 71%）；现价仍隐含"十年收入复合 39%"的中性偏乐观情景；FY25 结构性红旗：少数股东分走 +57.2M 利润而归母股东扛 -134.0M 亏损。</p>
+    <p><b>重估触发条件（两条同时成立）</b>：① FY2026 年报车队 ≥3,500 台且 Robotaxi 收入 ≥3.5x（≥58M USD）——两度上调的指引必须闭环；② FY2026 FCF 流出 ≤300M——车队扩 2.4 倍的同时烧钱增幅显著更低，资产轻+UE 改善才是真的。公司级 OCF 转正（T4 入场券）最早可信时点 FY2028（对应车队 ~7,700 台[推算]）。</p>
+    <p><b>如果不到条件</b>：愿意错过"叙事再起、股价先涨"的右侧行情；例外催化剂——特斯拉/Waymo 美国大规模商业化引发板块重定价，或 PONY 拿下超一线城市全域运营牌照。</p>
+  </div>
+</section>
+
+<section id="lights">
+  <h2>16 项打灯总览</h2>
+  <p class="caliber">🟢 4 ｜ 🟡 3 ｜ 🔴 3 ｜ N/A 6（无分红/无有息债/同行全亏损/溢价股/一项待补）——🔴 集中在现金流与利润归属，🟢 集中在资产负债表：典型"现金极厚、模型初证、造血为零"的投入期早段画像</p>
+  <div class="grid16">
+    <div class="cell16"><b><span class="light ly"></span>#1 经常性收入</b>Robotaxi 占比 10.7%→18.4%→25.1%(Q1'26)，方向对但主体仍是 B 端项目制</div>
+    <div class="cell16"><b><span class="light lr"></span>#2 OCF/净利</b>四年 OCF -546.0M 全负，无一年转正；Q4'25 盈利系公允价值 +132.5M</div>
+    <div class="cell16"><b><span class="light lr"></span>#3 自由现金流</b>FCF -122.2 → -208.8M，烧钱加速 71%</div>
+    <div class="cell16"><b><span class="light ln"></span>#4 分红覆盖</b>从未派息，20-F 明示不分红</div>
+    <div class="cell16"><b><span class="light lg"></span>#5 净负债/净资产</b>零有息负债，总现金池 1,514.8M，深度净现金</div>
+    <div class="cell16"><b><span class="light lg"></span>#6 短债覆盖</b>现金 293.5M 覆盖全部负债 2.8 倍</div>
+    <div class="cell16"><b><span class="light lg"></span>#7 应收/总资产</b>23.6/1,812.8 = 1.3%</div>
+    <div class="cell16"><b><span class="light ly"></span>#8 应收/营收</b>26.3%（FY23 曾 43.9%，连续改善但绝对值不低）</div>
+    <div class="cell16"><b><span class="light ln"></span>#9 拨备率趋势</b>坏账准备明细未取[待补]</div>
+    <div class="cell16"><b><span class="light ln"></span>#10 利差</b>无有息负债，不适用</div>
+    <div class="cell16"><b><span class="light lg"></span>#11 财务费用/归母</b>无利息支出；利息+投资收益 +184.1M 反哺</div>
+    <div class="cell16"><b><span class="light lr"></span>#12 少数股东分利</b>FY25 NCI +57.2M vs 归母 -134.0M，红旗#1</div>
+    <div class="cell16"><b><span class="light ly"></span>#13 便宜程度分位</b>数值分位 14.8%（便宜程度 85.2%），但窗口仅 21 个月降级</div>
+    <div class="cell16"><b><span class="light ln"></span>#14 股息率分位</b>恒 0，无序列</div>
+    <div class="cell16"><b><span class="light ln"></span>#15 ROE÷PB 同行</b>同行全亏损失效；PB 对照：WRD 2.08 &lt; PONY 2.24 &lt; AUR 7.02</div>
+    <div class="cell16"><b><span class="light ln"></span>#16 隐含减值率</b>溢价股改倒推：静态需营收 10.7 倍，含回报需 27.8 倍</div>
+  </div>
+</section>
+
+<section id="s1">
+  <h2>1. 行业：蛋糕与利润流向</h2>
+  <p class="caliber">Robotaxi 为覆盖地图空白类型 → 最小行业节；行业级悬空问题已登记《未解问题登记表》</p>
+  <ul>
+    <li><b>需求驱动</b>：网约车/出租车市场的无人化替代——需求侧无需教育，供给侧成本是唯一变量。BOM 路线：Gen-7 ADK 较 Gen-6 降 70%，2026 批次再降 20%，2027 目标整车含 ADK &lt;RMB 23 万 <code>[管理层口径]</code></li>
+    <li><b>竞争格局</b>：全球四强——Waymo（私募估值 &gt;450 亿美元）、特斯拉 Cybercab、百度萝卜快跑、PONY/文远中概双雄。PONY 是唯一在广深京沪四个超一线城市全部拿到全无人商业化牌照的公司 <code>[管理层口径]</code></li>
+    <li><b>谁付钱</b>：现阶段仍是 B 端——前三大客户 59.3%（Robotruck 运输费来自中外运合资、工程方案费来自丰田等 OEM、ADC 卖给机器人配送商）<code>[年报披露]</code>；C 端打车费 +200~400%/年但占比小。<b>"到 C"转型是收入质量主线</b></li>
+    <li><b>政策主变量</b>：牌照逐城审批制 + 数据出境 + 中美审计（PCAOB 已可检查，降级）；单起严重事故可触发全国停摆——Cruise 2023 停摆先例是全行业的达摩克利斯之剑</li>
+    <li><b>本节判断</b>：3-5 年蛋糕[从零到一变大]，钱先被[整车厂+运营平台]赚走；技术方吃到利润要等车队过万台。三源覆盖：UE 与牌照均为公司口径，待补第三方运营数据</li>
+  </ul>
+</section>
+
+<section id="s2">
+  <h2>2. 公司：位置与治理</h2>
+  <h3>管理层"说-做"对账表（上市仅 21 个月，样本短）</h3>
+  <div class="tablebox"><table>
+    <tr><th>当年怎么说</th><th>后来怎么做</th><th>判定</th></tr>
+    <tr><td>2025-11：年底车队破 1,000 台</td><td>2026-03 披露 1,446 台</td><td>✅ 唯一闭环承诺，超额达成</td></tr>
+    <tr><td>2026-03：2026 年底 3,000 台、Robotaxi 收入 3x</td><td>2026-05 上调至 3,500+ 台、3.5x</td><td>🔄 两度上调，FY26 年报对账</td></tr>
+    <tr><td>2024 招股书：Robotruck 与 Robotaxi 双轮驱动</td><td>Robotruck FY25 +0.6% 停滞，叙事重心移到 Robotaxi</td><td>⚠️ 双轮变单轮，注意叙事漂移</td></tr>
+    <tr><td>2025-11 HK IPO："全球化+量产"募资用途</td><td>覆盖 9 国、4 海外市场公众收费运营</td><td>🔄 方向一致，规模待验证</td></tr>
+  </table></div>
+  <ul>
+    <li><b>加分</b>：VIE 已于 2024-02 拆除（中概股少数派）；普华永道中天（PCAOB ID 1113）意见干净、无持续经营疑虑段；丰田股东（9.8%）+ 车辆平台伙伴双重绑定 <code>[年报披露]</code></li>
+    <li><b>减分</b>：AB 股 1:10——彭军持股 13.8% 对应投票权 51.6%，两位创始人合计 70%，公众股东无实质影响力；<b>FY25 NCI 分利 +57.2M vs 归母 -134.0M</b>（红旗#1，子公司身份待核）；指引连续上调自设兑现压力</li>
+  </ul>
+</section>
+
+<section id="s3">
+  <h2>3. 主营拆解：收入质量分层</h2>
+  <p class="caliber">口径：业绩公告分部数（与 companyfacts XBRL 总收入勾稽一致）；FY2026 起"授权与应用"改称"智能方案"</p>
+  <div id="chart-seg" class="chart"></div>
+  <div id="chart-q" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>分部</th><th class="num">FY2025 收入</th><th>三年趋势</th><th>质量分层</th><th>一句话</th></tr>
+    <tr><td>Robotaxi 服务</td><td class="num">16.6M（18.4%）</td><td>7.7→7.3→16.6M，Q1'26 +395%</td><td><b>C 端经常性（目标态）</b></td><td>唯一的故事主线，Gen-7 上线后台阶式跳升</td></tr>
+    <tr><td>Robotruck 服务</td><td class="num">40.6M（45.2%）</td><td>25.0→40.4→40.6M</td><td>B 端运输外包，低毛利项目制</td><td>停滞两年，等 Gen-4 量产（2026H2）重启</td></tr>
+    <tr><td>授权与应用</td><td class="num">32.8M（36.4%）</td><td>39.2→27.3→32.8M</td><td>B 端项目制+硬件</td><td>ADC 域控出货 +5 倍撑起回升</td></tr>
+    <tr><td><b>合计</b></td><td class="num"><b>90.0M（+20%）</b></td><td>68.4→71.9→75.0→90.0M</td><td>—</td><td>Q1'26 +145% 加速，但基数极小</td></tr>
+  </table></div>
+  <ul>
+    <li><b>核心矛盾：分部叙事在 C 端、收入主体在 B 端</b>——前三大客户 65.8%→43.9%→<b>59.3%</b> 回升、单一最大 32.9%、一家客户连续三年进前三 <code>[年报披露]</code></li>
+    <li>季度同比噪音大（Q4'25 -18% 系 FY24Q4 一次性 20M 项目垫高基数），看环比更可靠：Q1'25 起连续五季环比正增长</li>
+    <li>毛利率 15–18% 平台期无趋势性改善；车辆级 UE breakeven ≠ 公司毛利率改善（口径差异见第 5 节）</li>
+  </ul>
+</section>
+
+<section id="s4">
+  <h2>4. 财务：三张表 + 一个循环</h2>
+  <p class="caliber">本标的的循环是"融资→烧钱→里程碑→再融资"，四年跑了两圈半（US IPO 2024-11 + HK IPO 2025-11）</p>
+  <div id="chart-cash" class="chart"></div>
+  <div class="tablebox"><table>
+    <tr><th>USD M</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th></tr>
+    <tr><td>营收</td><td class="num">68.4</td><td class="num">71.9</td><td class="num">75.0</td><td class="num">90.0</td></tr>
+    <tr><td>归母净亏</td><td class="num">-148.0</td><td class="num">-124.8</td><td class="num">-274.1</td><td class="num">-134.0</td></tr>
+    <tr><td>Non-GAAP 净亏</td><td class="num">—</td><td class="num">—</td><td class="num">-132.3</td><td class="num">-174.0</td></tr>
+    <tr><td>OCF</td><td class="num">-154.8</td><td class="num">-115.4</td><td class="num">-110.8</td><td class="num">-165.0</td></tr>
+    <tr><td>FCF（官方）</td><td class="num">—</td><td class="num">—</td><td class="num">-122.2</td><td class="num"><b>-208.8</b></td></tr>
+    <tr><td>筹资流入</td><td class="num">+191.6</td><td class="num">+89.8</td><td class="num">+407.4</td><td class="num">+814.8</td></tr>
+    <tr><td>期末现金+短投</td><td class="num">577.9</td><td class="num">589.6</td><td class="num">745.0</td><td class="num">1,165.6</td></tr>
+  </table></div>
+  <ul>
+    <li><b>两大硬指标</b>：①四年 OCF 全负合计 -546.0M、无一年转正（#2 🔴）；②FCF 烧钱加速 71%（#3 🔴）——利润表"亏损收窄"是利息+公允价值粉饰，Non-GAAP 经营亏损实际扩大 45%（-158.5→-230.1M）</li>
+    <li><b>资产负债表满堂绿</b>：资产负债率 5.7%、零有息负债、总现金池 1,514.8M（现金 293.5+短投 872.2+受限 2.2+长期理财 347）= 总资产的 84%；<b>现金跑道 6–7.3 年</b>——相对 Cruise（被通用断供停摆）最实在的护城河</li>
+    <li><b>结构性红旗</b>：FY25 合并亏 -76.8 vs 归母亏 -134.0，NCI 分走 +57.2M——公允价值收益挂在非全资子公司，归母股东扛研发、别人分金融收益（待核子公司身份）</li>
+    <li>FY22/23 归母权益为负系 mezzanine 优先股会计处理（IPO 前可转换可赎回优先股不入权益），非资不抵债，美股 pre-IPO 通例</li>
+  </ul>
+  <details class="fold"><summary>展开：利润三层拆解与 Q4'25"盈利"的真相</summary><div class="fold-body">
+    <ul>
+      <li>①GAAP 层：FY25 净亏 -274.1 → -134.0M 收窄，靠利息+证券公允价值 +184.1M 非经营贡献；Q4'25 单季公允价值 +132.5M 制造"上市后首个盈利季"（GAAP 净利 +75.5M）</li>
+      <li>②Non-GAAP 层：净亏 -132.3 → -174.0M（+32%）——Gen-7 一次性研发（含 12.7M 定制开发费）+ 车队扩张费用</li>
+      <li>③研发口径：FY24 GAAP 研发 240.2M 含 US IPO 一次性股份支付 127.0M；真实研发（Non-GAAP）120.9 → 137.8 → 196.3M，三年 +62%</li>
+      <li>季度 Non-GAAP 净亏序列：Q1'25 -28.4 → Q2 -46.1 → Q3 -55.0 → Q4 -49.0 → Q1'26 -41.2M（连续两季收窄，但同比仍扩大）</li>
+    </ul>
+  </div></details>
+</section>
+
+<section id="s5">
+  <h2>5. 估值：价格隐含的预期</h2>
+  <div id="chart-px" class="chart"></div>
+  <div id="chart-peer" class="chart"></div>
+  <ul>
+    <li><b>静态</b>：市值 3,619M = FY25 营收 <b>40.2x PS</b>（Q1'26 年化 26.4x）；PB 2.19（自算，母公司权益）；每股现金 3.49 USD 占现价 42%——市场给"业务+技术"定价约 21 亿美元</li>
+    <li><b>隐含情景倒推</b>（#16 溢价股替代算法）：现价即合理（0% 回报）需营收 965M = FY25 的 <b>10.7 倍</b>；买入赚 10%/年（十年、退出 PE 25x、净利率 15%）需 2036 营收 2,503M = <b>27.8 倍，隐含收入 CAGR 39.4%/年连续十年</b>。Q1'26 +145% 前三年容易达标，胜负在第 5–10 年的 20 城复制</li>
+    <li><b>位置</b>：数值分位 14.8%（21 个月窗口降级）；较发行价 13.00 -35.9%、较 2025-10 港股上市行情顶 24.06 跌 -65%（典型"买预期卖事实"）；低点 4.16（2025-04 中概杀跌）恰在现金底 3.49 / PB=1 的 3.80 两锚之上——市场用真金白银测过一次底</li>
+    <li><b>同行</b>：PB 2.24 与 WRD 2.08 几乎同尺（中概 Robotaxi 板块性折价），较 AUR 7.02 折价 2/3；Waymo 私募估值 &gt;450 亿美元 = PONY 的 12 倍+ <code>[估算]</code></li>
+    <li><b>UE 到公司盈亏平衡的距离</b>：假设单车年毛利 3 万美元（乐观情景），覆盖 Non-GAAP 经营亏损 230M 需 <b>~7,700 台车队</b>——管理层路线图 2027–28 年到达 <code>[推算]</code></li>
+    <li><b>判断</b>：现价隐含中性偏乐观情景，不像寒武纪定价在"乐观档之上"；下行有现金硬底（-55% 附近），结构比多数 T5 好。<b>但 T5 纪律：不说贵/便宜，只登记不实盘</b></li>
+  </ul>
+</section>
+
+<section id="s6">
+  <h2>6. 风险与证伪条件</h2>
+  <div class="tablebox"><table>
+    <tr><th>#</th><th>风险</th><th>证伪/触发信号</th><th>查证动作</th></tr>
+    <tr><td>1</td><td><span class="light lr"></span>安全事故全国停摆（Cruise 先例）</td><td>任一城市监管暂停通告</td><td>新闻+监管公告即时跟踪</td></tr>
+    <tr><td>2</td><td><span class="light lr"></span>烧钱失控</td><td>FY2026 FCF 流出 &gt;300M 或现金池跌破 1,200M</td><td>Q2'26 业绩（2026-08 下旬）起逐季核对</td></tr>
+    <tr><td>3</td><td><span class="light lr"></span>NCI 结构侵蚀归母利益</td><td>少数股东分利持续为正且扩大</td><td>FY2026 20-F 附注核子公司身份与持股</td></tr>
+    <tr><td>4</td><td><span class="light ly"></span>指引跳票</td><td>FY26 年报车队 &lt;3,500 台或 Robotaxi 收入 &lt;3x</td><td>2027-03 业绩公告对账</td></tr>
+    <tr><td>5</td><td><span class="light ly"></span>客户集中+项目制波动</td><td>单一客户 &gt;35% 或某季收入同比大幅转负</td><td>每期业绩分部拆解</td></tr>
+    <tr><td>6</td><td><span class="light ly"></span>竞争挤压（Cybercab/萝卜快跑价格战）</td><td>单均收入或单车日单量转跌</td><td>UE 披露逐期对比</td></tr>
+  </table></div>
+</section>
+
+<section id="s7">
+  <h2>7. 回访区</h2>
+  <p class="caliber">纪律：<b>正文永不修改，验证只在本节倒序追加</b>——报告主体保留下判断当时的原样，这是日后区分“逻辑想对了”与“方向蒙对了”的唯一依据。每条追加必须写清：读数 → 命中哪条预设条件 → 结论动没动（版本号）。</p>
+
+  <div class="verdict">
+    <p><b>🟡 v1.1｜2026-08-18｜Q2'26 &amp; H1'26 业绩 ← 中间点对答案</b></p>
+    <p><b>结论：不变</b>（维持不建仓；T5 只登记不实盘）。三个预设中间点全部答在不利侧，原判断的证据链<b>变硬而非松动</b>。数据取自官方业绩新闻稿 PDF（pdfplumber 提取 14 页）<b>[A]</b>。</p>
+  </div>
+
+  <div class="tablebox"><table>
+    <tr><th style="width:22%">预设中间点（2026-08-14 登记时写下的）</th><th>实际读数（H1'26 / Q2'26）</th><th style="width:34%">判定</th></tr>
+    <tr><td>烧钱年化速度</td><td>H1'26 FCF <b>-162.8M</b>（OCF -118.2M ＋ capex -44.6M）vs H1'25 -94.0M，<b>同比恶化 73%</b></td><td>❌ 不利。单半年已超“FY2026 FCF 流出 &gt;300M 即证伪”线的一半（按规则卡 3.7 禁“半年×2”外推，只记同比）</td></tr>
+    <tr><td>车队进度（上期 1,776 台）</td><td><b>1,975 台</b>，半年仅 <b>+199</b>；公司仍维持年底 3,500 台指引</td><td>❌ 不利。剩余 5 个月要交 1,525 台 ＝ 上半年速度的 <b>7.7 倍</b></td></tr>
+    <tr><td>NCI 分利是否复现</td><td>H1 分利 <b>+11.4M</b>（Q2 单季 +14.5M）、同比 <b>+109%</b>；归母亏损 -110.3M <b>大于</b>总亏损 -98.9M</td><td>❌ 不利。结构红旗从“疑似”变<b>坐实</b></td></tr>
+  </table></div>
+
+  <p><b>反向证据（如实记，不允只挑对自己有利的）</b>：Q2 收入 36.2M（<b>+68.8%</b>）、Robotaxi 12.1M（<b>+691.2%</b>）、乘客车费 +849.3%，H1 收入 70.5M（+98.9%）；现金池 1,390.5M 仍在 1,200M 跑道线上（环比 -45.0M）；与 Uber 签欧洲 2,000 台合约、注册用户 150 万。——<b>增长侧的动能是真的</b>；本条判断赌的从来不是“没需求”，而是“单位经济与现金流跟不上规模扩张”，H1 数据把<b>两侧同时加强</b>了。</p>
+
+  <p><b>下一个窗口</b>：2026-11 Q3'26（车队能不能上 2,600 台——否则 3,500 台指引实质跳票）→ 终验 2027-04-30 FY2026 20-F。</p>
+
+  <hr style="border:none;border-top:1px dashed var(--line);margin:18px 0">
+
+  <p class="caliber"><b>原始验证计划</b>（2026-08-14 登记时写下，保留原样）：</p>
+  <ul>
+    <li><b>台账登记</b>：#12（2026-08-14，判断：不建仓/只登记；类型 T5；尺子 PS+UE+现金跑道）</li>
+    <li><b>主验证日期 2027-04-30</b>（FY2026 20-F 后）：①车队 ≥3,500 台？②Robotaxi 收入 ≥58M？③FCF 流出 ≤300M？④NCI 分利是否复现？⑤固定资产增速 vs 车队增速（资产轻验证）</li>
+    <li><b>中间点 2026-08 下旬（Q2'26 业绩）</b>：烧钱年化速度、车队进度（上期 1,776 台）、Q2 分部环比</li>
+    <li><b>未解问题</b>（登记《未解问题登记表》）：NCI 子公司身份；Robotaxi 行业规模独立测算；WRD/AUR 营收对照（PS 同行样本）；港股 2026.HK 价差通道</li>
+    <li>半年后自查：说-做对账表新增行？UE 披露口径是否从"峰值日/两周窗口"升级为季度平均（口径升级=信心信号，降级=预警）</li>
+  </ul>
+</section>
+    <li><b>主验证日期 2027-04-30</b>（FY2026 20-F 后）：①车队 ≥3,500 台？②Robotaxi 收入 ≥58M？③FCF 流出 ≤300M？④NCI 分利是否复现？⑤固定资产增速 vs 车队增速（资产轻验证）</li>
+    <li><b>中间点 2026-08 下旬（Q2'26 业绩）</b>：烧钱年化速度、车队进度（上期 1,776 台）、Q2 分部环比</li>
+    <li><b>未解问题</b>（登记《未解问题登记表》）：NCI 子公司身份；Robotaxi 行业规模独立测算；WRD/AUR 营收对照（PS 同行样本）；港股 2026.HK 价差通道</li>
+    <li>半年后自查：说-做对账表新增行？UE 披露口径是否从"峰值日/两周窗口"升级为季度平均（口径升级=信心信号，降级=预警）</li>
+  </ul>
+</section>
+
+<section id="appendix">
+  <h2>附：取数底稿摘要（完整版见 xlsx，13 条取数日志）</h2>
+  <div class="tablebox"><table>
+    <tr><th>USD M</th><th class="num">FY2022</th><th class="num">FY2023</th><th class="num">FY2024</th><th class="num">FY2025</th><th class="num">Q1'26</th></tr>
+    <tr><td>营收</td><td class="num">68.4</td><td class="num">71.9</td><td class="num">75.0</td><td class="num">90.0</td><td class="num">34.3（单季）</td></tr>
+    <tr><td>毛利率</td><td class="num">46.9%</td><td class="num">23.5%</td><td class="num">15.2%</td><td class="num">15.7%</td><td class="num">16.2%</td></tr>
+    <tr><td>GAAP 研发</td><td class="num">153.6</td><td class="num">122.7</td><td class="num">240.2</td><td class="num">217.4</td><td class="num">—</td></tr>
+    <tr><td>归母净亏</td><td class="num">-148.0</td><td class="num">-124.8</td><td class="num">-274.1</td><td class="num">-134.0</td><td class="num">—</td></tr>
+    <tr><td>OCF</td><td class="num">-154.8</td><td class="num">-115.4</td><td class="num">-110.8</td><td class="num">-165.0</td><td class="num">—</td></tr>
+    <tr><td>总资产</td><td class="num">771.5</td><td class="num">747.1</td><td class="num">1,050.8</td><td class="num">1,812.8</td><td class="num">—</td></tr>
+    <tr><td>现金+短投</td><td class="num">577.9</td><td class="num">589.6</td><td class="num">745.0</td><td class="num">1,165.6</td><td class="num">—</td></tr>
+  </table></div>
+  <blockquote>中间产物：<code>2.分析材料/1_历年文字总结</code>（叙事+说-做）、<code>3_财务数据分析</code>（16 项打灯）、<code>edgar_年度骨架_PONY.csv</code>、<code>px_daily_*.csv</code>、<code>html_extracts/</code>（6 期业绩+2 份 20-F+招股书全文）。取数通道：SEC EDGAR submissions/Archives/companyfacts（需 User-Agent）+ 东财 105 前缀。</blockquote>
+</section>
+
+<footer>
+  数据来源：SEC EDGAR（20-F、6-K EX-99、424B4、companyfacts XBRL）、东方财富（105.PONY/WRD/AUR）；证据分级 [年报披露]/[管理层口径]/[推算]/[估算] 已在文中标注。发布分级：仅本地归档。<br>
+  T5 尺子未经实盘验证，本报告结论只登记不实盘；所有 UE/车队/用户数为管理层口径，无第三方审计。
+</footer>
+
+</div>
+<script>
+(function(){
+  var C='#1f4e79',R='#c0392b',G='#1e7e34',Y='#b7791f',M='#667085';
+  function mk(id){var el=document.getElementById(id);if(!el)return null;return echarts.init(el);}
+  // 年度分部堆叠
+  var c1=mk('chart-seg');
+  c1&&c1.setOption({
+    title:{text:'年度收入分部（USD M）｜FY22 分部未取',left:'center',textStyle:{fontSize:14}},
+    tooltip:{trigger:'axis'},legend:{bottom:0},
+    grid:{left:48,right:24,top:44,bottom:56},
+    xAxis:{type:'category',data:['FY2023','FY2024','FY2025']},
+    yAxis:{type:'value'},
+    series:[
+      {name:'Robotaxi',type:'bar',stack:'s',color:C,data:[7.7,7.3,16.6]},
+      {name:'Robotruck',type:'bar',stack:'s',color:'#5b8bb8',data:[25.0,40.4,40.6]},
+      {name:'授权与应用',type:'bar',stack:'s',color:'#a9c3dc',data:[39.2,27.3,32.8]},
+      {name:'毛利率',type:'line',yAxisIndex:0,color:R,data:[16.9,11.4,14.2],
+       label:{show:true,fontSize:11,formatter:function(p){return ['23.5%','15.2%','15.7%'][p.dataIndex];}},symbolSize:7}
+    ]
+  });
+  // 季度分部
+  var c2=mk('chart-q');
+  c2&&c2.setOption({
+    title:{text:'季度收入分部与毛利率（USD M）',left:'center',textStyle:{fontSize:14}},
+    tooltip:{trigger:'axis'},legend:{bottom:0},
+    grid:{left:48,right:52,top:44,bottom:56},
+    xAxis:{type:'category',data:["Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"]},
+    yAxis:[{type:'value',name:'收入'},{type:'value',name:'毛利率%',max:25,min:0}],
+    series:[
+      {name:'Robotaxi',type:'bar',stack:'s',color:C,data:[1.7,1.5,6.7,6.7,8.6]},
+      {name:'Robotruck',type:'bar',stack:'s',color:'#5b8bb8',data:[7.8,9.5,10.2,13.1,10.2]},
+      {name:'授权/智能方案',type:'bar',stack:'s',color:'#a9c3dc',data:[4.5,10.4,8.6,9.4,15.5]},
+      {name:'毛利率%',type:'line',yAxisIndex:1,color:R,data:[16.6,16.1,18.4,12.7,16.2],symbolSize:7}
+    ]
+  });
+  // 现金流与现金池
+  var c3=mk('chart-cash');
+  c3&&c3.setOption({
+    title:{text:'烧钱 vs 输血 vs 现金池（USD M）',left:'center',textStyle:{fontSize:14}},
+    tooltip:{trigger:'axis'},legend:{bottom:0},
+    grid:{left:56,right:56,top:44,bottom:56},
+    xAxis:{type:'category',data:['FY2022','FY2023','FY2024','FY2025']},
+    yAxis:[{type:'value',name:'流量'},{type:'value',name:'现金+短投'}],
+    series:[
+      {name:'OCF',type:'bar',color:R,data:[-154.8,-115.4,-110.8,-165.0]},
+      {name:'筹资流入',type:'bar',color:G,data:[191.6,89.8,407.4,814.8]},
+      {name:'期末现金+短投',type:'line',yAxisIndex:1,color:C,symbolSize:7,data:[577.9,589.6,745.0,1165.6],
+       label:{show:true,fontSize:11,position:'top'}}
+    ]
+  });
+  // 股价（月度收盘）
+  var c4=mk('chart-px');
+  c4&&c4.setOption({
+    title:{text:'股价月度收盘（USD）｜发行价 13.00 ｜ 现价 8.33 处 14.8% 分位',left:'center',textStyle:{fontSize:14}},
+    tooltip:{trigger:'axis'},
+    grid:{left:44,right:24,top:44,bottom:44},
+    xAxis:{type:'category',data:['24-11','24-12','25-01','25-02','25-03','25-04','25-05','25-06','25-07','25-08','25-09','25-10','25-11','25-12','26-01','26-02','26-03','26-04','26-05','26-06','26-07','26-08'],axisLabel:{fontSize:10}},
+    yAxis:{type:'value',min:0},
+    series:[{type:'line',color:C,symbolSize:5,areaStyle:{opacity:.08},
+      data:[13.02,14.35,13.16,16.07,8.82,9.09,19.26,13.20,13.44,14.37,22.49,18.68,13.67,14.50,13.88,14.34,9.44,9.87,10.03,6.95,7.87,8.33],
+      markLine:{symbol:'none',label:{fontSize:11},data:[
+        {yAxis:13.00,name:'发行价',lineStyle:{color:M,type:'dashed'},label:{formatter:'发行价 13.00'}},
+        {yAxis:3.49,name:'现金底',lineStyle:{color:G,type:'dashed'},label:{formatter:'现金底 3.49'}}
+      ]},
+      markPoint:{symbolSize:1,label:{fontSize:11},data:[
+        {coord:[11,22.49],value:'日线顶 24.06\n(2025-10-02 HK上市前夕)'},
+        {coord:[5,9.09],value:'日线底 4.16\n(2025-04-22)'}
+      ]}
+    }]
+  });
+  // 同行散点
+  var c5=mk('chart-peer');
+  c5&&c5.setOption({
+    title:{text:'同行对照：PB vs 总市值（气泡=市值，2026-08-14）',left:'center',textStyle:{fontSize:14}},
+    tooltip:{formatter:function(p){return p.data[3]+'<br>PB '+p.data[0]+' ｜ 市值 '+p.data[2]+' 亿USD';}},
+    grid:{left:56,right:24,top:44,bottom:44},
+    xAxis:{type:'value',name:'PB',max:8},
+    yAxis:{type:'log',name:'市值 亿USD',min:10},
+    series:[{type:'scatter',symbolSize:function(d){return Math.sqrt(d[2])*3+10;},
+      label:{show:true,position:'top',fontSize:11,formatter:function(p){return p.data[3];}},
+      color:C,
+      data:[
+        [2.24,36.19,36.19,'小马智行 PONY'],
+        [2.08,19.57,19.57,'文远知行 WRD'],
+        [7.02,137.08,137.08,'Aurora AUR']
+      ]
+    }]
+  });
+  window.addEventListener('resize',function(){[c1,c2,c3,c4,c5].forEach(function(c){c&&c.resize();});});
+})();
+</script>
+<div class="model-stamp" style="text-align:center;font-size:12px;color:#5a6270;margin-top:20px;padding:10px;border-top:1px solid #e3e6eb;">本文由 <b>cantus</b> 生成</div>
+</body>
+</html>

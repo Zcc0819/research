@@ -1,0 +1,99 @@
+Consolidated Statement of Cash Flows
+綜合現金流量表
+Year ended 31 December 2025
+截至二零二五年十二月三十一日止年度
+2025 2024
+二零二五年 二零二四年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+OPERATING ACTIVITIES
+經營活動
+Profit before tax 5,650,911 4,867,141
+除稅前盈利
+Adjustments for:
+經調整：
+Depreciation of property, plant and
+物業、廠房及設備折舊
+equipment 8 691,637 668,991
+Depreciation of right-of-use assets 8 54,589 75,986
+使用權資產折舊
+Amortisation of intangible assets 8 1,481,684 1,455,659
+無形資產攤銷
+Finance costs 7 2,393,735 3,006,954
+財務費用
+Interest income 6 (54,922) (87,187)
+利息收入
+Share of (profits)/losses of
+所佔合營企業（盈利）╱
+joint ventures (13,952) 13,140
+虧損
+Share of profits of associates (8,330) (393)
+所佔聯營公司盈利
+Fair value (gains)/losses, net:
+公允值（收益）╱虧損
+淨額：
+Other financial assets
+其他財務資產
+– unlisted equity investment 6 (459) (464)
+－非上市股本投資
+Other financial assets
+其他財務資產
+– unlisted investments 6 7,179 (670)
+－非上市投資
+Fair value gain on investment
+投資物業公允值收益
+properties 6 (502) (1,060)
+Loss on disposal and write-off of
+出售及撇銷物業、廠房及
+property, plant and equipment, net 6 95,515 4,506
+設備之虧損淨額
+Loss on disposal and write-off of
+出售及撇銷無形資產之
+intangible assets, net 6 – 443
+虧損淨額
+Gain on lease modifications 6 (447) –
+租賃修訂收益
+Losses/(gains) on deregistration of
+註銷附屬公司之虧損／
+subsidiaries 6 17,440 (100)
+（收益）
+Loss on deemed disposal of a joint
+被視作出售一間合營企業
+venture 6 23,156 –
+之虧損
+Gain on disposal of other financial
+處置其他財務資產收益
+assets – unlisted equity investment – 6 (108) –
+非上市股本投資
+Expected credit losses on debtors,
+應收賬款預期信貸虧損
+net 6 420,398 439,103
+淨額
+(Reversal)/recognition of expected
+其他應收款項
+credit losses on other receivables,
+預期信貸虧損淨額
+net 6 (8,557) 117,790
+（撥回）╱確認
+Recognition/(reversal) of expected
+合約資產預期信貸虧損
+credit losses
+淨額確認╱（撥回）
+on contract assets, net 6 36,895 (12,835)
+Impairment of goodwill 6 67,260 63,697
+商譽耗損
+Impairment of property,
+物業、廠房及設備耗損
+plant and equipment 6 362,595 600,124
+Impairment of intangible assets 6 162,594 696,868
+無形資產耗損
+Impairment of right-of-use assets 6 74,620 82,825
+使用權資產耗損
+Impairment of interest in an associate 6 214,031 –
+一間聯營公司權益耗損
+Effect of foreign exchange rates
+匯率變動之影響淨額
+changes, net (448,131) (324,952)
+168
+China Everbright Environment Group Limited
+中國光大環境（集團）有限公司

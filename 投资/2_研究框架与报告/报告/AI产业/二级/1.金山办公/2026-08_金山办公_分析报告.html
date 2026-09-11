@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金山办公（688111.SH）分析报告 · 2026-08 · 全量版</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+:root{--ink:#1a1a2e;--sub:#5a6270;--line:#e3e6eb;--bg:#f7f8fa;--card:#ffffff;--red:#c0392b;--amber:#b7791f;--green:#1e7e4a;--blue:#1f4e79;--accent:#8b0000;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:15px;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 60px;}
+header.hero{background:linear-gradient(135deg,#1f2a44,#31456e);color:#fff;padding:44px 24px 36px;text-align:center;}
+header.hero h1{font-size:26px;letter-spacing:1px;}
+header.hero .meta{margin-top:10px;font-size:13px;opacity:.85;}
+header.hero .price{margin-top:14px;font-size:15px;}
+header.hero .price b{font-size:22px;}
+header.hero code{background:rgba(255,255,255,.14);color:#fff;padding:1px 5px;border-radius:3px;}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:24px 0;font-size:13.5px;}
+nav.toc a{color:var(--blue);text-decoration:none;margin:0 10px 0 0;display:inline-block;}
+h2.sec{font-size:20px;margin:44px 0 14px;padding-left:12px;border-left:5px solid var(--blue);}
+h3{font-size:16px;margin:20px 0 8px;color:var(--blue);}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:14px 0;}
+.card.warn{border-left:5px solid var(--amber);}
+.card.bad{border-left:5px solid var(--red);}
+.card.good{border-left:5px solid var(--green);}
+.tbl-scroll{overflow-x:auto;}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:10px 0;}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top;}
+th{background:#eef1f5;font-weight:600;white-space:nowrap;}
+tr:nth-child(even) td{background:#fafbfc;}
+.chart{width:100%;height:340px;margin:8px 0;}
+.caliber{font-size:12px;color:var(--sub);margin-bottom:6px;}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:middle;}
+.dg{background:var(--green);}.dy{background:var(--amber);}.dr{background:var(--red);}.dw{background:#b9c0ca;}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+.tag.g{background:#e2f3e9;color:var(--green);}.tag.y{background:#fbf0dc;color:var(--amber);}.tag.r{background:#f9e3e0;color:var(--red);}
+.big{font-size:17px;font-weight:700;}
+.hl{background:#fff6d8;padding:0 3px;}
+.conclusion{background:#1f2a44;color:#fff;border-radius:10px;padding:24px 26px;margin:20px 0;}
+.conclusion .verdict{font-size:22px;font-weight:800;letter-spacing:2px;}
+.conclusion p{margin-top:10px;font-size:14.5px;opacity:.95;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:760px){.grid2{grid-template-columns:1fr;}.chart{height:300px;}}
+footer{margin-top:50px;padding:24px;text-align:center;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);}
+ul.tight{padding-left:20px;}
+ul.tight li{margin:5px 0;}
+.src{font-size:12px;color:var(--sub);}
+blockquote{border-left:4px solid var(--line);padding:6px 14px;color:var(--sub);font-size:13.5px;margin:8px 0;background:#fafbfc;}
+/* 折叠区：正文只留结论，明细收进来，避免全量版一屏刷不完 */
+details.fold{border:1px solid var(--line);border-radius:8px;background:#fbfcfd;margin:12px 0;}
+details.fold>summary{cursor:pointer;padding:10px 14px;font-size:13.5px;font-weight:600;color:var(--blue);
+list-style:none;display:flex;align-items:center;justify-content:space-between;gap:10px;}
+details.fold>summary::-webkit-details-marker{display:none;}
+details.fold>summary::after{content:"▸ 点击展开";font-size:12px;font-weight:400;color:var(--sub);white-space:nowrap;}
+details.fold[open]>summary::after{content:"▾ 点击折叠";}
+details.fold[open]>summary{border-bottom:1px solid var(--line);}
+details.fold .fold-body{padding:6px 14px 14px;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap" style="padding:0">
+    <h1>金山办公（688111.SH）分析报告</h1>
+    <div class="meta">二级市场 ｜ 报告日期 2026-08-07 ｜ 数据截止 FY2025 年报 ｜ <b>全量版：含 Markdown 详版全部内容</b></div>
+    <div class="meta" style="margin-top:8px">⚠️ <b>当前状态｜结论 v1.1（结论未变、证据转弱）｜最近读数 2026-08-19</b>：FY2026 中报已披露，<b>读数对本报告结论不利</b>——经调整净利 <b>+28.29%</b> 已越过 265.65 元隐含的十年 21.4% 门槛。但两条预设证伪条件均为年报口径，中报无法直接验证，故结论按纪律不动——<b>但论点风险已升级</b>，见 <a href="#s7" style="color:#ffd479">第 7 节回访区</a>的诚实记录与方法论反思。正文未作任何修改。</div>
+    <div class="price">基准股价 <b>265.65 元</b>（2026-08-07 收盘）｜ 市值 1,232.65 亿元 ｜ 自算 PE 67.0 / PB 9.573 / 股息率 0.47% ｜ 标的类型 <b>T4 质量成长</b>（尺子 = 三档情景带，非双锚）</div>
+  </div>
+</header>
+<div class="wrap">
+
+<nav class="toc">
+  <b>目录：</b>
+  <a href="#quick">⚡ 速读区</a><a href="#s0">0 结论</a><a href="#s1">1 行业</a><a href="#s2">2 公司治理</a><a href="#s3">3 主营拆解</a><a href="#s4">4 财务</a><a href="#s5">5 估值</a><a href="#s6">6 风险证伪</a><a href="#s7">7 回访区</a><a href="#ps">后记·尺子复检</a><a href="#appx">附录</a><a href="#learn">学习卡</a>
+</nav>
+
+<!-- ═══════════ 速读区 ═══════════ -->
+<h2 class="sec" id="quick">⚡ 速读区（一页版）</h2>
+
+<div class="conclusion">
+  <div class="verdict">不投 · 现价空仓观察</div>
+  <p>公司很健康，但价格已把好事都算进去——现价要求它未来十年每年利润增长 21.4%，可它过去五年（政策+AI 双风口期）实际只做到 15.2%。买点：跌到 <b>157 元</b>以下（三档情景的"中性档"上限）<b>且</b>会员付费止跌，两条同时成立才买。</p>
+</div>
+
+<div class="card">
+  <h3>这家公司是干嘛的</h3>
+  <p>它做 WPS——微软 Office 的国产替代。全国 6.78 亿台设备每月在用，其中 4,615 万人每年花 70 多块钱买会员；政府和国企因"信创"政策成批买它的正版授权。钱先收后服务，几乎没人欠它钱，它也不欠任何人钱。</p>
+</div>
+
+<div class="grid2">
+  <div class="card good">
+    <h3>好消息</h3>
+    <ul class="tight">
+      <li>每赚 1 元利润实际收回 <b>1.46 元</b>现金（会员费先交后用）</li>
+      <li>零贷款、零商誉、研发费 100% 当年扣掉，利润"洗干净"的</li>
+      <li>自由现金流是分红的 <b>5.2 倍</b>，分红年年涨毫不勉强</li>
+      <li>说到做到：2022 年说做 AI，2023 年 WPS AI 真上线；海外付费用户一年 +63%</li>
+      <li>估值泡沫已挤掉大半：PB 从 28.3 倍降到 <b>9.57 倍</b>（−66%），落到自身 4.3 年最便宜的十分位</li>
+    </ul>
+  </div>
+  <div class="card bad">
+    <h3>坏消息</h3>
+    <ul class="tight">
+      <li>现价隐含未来十年利润复合 <b>21.4%</b> &gt; 历史五年 15.2%</li>
+      <li>每个会员平均付费<b>连跌两年</b>（74.8→74.3→72.5 元），增长全靠拉新</li>
+      <li>公司自己在年报新加风险：AI 原生应用可能"根本不用 Office 形态"</li>
+      <li>向"自家兄弟"金山云买算力，关联采购占比 <b>26%</b> 创五年新高</li>
+      <li>但"它自己最便宜的位置"也不便宜：回到历史最低 PB 对应 <b>250.94 元</b>，仍落在"乐观档"内</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <h3>只记三个数</h3>
+  <table><tr><th style="width:110px">数字</th><th>它是什么</th></tr>
+  <tr><td class="big">67 倍</td><td>现在买它，相当于花 67 年的利润价钱买下这家公司（市盈率）</td></tr>
+  <tr><td class="big">72.5 元</td><td>每个国内会员一年平均交的钱——已经连跌两年</td></tr>
+  <tr><td class="big">157 元</td><td>我愿意出的价 = 三档情景里"中性档"的上限，比现价低 41%；现价 265.65 落在"乐观档"（232–279 元）里</td></tr></table>
+</div>
+
+<div class="card warn">
+  <h3>什么时候买 / 半年后对答案</h3>
+  <p><b>买入条件（两条同时成立）：</b>☐ 股价回 157 元以下（中性档上限） ☐ <b>且</b>会员均价回升至 74 元以上——只跌到 157 但会员还在流失是"悲观档"路径，不是买点 ｜ 例外催化剂：AI 独立收费 或 海外付费增速持续 &gt;60% → 重算价格</p>
+  <p><b>2027-02 中报后对答案：</b>☐ 会员均价止跌？ ☐ 海外付费冲 400 万？ ☐ AI 单独收钱了吗？ ☐ 利润增速离 21.4% 多远？ ☐ 金山云采购占比继续新高？</p>
+</div>
+
+<!-- ═══════════ 详版正文 ═══════════ -->
+<h2 class="sec" id="s0">0. 一句话结论</h2>
+<div class="card">
+  <p><b>【不投（现价空仓观察）】</b>核心逻辑：报表质量六年全绿（净现金、OCF/净利 1.46、FCF 覆盖分红 5.2 倍、订阅占比 73.3%），但 67 倍 PE 隐含未来十年归母复合 21.4%，高于历史五年 15.2%[推算]——<span class="hl">财报只能证明它"没有病"，不能证明它"值 67 倍"</span>。最大风险：估值无安全边际 + 国内个人 ARPU 连续两年回落，付费用户增速一旦跟随放缓，戴维斯双杀没有缓冲。</p>
+  <ul class="tight">
+    <li><b>仓位建议：</b>空仓观察（挂观察池，FY2026 中报验证 ARPU 与海外付费用户）</li>
+    <li><b>三档情景带（T4 尺子）：</b>悲观 ≈<b>69 元</b> / 中性 ≈<b>126–157 元</b> / 乐观 ≈<b>232–279 元</b>（EPS 3.96、十年持有、10% 要求回报、归母口径）——<span class="hl">现价 265.65 落在乐观带上半段</span>；原"收益率锚 157 元"已归位为中性带上沿</li>
+    <li><b>历史分位（2026-08-07 补齐，腾讯源）：</b>PB 便宜程度分位 <b>86.4%</b> / 静态 PE <b>89.9%</b> / 股息率 <b>90.1%</b>（4.3 年窗口）。T4 纪律下分位不作便宜锚——关键交叉：<b>PB 最低十分位档对应价 250.94 元仍落在乐观带内</b></li>
+    <li><b>不到买入价怎么办：</b>愿意错过；上调例外条件 = ①海外付费增速持续 &gt;60% 且海外收入占比破 10% ②AI 独立收费且披露收入口径</li>
+  </ul>
+</div>
+<div class="card">
+  <div class="caliber">图 1 ｜ 现价隐含增速 vs 历史实际增速 ｜ 口径：归母净利润复合增速[推算] ｜ 取数 2026-08-07</div>
+  <div id="c_implied" class="chart" style="height:260px"></div>
+</div>
+
+<h2 class="sec" id="s1">1. 行业：蛋糕与利润流向</h2>
+<div class="card">
+  <blockquote>已查 4_行业与赛道/：AI 赛道覆盖地图已建但无行业 memo（深研 0 家）→ 按最小行业节写，行业级悬空问题已登记《未解问题登记表》Q8。</blockquote>
+  <ul class="tight">
+    <li><b>需求：</b>全球办公软件 295.1 亿美元（公司引 Statista）<span class="tag y">仅公司口径</span>；月活设备 4.74→6.78 亿但增速放缓至个位数——<b>流量盘见顶，引擎切换为付费渗透率</b>（国内付费个人 1,962→4,615 万，渗透率约 6.8%[推算]）<span class="tag g">一手数据</span></li>
+    <li><b>格局：</b>桌面 Office 双寡头（微软/金山）+ 信创红利；新威胁 = 公司自认"革新性技术替代"[2025年报 p.33-35]。同日同行快照：6 家可比 4 家亏损——金山是唯一"高盈利+高估值"组合<span class="tag g">同行印证</span></li>
+    <li><b>付钱方式：</b>个人预收（合同负债 25.99 亿）+ 政企授权；贸易应收仅占总资产 3.5%——先收钱后服务<span class="tag g">一手数据</span></li>
+    <li><b>政策：</b>信创驱动 WPS 软件 FY2024 +93.6%/FY2025 +15.2%；政策原文未查<span class="tag y">仅公司口径</span>→ Q8</li>
+    <li><b>本节判断：</b>蛋糕变大但增速换挡，钱被平台型订阅玩家赚走</li>
+  </ul>
+</div>
+<div class="card">
+  <div class="caliber">图 2 ｜ 月活设备与国内付费个人用户 ｜ 口径：各年报用户数据节（FY2024 起月活剔除金山词霸）｜ 取数 2026-08</div>
+  <div id="c_users" class="chart"></div>
+  <div class="tbl-scroll"><table>
+    <tr><th></th><th>FY2020</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th></tr>
+    <tr><td>月活设备（亿）</td><td>4.74</td><td>5.44</td><td>5.73</td><td>5.98</td><td>6.32※</td><td>6.78</td></tr>
+    <tr><td>国内付费个人（万）</td><td>1,962</td><td>2,537</td><td>2,997</td><td>3,549</td><td>4,170</td><td>4,615</td></tr>
+  </table></div>
+  <p class="src">※ FY2024 起口径剔除金山词霸。出处：各年报"用户数据"节。</p>
+</div>
+
+<h2 class="sec" id="s2">2. 公司：位置与治理</h2>
+<div class="card">
+  <ul class="tight">
+    <li><b>股权与关联交易：</b>实控人雷军（金山系）。关联交易为六年常驻 KAM（信永中和 2020–2025 每年列示）：第一大供应商 = 金山云，关联采购 8,640→29,001 万元，占采购 <b>26.09%</b>（FY2025 近五年最高）；但收入侧干净——前五客户约 11% 且无关联。结构 = 向关联方买算力、向无关第三方卖订阅："出钱"不"出货"，杀伤力有限但盯定价公允性（→ Q10）</li>
+    <li><b>资本配置：</b>IPO 后零再融资、零商誉、零有息负债；五年 capex 仅 7.64 亿（占 OCF 7.5%）；研发六年 100% 费用化；DPS 0.70→1.2523 元、派息率 25%→31.58%——现金过剩、再投资出口有限是隐性问题</li>
+    <li><b>本节判断：</b>位置变好（订阅转型被审计师+现金流双确认），治理是助力；扣分项 = 金山云采购占比抬头</li>
+  </ul>
+  <h3>管理层"说-做"对账</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>年报承诺（当年原句）</th><th>后续实际动作</th><th>对账结论</th></tr>
+    <tr><td>FY2020"云化协作化转型"</td><td>合同负债 14.21→25.99 亿、订阅占比升至 73.3%、应收 KAM 于 FY2021 从审计报告消失</td><td>✅ 兑现，且有审计师侧背书</td></tr>
+    <tr><td>FY2022 首提"AIGC/大语言模型布局"[2022年报 p.50]</td><td>FY2023 WPS AI 如期公测[2023年报 p.11]</td><td>✅ 按期兑现</td></tr>
+    <tr><td>FY2024"AI 协作国际化"三大战略[2024年报 p.47]</td><td>海外付费用户 174→285 万（+63%）；AI 无独立收入口径</td><td>⚠️ 国际化有数据，AI 变现未兑现</td></tr>
+    <tr><td>FY2024 报表口径切换（机构订阅→WPS365）</td><td>新口径 WPS365 FY2025 仅 7.20 亿，未回到旧口径机构订阅 9.57 亿（FY2023）规模</td><td>⚠️ 口径断层，"149%/65% 高增"实为低基数</td></tr>
+  </table></div>
+</div>
+<div class="card">
+  <div class="caliber">图 3 ｜ 金山云关联采购占采购总额比例 ｜ 口径：各年报前五供应商节 ｜ 取数 2026-08</div>
+  <div id="c_related" class="chart" style="height:280px"></div>
+</div>
+
+<h2 class="sec" id="s3">3. 主营拆解：收入质量分层</h2>
+<div class="card">
+  <div class="caliber">图 4 ｜ 分部收入五年堆叠（新旧口径映射：个人订阅→WPS个人 / 机构订阅→WPS365 / 机构授权→WPS软件 / 广告→其他）⚠️ FY2024 口径切换，跨年比较需谨慎 ｜ 单位：亿元 ｜ 出处：各年报分部数据</div>
+  <div id="c_segment" class="chart"></div>
+  <h3>收入质量分层表（FY2025 新口径）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>分部</th><th>收入（百万）</th><th>占比</th><th>毛利率</th><th>增速</th><th>现金转化</th><th>质量评级</th></tr>
+    <tr><td>WPS 个人（订阅）</td><td>3,626</td><td>61.2%</td><td>80.96%（-0.23pct）</td><td>+10.4%</td><td>预收（合同负债主体）</td><td>★★★★★</td></tr>
+    <tr><td>WPS 365（机构订阅）</td><td>720</td><td>12.1%</td><td>91.49%（+0.33pct）</td><td>+64.9%（低基数⚠️）</td><td>预收+政企账期</td><td>★★★★</td></tr>
+    <tr><td>WPS 软件（机构授权）</td><td>1,461</td><td>24.6%</td><td>95.02%（+2.3pct）</td><td>+15.2%</td><td>一次性授权，随信创节奏波动</td><td>★★★</td></tr>
+    <tr><td>其他</td><td>120</td><td>2.0%</td><td>93.94%</td><td>-8.8%</td><td>—</td><td>★★</td></tr>
+  </table></div>
+</div>
+<div class="card bad">
+  <h3>核心发现：量增价跌</h3>
+  <div class="caliber">图 5 ｜ 国内付费个人用户 × ARPU ｜ ARPU = 国内个人收入 ÷ 付费用户[推算]，年报未直接披露 ｜ 取数 2026-08</div>
+  <div id="c_arpu" class="chart"></div>
+  <p>WPS 个人增长拆解（FY2025）：付费用户 +10.7%、ARPU -2.4%——<span class="hl">增长全部来自拉新，客单价在跌</span>。ARPU 于 FY2023 见顶 74.8 元后连续两年回落，管理层未正面讨论此序列（各年只报单点）。</p>
+  <p><b>本节判断：</b>高质量收入占比上升（订阅 73.3% 且预收），转型为真——但增长引擎内部已现裂缝：量增价跌，AI 尚未接棒。</p>
+</div>
+
+<h2 class="sec" id="s4">4. 财务：三张表 + 一个循环</h2>
+<div class="card">
+  <h3>16 项打灯总览（详版见 3_财务数据分析.md）</h3>
+  <div class="tbl-scroll"><table>
+    <tr><th>#</th><th>项目</th><th>触发数据</th><th>灯</th><th>#</th><th>项目</th><th>触发数据</th><th>灯</th></tr>
+    <tr><td>1</td><td>收入质量（订阅占比）</td><td>73.3%</td><td><span class="dot dg"></span>🟢</td><td>9</td><td>应收拨备</td><td>附注未提取</td><td><span class="dot dw"></span>⚪待补</td></tr>
+    <tr><td>2</td><td>OCF/净利 5 年</td><td>1.46</td><td><span class="dot dg"></span>🟢</td><td>10</td><td>存货/在建</td><td>不适用</td><td><span class="dot dw"></span>⚪N/A</td></tr>
+    <tr><td>3</td><td>FCF≥分红</td><td>94.59 亿 vs 18.25 亿</td><td><span class="dot dg"></span>🟢</td><td>11</td><td>财务费用</td><td>为负（利息净收入）</td><td><span class="dot dg"></span>🟢</td></tr>
+    <tr><td>4</td><td>分红覆盖</td><td>5.2x</td><td><span class="dot dg"></span>🟢</td><td>12</td><td>少数股东</td><td>≈0</td><td><span class="dot dg"></span>🟢</td></tr>
+    <tr><td>5</td><td>净现金/净负债</td><td>净现金、零有息</td><td><span class="dot dg"></span>🟢</td><td>13</td><td>估值分位</td><td>PB 便宜分位 86.4%</td><td><span class="dot dg"></span>🟢名义</td></tr>
+    <tr><td>6</td><td>短债压力</td><td>无短债</td><td><span class="dot dg"></span>🟢</td><td>14</td><td>股息率</td><td>0.47%（分位 90.1%）</td><td><span class="dot dg"></span>🟢*</td></tr>
+    <tr><td>7</td><td>应收/总资产</td><td>3.5%</td><td><span class="dot dg"></span>🟢</td><td>15</td><td>ROE÷PB 横向</td><td>1.64% 同行第一*</td><td><span class="dot dg"></span>🟢*</td></tr>
+    <tr><td>8</td><td>应收/营收</td><td>10.8%</td><td><span class="dot dg"></span>🟢</td><td>16</td><td>资产定价</td><td>改用隐含增速反推</td><td><span class="dot dw"></span>⚪N/A</td></tr>
+  </table></div>
+</div>
+<div class="card">
+  <div class="caliber">图 6 ｜ 营收 / 归母净利 / 经营现金流五年趋势 ｜ 单位：亿元 ｜ 出处：各年报三大报表 ｜ 取数 2026-08</div>
+  <div id="c_pnl" class="chart"></div>
+  <div class="caliber">图 7 ｜ 现金循环：OCF → 自由现金流 → 分红 ｜ 单位：亿元（五年加总：OCF 102.23 − capex 7.64 = FCF 94.59；分红 18.25，覆盖 5.2 倍）</div>
+  <div id="c_cash" class="chart"></div>
+  <ul class="tight">
+    <li><b>利润成色：</b>扣非/归母 98.2%（FY2025）；研发零资本化、无商誉、无公允价值魔术——几乎无会计游戏空间</li>
+    <li><b>应收与减值：</b>贸易应收 6.41 亿；应收 KAM 于 FY2021 从审计报告消失（审计师背书）；拨备附注待补（#9）</li>
+    <li><b>本节三句话：</b>利润<b>真</b>；现金<b>极其充裕（甚至过剩）</b>；债务<b>无</b>。文字面唯一修正 = "WPS365 高增"降级为口径切换产物</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="s5">5. 估值：价格隐含的预期</h2>
+<div class="card warn">
+  <ul class="tight">
+    <li><b>自身纵向：</b>自算 PE 67.0 / PB 9.573 / 股息率 0.47%。<b>历史分位</b>（2026-08-07 补齐；日线源腾讯，东财限流自动降级；窗口 2022-04-01~2026-08-07，4.3 年 / 1,055 交易日）：PB 便宜程度分位 <b>86.4%</b>、静态 PE <b>89.9%</b>、股息率 <b>90.1%</b>、股价本身 63.1%。<span class="hl">窗口偏差声明：起点处于 PB 28.3 / PE 214 倍泡沫区，窗口性质"从高估值顶部下行"，偏差方向对"便宜"结论有利，须打折看</span>；东财返回 PE 14.04 已确认为数据源错误并弃用</li>
+    <li><b>同行横向：</b>ROE÷PB = 1.64% 居 6 家可比第一，但属"矮子里的将军"（4 家亏损；1.64% ≈ 67 倍 PE 倒数）——横向第一 ≠ 纵向便宜（#15 🟢*带星）</li>
+    <li><b>收益率锚：</b>价格隐含增速反推（十年持有、25 倍 PE 退出、10% 要求回报、归母口径、无摊薄）：<b>隐含复合 21.4% vs 历史实际 15.2%</b>[推算]</li>
+    <li><b>价格隐含假设：</b>①ARPU 回落被逆转或海外/AI 接棒 ②信创授权不退坡 ③无"革新性技术替代"——三条均与已观测裂缝冲突</li>
+    <li><b>本节判断：</b>市场预期比我更乐观，差在<b>市场为"AI 想象力"付了钱，而年报里 AI 至今只有成本没有收入</b></li>
+  </ul>
+</div>
+<div class="card">
+  <h3>两把尺子在价格轴上的对照（T4 情景带 vs 自身 PB 分位）</h3>
+  <div class="caliber">图 8 ｜ 三档情景带 与 PB 历史分位档位 ｜ 情景带口径：EPS 3.96、十年持有、10% 要求回报、归母口径 ｜ 分位口径：腾讯日线源，窗口 2022-04-01~2026-08-07（4.3 年 / 1,055 交易日）</div>
+  <div id="c_ruler" class="chart" style="height:330px"></div>
+  <div class="tbl-scroll"><table>
+    <tr><th>尺子</th><th>档位</th><th>对应股价</th><th>相对现价</th><th>读法</th></tr>
+    <tr><td rowspan="3"><b>三档情景带</b><br>（T4 主尺）</td><td>悲观（增速≈10%，退出 17.5x）</td><td>≈69 元</td><td>−74%</td><td>增长引擎失速 + 信创退坡</td></tr>
+    <tr><td><b>中性（15.2% 延续，退出 20–25x）</b></td><td><b>126–157 元</b></td><td>−53% ~ −41%</td><td><b>买点带</b>（须叠加"增长逻辑未破"）</td></tr>
+    <tr><td>乐观（≈19.8%，退出 25–30x）</td><td>232–279 元</td><td>−13% ~ +5%</td><td><b>现价 265.65 落此带上半段</b></td></tr>
+    <tr><td rowspan="3">自身 PB 分位<br>（仅作背景，非便宜锚）</td><td>最低 10%（PB 9.043）</td><td><b>250.94 元</b></td><td>−5.5%</td><td><b>仍落在乐观带之内</b></td></tr>
+    <tr><td>25%（PB 11.398）</td><td>316.29 元</td><td>+19%</td><td>乐观带之上</td></tr>
+    <tr><td>中位 50%（PB 12.784）</td><td>354.76 元</td><td>+34%</td><td>乐观带之上</td></tr>
+  </table></div>
+  <blockquote><b>交叉结论：</b>就算股价回到它自身历史最便宜的 PB 位置（250.94 元），付的仍是<b>乐观叙事的价</b>。两把尺子在此处不冲突而是互相锁死——分位说"估值泡沫已挤完"，情景带说"挤完之后的这个价仍需超历史增长才能兼容"。<br><br><b>买点的诚实代价：</b>中性带上沿 157 元对应 PB ≈5.7 倍，<b>低于 4.3 年窗口的历史最低 7.21 倍</b>——这个买点在可见历史里从未出现过。须承认它很可能永远等不到，而"愿意错过"正是本篇的结论本身。</blockquote>
+</div>
+<div class="card">
+  <div class="caliber">图 9 ｜ 同行快照（2026-08-07 同日，东财 snapshot）｜ 亏损公司 PE 不可比，仅列市值与状态</div>
+  <div id="c_peers" class="chart"></div>
+  <div class="tbl-scroll"><table>
+    <tr><th>公司</th><th>市值（亿元）</th><th>PE</th><th>盈利状态</th></tr>
+    <tr><td><b>金山办公</b></td><td>1,232.65</td><td><b>67.0（自算）</b></td><td>盈利，ROE÷PB 1.64% 第一*</td></tr>
+    <tr><td>科大讯飞</td><td>1,045.63</td><td>—</td><td>TTM 亏损</td></tr>
+    <tr><td>用友网络</td><td>400.47</td><td>—（PB 5.81）</td><td>亏损</td></tr>
+    <tr><td>泛微网络</td><td>140.22</td><td>56.42</td><td>盈利</td></tr>
+    <tr><td>万兴科技</td><td>108.81</td><td>—</td><td>亏损</td></tr>
+    <tr><td>福昕软件</td><td>63.53</td><td>140.97</td><td>微利</td></tr>
+  </table></div>
+</div>
+
+<h2 class="sec" id="s6">6. 风险与证伪条件</h2>
+<div class="card">
+  <div class="tbl-scroll"><table>
+    <tr><th>风险</th><th>概率</th><th>杀伤力</th><th>先行指标（在哪看）</th></tr>
+    <tr><td>估值杀（增速不及隐含 21.4%）</td><td>高</td><td>大（无安全边际，戴维斯双杀）</td><td>季报归母增速 vs 21.4%；ARPU 序列（年报用户数据节）</td></tr>
+    <tr><td>国内个人 ARPU 持续回落</td><td>中-高</td><td>中（61.2% 收入基本盘量增价跌）</td><td>中报/年报付费用户数 × 个人收入自算 ARPU</td></tr>
+    <tr><td>革新性技术替代（AI 原生应用）</td><td>低-中</td><td>极大（公司 FY2025 自认新增）</td><td>年报风险因素节措辞升级；AI 原生竞品 MAU</td></tr>
+    <tr><td>金山云关联采购定价不公允</td><td>低</td><td>中（26.09% 采购集中+KAM 常驻）</td><td>年报关联交易附注：采购额/占比/定价方式</td></tr>
+    <tr><td>信创授权退坡</td><td>中</td><td>中（WPS 软件 24.6% 占比，一次性收入）</td><td>WPS 软件分部增速；政府采购网中标节奏</td></tr>
+  </table></div>
+  <p><b>证伪条件：</b>FY2026 年报国内个人 ARPU 回升至 74 元以上，或海外付费增速持续 &gt;60% 且 AI 收入口径落地 → "增长引擎裂缝"不成立，用新增速锚重算、台账 #7 作废重登。</p>
+  <h3>反方陈述（为什么聪明人会买它）</h3>
+  <blockquote>A 股找不到第二家"70 亿净利润、零负债、OCF/净利 1.46、订阅占比 73%"的软件公司——稀缺性本身就是定价因子。信创是政治确定性而非商业假设，WPS 软件两年翻倍验证了这一点；6.8% 付费渗透率对标海外 Office 365 有数倍空间，ARPU 两年 -3% 是促销换渗透的主动选择而非定价权丧失；AI 不是威胁而是第二曲线——4.6 亿月活是国内最大 AI 办公入口，一旦 AI 订阅独立收费，21.4% 并非不可达。67 倍 PE 买的是"国产办公软件唯一标准"的期权，这个期权过去五年从未便宜过——等便宜的人已经错过了五倍。</blockquote>
+</div>
+
+<h2 class="sec" id="s7">7. 回访区</h2>
+<div class="card">
+  <div class="caliber">纪律：<b>正文永不修改，验证只在本节倒序追加</b>——报告主体保留下判断当时的原样，这是日后区分“逻辑想对了”与“方向蒙对了”的唯一依据。每条追加必须写清：读数 → 命中哪条预设条件 → 结论动没动（版本号）。</div>
+</div>
+
+<div class="card bad">
+  <h3>⚠️ 读数｜2026-08-19｜FY2026 中报 ← <b>对本条结论不利</b>（C 层趋势参考，不构成验证）</h3>
+  <p><b>结论：v1.0 不动</b>（空仓观察）——但这不是因为我被证明对了，而是因为<b>预设的两条证伪条件都落在年报口径、中报验不了</b>。数据为财媒转述 <b>[B 待 PDF 核]</b>。</p>
+  <div class="tbl-scroll"><table>
+    <tr><th style="width:28%">预设证伪条件</th><th style="width:24%">中报可否验</th><th>实际读数</th><th style="width:90px">判定</th></tr>
+    <tr><td>① 国内个人 ARPU 回升至 74 元以上</td><td><b>不可验</b>（ARPU 为年报口径，中报不披露）</td><td>个人业务收入 20.14 亿（+15.20%），但<b>量价未拆</b></td><td>⏳ 留年报</td></tr>
+    <tr><td>② 海外付费用户增速持续 &gt;60% <b>且</b> AI 收入口径落地</td><td><b>不可验</b>（海外付费用户数中报未单列）</td><td>—</td><td>⏳ 留年报</td></tr>
+  </table></div>
+  <p><b>⚠️ 口径错配警示（自查出的）</b>：我在台账初稿里把“<b>WPS 365 收入 4.97 亿、+60.84%、连续六季 &gt;60%</b>”拿来对应证伪条件②的“海外增速 &gt;60%”——<b>这是错的</b>：WPS 365 是机构订阅业务的<b>收入</b>指标，不是海外个人付费<b>用户数</b>；两个数字先差地域、再差量价。不能因为都是“60%”就当成同一个门槛被跨过。已回改台账措辞。</p>
+</div>
+
+<div class="card warn">
+  <h3>真正对我不利的读数（不回避）</h3>
+  <ul class="tight">
+    <li>营收 <b>33.13 亿</b>（+24.69%）、经调整净利 <b>10.87 亿</b>（<b>+28.29%</b>）——本报告第 5 节的核心论据是“67 倍 PE 隐含十年归母复合 <b>21.4%</b> &gt; 历史 15.2%，市场为 AI 想象力付了钱”。半程增速已经<b>越过了那个门槛</b>。如果全年保住，“隐含增速高于历史能力”这个论据就失效</li>
+    <li>AI 付费用户 <b>4,825 万</b>——本报告写“年报里 AI 只有成本没有收入”，现在至少用户侧已有规模读数</li>
+  </ul>
+  <p><b>不能算我错的那部分（同样如实记）</b>：归母 <b>+236.94%</b> 看似大胜，但主因是投资收益 <b>+1334.29%</b>，非经营性——<b>“增速兑现”与“利润含金量”必须分开读</b>。经调整净利才是可比口径，而它确实也越了线。</p>
+</div>
+
+<div class="card">
+  <h3>🧭 方法论反思（本条最有价值的产出，比证伪本身重要）</h3>
+  <p><b>“证伪条件没触发”不等于“我还是对的”。</b> 本条暴露了一个真实的设计缺陷：我把两条证伪条件全部挂在<b>年报才披露的窄口指标</b>（ARPU、海外用户数）上，而我论据的<b>主干</b>却是一个季度就能检验的东西（增速 vs 隐含门槛）。后果是：主干已经被削弱了两个季度，而证伪开关还“合法地”没响——如果不主动记下这一笔，我可以一路错到 2027-04 而台账上什么都看不出来。</p>
+  <p><b>改法</b>：证伪条件必须至少有一条挂在<b>与核心论据同频</b>的可得指标上（此例应该是“中报经调整净利同比 &gt;21.4% 且非靠投资收益”），否则证伪机制会系统性滞后于事实。已提交至规则卡待辩。</p>
+  <p><b>下一个窗口</b>：2026-10 三季报（看经调整净利增速是否仍 &gt;21.4%）→ 终验 2027-04-30 FY2026 年报（ARPU 与海外用户数口径）。</p>
+</div>
+
+<div class="card">
+  <div class="caliber"><b>原始验证计划</b>（2026-08-07 登记时写下，保留原样）</div>
+  <ul class="tight">
+    <li>T+6 个月（2027-02，FY2026 中报后）：股价 ___；ARPU/海外付费用户演绎情况：___</li>
+    <li>T+12 个月（2027-04-30，FY2026 年报后，台账 #7 验证日）：___</li>
+    <li>复盘三问：___</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="ps">后记（2026-08-07 当日 · 尺子复检）</h2>
+<div class="card warn">
+  <blockquote>背景：本 memo 定稿当日，七连“不买”复盘发现本篇用错了尺子——金山办公是 <b>T4 质量成长</b>（五年归母复合 15.2%、ROE 15.7%），而正文第 0/5 节用的是 T1-T3 逆向价值姿势的单点收益率锚。新建《1_方法论与经验/标的类型与分析尺子.md》后，按 T4 三档情景带复检如下。</blockquote>
+  <h3>三档情景反推带</h3>
+  <div class="caliber">口径：EPS 3.96 元、十年持有、10% 要求回报、归母口径、无摊薄｜基准价 265.65 元（2026-08-07）</div>
+  <div class="tbl-scroll"><table>
+    <tr><th>档位</th><th>增速假设</th><th>退出 PE</th><th>对应价格带</th><th>需要信什么</th></tr>
+    <tr><td><span class="dot dr"></span>悲观</td><td>≈10%（历史×0.65，ARPU 裂缝扩大）</td><td>17.5x</td><td><b>≈69 元</b></td><td>增长引擎失速、信创退坡</td></tr>
+    <tr><td><span class="dot dy"></span>中性</td><td>15.2% 延续</td><td>20–25x</td><td><b>≈126–157 元</b></td><td>拉新对冲 ARPU 回落，现状延续</td></tr>
+    <tr><td><span class="dot dg"></span>乐观</td><td>≈19.8%（历史×1.3，AI/海外接棒）</td><td>25–30x</td><td><b>≈232–279 元</b></td><td>AI 独立收费落地 + 海外第二曲线兜底</td></tr>
+  </table></div>
+  <h3>复检结论：现价 265.65 元落在乐观情景带内（上半段）</h3>
+  <ul class="tight">
+    <li>结论不变：仍为<b>空仓观察</b>；但理由从“贵 41%”修正为“<b>买它需要比市场更信乐观叙事全兑现，而正文第 3/6 节已观测到与乐观情景相反的裂缝（ARPU 连跌两年、AI 无收入口径）</b>”——这不是“市场错了”，是“我不愿意为这个情景付费”</li>
+    <li>买点定义同步修正：原“157 元收益率锚” = 中性情景带上沿，T4 买点 = <b>价格回到中性带（≤157 元）且增长逻辑未破</b>（ARPU 止跌、付费用户增速未失速），两条同时成立才能买——单纯跌到 157 但 ARPU 崩了，是悲观情景路径，不是买点</li>
+    <li>台账 #7 结论无需重登（结论未翻），但验证时按 T4 尺子复验</li>
+    <li>⚠️ T4 尺子未经实盘验证（信任度低）；本页、详版与速读版已于 2026-08-07 同步本后记与下方补记，三份口径一致</li>
+  </ul>
+  <h3>补记（2026-08-07 同日 · 分位数据补齐后的两尺交叉）</h3>
+  <p>东财限流四次失败后改用腾讯源取到 4.3 年日线，历史分位补齐（PB 便宜程度分位 86.4%、PE 89.9%、股息率 90.1%）。把分位尺子与上表情景带并排，得到本篇最有信息量的一条交叉：</p>
+  <div class="tbl-scroll"><table>
+    <tr><th>分位档</th><th>PB</th><th>对应股价</th><th>落在哪个情景带</th></tr>
+    <tr><td>最低 10%</td><td>9.043</td><td><b>250.94 元</b></td><td><b>乐观带（232–279）之内</b></td></tr>
+    <tr><td>25%</td><td>11.398</td><td>316.29 元</td><td>乐观带之上</td></tr>
+    <tr><td>中位 50%</td><td>12.784</td><td>354.76 元</td><td>乐观带之上</td></tr>
+  </table></div>
+  <ul class="tight">
+    <li><b>交叉结论：就算股价回到它自身历史最便宜的 PB 位置（250.94 元），付的仍是乐观叙事的价。</b>两把尺子在此处不冲突而是互相锁死——分位说“估值泡沫已挤完”，情景带说“挤完之后的这个价仍需超历史增长才能兼容”</li>
+    <li><b>买点的诚实代价：</b>中性带上沿 157 元对应 PB ≈5.7 倍，<b>低于 4.3 年窗口的历史最低 7.21 倍</b>。也就是说这个买点在可见历史里从未出现过——须承认<b>它很可能永远等不到，而“愿意错过”正是本篇的结论本身</b></li>
+    <li>分位窗口起点在泡沫区，偏差方向对“便宜”有利，以上分位与档位价均须打折看；T4 纪律下分位不构成安全边际证据</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="appx">附录：核心序列 + 数据质量声明</h2>
+<div class="card">
+  <h3>核心序列速查（单位：百万元，除注明外）</h3>
+  <div class="caliber">完整八 Sheet 见 <code>2.分析材料/2_2026-08_金山办公_取数底稿.xlsx</code></div>
+  <div class="tbl-scroll"><table>
+    <tr><th>指标</th><th>FY2021</th><th>FY2022</th><th>FY2023</th><th>FY2024</th><th>FY2025</th><th>出处</th></tr>
+    <tr><td>营业收入</td><td>3,280</td><td>3,885</td><td>4,556</td><td>5,121</td><td>5,929</td><td>各年报利润表</td></tr>
+    <tr><td>归母净利润</td><td>1,041</td><td>1,118</td><td>1,318</td><td>1,645</td><td>1,836</td><td>各年报利润表</td></tr>
+    <tr><td>扣非归母</td><td>840</td><td>939</td><td>1,262</td><td>1,556</td><td>1,803</td><td>各年报主要财务数据</td></tr>
+    <tr><td>经营现金流净额</td><td>1,864</td><td>1,603</td><td>2,058</td><td>2,196</td><td>2,502</td><td>各年报现金流量表</td></tr>
+    <tr><td>合同负债</td><td>1,421</td><td>1,663</td><td>1,927</td><td>2,231</td><td>2,599</td><td>各年报资产负债表</td></tr>
+    <tr><td>国内付费个人（万）</td><td>2,537</td><td>2,997</td><td>3,549</td><td>4,170</td><td>4,615</td><td>各年报用户数据节</td></tr>
+    <tr><td>国内个人 ARPU（元）[推算]</td><td>57.8</td><td>68.4</td><td>74.8</td><td>74.3</td><td>72.5</td><td>个人收入÷付费用户</td></tr>
+    <tr><td>研发费用（亿）</td><td>10.82</td><td>13.31</td><td>14.72</td><td>16.96</td><td>20.95</td><td>各年报研发投入节，资本化 0</td></tr>
+    <tr><td>DPS（元）</td><td>0.70</td><td>0.88</td><td>0.90</td><td>1.2523</td><td>—</td><td>分红方案（FY2025 末期 1.2523）</td></tr>
+    <tr><td>关联采购占比</td><td>20.39%</td><td>21.48%</td><td>22.90%</td><td>22.18%</td><td>26.09%</td><td>各年报前五供应商节</td></tr>
+  </table></div>
+</div>
+<div class="card warn">
+  <h3>数据质量声明</h3>
+  <ul class="tight">
+    <li>基准价 265.65 元（2026-08-07 收盘）为全文唯一基准价；东财 PE 14.04 异常已弃用，估值全部自算</li>
+    <li><b>待补项：</b>①应收拨备率附注（#9）②信创政策原文核查 ③ARPU 为[推算]口径 ④同行快照 PB/PE 待东财恢复后同时点重取</li>
+    <li><b>历史分位口径：</b>已于 2026-08-07 补齐——日线源 <b>腾讯</b>（东财限流自动降级，已记取数日志），不复权口径与东财逐值校对一致，前复权序列不跨源拼接；原始序列落盘 <code>2.分析材料/px_valuation_688111.csv</code>。窗口 4.3 年，偏差方向对"便宜"结论有利，分位仅作背景不用于下"贵/便宜"结论（T4 纪律）</li>
+    <li>行业节两条市场规模数据为[仅公司口径转述]，未支撑第 0 节结论（三源纪律合规）</li>
+    <li>已登记：判断追踪台账 #7（验证日 2027-04-30）；未解问题登记表 Q8–Q10（<b>Q7 历史分位已于 2026-08-07 回填关闭</b>）</li>
+  </ul>
+</div>
+
+<h2 class="sec" id="learn">学习卡：黑话词典 + 指标与估值方法</h2>
+<div class="card">
+  <p class="src">下方三个折叠收纳了速读版黑话词典与《3_财务数据分析》末尾学习卡的全部术语；年报阅读类术语（KAM、MD&amp;A、合同负债、信创、口径切换）见《1_历年年报文字总结》末尾学习卡，两卡互引不重复。</p>
+
+  <details class="fold">
+    <summary>黑话词典（详版里看不懂的词来这查）· 12 个术语</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>术语</th><th>大白话</th></tr>
+      <tr><td>市盈率（PE）</td><td>股价 ÷ 每股利润。金山 265.65 ÷ 3.96 = 67 倍，即回本要 67 年（假设利润不变）</td></tr>
+      <tr><td>ARPU</td><td>平均每个付费用户一年交多少钱。金山国内个人 = 36.26 亿收入 ÷ 4,615 万会员 ≈ 72.5 元</td></tr>
+      <tr><td>订阅占比</td><td>收入里“按年收会员费”的比例。金山 73.3%——这类收入最稳，先收钱后服务</td></tr>
+      <tr><td>合同负债</td><td>用户预交还没消费完的会员费，25.99 亿。是“欠服务”不是“欠钱”，越多越好</td></tr>
+      <tr><td>信创</td><td>政府要求办公软件等换成国产的政策，金山的授权业务靠它两年翻倍</td></tr>
+      <tr><td>KAM（关键审计事项）</td><td>审计师觉得最容易出问题、重点查的地方。金山六年常驻一条：和金山云的关联交易</td></tr>
+      <tr><td>关联采购</td><td>向“自家兄弟”公司买东西。金山向金山云买算力 2.9 亿，占采购 26%——价格公不公道要盯</td></tr>
+      <tr><td>市净率（PB）</td><td>股价 ÷ 每股净资产。金山 265.65 ÷ 27.75 = 9.57 倍，即为账面每 1 元净资产付 9.57 元</td></tr>
+      <tr><td>三档情景带</td><td>成长股不算“一个合理价”，而是算三个：最坏 / 照旧 / 最好，各对应一个价。金山 = 69 / 126–157 / 232–279 元，现价落在“最好”那一档</td></tr>
+      <tr><td>历史分位</td><td>把它自己过去几年的估值排队，看现在排第几便宜。金山市净率排在最便宜的 13.6%（即“便宜程度 86.4%”）——但这只说明泡沫挤完了，不等于便宜</td></tr>
+      <tr><td>为什么不用“双锚”</td><td>双锚（历史便宜程度 + 回报率倒推）是给稳定型公司的尺子。金山是成长股，它历史上一直很贵，分位对它没有约束力，所以改用三档情景带</td></tr>
+      <tr><td>戴维斯双杀</td><td>利润增速下滑 + 估值倍数同时缩水，股价双倍挨打。高估值股票最怕这个</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：这张表只解释词，不下结论；每条都用本标的自己的数字举例，方便对照正文。</div>
+  </details>
+
+  <details class="fold">
+    <summary>#2–#6 现金流与偿债指标 · 5 个指标</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>OCF/净利</td><td>经营现金流÷净利润，&gt;1 说明赚到的是真钱不是应收账款</td><td>5 年合计 10,223÷6,991=1.46——订阅客户先付钱，现金跑在利润前面</td></tr>
+      <tr><td>FCF（自由现金流）</td><td>OCF−资本开支，公司想怎么花都行的钱</td><td>5 年 FCF=10,223−764=9,459，是同期分红 1,825 的 5.2 倍</td></tr>
+      <tr><td>capex（资本开支）</td><td>买设备/盖楼/建产能的钱，重资产公司的现金黑洞</td><td>金山五年合计仅 764，不到 OCF 的 8%，标准轻资产</td></tr>
+      <tr><td>净负债率</td><td>（有息负债−现金）÷净资产，衡量杠杆</td><td>金山有息负债=0，净现金状态，指标直接绿灯</td></tr>
+      <tr><td>分红覆盖</td><td>当年 FCF÷已派股息，看分红是不是借钱发的</td><td>FY2025：（2,502−98）÷482=5.0 倍，分红全由真金白银覆盖</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：这五项是“钱是不是真的”体检表——金山六项全绿，本篇的不买理由与质量无关，只与价格有关。</div>
+  </details>
+
+  <details class="fold">
+    <summary>#7–#12 资产质量与利润分配 · 4 个指标</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>应收占总资产</td><td>两类应收÷总资产，越高越像“赊账换收入”</td><td>641÷18,156=3.5%，订阅预付模式天然应收少</td></tr>
+      <tr><td>拨备率</td><td>坏账准备÷应收总额，看公司对收不回的钱认了多少</td><td>本标的未取到（附注待补），但应收仅占总资产 3.5%，影响上限小</td></tr>
+      <tr><td>财务费用/归母净利</td><td>利润有多少被利息吃掉</td><td>金山财务费用是<b>负数</b>（存款利息收入），利润不用养债权人</td></tr>
+      <tr><td>少数股东分利</td><td>1−归母÷净利润，利润有多少分给子公司的其他股东</td><td>FY2025 归母 1,836 &gt; 净利 1,822，少数股东在亏钱，且已被收购</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：这四项看“利润归不归我”——金山既不养债权人也不漏给少数股东，利润归属干净。</div>
+  </details>
+
+  <details class="fold">
+    <summary>#13–#16 估值工具（本篇最重要的一组）· 7 个工具</summary>
+    <div class="fold-body tbl-scroll"><table>
+      <tr><th>指标</th><th>大白话解释（含计算式）</th><th>在本标的里的样子</th></tr>
+      <tr><td>数值分位 vs 便宜程度分位</td><td>数值分位=当前值在历史中的排位；便宜程度=1−PB 数值分位（PB 越低越便宜）；股息率相反，数值越高越便宜，两者相等</td><td>金山 PB 9.573 数值分位 13.6% → 便宜程度 86.4%；股息率 0.47% 数值分位 90.1% = 便宜程度 90.1%</td></tr>
+      <tr><td>窗口偏差</td><td>分位是与“哪段历史”比；窗口含泡沫期会把现在显得便宜，含熊市会把现在显得贵，必须声明方向</td><td>金山窗口起点 2022-04 是 PE 214 倍的顶部，所以 86%–90% 的便宜分位是“被美化的”，必须打折看</td></tr>
+      <tr><td>分位对应股价</td><td>把目标分位的 PB/股息率档位反推成股价，把统计量变成可下单的价</td><td>PB 10% 档 9.043×27.75=250.94 元；股息率 0.35% → 1.2523÷0.35%=357.80 元</td></tr>
+      <tr><td>ROE÷PB（#15）</td><td>账面回报÷买入价格≈盈利收益率，横向比谁“单位价格买到的回报”多</td><td>15.7%÷9.57=1.64%，6 家同行第一，但绝对值仅相当于 67 倍 PE 的倒数</td></tr>
+      <tr><td>股息锚</td><td>用股息率托底估值：股价跌到股息率有吸引力时有人接</td><td>金山股息率 0.47%，托不了底——本标的没有股息锚，只有成长锚</td></tr>
+      <tr><td>价格隐含增速反推</td><td>由市值倒算“要赚回本需要多快的利润增长”：目标市值=现市值×(1+要求回报)^n÷退出 PE</td><td>1,232.65 亿×1.1^10÷25≈128 亿归母 → 隐含十年复合 21.4%，高于历史 15.2%</td></tr>
+      <tr><td>#16 价格隐含减值率</td><td>（归母权益−市值）÷被质疑资产，量化“市场比你悲观多少”，专用于破净的深度价值股</td><td>金山市值是净资产 9.573 倍，公式分子为负——不适用，它是成长定价不是资产定价</td></tr>
+    </table></div>
+    <div class="fold-body src">读法：后两行是本篇最关键的方法论结论——股息锚与 #16 均失效，所以只能用情景带，这就是后记要换尺子的原因。</div>
+  </details>
+</div>
+
+</div>
+<footer>
+  本页为<b>全量版</b>：内容与 <code>2026-08_金山办公_分析报告.md</code>、<code>2026-08_金山办公_速读版.md</code> 一致（图表与折叠区为 HTML 独有的呈现增强）。<br>
+  生成于 2026-08-07（同日二次同步：T4 三档情景带 + 历史分位）｜ 数据来源：FY2020–2025 年报（巨潮资讯）+ 东财行情快照 + 腾讯日线（分位）｜ 全文唯一基准价 265.65 元（2026-08-07）<br>
+  仅供个人研究，不构成投资建议。
+</footer>
+
+<script>
+const G='#1e7e4a',B='#1f4e79',R='#c0392b',Y='#b7791f',GR='#8a93a0';
+const yrs5=['FY2021','FY2022','FY2023','FY2024','FY2025'];
+const yrs6=['FY2020','FY2021','FY2022','FY2023','FY2024','FY2025'];
+const base={textStyle:{fontFamily:'-apple-system,PingFang SC,Microsoft YaHei'},grid:{left:56,right:56,top:44,bottom:32},tooltip:{trigger:'axis'}};
+function mk(id,opt){echarts.init(document.getElementById(id)).setOption(Object.assign({},base,opt));}
+
+mk('c_implied',{grid:{left:120,right:40,top:20,bottom:32},tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+ xAxis:{type:'value',axisLabel:{formatter:'{value}%'},max:25},
+ yAxis:{type:'category',data:['历史五年实际复合','现价隐含十年复合']},
+ series:[{type:'bar',barWidth:34,data:[{value:15.2,itemStyle:{color:B}},{value:21.4,itemStyle:{color:R}}],
+ label:{show:true,position:'right',formatter:'{c}%',fontWeight:'bold'}}]});
+
+mk('c_users',{legend:{data:['月活设备（亿）','国内付费个人（万）']},
+ xAxis:{type:'category',data:yrs6},
+ yAxis:[{type:'value',name:'亿',min:4},{type:'value',name:'万',min:1500}],
+ series:[{name:'月活设备（亿）',type:'line',data:[4.74,5.44,5.73,5.98,6.32,6.78],itemStyle:{color:B},lineStyle:{width:3}},
+ {name:'国内付费个人（万）',type:'bar',yAxisIndex:1,data:[1962,2537,2997,3549,4170,4615],itemStyle:{color:'#7fa8d0'},barWidth:26}]});
+
+mk('c_related',{legend:{data:['关联采购金额（万元）','占采购总额比例']},
+ xAxis:{type:'category',data:yrs6},
+ yAxis:[{type:'value',name:'万元'},{type:'value',name:'%',min:15,max:35,axisLabel:{formatter:'{value}%'}}],
+ series:[{name:'关联采购金额（万元）',type:'bar',data:[8640,11360,15441,18341,25036,29001],itemStyle:{color:'#c9a26a'},barWidth:26},
+ {name:'占采购总额比例',type:'line',yAxisIndex:1,data:[30.17,20.39,21.48,22.90,22.18,26.09],itemStyle:{color:R},lineStyle:{width:3},
+ markPoint:{data:[{coord:['FY2025',26.09],value:'26.09% 五年新高',itemStyle:{color:R}}],label:{fontSize:11}}}]});
+
+mk('c_segment',{legend:{data:['WPS个人(原个人订阅)','WPS365(原机构订阅)','WPS软件(原机构授权)','其他(原广告等)']},
+ xAxis:{type:'category',data:yrs5},yAxis:{type:'value',name:'亿元'},
+ series:[
+ {name:'WPS个人(原个人订阅)',type:'bar',stack:'s',data:[14.65,20.50,26.53,32.83,36.26],itemStyle:{color:B}},
+ {name:'WPS365(原机构订阅)',type:'bar',stack:'s',data:[4.46,6.92,9.57,4.37,7.20],itemStyle:{color:'#5b8bbf'}},
+ {name:'WPS软件(原机构授权)',type:'bar',stack:'s',data:[9.62,8.36,6.55,12.68,14.61],itemStyle:{color:'#9dbadd'}},
+ {name:'其他(原广告等)',type:'bar',stack:'s',data:[4.06,3.06,2.88,1.32,1.20],itemStyle:{color:'#ccd8e8'}}]});
+
+mk('c_arpu',{legend:{data:['国内付费个人（万）','ARPU（元）[推算]']},
+ xAxis:{type:'category',data:yrs5},
+ yAxis:[{type:'value',name:'万',min:2000},{type:'value',name:'元',min:50,max:80}],
+ series:[{name:'国内付费个人（万）',type:'bar',data:[2537,2997,3549,4170,4615],itemStyle:{color:'#7fa8d0'},barWidth:26},
+ {name:'ARPU（元）[推算]',type:'line',yAxisIndex:1,data:[57.8,68.4,74.8,74.3,72.5],itemStyle:{color:R},lineStyle:{width:3},
+ markPoint:{data:[{coord:['FY2023',74.8],value:'见顶 74.8'},{coord:['FY2025',72.5],value:'连跌两年'}],label:{fontSize:11}}}]});
+
+mk('c_pnl',{legend:{data:['营业收入','归母净利润','经营现金流']},
+ xAxis:{type:'category',data:yrs5},yAxis:{type:'value',name:'亿元'},
+ series:[{name:'营业收入',type:'bar',data:[32.80,38.85,45.56,51.21,59.29],itemStyle:{color:B},barWidth:20},
+ {name:'归母净利润',type:'bar',data:[10.41,11.18,13.18,16.45,18.36],itemStyle:{color:G},barWidth:20},
+ {name:'经营现金流',type:'line',data:[18.64,16.03,20.58,21.96,25.02],itemStyle:{color:R},lineStyle:{width:3}}]});
+
+mk('c_cash',{legend:{data:['自由现金流（OCF−capex）','现金分红']},
+ xAxis:{type:'category',data:yrs5},yAxis:{type:'value',name:'亿元'},
+ series:[{name:'自由现金流（OCF−capex）',type:'bar',data:[17.15,14.27,18.92,20.21,24.04],itemStyle:{color:G},barWidth:26},
+ {name:'现金分红',type:'bar',data:[2.77,3.23,3.37,4.06,4.82],itemStyle:{color:'#c9a26a'},barWidth:26}]});
+
+mk('c_ruler',{grid:{left:76,right:56,top:26,bottom:34},tooltip:{show:false},
+ xAxis:{type:'category',data:[''],axisTick:{show:false},axisLine:{show:false}},
+ yAxis:{type:'value',name:'元/股',min:0,max:400,splitLine:{lineStyle:{color:'#eef1f5'}}},
+ series:[{type:'bar',barWidth:1,silent:true,itemStyle:{color:'transparent'},data:[0],
+  markArea:{silent:true,data:[
+   [{yAxis:0,itemStyle:{color:'rgba(30,126,74,.13)'},label:{show:true,position:'insideTopLeft',formatter:'悲观 ≤69 元',fontSize:11,color:G,fontWeight:'bold'}},{yAxis:69}],
+   [{yAxis:126,itemStyle:{color:'rgba(31,78,121,.16)'},label:{show:true,position:'insideTopLeft',formatter:'中性 126–157 元（买点带）',fontSize:11,color:B,fontWeight:'bold'}},{yAxis:157}],
+   [{yAxis:232,itemStyle:{color:'rgba(192,57,43,.13)'},label:{show:true,position:'top',formatter:'乐观 232–279 元（现价所在带）',fontSize:11,color:R,fontWeight:'bold'}},{yAxis:279}]]},
+  markLine:{silent:true,symbol:'none',data:[
+   {yAxis:265.65,lineStyle:{color:R,width:2.5},label:{formatter:'现价 265.65',position:'insideEndTop',fontWeight:'bold',color:R,fontSize:12,distance:[0,4]}},
+   {yAxis:250.94,lineStyle:{color:Y,width:2,type:'dashed'},label:{formatter:'PB 最低10%档 250.94 → 仍在乐观带内',position:'insideEndBottom',fontSize:11,color:Y,fontWeight:'bold',distance:[0,4]}},
+   {yAxis:316.29,lineStyle:{color:GR,type:'dotted'},label:{formatter:'PB 25%档 316.29',position:'insideEndTop',fontSize:11,color:GR}},
+   {yAxis:354.76,lineStyle:{color:GR,type:'dotted'},label:{formatter:'PB 中位 354.76',position:'insideEndTop',fontSize:11,color:GR}}]}}]});
+
+mk('c_peers',{grid:{left:90,right:70,top:20,bottom:32},tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
+ xAxis:{type:'value',name:'市值（亿元）'},
+ yAxis:{type:'category',data:['福昕软件','万兴科技','泛微网络','用友网络','科大讯飞','金山办公']},
+ series:[{type:'bar',barWidth:20,data:[
+ {value:63.53,itemStyle:{color:GR}},{value:108.81,itemStyle:{color:GR}},{value:140.22,itemStyle:{color:'#5b8bbf'}},
+ {value:400.47,itemStyle:{color:GR}},{value:1045.63,itemStyle:{color:GR}},{value:1232.65,itemStyle:{color:B}}],
+ label:{show:true,position:'right',formatter:p=>['PE 141','亏损','PE 56.4','亏损','TTM 亏','PE 67.0*'][p.dataIndex],fontSize:11}}]});
+</script>
+<div class="model-stamp" style="text-align:center;font-size:12px;color:#5a6270;margin-top:20px;padding:10px;border-top:1px solid #e3e6eb;">本文由 <b>qoder cantus</b> 生成</div>
+</body>
+</html>

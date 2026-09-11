@@ -1,0 +1,29 @@
+Consolidated Statement of Financial Position
+綜合財務狀況表
+31 December 2022 二零二二年十二月三十一日
+2022 2021
+二零二二年 二零二一年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+CURRENT LIABILITIES 流動負債
+Creditors, other payables and 應付賬款、其他應付款項
+accrued expenses 及應計費用 28 22,437,850 25,636,846
+Interest-bearing borrowings 計息借貸 29
+– Secured －有抵押 3,742,461 3,410,134
+– Unsecured －無抵押 16,435,727 10,530,590
+20,178,188 13,940,724
+Tax payable 應付稅項 197,011 190,832
+Total current liabilities 流動負債總額 42,813,049 39,768,402
+NET CURRENT ASSETS 流動資產淨額 3,172,857 9,461,257
+TOTAL ASSETS LESS 總資產減流動負債
+CURRENT LIABILITIES 147,784,749 160,467,226
+NON-CURRENT LIABILITIES 非流動負債
+Other payables 其他應付款項 28 533,657 839,348
+Interest-bearing borrowings 計息借貸 29
+– Secured －有抵押 39,663,880 44,506,065
+– Unsecured －無抵押 34,882,432 40,678,875
+74,546,312 85,184,940
+Deferred tax liabilities 遞延稅項負債 33 10,105,887 10,100,716
+Total non-current liabilities 非流動負債總額 85,185,856 96,125,004
+NET ASSETS 資產淨額 62,598,893 64,342,222
+146 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

@@ -1,0 +1,62 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS
+關鍵審計事項
+Key audit matters are those matters that, in our professional
+關鍵審計事項是根據我們的專業判斷，認
+judgement, were of most significance in our audit of the
+為對本期綜合財務報表的審計最為重要的
+consolidated financial statements of the current period. These
+事項。該等事項是在我們審計整體綜合財
+matters were addressed in the context of our audit of the
+務報表及出具意見時處理，且我們不對該
+consolidated financial statements as a whole, and in forming
+等事項提供單獨的意見。
+our opinion thereon, and we do not provide a separate opinion
+on these matters.
+Assessing expected credit losses on debtors and contract assets
+評估應收賬款和合同資產的預期信貸虧損
+Refer to notes 23 and 25 to the consolidated financial statements and the accounting policies in note 2.4.
+23 25 2.4
+參見綜合財務報表附註 和 和附註 中的會計政策。
+How the matter was addressed in our
+The Key Audit Matter audit
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+As at 31 December 2025, the carrying amounts of debtors Our audit procedures to assess the ECLs
+and contract assets amounted to HK$24.152 billion and on debtors and contract assets included the
+HK$104.934 billion respectively, net of expected credit following:
+losses (“ECLs”) on these assets of HK$2,663 million.
+我們評估應收賬款和合同資產預期信貸虧損
+截至二零二五年十二月三十一日，應收賬款和合同資產的 的審計程序包括以下內容：
+241.52 1,049.34
+賬面金額分別為港幣 億元和港幣 億元，扣除
+26.63 • understanding and evaluating the Group’s
+這些資產的預期信貸虧損（「預期信貸虧損」）港幣 億
+policy and method for estimating the
+元。
+ECLs according to applicable accounting
+Management performed ECLs assessment of debtors and standards;
+contract assets without significant financing component •
+根據現行會計準則的要求，理解和評
+under the simplified approach whereas contract assets
+估 貴集團估計預期信貸虧損的政策和方
+with significant financing component under the general
+法；
+approach.
+• assessing the appropriateness of the key
+管理層使用簡化處理方法對沒有重大融資成份的應收賬款
+assumptions used by management in the
+和合同資產進行預期信貸虧損評估，而對有重大融資成份
+ECLs assessment, including the basis for
+的合同資產使用一般處理方法。
+segmentation of the debtors and contract
+Significant management judgements are involved in the assets based on similar credit risk profile
+assessment of ECLs after considering historical settlement of its customers;
+pattern, ageing profiles and credit rating of debtors. •
+評估管理層在預期信貸虧損評估中使用的
+在考慮了歷史結算模式、賬齡情況、應收賬款信用評級後， 關鍵假設的適當性，包括根據其客戶的類
+管理層在預期信貸虧損的評估中做出了重要的判斷。 似信用風險狀況劃分應收賬款和合同資產
+的依據；
+151
+Annual Report 2025
+二零二五年年報

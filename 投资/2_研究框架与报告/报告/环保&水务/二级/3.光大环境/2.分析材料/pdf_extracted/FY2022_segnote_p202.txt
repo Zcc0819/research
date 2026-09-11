@@ -1,0 +1,44 @@
+Notes to Financial Statements
+財務報表附註
+31 December 2022 二零二二年十二月三十一日
+3 SIGNIFICANT ACCOUNTING JUDGEMENTS 3 重大會計判斷及估計（續）
+AND ESTIMATES (continued)
+Estimation uncertainty (continued) 估計之不確定性（續）
+Impairment losses for debtors (continued) 應收賬款之耗損虧損（續）
+The assessment of the correlation among historical 對過往觀察所得違約率、經濟狀況預測及預
+observed default rates, forecast economic conditions 期信貸虧損之相關性之評估屬重大估算。預
+and ECLs is a significant estimate. The amount of ECLs 期信貸虧損金額受經濟情況及經濟狀況預測
+is sensitive to changes in circumstances and forecast 之變動影響。本集團過往信貸虧損經驗及經
+economic conditions. The Group’s historical credit loss 濟狀況預測亦可能無法反映客戶日後之實際
+experience and forecast of economic conditions may also 違約情況。本集團應收賬款之預期信貸虧損
+not be representative of a customer’s actual default in the 資料於財務報表附註25披露。
+future. The information about the ECLs on the Group’s
+debtors is disclosed in note 25 to the financial statements.
+The carrying amount of debtors at 31 December 2022 was 於二零二二年十二月三十一日，應收賬款
+HK$15,315,345,000 (2021: HK$13,110,600,000). 賬面值為港幣15,315,345,000元（二零二一
+年：港幣13,110,600,000元）。
+Impairment losses for goodwill 商譽之耗損虧損
+As explained in the accounting policy set out in note 2.4 誠如財務報表附註2.4下有關「業務合併及商
+to the financial statements for “Business combinations and 譽」之會計政策所闡釋，商譽會被分配至預
+goodwill”, goodwill is allocated to a cash-generating unit 期可受惠於合併協同效益之一個現金生產單
+or to a group of cash-generating units that are expected 位或一個現金生產單位組別，以便進行耗損
+to benefit from the synergies of the combination for 評估，而此需要作出重大判斷。根據香港會
+the purpose of impairment assessment, which requires 計準則第36號「資產耗損」，本集團確定獲分
+significant judgement. The Group determined that the 配商譽之現金生產單位組別為本集團就內部
+group of cash-generating units to which goodwill was 申報目的而監察商譽之最低層次，且監察層
+allocated reflected the lowest level at which goodwill 面不會大於一個經營分部。
+was monitored for internal reporting and was not larger
+than an operating segment in accordance with HKAS 36
+Impairment of Assets.
+The Group determines whether goodwill is impaired at 本集團最少每年一次釐定商譽有否出現耗
+least on an annual basis. This involves an estimation of 損，而此涉及估計獲分配商譽之現金生產
+the value in use of the cash-generating units to which the 單位之使用價值。在估計使用價值時，本
+goodwill is allocated. Estimating the value in use requires 集團須估計來自現金生產單位之預期未來
+the Group to make an estimate of the expected future cash 現金流量，並須選擇合適的貼現率，以便
+flows from the cash-generating units and also to choose 計算有關現金流量之現值。於二零二二
+a suitable discount rate in order to calculate the present 年十二月三十一日，商譽之賬面值為港
+value of those cash flows. The carrying amount of goodwill 幣1,561,486,000元（二零二一年：港幣
+at 31 December 2022 was HK$1,561,486,000 (2021: 2,353,687,000元）。進一步詳情載於財務報
+HK$2,353,687,000). Further details are given in note 17 to 表附註17。
+the financial statements.
+200 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

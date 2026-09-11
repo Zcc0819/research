@@ -1,0 +1,54 @@
+Consolidated Statement of Cash Flows
+綜合現金流量表
+Year ended 31 December 2021 截至二零二一年十二月三十一日止年度
+2021 2020
+二零二一年 二零二零年
+Notes HK$’000 HK$’000
+附註 港幣千元 港幣千元
+CASH FLOWS FROM 經營活動所得現金流量
+OPERATING ACTIVITIES
+Profit before tax 除稅前盈利 10,320,591 9,386,724
+Adjustments for: 經調整：
+Depreciation of property, plant and 物業、廠房及
+equipment 設備折舊 8 507,247 384,899
+Depreciation of right-of-use assets 使用權資產折舊 8 70,103 60,137
+Amortisation of intangible assets 無形資產攤銷 8 1,049,614 740,592
+Finance costs 財務費用 7 3,079,448 2,279,149
+Dividend income 股息收入 6 (165) (7,966)
+Interest income 利息收入 6 (128,853) (97,061)
+Share of profits of joint ventures 所佔合營企業盈利 (81,837) (207,929)
+Share of profits of associates 所佔聯營公司盈利 (91,377) (11,353)
+Fair value losses/(gains), net: 公允值虧損╱（收益）淨額：
+Other financial assets – unlisted 其他財務資產
+equity investment －非上市股本投資 6 (968) (883)
+Other financial assets – unlisted 其他財務資產
+investments －非上市投資 6 58,583 48,629
+Contingent consideration receivable 應收或然代價 6 – 7,814
+Impairment of debtors, net 應收賬款耗損淨額 6 373,870 120,876
+Impairment of other receivables 其他應收款項耗損 6 16,451 3,342
+Impairment of contract assets, net 合約資產耗損淨額 6 135,133 66,867
+Impairment of intangible assets 無形資產耗損 6 – 216,723
+Loss on disposal of contract assets 出售合約資產之虧損 6 33,045 –
+Loss on disposal of intangible assets 出售無形資產之虧損 6 3,217 –
+Loss on disposal and write-off of 出售及撇銷物業、廠房及
+property, plant and equipment, net 設備之虧損淨額 6 4,320 28
+Loss on disposal of a subsidiary 出售附屬公司之虧損 6 – 14,117
+Loss on disposal/deemed disposal 出售╱被視作出售合營
+of joint ventures 企業之虧損 6 47,366 144,087
+Gain from disposal of an associate 出售聯營公司之收益 6 (2) –
+Effect of foreign exchange rates 匯率變動之影響淨額
+changes, net (108,577) 1,220,953
+15,287,209 14,369,745
+Increase in inventories 存貨增加 (155,520) (179,602)
+Increase in contract assets 合約資產增加 (16,198,782) (20,222,236)
+Increase in debtors, other receivables, 應收賬款、其他應收款項、
+deposits and prepayments 按金及預付款項增加 (5,769,855) (4,671,992)
+Increase in creditors, other payables 應付賬款、其他應付款項及
+and accrued expenses 應計費用增加 6,236,173 3,385,735
+Cash used in operations 經營所動用之現金 (600,775) (7,318,350)
+Interest received 已收利息 128,853 97,061
+People's Republic of China ("PRC") 已付中華人民共和國
+and overseas income taxes paid （「中國」）及海外所得稅 (1,090,721) (964,678)
+Net cash flows used in 經營活動所動用之現金
+operating activities 流量淨額 (1,562,643) (8,185,967)
+158 China Everbright Environment Group Limited | 中國光大環境（集團）有限公司

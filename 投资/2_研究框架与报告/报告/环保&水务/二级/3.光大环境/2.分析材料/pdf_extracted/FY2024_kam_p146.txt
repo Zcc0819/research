@@ -1,0 +1,46 @@
+Independent Auditor’s Report
+獨立核數師報告
+KEY AUDIT MATTERS (continued)
+關鍵審計事項（續）
+Assessing expected credit losses on debtors and contract assets (continued)
+評估應收賬款和合同資產的預期信貸虧損（續）
+Refer to notes 23 and 25 to the consolidated financial statements and the accounting policies in note 2.4.
+23 25 2.4
+參見綜合財務報表附註 和 和附註 中的會計政策。
+How the matter was addressed in our
+The Key Audit Matter audit
+關鍵審計事項 我們的審計如何處理關鍵審計事項
+We identified assessing expected credit losses on debtors • assessing the inputs used by the
+and contract assets as a key audit matter because management in the ECLs assessment,
+determining the level of loss allowance requires the exercise including whether the debtors and
+of significant management judgement and estimation which contract assets were categorised in the
+are inherently subjective. appropriate ageing bands by comparing
+individual items to the relevant underlying
+我們將評估應收賬款和合同資產的預期信貸虧損確定為一
+supporting documents, on a sample basis;
+個關鍵審計事項，因為確定虧損撥備金水平需要行使管理
+•
+層的重大判斷和估計，而這些判斷和估計本質上是主觀的。 評估管理層在預期信貸虧損評估中使用的
+投入，包括通過將單個項目與相關基礎支
+持文件進行抽樣比較，應收賬款和合同資
+產是否被分類在適當的賬齡等級中；
+• with the assistance of our internal
+specialists, evaluating the methodology of
+ECLs calculation and the key parameters
+used with reference to external available
+data; and
+•
+在內部專家的協助下，評估預期信貸虧損
+計算的方法論以及參考外部可用數據使用
+的關鍵指標；和
+• re-performing the calculation of the ECLs
+as at 31 December 2024 based on the
+Group’s ECLs allowance policies, inputs
+and assumptions.
+•
+根據集團的預期信貸虧損撥備政策、投入
+和假設，重新計算截至二零二四年十二月
+三十一日的預期信貸虧損。
+144
+China Everbright Environment Group Limited
+中國光大環境（集團）有限公司

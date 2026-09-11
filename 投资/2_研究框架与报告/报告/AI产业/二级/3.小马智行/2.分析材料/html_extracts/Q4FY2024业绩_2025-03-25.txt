@@ -1,0 +1,663 @@
+EX-99.1
+2
+tm2510243d1_ex99-1.htm
+EXHIBIT 99.1
+Exhibit 99.1
+Pony AI Inc. Announces Unaudited Fourth Quarter
+and Full Year 2024 Financial Results
+New York, March 25, 2025 —Pony AI Inc. (“Pony.ai”
+or the “Company”) (Nasdaq: PONY), a global leader in the large-scale commercialization of autonomous mobility, today announced
+its unaudited financial results for the quarter and full year ended December 31, 2024.
+Dr. James Peng, Co-founder and Chief Executive
+Officer of Pony.ai, commented, “2024 marked a milestone year for Pony.ai as we transitioned to a public company. Our robotaxi-first,
+China-first, and tier-one cities-first approach has positioned us at the forefront of the race towards large-scale commercialization.
+The strategic partnerships with OEMs we have developed, also empowers us to rapidly scale production of our seventh-generation robotaxi.
+In 2025, we aim to build upon this momentum and accelerate beyond the inflection point of scaled commercialization, building a world with
+safer, more efficient, and accessible autonomous mobility.”
+Dr. Tiancheng Lou, Co-founder and Chief Technology Officer of Pony.ai,
+added, “Our years of engineering efforts have yielded cutting-edge technology that ensures the highest levels of safety at effective
+costs, and supports our large-scale operations. Reinforcement learning and PonyWorld generative virtual environment are powering our autonomous
+driving system with smarter decisions in complex real-world conditions. Notably, our robotaxi safety record has improved by 16 times and
+has driven insurance policy prices down to roughly 50% that of human-driven taxis – all these are clear indicators of safety and
+reliability in our technology.”
+Dr. Leo Wang, Chief Financial Officer of Pony.ai,
+commented, “We are proud of our revenue growth over the past three consecutive years, showcasing our ability to commercialize our
+leading autonomous mobility solutions. While the near-term financials reflected our strategic resource allocation to support the mass
+production and deployment of robotaxi services, we remain focused on improving unit economics in 2025. Our successful IPO has enhanced
+our financial strength and flexibility, providing us with ample capital for disciplined production scale-up and R&D investments.”
+Recent Developments
+Expanding Operations and Regulatory Approvals
+Expansion of Paid Robotaxi Services in Beijing
+| · | On March 13, 2025, Pony.ai launched the first-ever paid robotaxi service
+at a major railway hub in urban Beijing, connecting Beijing South Railway Station and Yizhuang, the southeast suburb of Beijing. As one
+of the first companies to receive approval to test autonomous vehicles on highways in Beijing, Pony.ai can now offer autonomous ride-hailing
+services that connect key transport hubs such as Beijing South Railway Station, Beijing Daxing Airport, and Yizhuang Railway Station.
+Going forward, the Company plans to gradually expand its robotaxi services to Beijing city center. |
+Partnership with ComfortDelGro to Jointly Launch
+Robotaxi Pilot Program in Guangzhou
+| · | On March 12, 2025, Pony.ai and ComfortDelGro Corporation Limited
+(“ComfortDelGro”), a leading multi-modal transport operator, jointly launched a robotaxi pilot program in Guangzhou. This
+follows the signing of a Memorandum of Understanding (MoU) in June 2024. The program will deploy multiple autonomous vehicles for ride-hailing
+services across the city. Pony.ai will provide daily technical support with ComfortDelGro leveraging its expertise in large-scale fleet
+management to ensure service quality and handle customer support. |
+Expansion of Paid Robotaxi Services in Guangzhou
+| · | On February 21, 2025, Pony.ai launched paid robotaxi services connecting
+multiple locations in Guangzhou’s city center to Guangzhou Baiyun International Airport and Guangzhou South Railway Station. Notably,
+Pony.ai is the first and only company approved to provide robotaxi services on these high-demand routes. This expansion not only marks
+a major step in the integration of autonomous driving with the dynamic urban landscape of Guangzhou but also signifies another milestone
+in the Company’s commercialization of autonomous mobility. |
+First Company in China Approved for Autonomous
+Truck Platooning Tests
+| · | In December 2024, Pony.ai became the first company in China approved for
+robotruck platooning tests on cross-provincial highways connecting Beijing, Tianjin, and Hebei Province. This approval allows the Company
+to operate robotrucks in a “1+N” platoon, with only the lead truck requiring a safety operator, and the following trucks operating
+autonomously. Pony.ai will commence platooning tests on the Beijing-Tianjin-Tanggu
+Expressway, advancing toward fully autonomous truck platoons to enhance logistics efficiency. |
+Partnership with Amap to Expand Robotaxi Services
+in Guangzhou
+| · | On October 14, 2024, Pony.ai partnered with Amap, a leading provider of digital map, navigation and real-time
+traffic information in China and part of Alibaba Group, to integrate its robotaxis into Amap’s ride-hailing services. This partnership
+allows users in Guangzhou’s Nansha district to book rides in Pony.ai robotaxis through the Amap app, offering a futuristic, driverless
+travel experience. Both companies expect to expand this service to additional cities and regions in the future. |
+Mass Production Updates
+Strategic Cooperation with GAC Aion to Develop Next-generation Robotaxi
+| · | On December 11, 2024, Pony.ai and Guangzhou Automobile Group Co., Ltd. (“GAC”) Aion, the new
+energy vehicle division of GAC, signed a strategic cooperation agreement to jointly develop a fully driverless, mass-produced robotaxi,
+advancing the commercialization of Pony.ai’s leading autonomous driving technology. The new fully driverless robotaxi will integrate
+Pony.ai's seventh-generation autonomous driving system into GAC Aion’s global version of the vehicle. Both companies expect to produce
+over 1,000 robotaxis with the first deliveries expected in 2025. Initial deployment will be in China’s Greater Bay Area, with plans
+for future expansion to other regions and markets. |
+Partnership with BAIC BJEV for L4 Robotaxi
+Development
+| · | On October 31, 2024, Pony.ai and Beijing Automotive Industry Corporation Beijing Electric Vehicle Co.,
+Ltd. (“BAIC BJEV”), the new energy vehicle arm of Beijing Automotive Group Co., Ltd., officially signed a technical cooperation
+agreement to develop L4 robotaxis using the ARCFOX α T5 model equipped
+with Pony.ai’s seventh-generation autonomous driving system, including both hardware and software stacks. The first batch of ARCFOX
+α T5 robotaxis are expected to launch in 2025, targeting the Chinese
+market. Beyond vehicle development, both companies will also cooperate on brand marketing, promotional activities, supply chain management,
+and vehicle sales to expand the adoption of intelligent technologies internationally and drive the growth of the autonomous driving industry
+in China. |
+Expanding Global Footprint
+Secured Autonomous Driving Test Permit in Seoul
+| · | On December 26, 2024, Pony.ai collaborated with PonyLink (formerly GemVaxLink) to secure a temporary autonomous
+driving test permit from South Korea’s Ministry of Land, Infrastructure, and Transport. The Company began public road testing in
+Seoul’s Gangnam district, covering 32 roads across 20.4 km². This marks a significant milestone in the global expansion of
+Pony.ai’s autonomous driving technology. The test fleet is composed of Hyundai KONA Electric vehicles featuring Pony.ai’s
+sixth-generation autonomous driving system, making it the world’s first fleet of robotaxis to operate fully autonomously with automotive-grade
+solid-state LiDAR technology. |
+Expanding European Reach with Partnership in Luxembourg
+| · | On October 23, 2024, Pony.ai Europe, the European division of the Company, signed a MoU with Emile Weber
+Group, Luxembourg's leading transport company, to advance the development of autonomous mobility in the Grand Duchy. Building on a March
+2024 agreement with the Government of Luxembourg, Pony.ai established its European hub in Luxembourg in September 2024 which serves as
+a center for advanced R&D and the development of customized solutions for the European market. This milestone further advanced Pony.ai’s
+European expansion in 2024. |
+Unaudited Fourth Quarter 2024 Financial Results
+Revenues
+| · | Total revenues were US$35.5 million in the fourth quarter of 2024, representing a decrease of 29.8%
+from US$50.6 million in the fourth quarter of 2023. The decrease was mainly influenced by the timing of project-based revenue recognition,
+partially offset by an increase in other revenues. |
+| · | Robotaxi services were US$2.6 million in the fourth quarter of 2024, representing a decrease of
+61.9% from US$6.7 million in the fourth quarter of 2023. The decrease was mainly driven by reduced service fees from providing autonomous
+vehicle engineering solutions based on our collaboration projects’ progression schedule. The decrease was partially offset by a
+significant increase in passenger fares driven by the expansion of our public-facing fare-charging robotaxi operations in Tier-one cities
+in China. |
+| · | Robotruck services were US$12.9 million in the fourth quarter of 2024, representing an increase
+of 72.7% from US$7.5 million in the fourth quarter of 2023. The increase was mainly due to the expansion of robotruck fleet operations
+into new regions. |
+| · | Licensing and applications were US$20.0 million in the fourth quarter of 2024, representing a decrease
+of 45.0% from US$36.4 million in the fourth quarter of 2023. The decrease was mainly influenced by the timing of project-based revenue
+recognition. |
+Cost of Revenues
+| · | Total cost of revenues was US$28.1 million in the fourth quarter of 2024, representing a decrease
+of 16.1% from US$33.4 million in the fourth quarter of 2023, in-line with revenue trend and revenue mix. |
+Gross Profit and Gross Margin
+| · | Gross profit was US$7.5 million in the fourth quarter of 2024, representing a decrease of 56.5%
+from US$17.1 million in the fourth quarter of 2023. |
+| · | Gross margin was 21.0% in the fourth quarter of 2024, compared to 33.9% in the fourth quarter of
+2023. The decrease was mainly due to changes in the revenue mix. |
+Operating Expenses
+| · | Operating expenses were US$180.6 million in the fourth quarter of 2024, representing an increase
+of 313.9% from US$43.6 million in the fourth quarter of 2023. Non-GAAP 1
+operating expenses were US$55.7 million in the fourth quarter of 2024, representing an increase of 30.0% from US$42.8 million in the fourth
+quarter of 2023. |
+| · | Research and development expenses were US$147.8 million in the fourth quarter of 2024, representing
+an increase of 375.7% from US$31.1 million in the fourth quarter of 2023. The increase was mainly due to i) share-based compensation expenses
+recognized related to the share awards granted to employees with a performance condition related to the IPO; and ii) accelerated research
+and development investments in the fourth quarter of 2024 to support the seventh-generation vehicle development in collaboration with
+our original equipment manufacturer (“OEM”) partners. Non-GAAP research and development expenses were US$46.3 million, representing
+an increase of 50.6% from US$30.8 million in the fourth quarter of 2023. |
+| · | Selling, general and administrative expenses were US$32.7 million in the fourth quarter of 2024,
+representing an increase of 160.9% from US$12.5 million in the fourth quarter of 2023. The increase was mainly due to share-based compensation
+expenses recognized related to the share awards granted to employees with a performance condition related to the IPO. Non-GAAP selling,
+general and administrative expenses were US$9.3 million, representing a decrease of 22.6% from US$12.1 million in the fourth quarter of
+2023. |
+Loss from Operations
+| · | Loss from operations was US$173.1 million in the fourth quarter of 2024, compared to US$26.5 million
+in the fourth quarter of 2023. Non-GAAP loss from operations was US$48.2 million, compared to US$25.7 million in the fourth quarter of
+2023. |
+Net Loss
+| · | Net loss was US$181.1 million in the fourth quarter of 2024, compared to US$20.7 million in the
+fourth quarter of 2023. Non-GAAP net loss was US$56.2 million in the fourth quarter of 2024, compared to US$18.2 million in the
+fourth quarter of 2023. |
+1 Non-GAAP financial measures exclude
+share-based compensation expenses and changes in fair value of warrants liability, and such adjustment has no impact on income tax. For
+further details, see the “Unaudited Reconciliation of U.S. GAAP and Non- GAAP Results” set forth at the end of this press
+release.
+Basic and Diluted Loss per ordinary share
+| · | Basic and diluted net loss per ordinary share was both US$0.99 in the fourth quarter of 2024, compared
+to US$0.23 in the fourth quarter of 2023. Non-GAAP basic and diluted net loss per ordinary share was both US$0.31 in the fourth
+quarter of 2024, compared to US$0.20 in the fourth quarter of 2023. Each ADS represents one Class A ordinary share. |
+Balance Sheet
+| · | Cash and cash equivalents, short-term investments and restricted cash were US$745.2million as of
+December 31, 2024, compared to US$589.8 million as of December 31, 2023. |
+| · | Long-term investments was US$130.8 million as of December 31, 2024, compared to US$51.7 million
+as of December 31, 2023. Of which long-term debt instruments for wealth management was US$79.9 million, compared to US$1.9 million as
+of December 31, 2023. |
+Unaudited Full Year 2024 Financial Results
+Revenues
+| · | Total revenues were US$75.0 million in 2024, representing an increase of 4.3% from US$71.9 million
+in 2023. |
+| · | Robotaxi services were US$7.3 million in 2024, representing a decrease of 5.3% from US$7.7 million
+in 2023. The decrease was mainly driven by reduced service fees from providing autonomous vehicle engineering solutions based on our collaboration
+projects’ progression schedule. The decrease was partially offset by a significant increase in passenger fares driven by the expansion
+of our public-facing fare-charging robotaxi operations in Tier-one cities in China. |
+| · | Robotruck services were US$40.4 million in 2024, representing an increase of 61.3% from US$25.0
+million in 2023. The increase was mainly due to the expansion of robotruck fleet operations into new regions. |
+| · | Licensing and applications were US$27.3 million in 2024, representing a decrease of 30.1% from
+US$39.2 million in 2023. The decrease was mainly influenced by the timing of project-based revenue recognition. |
+Cost of Revenues
+| · | Total cost of revenues was US$63.6 million in 2024, representing an increase of 15.6% from US$55.0
+million in 2023, in line with revenue trend and revenue mix. |
+Gross Profit and Gross Margin
+| · | Gross profit was US$11.4 million in 2024, representing a decrease of 32.5% from US$16.9 million
+in 2023. |
+| · | Gross margin was 15.2% in 2024, compared to 23.5% in 2023. The decrease was mainly due to services
+with relatively lower gross margin contributed increasingly to our revenues in 2024 compared to 2023. |
+Operating Expenses
+| · | Operating expenses were US$296.9 million in 2024, representing an increase of 85.4% from US$160.1
+million in 2023. Non-GAAP operating expenses were US$169.9 million in 2024, representing an increase of 8.7% from US$156.4 million in
+2023. |
+| · | Research and development expenses were US$240.2 million in 2024, representing an increase of 95.7%
+from US$122.7 million in 2023. The increase was mainly due to i) share-based compensation expenses recognized related to the share awards
+granted to employees with a performance condition related to the IPO; and ii) accelerated research and development investments in the
+fourth quarter of 2024 to support the seventh-generation vehicle development in collaboration with our OEM partners. Non-GAAP research
+and development expenses were US$137.8 million, representing an increase of 14.0% compared to US$120.9 million in 2023. |
+| · | Selling, general and administrative expenses were US$56.7 million in 2024, representing an increase
+of 51.7% from US$37.4 million in 2023. The increase was mainly due to share-based compensation expenses recognized related to the share
+awards granted to employees with a performance condition related to the IPO. Non-GAAP selling, general and administrative expenses were
+US$32.1 million, representing a decrease of 9.5% compared to US$35.5 million in 2023. |
+Loss from Operations
+| · | Loss from operations was US$285.5 million in 2024, compared to US$143.2 million in 2023. Non-GAAP
+loss from operations was US$158.5 million in 2024, compared to US$139.5 million in 2023. |
+Net Loss
+| · | Net loss was US$275.0 million in 2024, compared to US$125.3 million in 2023. Non-GAAP net loss
+was US$153.6 million in 2024, compared to US$118.5 million in 2023. |
+Basic and Diluted Net Loss per ordinary share
+| · | Basic and diluted net loss per ordinary share was both US$2.40 in 2024, compared to US$1.40 in
+2023. Non-GAAP basic and diluted net loss per ordinary share was both US$1.34 in 2024, compared to US$1.32 in 2023. Each ADS represents
+one Class A ordinary share. |
+Conference Call
+Pony.ai will hold a conference call at 8:00 AM
+U.S. Eastern Time on Tuesday, March 25, 2025 (8:00 PM Beijing/Hong Kong Time on the same day) to discuss financial results and answer
+questions from investors and analysts.
+For participants who wish to join the call, please
+complete online registration using the link provided below prior to the scheduled call start time. Upon registration, participants will
+receive a confirmation email containing dial-in numbers, passcode, and a unique access PIN.
+Participant Online Registration: https://dpregister.com/sreg/10197111/fe90682903
+A replay of the conference call will be accessible through April 1,
+2025, by dialing the following numbers:
+United States: |
+1-877-344-7529 |
+International: |
+1-412-317-0088 |
+Replay Access Code: |
+7405983 |
+Additionally, a live and archived webcast of
+the conference call will be available on the Company’s investor relations website at https://ir.pony.ai .
+Non-GAAP Financial Measures
+The Company uses non-GAAP financial measures,
+such as non-GAAP research and development expenses, non-GAAP selling, general and administrative expenses, non-GAAP operating expenses,
+non-GAAP loss from operations, non-GAAP net loss, non-GAAP net loss attributable to Pony AI Inc., non-GAAP basic and diluted net loss
+per ordinary share, in evaluating its operating results and for financial and operational decision-making purposes. By excluding the impact
+of share-based compensation expenses and changes in fair value of warrants liability, the Company believes that the non-GAAP financial
+measures help identify underlying trends in its business and enhance the overall understanding of the Company’s past performance
+and future prospects. The Company also believes that the non-GAAP financial measures allow for greater visibility with respect to key
+metrics used by the Company’s management in its financial and operational decision-making.
+The non-GAAP financial measures are not presented
+in accordance with U.S. GAAP and may be different from non-GAAP methods of accounting and reporting used by other companies. The non-GAAP
+financial measures have limitations as analytical tools and when assessing the Company’s operating performance, investors should
+not consider them in isolation, or as a substitute for financial information prepared in accordance with U.S. GAAP. The Company encourages
+investors and others to review its financial information in its entirety and not rely on a single financial measure.
+The Company mitigates these limitations by reconciling
+the non-GAAP financial measures to the most comparable U.S. GAAP performance measures, all of which should be considered when evaluating
+the Company’s performance.
+For more information on the non-GAAP financial
+measures, please see the table captioned “Unaudited Reconciliation of U.S. GAAP and Non-GAAP Results” set forth at the end
+of this press release.
+About Pony AI Inc.
+Pony AI Inc. is a global leader in the large-scale
+commercialization of autonomous mobility. Leveraging its vehicle-agnostic Virtual Driver technology, a full-stack autonomous driving technology
+that seamlessly integrates Pony.ai’s proprietary software, hardware, and services, Pony.ai is developing a commercially viable and
+sustainable business model that enables the mass production and deployment of vehicles across transportation use cases. Founded in 2016,
+Pony.ai has expanded its presence across China, Europe, East Asia, the Middle East and other regions, ensuring widespread accessibility
+to its advanced technology.
+For more information, please visit: https://ir.pony.ai .
+Safe Harbor Statement
+This press release contains statements that may
+constitute “forward-looking” statements pursuant to the “safe harbor” provisions of the U.S. Private Securities
+Litigation Reform Act of 1995. These forward-looking statements can be identified by terminology such as “will,” “expects,”
+“anticipates,” “aims,” “future,” “intends,” “plans,” “believes,”
+“estimates,” “likely to,” and similar statements. Statements that are not historical facts, including statements
+about Pony.ai’s beliefs, plans, and expectations, are forward-looking statements. Forward-looking statements involve inherent risks
+and uncertainties. Further information regarding these and other risks is included in Pony.ai’s filings with the SEC. All information
+provided in this press release is as of the date of this press release, and Pony.ai does not undertake any obligation to update any forward-looking
+statement, except as required under applicable law.
+For investor and media inquiries, please contact:
+Pony.ai
+Investor Relations
+Email: ir@pony.ai
+Pony.ai
+Media Relations
+Email: media@pony.ai
+Christensen Advisory
+Email: pony@christensencomms.com
+Pony AI Inc.
+Unaudited Condensed Consolidated Balance Sheets
+(All amounts in USD thousands, except share and
+per share data)
+| |
+As of | | |
+As of | |
+| |
+December 31, 2023 | | |
+December 31, 2024 | |
+Assets | |
+| | | |
+| | |
+Current assets: | |
+| | | |
+| | |
+Cash and cash equivalents | |
+| 425,960 | | |
+| 535,976 | |
+Restricted cash, current | |
+| 49 | | |
+| 21 | |
+Short-term investments | |
+| 163,594 | | |
+| 209,035 | |
+Accounts receivable, net | |
+| 31,580 | | |
+| 28,555 | |
+Amounts due from related parties, current | |
+| 5,650 | | |
+| 8,322 | |
+Prepaid expenses and other current assets | |
+| 39,513 | | |
+| 52,713 | |
+Total current assets | |
+| 666,346 | | |
+| 834,622 | |
+Non-current assets: | |
+| | | |
+| | |
+Restricted cash, non-current | |
+| 196 | | |
+| 175 | |
+Property, equipment and software, net | |
+| 15,420 | | |
+| 17,241 | |
+Operating lease right-of-use assets | |
+| 6,419 | | |
+| 13,342 | |
+Long-term investments | |
+| 51,712 | | |
+| 130,799 | |
+Prepayment for long-term investments | |
+| - | | |
+| 52,823 | |
+Other non-current assets | |
+| 7,024 | | |
+| 1,819 | |
+Total non-current assets | |
+| 80,771 | | |
+| 216,199 | |
+Total assets | |
+| 747,117 | | |
+| 1,050,821 | |
+Liabilities, Mezzanine Equity and Shareholders’ Deficit | |
+| | | |
+| | |
+Current liabilities: | |
+| | | |
+| | |
+Accounts payable and other current liabilities | |
+| 44,299 | | |
+| 66,548 | |
+Operating lease liabilities, current | |
+| 3,866 | | |
+| 3,438 | |
+Amounts due to related parties, current | |
+| - | | |
+| 900 | |
+Total current liabilities | |
+| 48,165 | | |
+| 70,886 | |
+Operating lease liabilities, non-current | |
+| 2,246 | | |
+| 9,835 | |
+Other non-current liabilities | |
+| 1,533 | | |
+| 1,389 | |
+Total liabilities | |
+| 51,944 | | |
+| 82,110 | |
+Total mezzanine equity | |
+| 1,361,278 | | |
+| - | |
+Total Pony AI Inc. shareholders’ (deficit) equity | |
+| (677,250 | ) | |
+| 951,122 | |
+Non-controlling interests | |
+| 11,145 | | |
+| 17,589 | |
+Total shareholders’ (deficit) equity | |
+| (666,105 | ) | |
+| 968,711 | |
+Total liabilities, mezzanine equity and shareholders’ (deficit) equity | |
+| 747,117 | | |
+| 1,050,821 | |
+Pony AI Inc.
+Unaudited Condensed Consolidated Statements
+of Operations and Comprehensive Loss
+(All amounts in USD thousands, except share and
+per share data)
+| |
+Three Months Ended | | |
+Year Ended | |
+| |
+December 31,
+2023 | | |
+December 31,
+2024 | | |
+December 31,
+2023 | | |
+December 31,
+2024 | |
+Revenues | |
+| 50,595 | | |
+| 35,516 | | |
+| 71,899 | | |
+| 75,025 | |
+Cost of revenues | |
+| (33,447 | ) | |
+| (28,060 | ) | |
+| (55,015 | ) | |
+| (63,622 | ) |
+Gross profit | |
+| 17,148 | | |
+| 7,456 | | |
+| 16,884 | | |
+| 11,403 | |
+Operating expenses: | |
+| | | |
+| | | |
+| | | |
+| | |
+Research and development expenses | |
+| (31,080 | ) | |
+| (147,840 | ) | |
+| (122,707 | ) | |
+| (240,179 | ) |
+Selling, general and administrative expenses | |
+| (12,538 | ) | |
+| (32,714 | ) | |
+| (37,417 | ) | |
+| (56,747 | ) |
+Total operating expenses | |
+| (43,618 | ) | |
+| (180,554 | ) | |
+| (160,124 | ) | |
+| (296,926 | ) |
+Loss from operations | |
+| (26,470 | ) | |
+| (173,098 | ) | |
+| (143,240 | ) | |
+| (285,523 | ) |
+Investment income | |
+| 5,526 | | |
+| 5,336 | | |
+| 19,389 | | |
+| 20,378 | |
+Changes in fair value of warrants liability | |
+| (1,715 | ) | |
+| - | | |
+| (3,030 | ) | |
+| 5,617 | |
+Other income (expenses), net | |
+| 1,925 | | |
+| (13,356 | ) | |
+| 1,427 | | |
+| (15,477 | ) |
+Loss before income tax | |
+| (20,734 | ) | |
+| (181,118 | ) | |
+| (125,454 | ) | |
+| (275,005 | ) |
+Income tax benefits (expenses) | |
+| 4 | | |
+| - | | |
+| 126 | | |
+| (1 | ) |
+Net loss | |
+| (20,730 | ) | |
+| (181,118 | ) | |
+| (125,328 | ) | |
+| (275,006 | ) |
+Net loss attributable to non-controlling interests | |
+| (147 | ) | |
+| (204 | ) | |
+| (516 | ) | |
+| (885 | ) |
+Net loss attributable to Pony AI Inc. | |
+| (20,583 | ) | |
+| (180,914 | ) | |
+| (124,812 | ) | |
+| (274,121 | ) |
+Foreign currency translation adjustments | |
+| 2,084 | | |
+| (4,900 | ) | |
+| (3,841 | ) | |
+| (2,952 | ) |
+Unrealized gain on available-for-sale investments | |
+| 2,247 | | |
+| 19,359 | | |
+| 8,089 | | |
+| 16,089 | |
+Total other comprehensive income | |
+| 4,331 | | |
+| 14,459 | | |
+| 4,248 | | |
+| 13,137 | |
+Total comprehensive loss | |
+| (16,399 | ) | |
+| (166,659 | ) | |
+| (121,080 | ) | |
+| (261,869 | ) |
+Less: Comprehensive income (loss) attributable to non-controlling interests | |
+| 59 | | |
+| 6,835 | | |
+| (757 | ) | |
+| 6,444 | |
+Total comprehensive loss attributable to Pony AI Inc. | |
+| (16,458 | ) | |
+| (173,494 | ) | |
+| (120,323 | ) | |
+| (268,313 | ) |
+Weighted average number of ordinary shares outstanding used in computing net loss per share, basic and diluted | |
+| 90,502,945 | | |
+| 182,347,578 | | |
+| 89,100,415 | | |
+| 114,318,765 | |
+Net loss per ordinary share, basic and diluted | |
+| (0.23 | ) | |
+| (0.99 | ) | |
+| (1.40 | ) | |
+| (2.40 | ) |
+Pony AI Inc.
+Unaudited Reconciliation of U.S. GAAP and Non-GAAP
+Results
+(All amounts in USD thousands, except share and
+per share data)
+| |
+Three Months Ended | | |
+Year Ended | |
+| |
+December 31,
+2023 | | |
+December 31,
+2024 | | |
+December 31,
+2023 | | |
+December 31,
+2024 | |
+Research and development expenses | |
+| (31,080 | ) | |
+| (147,840 | ) | |
+| (122,707 | ) | |
+| (240,179 | ) |
+Share-based compensation expenses | |
+| 317 | | |
+| 101,505 | | |
+| 1,832 | | |
+| 102,383 | |
+Non-GAAP research and development expenses | |
+| (30,763 | ) | |
+| (46,335 | ) | |
+| (120,875 | ) | |
+| (137,796 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Selling, general and administrative expenses | |
+| (12,538 | ) | |
+| (32,714 | ) | |
+| (37,417 | ) | |
+| (56,747 | ) |
+Share-based compensation expenses | |
+| 461 | | |
+| 23,366 | | |
+| 1,926 | | |
+| 24,620 | |
+Non-GAAP selling, general and administrative expenses | |
+| (12,077 | ) | |
+| (9,348 | ) | |
+| (35,491 | ) | |
+| (32,127 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Operating expenses | |
+| (43,618 | ) | |
+| (180,554 | ) | |
+| (160,124 | ) | |
+| (296,926 | ) |
+Share-based compensation expenses | |
+| 778 | | |
+| 124,871 | | |
+| 3,758 | | |
+| 127,003 | |
+Non-GAAP operating expenses | |
+| (42,840 | ) | |
+| (55,683 | ) | |
+| (156,366 | ) | |
+| (169,923 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Loss from operations | |
+| (26,470 | ) | |
+| (173,098 | ) | |
+| (143,240 | ) | |
+| (285,523 | ) |
+Share-based compensation expenses | |
+| 778 | | |
+| 124,871 | | |
+| 3,758 | | |
+| 127,003 | |
+Non-GAAP loss from operations | |
+| (25,692 | ) | |
+| (48,227 | ) | |
+| (139,482 | ) | |
+| (158,520 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Net loss | |
+| (20,730 | ) | |
+| (181,118 | ) | |
+| (125,328 | ) | |
+| (275,006 | ) |
+Share-based compensation expenses | |
+| 778 | | |
+| 124,871 | | |
+| 3,758 | | |
+| 127,003 | |
+Changes in fair value of warrants liability | |
+| 1,715 | | |
+| - | | |
+| 3,030 | | |
+| (5,617 | ) |
+Non-GAAP net loss | |
+| (18,237 | ) | |
+| (56,247 | ) | |
+| (118,540 | ) | |
+| (153,620 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Net loss attributable to Pony AI Inc. | |
+| (20,583 | ) | |
+| (180,914 | ) | |
+| (124,812 | ) | |
+| (274,121 | ) |
+Share-based compensation expenses | |
+| 778 | | |
+| 124,871 | | |
+| 3,758 | | |
+| 127,003 | |
+Changes in fair value of warrants liability | |
+| 1,715 | | |
+| - | | |
+| 3,030 | | |
+| (5,617 | ) |
+Non-GAAP net loss attributable to Pony AI Inc. | |
+| (18,090 | ) | |
+| (56,043 | ) | |
+| (118,024 | ) | |
+| (152,735 | ) |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Weighted average number of ordinary shares outstanding used in computing net loss per share, basic and diluted | |
+| 90,502,945 | | |
+| 182,347,578 | | |
+| 89,100,415 | | |
+| 114,318,765 | |
+Non-GAAP net loss per ordinary share, basic and diluted | |
+| (0.20 | ) | |
+| (0.31 | ) | |
+| (1.32 | ) | |
+| (1.34 | ) |
