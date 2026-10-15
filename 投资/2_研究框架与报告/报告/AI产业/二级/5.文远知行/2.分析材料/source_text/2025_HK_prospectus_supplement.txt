@@ -1,0 +1,153 @@
+===== PDF PAGE 345 =====
+
+                                                    BUSINESS
+
+
+Notes:
+
+(1)      Our total purchase primarily consists of accruals/payments for materials, vehicles and outsourcing service fees.
+
+(2)      Our purchase from Yutong Group for the year ended December 31, 2022 represents purchase from companies
+         within the same group, namely Zhengzhou Yutong Heavy Industry Co., Ltd. (鄭州宇通重工有限公司) and
+         Yutong Bus Co., Ltd. (宇通客車股份有限公司).
+
+(3)      Guangzhou Yuji Technology Co., Ltd. (廣州禹跡科技有限公司) is a majority-controlled company of Mr. Ming
+         Han (韓明), a sibling of Dr. Han, which is also beneficially owned by other shareholders that are unrelated to
+         our Group or Dr. Han.
+
+(4)      Supplier A is a substantial shareholder of a member of our Group.
+
+(5)      Our purchase from Yutong Group for the year ended December 31, 2023 represents purchase from Yutong Bus
+         Co., Ltd. (宇通客車股份有限公司).
+
+(6)      Our purchase from Yutong Group for the year ended December 31, 2024 represents purchase from companies
+         within the same group, namely Ourland Environmental Technical Ltd. (傲藍得環境科技有限公司), Zhengzhou
+         Yutong Heavy Industry Co., Ltd. (鄭州宇通重工有限公司) and Yutong Bus Co., Ltd. (宇通客車股份有限公司).
+
+
+Suppliers of Key Components and Raw Materials
+
+     We engage third-party suppliers and our OEM partners for most of the components that
+are used to, or to be used to, manufacture our L4 autonomous driving vehicles, including
+semiconductor chips, radar, LiDAR, and cameras and other components and materials.
+
+     The agreements with our suppliers of key components typically contain the following
+material terms:
+
+         •     Term. The term of supply agreements typically spans a period of 12 to 18 months.
+
+         •     Payment term. We generally make an initial payment of a certain amount at the time
+               of contract signing and enjoy a credit term of 30 to 60 days from our receipt of the
+               products and invoices.
+
+         •     Product specifications. The agreements typically detail the product name,
+               specification, price, quantity, delivery timeline and other specifics.
+
+         •     Delivery. The suppliers are responsible for delivery of products to our designated
+               location.
+
+         •     Quality control and quality guarantee. Suppliers shall ensure that the products
+               provided are brand new, defect-free and in line with agreed specifications. We
+               normally have the right to reject and return any products that fail to meet our
+               requirements stipulated in the purchase order, at the expense of suppliers, or to
+               request free product replacement or maintenance within the warranty period offered
+               by our suppliers which is typically 12 months.
+
+
+
+                                                        – 335 –
+
+
+
+===== PDF PAGE 498 =====
+
+                           CONNECTED TRANSACTION
+
+OVERVIEW
+
+     Prior to the Listing, our Group has entered into certain transaction with the following
+person who will become our connected person upon the Listing. Such transactions will
+continue following the Listing and will constitute our continuing connected transaction under
+the Listing Rules.
+
+     Our Company will continue to be subject to and regulated by the SEC and Nasdaq rules
+and other applicable U.S. laws and regulations so long as our ADSs are publicly traded on
+Nasdaq. The requirements of the Listing Rules relating to connected transactions are different
+in many aspects from comparable rules in the U.S. In particular, the definition of a connected
+person under the Listing Rules is different from the definition of related parties under the SEC
+and Nasdaq rules. Therefore, a connected transaction as defined under the Listing Rules may
+or may not constitute a related party transaction under applicable SEC and Nasdaq rules, and
+vice versa.
+
+CONNECTED PERSON
+
+     The table below sets out our connected person involved in the continuing connected
+transaction with our Group upon the Listing and the nature of its connection with our Company.
+
+     Connected person                       Connected relationship
+
+
+     Guangzhou Yuji Technology Co.,         A majority-controlled company of Mr. Ming Han
+      Ltd. (廣州禹跡科技有限公司),                      (韓明), a brother of Dr. Han who is the chairman
+      or Guangzhou Yuji                       of our Board, executive Director, CEO, and one
+                                              of our single largest group of Shareholders, and
+                                              therefore a connected person of our Company
+                                              pursuant to Rule 14A.07(4) of the Listing Rules
+
+PARTIALLY-EXEMPT CONTINUING CONNECTED TRANSACTION
+
+Mapping and Data Services Procurement Framework Agreement
+
+Principal Terms
+
+     On October 15, 2025, Wenyuan Guangzhou entered into a mapping and data services
+procurement framework agreement, or the Mapping and Data Services Procurement
+Framework Agreement, with Guangzhou Yuji, pursuant to which our Group will procure certain
+mapping and data services, or Mapping and Data Services, including but not limited to
+production and collection of high-definition maps, data collection and labelling services, and
+other data services for our autonomous driving business from Guangzhou Yuji and its
+subsidiaries.
+
+
+
+
+                                            – 488 –
+
+
+
+===== PDF PAGE 590 =====
+
+                                                                               Series Seed-1 Series Seed-2          Series A                            Share-based
+                                                               Ordinary          Preferred     Preferred            Preferred          Share           compensation       Translation                          Accumulated     Treasury              Total
+                                                     Note       shares            Shares        Shares               Shares           premium             reserve           reserve         Other reserves        losses        shares          equity/(deficit)
+
+                                                               RMB’000           RMB’000          RMB’000           RMB’000           RMB’000            RMB’000            RMB’000            RMB’000          RMB’000        RMB’000             RMB’000
+                                                               Note 29(a)       Note 29(a)        Note 29(a)        Note 29(a)        Note 29(a)       (Note 29(b)(i))    Note 29(b)(ii)    (Note 29(b)(iii)                   Note 29(c)                          APPENDIX I
+
+           (unaudited)ў ў ў ў ў ў ў ў ў ў ў ў
+           Balance as of January 1, 2024 ў ў                              8                  5                 4                 6      1,104,120            1,330,478         (234,647)          1,014,320      (6,114,544)      (151,668)         (3,051,918)
+                                                                          --                 --                --                --     -----                -----             -----              -----          ------           -----             ------
+           Changes in equity for the six
+             months ended June 30, 2024 ў ў
+           Loss for the period ў ў ў ў ў ў ў ў                            –                  –                 –                 –                 –                  –                 –                  –       (881,700)                –         (881,700)
+           Foreign currency translation
+             adjustment, net of nil income
+             taxes ў ў ў ў ў ў ў ў ў ў ў ў ў ў                            –                  –                 –                 –                 –                  –         (33,782)                   –              –                 –           (33,782)
+           Total comprehensive income ў ў ў                               –                  –                 –                 –           –                   –              (33,782)              –           (881,700)           –               (915,482)
+– I-14 –                                                                  --                 --                --                --      -----               -----             -----              -----          ------           -----              ------
+           Cancellation of other financial
+             instruments issued to an investor ў   21(e)(iv)              –                  –                 –                 –                 –                  –                 –              4,526              –                 –             4,526
+           Share-based compensation
+             expenses ў ў ў ў ў ў ў ў ў ў ў ў        7(i)                 –                  –                 –                 –                 –           291,900                  –                  –              –                 –          291,900
+                                                                          –                  –                 –                 –           –                291,900              –                4,526             –               –               296,426
+                                                                          --                 --                --                --      -----               -----             -----              -----          ------           -----              ------
+           Balance as of June 30, 2024 ў ў ў                              8                  5                 4                 6      1,104,120            1,622,378         (268,429)          1,018,846      (6,996,244)      (151,668)         (3,670,974)
+
+
+
+
+                                                                                                                                                                                                                                                                   ACCOUNTANTS’ REPORT
+
+           The accompanying notes are an integral part of the Historical Financial Information.
+
+

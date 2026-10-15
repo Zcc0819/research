@@ -1,0 +1,77 @@
+{
+  "WRD": {
+    "retrieved": "2026-09-17T10:22:10.675927",
+    "snapshot_url": "https://push2.eastmoney.com/api/qt/stock/get?secid=105.WRD&fields=f43%2Cf57%2Cf58%2Cf59%2Cf84%2Cf86%2Cf116%2Cf117%2Cf162%2Cf167",
+    "snapshot": {
+      "f43": 5510,
+      "f57": "WRD",
+      "f58": "文远知行",
+      "f59": 3,
+      "f84": 328956121.67,
+      "f86": 1789588800,
+      "f116": 1812548230.4017,
+      "f117": 1711872406.825035,
+      "f162": 0,
+      "f167": 193
+    },
+    "daily_source": "东方财富不复权日线",
+    "daily_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=105.WRD&klt=101&fqt=0&beg=20241001&end=20260916&lmt=1000&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "first": "2024-10-25",
+    "last": "2026-09-16",
+    "n": 473,
+    "close": 5.51,
+    "price_percentile": 0.010570824524312896,
+    "min": 5.32,
+    "max": 40.4
+  },
+  "PONY": {
+    "retrieved": "2026-09-17T10:22:11.332205",
+    "snapshot_url": "https://push2.eastmoney.com/api/qt/stock/get?secid=105.PONY&fields=f43%2Cf57%2Cf58%2Cf59%2Cf84%2Cf86%2Cf116%2Cf117%2Cf162%2Cf167",
+    "snapshot": {
+      "f43": 6550,
+      "f57": "PONY",
+      "f58": "小马智行",
+      "f59": 3,
+      "f84": 434413615.0,
+      "f86": 1789588800,
+      "f116": 2845409178.25,
+      "f117": 2314277734.75,
+      "f162": 0,
+      "f167": 181
+    },
+    "daily_source": "东方财富不复权日线",
+    "daily_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=105.PONY&klt=101&fqt=0&beg=20241001&end=20260916&lmt=1000&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "first": "2024-11-27",
+    "last": "2026-09-16",
+    "n": 450,
+    "close": 6.55,
+    "price_percentile": 0.028888888888888888,
+    "min": 4.16,
+    "max": 24.06
+  },
+  "AUR": {
+    "retrieved": "2026-09-17T10:22:11.475157",
+    "snapshot_url": "https://push2.eastmoney.com/api/qt/stock/get?secid=105.AUR&fields=f43%2Cf57%2Cf58%2Cf59%2Cf84%2Cf86%2Cf116%2Cf117%2Cf162%2Cf167",
+    "snapshot": {
+      "f43": 6360,
+      "f57": "AUR",
+      "f58": "Aurora Innovation Inc-A",
+      "f59": 3,
+      "f84": 2004155268.0,
+      "f86": 1789588800,
+      "f116": 12746427504.480001,
+      "f117": 10863809100.6,
+      "f162": 0,
+      "f167": 653
+    },
+    "daily_source": "东方财富不复权日线",
+    "daily_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=105.AUR&klt=101&fqt=0&beg=20241001&end=20260916&lmt=1000&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "first": "2024-10-01",
+    "last": "2026-09-16",
+    "n": 491,
+    "close": 6.36,
+    "price_percentile": 0.6659877800407332,
+    "min": 3.77,
+    "max": 10.19
+  }
+}

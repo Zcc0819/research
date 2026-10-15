@@ -1,0 +1,488 @@
+===== PDF PAGE 70 =====
+
+Table of Contents
+
+
+
+     In China, our robotaxi fleet size exceeds 800 vehicles, making it one of the leading fully driverless autonomous driving operational fleets in China, with
+services covering an area of over 1,000 square kilometers, including key transportation hubs such as airports and major railway stations and high-demand
+districts in Beijing and Guangzhou. During the fourth quarter of 2025, registered users of our robotaxi service in China saw year-over-year growth of more than
+900%, reflecting strong and growing consumer demand. In 2025, we cut total cost of ownership by up to 38% compared with 2024, through improved operating
+efficiency and lower vehicle bill of materials costs. In 2026, we plan to expand our robotaxi fleet operations to further Tier‑1 cities in China.
+
+    Overseas, our deployments span the Middle East, Europe, and developed Asia-Pacific, primarily Southeast Asia, with a fleet of over 250 robotaxis outside
+China and the U.S., and a dedicated fleet of over 200 robotaxis in Middle East alone. This represents the largest robotaxi fleet operated in these regions, with the
+Middle East potentially among the first regions to approach unit-level profitability.
+
+     In Abu Dhabi, in October 2025, we secured the world’s first city-level fully driverless robotaxi commercial permit outside the U.S., removing the
+requirement for an in-vehicle safety officer and enabling breakeven unit economics. Also in October 2025, we began offering the first public robotaxi rides in
+Riyadh with Uber, and launched robotaxi GXR and robobus pilot operations in Ras Al Khaimah, expanding into a third UAE emirate. In November 2025, we
+and Uber launched fully driverless robotaxi commercial operations in Abu Dhabi, and over time expanded to cover 70% of the city’s core area, with passengers
+able to book under Uber Comfort, UberX or the new “Autonomous” category, which is Uber’s first dedicated autonomous ride option globally. In
+December 2025, we launched public robotaxi passenger rides in Dubai in partnership with Uber and Dubai’s Roads and Transport Authority (RTA), with riders
+able to book through the “Autonomous” option on the Uber app. In March 2026, we launched fully driverless Robotaxi fare-charging operations in Dubai, as part
+of the first batch of Level 4 Robotaxis to enter commercial service in the city.
+
+    In Europe, in November 2025, we received the first-ever driverless robotaxi permit for passenger service in Europe from Switzerland’s Federal Roads Office
+(FEDRO), authorizing autonomous operations in the Greater Zurich area across a 110-kilometer operating area, establishing our first-mover advantage in the
+European market, and making us the world’s only company with vehicles holding autonomous driving permits in eight countries, namely Switzerland, China, the
+UAE, Saudi Arabia, Singapore, France, Belgium and the United States. In March 2026, we entered Slovakia through a strategic partnership with ELEVATE
+Slovakia to deploy autonomous vehicles including robotaxi, robobus, robovan, and robosweeper, launching the country’s first autonomous vehicle program and
+Europe’s first large-scale, multi-product autonomous driving commercial deployment, bringing our global footprint to over 40 cities across 12 countries.
+
+   In Southeast Asia, in March 2026, we officially commenced public operations of the Ai.R (Autonomously Intelligent Ride) service in Punggol with Grab,
+marking the first deployment of an autonomous passenger service in a residential estate in Singapore.
+
+     One of our strategies overseas is to prioritize jurisdictions with supportive regulatory frameworks and favorable economic conditions that are conducive to
+long-term profitability. We adopt an asset-light model, under which local partners are responsible for dispatch, cleaning and maintenance, while robotaxi services
+are delivered by leveraging our technology and operational expertise. This approach is designed to enable faster market deployment, enhance operational
+efficiency, reduce capital commitments and operating expenditure and allow us to maintain our focus on technology development.
+
+    We are committed to fostering dialogue and building relationships with regulators and governments to understand their needs and work collaboratively to
+support the development of responsible autonomous driving ecosystems. We have cultivated a robust ecosystem around our autonomous driving technology and
+solutions by forming strategic partnerships with leading global vehicle OEMs, shared mobility platforms, Tier-1 suppliers, logistics providers, and urban service
+operators, and other key industry stakeholders. Through these collaborations, we aim to accelerate the responsible adoption of autonomous driving and foster
+innovation across the industry, ultimately creating a positive impact on society.
+
+    Our advanced technology, safety record, global footprint and strong partnerships position us as a global leader in autonomous driving.
+
+
+                                                                                67
+
+
+
+===== PDF PAGE 72 =====
+
+Table of Contents
+
+
+
+Our Autonomous Driving Products and Solutions
+
+Robotaxi
+
+     Robotaxi is our flagship product and a powerful demonstration of our autonomous driving technology. It plays a central role in our expansion and growth
+strategy. We partner with multiple world-class OEMs to produce our robotaxis.
+
+    Robotaxi is a helpful complement and supplement to traditional mobility providers and up to 70% cheaper as compared to traditional taxi services. They can
+be deployed alongside existing mobility solutions to provide greater benefits to consumers without detriment to labor due to existing labor shortages and
+imbalances. We believe robotaxis offer superior unit economics and higher profitability compared to traditional taxis.
+
+Business Model
+
+    We deliver robotaxi and related services on a whole-package basis, which we believe is more operationally and regulatorily feasible in the near term, as it
+ensures consistent service quality and safety standards. We generate revenue from vehicle sales, recurring fees based on ongoing operational and technical
+support services, and service fees based on performance milestones. We could also generate revenue through ride-hailing services. Our robotaxi fee model
+combines a minimum fixed fee with shared upside, aligning incentives with our partners while ensuring predictable returns. Our latest generation of robotaxi —
+GXR, introduced in October 2024, is a first-of-its-kind, next-generation robotaxi platform. GXR features our latest autonomous driving system. In 2025, we
+deepened our collaboration with Geely Farizon to deliver the next-generation robotaxi GXR as a purpose-built, factory pre-installed autonomous vehicle—
+eliminating post-production retrofitting and delivering higher safety consistency, lower unit costs and faster assembly. The upgraded GXR will enter serial
+production equipped with HPC 3.0, our proprietary high-performance computing platform with a more compute-efficient architecture, reducing per-vehicle
+production time to under 10 minutes and further strengthening the scalability of our asset-light deployment model with fleet partners.
+
+     We believe robotaxis offer superior unit economics and higher profitability compared to traditional taxis. The payback period following initial deployment is
+closely tied to vehicle utilization and speed of market expansion, which is why we prioritize rapid deployment in close collaboration with local partners, with a
+clear roadmap toward fully driverless L4 operations. Once we enter a new market, we build a robust ecosystem around our innovative technology and solutions,
+including forming strategic partnerships with key players across the mobility landscape, covering leading global vehicle OEMs, shared mobility platforms, and
+more. For more information relating to our partnership with these OEMs, see “— Our Ecosystem and Partnerships.”
+
+Ride-Hailing through Robotaxi
+
+    We operate a robotaxi fleet for the WeRide Go app, our own shared mobility network, which primarily relies on our self-owned vehicles and is also
+accessible through selected third-party aggregation platforms. We have generated an insignificant amount of revenue from the offering of robotaxi rides through
+WeRide Go since 2020.
+
+Achievements and Global Expansion
+
+    We made multiple achievements in the robotaxi sector and continue to grow our business. Our latest generation of robotaxis, GXR, entered commercial
+production and public services in 2024 and now operates commercially across multiple cities in China and internationally. We have also made continued global
+expansion with strategic launches across Europe, the Middle East and Asia, including commercial deployments in cities such as Abu Dhabi and Dubai, and
+through expanded partnerships, most notably our collaboration with Uber and Grab to scale robotaxi services across additional international markets.
+
+Other L4 Autonomous Driving Products and Solutions
+
+     In addition to robotaxis, we offer other L4 products and solutions across mobility, logistics, and sanitation. These solutions leverage our existing
+infrastructure and technology stack, including a unified operations platform, and provide a greater diversity of operational data while allowing us to service
+distinct customer use cases. For robobuses, robovans and robosweepers, we typically generate revenue from vehicle sales and recurring fees based on ongoing
+operational and technical support.
+
+
+                                                                               69
+
+
+
+===== PDF PAGE 74 =====
+
+Table of Contents
+
+
+
+     We provide ADAS and research and development services to Bosch. In our Bosch partnership, we provide leading ADAS technology and rich experience in
+product development, and Bosch is responsible for selling ADAS solutions to OEMs and contributes its strengths in supply chain management, quality control,
+rigorous industrial design, verification and validation capabilities. We believe our end-to-end mass-market ADAS solutions brings real value to OEMs today. We
+collect development fees in respect of the services we deliver as well as milestone-based royalties settled based on sales volume under this partnership.
+
+Our Ecosystem and Partnerships
+
+     We have established a robust ecosystem consisting of world-class partners that are crucial to our success. Many of our partners have also become our
+shareholders and invested in our future, demonstrating their strong conviction in our technology and go-to-market strategy and providing further validation to our
+product and service offerings. We believe our partnership network creates a significant and sustainable competitive advantage and allows us to stay ahead in
+terms of our technological competency and in our effort to commercialize autonomous driving technologies. The OEMs and Tier 1 suppliers played an important
+role in the development and production of our L4 autonomous driving vehicle and our partnership with them forge a vital layer of our ecosystem. These
+partnerships enable us to maintain strong control over supply chain and hardware design, while remaining asset-light and focusing on developing and upgrading
+our proprietary autonomous driving products and services.
+
+     We partner with OEMs for the production of our L4 autonomous driving vehicles. Typically, under these partnerships, we purchase vehicles from OEM
+partners and then operate these specialized L4 autonomous driving vehicles that integrate our autonomous driving software and hardware (including sensor
+suites) that meet our requirements, to provide mobility, logistics and other urban services on our own. We also sell these customized autonomous vehicles to our
+customers and provide related deployment and localization services, which optimize the vehicles for operation on specific roads and ensure they meet customer-
+specific technical metrics and autonomous functions. In addition, we also provide ADAS and research and development services to Bosch and autonomous
+driving research and development services to Nissan.
+
+   We also work closely with other ecosystem partners in developing our L4 autonomous technologies, products and services. Such ecosystem partners include
+Uber, AiDriver, Baiyun Taxi Group, NVIDIA, Lenovo Vehicle Computing, ioki, Grab and ELEVATE Slovakia.
+
+Our Major Customers
+
+    A substantial portion of our revenue is contributed by our top five customers in 2023, 2024 and 2025. We primarily supply our autonomous driving products
+and services to automobile manufacturers, Tier 1 suppliers and public transportation service operators.
+
+Competition
+
+    We face competition, both in China and globally, from autonomous driving companies that offer autonomous driving technologies, products and services.
+We also potentially face competition from automotive OEMs global-wide and other global technology giants, particularly those who are building internal
+autonomous driving development programs.
+
+     Competition is based primarily on technology, ability to source capital, safety, efficiency and cost-effectiveness. Our future success will depend on our
+ability to maintain our leading competitive position with respect to our technological advances over our existing and any new competitors.
+
+Research and Development
+
+     We believe our strong research and development capability is our principal competitive strength. We have invested a significant amount of time and
+resources in research and development to solidify and maintain our industry leadership in the market. We have built a world-class team that is focused on
+rigorous engineering. As of December 31, 2025, we had 829 research and development engineers and 2,694 R&D data processing staff worldwide. Our research
+and development activities are conducted at multiple research and development centers, including but not limited to mainland China and Singapore.
+
+    Our research and development expenses were RMB1,058.4 million, RMB1,091.4 million and RMB1,372.2 million (US$196.2 million) in 2023, 2024 and
+2025, respectively.
+
+
+                                                                               71
+
+
+
+===== PDF PAGE 101 =====
+
+Table of Contents
+
+
+
+Economies of scale and improvement of cost and operational efficiencies
+
+     Operating at a large scale gives us significant advantages in terms of efficiencies and our financial performance will depend on our ability to achieve such
+efficiencies.
+
+    Our investment in our unified operations platform has helped us achieve a high level of commonality in software and hardware across our different products.
+We have the opportunity to benefit from lower per unit production cost if we operate at scale. Our future performance will depend on our ability to scale up our
+operation and increase the volume of our autonomous driving vehicles.
+
+     This operations platform also allows us to apply autonomous driving technology to new use cases quickly and with greater research and development
+efficiency. We also expect to maintain a competitive edge in operational efficiency as we continue to upgrade the unified operations platform. The operating
+experience and resources we acquire by launching one use case in a given geography allows us to expand the scope of our autonomous driving products and
+services in the same area with greater operational efficiency, and in turn the overall scale of our operations.
+
+     We expect to achieve economies of scale and improve our margin as we ramp up the deployment and operation of our autonomous driving vehicles and
+introduce more use cases. Emergence of competition may negatively impact pricing, margins and market share, but we believe our commercialization and
+technological leadership will allow us to maintain favorable margins and unit economics. Our future performance will depend on our ability to deliver on these
+margins and economies of scale.
+
+    We remain committed to lowering our operating and production costs across our product lines although we expect the absolute amount of our costs and
+expenses to increase in the near future as we continue to expand our operations and invest in our technologies, products and services. We believe such investment
+has and will continue to strengthen our technological leadership and translate into higher efficiencies in the long run.
+
+Market acceptance and adoption of autonomous driving products and services
+
+    The market for autonomous driving products and services, particularly L4 autonomous driving products and services, is nascent and fast evolving.
+
+     Our business model is primarily supported by a large and expanding addressable market that we believe is increasingly benefiting from the introduction of
+autonomous driving technologies. Our autonomous driving vehicles are expected to present compelling unit economics as compared with traditional vehicles,
+particularly because the adoption of self-driving technologies will reduce labor costs associated with human drivers and extend the operating hours of each
+vehicle. Our autonomous driving technology will also help alleviate any shortage of human drivers. As a result, we have been able to identify participants across
+different segments of the transportation industry who have expressed support for our product and service offerings as viable solutions to the challenges they face.
+
+     Although we have managed to generate demand and have received market acceptance for our products and services to a certain degree, the long-term
+success of our business model hinges on the broadscale adoption and support of L4 autonomous driving technology. In addition, the pace of regulatory
+development and the time needed to obtain governmental approvals in different countries and regions for autonomous driving products are critical to our
+performance, particularly for deploying and operating our L4 autonomous vehicles overseas. Delays in securing these critical approvals could dramatically
+disrupt our revenue generation timelines and recognition milestones for operational assistance services as we transition from the testing phase to full-scale
+commercial operations, potentially affecting our market launch and growth trajectory.
+
+Recognition of Share-based Compensation Expenses
+
+     We have granted options and other types of awards under our 2018 Share Plan. As of the date of this annual report, there were 36,166,524 outstanding
+restricted share units (including vested but not settled restricted share units) and outstanding options to purchase a total of 95,253,810 ordinary shares granted
+under the 2018 Share Plan. For the years ended December 31, 2023, 2024 and 2025, we recorded RMB931.8 million, RMB1,187.9 million and RMB 450.0
+(US$64.3 million) of share-based compensation expense in the consolidated statements of profit or loss. We may record substantial share-based compensation
+expenses in the future. See “Item 3. Key Information—D. Risk Factors—Risks Related to Our Business and Industry—We have granted options and other types
+of awards under our 2018 Share Plan, which will result in a substantial amount of share-based compensation expenses and may have a significant impact on our
+results of operations.”
+
+
+                                                                                98
+
+
+
+===== PDF PAGE 128 =====
+
+Table of Contents
+
+
+
+    As required by regulations in mainland China, we participate in various employee social security plans that are organized by municipal and provincial
+governments for our PRC-based employees, including pension insurance, unemployment insurance, maternity insurance, work-related injury insurance, medical
+insurance, and housing provident fund. We are required under PRC law to make contributions to employee benefit plans occasionally for our PRC-based
+employees at specified percentages of their salaries, bonuses and certain allowances of such employees, up to a maximum amount specified by local
+governments in mainland China.
+
+   We enter into standard employment agreements with our employees. We also enter into standard confidentiality and non-compete agreements with our
+employees in accordance with common market practice.
+
+E. SHARE OWNERSHIP
+
+    Except as specifically noted, the following table sets forth information with respect to the beneficial ownership of our ordinary shares as of the date of the
+annual report by:
+
+     ●     each of our directors and executive officers; and
+
+     ●     each person known to us to own beneficially 5% or more of our total outstanding ordinary shares.
+
+     The calculations in the table below are based on 950,955,002 Class A ordinary shares and 54,814,423 Class B ordinary shares issued and outstanding as of
+the date of this annual report.
+
+     Beneficial ownership is determined in accordance with the rules and regulations of the SEC. In computing the number of shares beneficially owned by a
+person and the percentage ownership of that person, we have included shares that the person has the right to acquire within 60 days, including through the
+exercise of any option, warrant, or other right or the conversion of any other security. These shares, however, are not included in the computation of
+the percentage ownership of any other person.
+
+                                                                                                                            Ordinary Shares Beneficially Owned
+                                                                                                        ​​​    Class A      ​​​   Class B      ​​​ % of Total ​​​
+                                                                                                              Ordinary           Ordinary          Ordinary       % of Aggregate
+                                                                                                               Shares             Shares            Shares†       Voting Power†
+Directors and Executive Officers:**
+Tony Xu Han(1)                                                                                                 27,595,520        41,249,590             6.7                27.5
+Yan Li(2)                                                                                                      37,643,640        13,564,833             5.0                10.9
+Hua Zhong(3)                                                                                                   20,786,282                —              2.1                 1.1
+Jennifer Xuan Li(4)                                                                                            25,099,008                —              2.4                  —
+Qingxiong Yang(5)                                                                                               1,800,000                —                *                  —
+Jean-François Salles                                                                                                   —                 —               —                   —
+Ichijo Futakawa(6)                                                                                                     —                 —               —                   —
+Huiping Yan(7)                                                                                                     93,189                —                *                  —
+David Tong Zhang(8)                                                                                                81,967                —                *                  —
+Tony Fan-cheong Chan                                                                                                   —                 —               —                   —
+All directors and executive officers as a group (10 persons)(9)                                               113,099,606        54,814,423            15.6                39.5
+Principal Shareholders:
+Tony Xu Han(1)                                                                                                 27,595,520        41,249,590             6.7                27.5
+Yan Li(2)                                                                                                      37,643,640        13,564,833             5.0                10.9
+Yutong entities(10)                                                                                            65,659,592                —              6.5                 4.4
+Qiming entities(11)                                                                                            62,865,042                —              6.3                 4.2
+Alliance Ventures B.V.(12)                                                                                     63,680,080                —              6.3                 4.2
+Uber Technologies, Inc(13)                                                                                     56,618,266                —              5.6                 3.8
+
+Notes:
+*    Aggregate number of shares account for less than one percent of our total ordinary shares.
+
+
+
+
+                                                                                                  125
+
+
+
+===== PDF PAGE 129 =====
+
+Table of Contents
+
+
+**    Except as indicated otherwise below, the business address of each of our directors and executive officers is 21st Floor, Tower A, Guanzhou Life Science Innovation Center, No. 51, Luoxuan Road,
+      Guangzhou International Biotech Island, Guangzhou, People’s Republic of China.
+
+†     For each person or group included in this column, percentage of total voting power represents voting power based on both Class A and Class B ordinary shares held by such person or group with
+      respect to all of our outstanding Class A and Class B ordinary shares as a single class. Each holder of our Class A ordinary shares is entitled to one vote per share. Each holder of our Class B
+      ordinary shares is entitled to 10 votes per share. Our Class B ordinary shares are convertible at any time by the holder into Class A ordinary shares on a one-for-one basis. The table above does not
+      give effect to the potential conversion of all shares of Class B ordinary shares to Class A ordinary shares on a one-for-one basis. The percentage of aggregate voting power shown above assumes no
+      conversion of Class B ordinary shares to Class A ordinary shares.
+
+(1)   Represents (i) 16,399,590 Class B ordinary shares held by Tonyhan Limited, (ii) 24,850,000 Class B ordinary shares held by Xu Han Limited, and (iii) an aggregate of 27,595,520 Class A ordinary
+      shares issuable to Dr. Tony Xu Han upon the exercise of options that are exercisable or subject to accelerated vesting within 60 days of the date of this annual report. Dr. Tony Xu Han holds 51%
+      equity interests in Tonyhan Limited through Xu Han Limited, which is in turn 100% owned by Dr. Tony Xu Han. Dr. Tony Xu Han is also the sole director of Tonyhan Limited. The registered
+      address of each of Tonyhan Limited and Xu Han Limited is Harkom Corporate Services Limited of Jayla Place, P.O. Box 216, Road Town, Tortola, VG1110, British Virgin Islands. In connection
+      with the Hong Kong Listing, Dr. Tony Xu Han, our chairman and chief executive officer, has voluntarily committed to a three-year lock-up, effective as of October 28, 2025, covering all shares of
+      our share capital or securities convertible into, exchangeable, or exercisable for any share of our share capital, directly or indirectly owned or controlled by him. During this lock-up period, Dr. Han
+      will not sell, transfer, pledge, or otherwise dispose of any of such securities, subject to customary exceptions.
+
+(2)   Represents (i) 13,564,823 Class B ordinary shares and 11,129,666 Class A ordinary shares held by Humber Partners Limited, (ii) 10 Class B ordinary shares and 16,000,000 Class A ordinary
+      shares held by Yanli Holdings Limited, and (iii) an aggregate of 10,513,974 Class A ordinary shares issuable to Dr. Yan Li upon the exercise of options that are exercisable or subject to accelerated
+      vesting within 60 days of the date of this annual report. Dr. Yan Li holds 51% equity interests in Yanli Holdings Limited through Humber Partners Limited, which is in turn 100% owned by Dr.
+      Yan Li. Dr. Li is also the sole director of Yanli Holdings Limited. The registered address of each of Yanli Holdings Limited and Humber Partners Limited is Harkom Corporate Services Limited of
+      Jayla Place, P.O. Box 216, Road Town, Tortola, VG1110, British Virgin Islands.
+
+(3)   Represents 16,573,442 Class A ordinary shares and 4,212,840 Class A ordinary shares issuable to Dr. Hua Zhong upon the exercise of options that are exercisable within 60 days of the date of this
+      annual report.
+
+(4)   Represents Class A ordinary shares issuable to Ms. Jennifer Xuan Li upon the exercise of options that are exercisable, or the settlement of restricted share units within 60 days of the date of this
+      annual report.
+
+(5)   Represents Class A ordinary shares issuable to Dr. Qingxiong Yang upon the exercise of options that are exercisable within 60 days of the date of this annual report.
+
+(6)   Mr. Futakawa was appointed as a Director in April 2026.
+
+(7)   Represents Class A ordinary shares issuable to Ms. Huiping Yan upon the settlement of restricted share units that will be vested within 60 days of the date of this annual report.
+
+(8)   Represents Class A ordinary shares issuable to Mr. David Tong Zhang upon the exercise of options that are exercisable within 60 days of the date of this annual report.
+
+(9)   Represents (a) 43,703,108 Class A ordinary shares and (b) 69,396,498 Class A ordinary shares issuable upon the exercise of options or the settlement of restricted share units that are exercisable or
+      settleable, as applicable, within 60 days of the date of this annual report.
+
+(10) This information is based on the information reported on the Schedule 13G/A filed by the Yutong entities (as defined below) on February 13, 2026. Represents (i) 25,868,845 Class A ordinary
+     shares (25,868,844 of which are represented by 8,622,948 ADSs) held by Zhengzhou Xufeng Jiayuan Intelligent Connected Enterprise Management Center (Limited Partnership), or Zhengzhou
+     Xufeng; and (ii) 39,790,747 Class A ordinary shares (39,790,746 of which are represented by 13,263,582 ADSs) held by Beijing Xufeng Zhiyuan Intelligent Technology Limited Partnership, or
+     Beijing Xufeng. We refer to Zhengzhou Xufeng and Beijing Xufeng collectively as Yutong entities in this annual report. The general partner of both Zhengzhou Xufeng and Beijing Xufeng is
+     Zhengzhou Xuxin Industrial Co., Ltd., which is wholly owned by Zhengzhou Yutong Group Co., Ltd., which, in turn, is controlled by seven individuals, namely Yuxiang Tang, Jianwei Cao, Xinlei
+     Lu, Yiguo Zhang, Bo Yang, Baofeng Zhang and Lei Wang. Each of these individuals disclaims beneficial ownership of the shares of the issuer owned by the Yutong entities. The registered address
+     of Zhengzhou Yutong Group Co., Ltd. is No. 8, Changchun Road, High-Tech Industrial Development Zone, Zhengzhou City, China. The registered address of each of Zhengzhou Xuxin Industrial
+     Co., Ltd. and Zhengzhou Xufeng is 5021, Floor 5, North of Financial Plaza, intersection of Huaxia Avenue and Yungang Road, Hangkonggang District, Zhengzhou City, Henan Province, China.
+     The registered address of Beijing Xufeng is Room 2099, No. 101, Building 1, Compound 36, South Hongjunying Road, Chaoyang District, Beijing, China.
+
+
+
+                                                                                                     126
+
+
+
+===== PDF PAGE 204 =====
+
+Table of Contents
+
+
+
+12 Right-of-use assets
+
+                                                                                                                ​​​    Properties   ​​​ Motor vehicles       ​​​    Total
+                                                                                                                       RMB’000           RMB’000                   RMB’000
+    Cost
+    As of January 1, 2024                                                                                               150,067               8,734                 158,801
+    Additions                                                                                                            59,159               4,488                  63,647
+    Derecognition                                                                                                       (60,738)             (5,059)                (65,797)
+    Effect of movement in exchange rates                                                                                    300                  —                      300
+    As of December 31, 2024                                                                                             148,788               8,163                 156,951
+    Additions                                                                                                            50,963               4,611                  55,574
+    Derecognition                                                                                                       (34,324)                 —                  (34,324)
+    Effect of movement in exchange rates                                                                                   (287)                 —                     (287)
+    As of December 31, 2025                                                                                             165,140              12,774                 177,914
+    Accumulated depreciation:
+    As of January 1, 2024                                                                                              (101,843)              (5,300)              (107,143)
+    Charge for the year                                                                                                 (36,609)              (1,875)               (38,484)
+    Derecognition                                                                                                        57,531                4,848                 62,379
+    Effect of movement in exchange rates                                                                                   (139)                  —                    (139)
+    As of December 31, 2024                                                                                             (81,060)              (2,327)               (83,387)
+    Charge for the year                                                                                                 (48,624)              (2,155)               (50,779)
+    Derecognition                                                                                                        21,979                   —                  21,979
+    Effect of movement in exchange rates                                                                                    143                   —                     143
+    As of December 31, 2025                                                                                            (107,562)              (4,482)              (112,044)
+    Carrying amounts:
+    As of December 31, 2024                                                                                               67,728               5,836                 73,564
+    As of December 31, 2025                                                                                               57,578               8,292                 65,870
+
+    The analysis of expense items in relation to leases recognized in profit or loss is as follows:
+
+                                                                                                                 ​​​          For the year ended December 31,
+                                                                                                                         2023        ​​​    2024      ​​​     2025
+                                                                                                                        RMB’000           RMB’000          RMB’000
+    Depreciation charge of right-of-use assets by class of underlying asset:                                                        ​                    ​                    ​
+    Properties                                                                                                             34,630            36,609                  48,624
+    Vehicles                                                                                                                1,575             1,875                   2,155
+                                                                                                                           36,205            38,484                  50,779
+    Interest on lease liabilities (Note 8)                                                                                  2,853             2,275                   2,745
+    Expense relating to short-term leases                                                                                     933             1,686                   8,357
+                                                                                                                           39,991            42,445                  61,881
+
+    Details of total cash outflow for leases and the maturity analysis of lease liabilities are set out in Note 21(d) and Note 22, respectively.
+    Notes:
+
+    (i) Properties
+
+    The Group leases properties for its office premises, staff accommodations and garage. The leases of offices and parking space typically run for a period of
+    one to five years.
+
+    (ii) Vehicles
+
+    The Group leases vehicles with lease terms of five years.
+
+
+                                                                                 F-37
+
+
+
+===== PDF PAGE 205 =====
+
+Table of Contents
+
+
+
+13 Intangible assets
+
+                                                                                                             ​​​    Patent        ​​​   Software        ​​​    Total
+                                                                                                                   RMB’000              RMB’000               RMB’000
+    Cost                                                                                                                      ​                     ​                   ​
+    As of January 1, 2024                                                                                            31,900                 4,474               36,374
+    Purchases                                                                                                            —                  1,504                1,504
+    Disposals                                                                                                            —                   (103)                (103)
+    Effect of movement in exchange rates                                                                                 —                     19                   19
+    As of December 31, 2024                                                                                          31,900                 5,894               37,794
+    Purchases                                                                                                            —                    848                  848
+    Effect of movement in exchange rates                                                                                 —                    (28)                 (28)
+    As of December 31, 2025                                                                                          31,900                 6,714               38,614
+    Accumulated amortization:
+    As of January 1, 2024                                                                                            (9,969)               (1,811)             (11,780)
+    Amortization                                                                                                     (3,988)                 (347)              (4,335)
+    Disposals                                                                                                            —                      2                    2
+    Effect of movement in exchange rates                                                                                 —                    (17)                 (17)
+    As of December 31, 2024                                                                                         (13,957)               (2,173)             (16,130)
+    Amortization                                                                                                     (3,987)                 (557)              (4,544)
+    Effect of movement in exchange rates                                                                                 —                     26                   26
+    As of December 31, 2025                                                                                         (17,944)               (2,704)             (20,648)
+    Carrying amounts:
+    As of December 31, 2024                                                                                          17,943                 3,721               21,664
+    As of December 31, 2025                                                                                          13,956                 4,010               17,966
+
+14 Goodwill
+
+    The Group’s goodwill arises from its business acquisition in 2021. As the acquisition gave an extra boost to the Group’s research and development
+    capabilities, the business of the acquired companies was integrated into the Group’s businesses to provide autonomous driving technology related solutions
+    after the business acquisition. The Group has determined that the overall business constitutes one single CGU, named Auto-driving CGU. All the goodwill
+    has been allocated to the Auto-driving CGU.
+
+    Impairment test of goodwill
+
+    The recoverable amounts of the Auto-driving CGU are determined based on the higher of value-in-use and the fair value less costs of disposal. These
+    calculations use cash flow projections based on financial budgets approved by the management covering a period of five years. Cash flows beyond the
+    budget period are extrapolated using an estimated growth rate which is consistent with long-term average growth rates for the business in which the Auto-
+    driving CGU operates. The cash flows are discounted using a discount rate. The discount rate used is pre-tax and reflects specific risks relating to the Auto-
+    driving CGU.
+
+    Key assumptions used for the annual impairment test of goodwill were as follows:
+
+                                                                                                                       ​​​           As of December 31,
+                                                                                                                                  2024        ​​​    2025
+    Pre-tax discount rate                                                                                                               18.6 %                 19.0 %
+    Estimated growth rate                                                                                                                2.0 %                  2.0 %
+
+    Based on the impairment test performed, the recoverable amount of the Auto-driving CGU exceeded the carrying amount as of December 31, 2024 and
+    2025, respectively. Therefore, management determined that goodwill was not impaired as of December 31, 2024 and 2025. Based on the management’s
+    expectations reasonably possible changes in key assumptions disclosed above would not cause the carrying amount of the Auto-driving CGU to exceed its
+    recoverable amount.
+
+
+                                                                              F-38
+
+

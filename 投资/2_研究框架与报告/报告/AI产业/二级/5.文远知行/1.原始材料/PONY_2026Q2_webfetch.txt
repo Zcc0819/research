@@ -1,0 +1,287 @@
+# PONY AI Inc. Reports Second Quarter 2026 Financial Results: Total Revenues Up 68.8% YoY to US$36.2 mm with Robotaxi Services Revenue Up 691.2% to US$12.1 mm | 2026-08-18
+
+
+## PONY AI Inc. Reports Second Quarter 2026 Financial Results: Total Revenues Up 68.8% YoY to US$36.2 mm with Robotaxi Services Revenue Up 691.2% to US$12.1 mm
+
+2026-08-18 at 05:00 EDT[PDF Version](/node/8601/pdf)
+- Robotaxi revenues growth — Robotaxi revenues reached US$12.1 million, up 691.2% YoY in Q2, with fare-charging revenues rising by 849.3%.
+- Rapid fleet scaling — Our Robotaxi fleet expanded to 1,975 vehicles1, as we continue scaling toward more than 3,500 vehicles by year end.
+- Strengthening our presence in tier-one cities — PonyPilot registered users in China surpassed 1.5 million2, supported by increasing fleet density and broader operating coverage across key areas.
+- Accelerating global expansion — We have secured multiple joint deployment model partners across overseas markets, including Uber for the contracted deployment of more than 2,000 Robotaxis in Europe, bringing the total number of vehicles under agreements in negotiation across international markets to over 4,000 Robotaxi vehicles.
+
+NEW YORK, Aug.  18, 2026  (GLOBE NEWSWIRE) -- Pony AI Inc. (“Pony.ai” or the “Company”) (NASDAQ: PONY; HKEX: 2026), a global leader in achieving large-scale mass production and commercialization of autonomous driving technology, today announced its unaudited financial results for the quarter and six months ended June 30, 2026.
+
+Dr. Tiancheng Lou, Chief Technology Officer of Pony.ai, commented, "Our strategic early investments in full-stack L4 autonomous technology and advanced world models are now translating into greater efficiency across research and development, testing and fleet operations. PonyWorld 2.0 enables us to deploy Robotaxi fleets across multiple countries and cities simultaneously without a proportionate increase in engineering resources. At the same time, technology-driven improvements in fleet operations enable our teams to support larger fleets. Together, these improvements in research and development and operating efficiency enable faster deployment and scaling of our Robotaxi operations across new markets around the world.”
+
+Dr. Leo Wang, Chief Financial Officer of Pony.ai, commented, “Our second-quarter financial performance reflects our continued progress in commercialization and operating efficiency. Robotaxi revenues increased by 691.2% year-over-year to US$12.1 million, led by an 849.3% increase in fare-charging revenues. In addition, revenue contribution from the joint deployment model increased quarter-over-quarter, highlighting the model’s potential to support scalable growth with improved capital efficiency. Operating expenses increased at a much slower pace than revenues, reflecting improving operating leverage and a disciplined approach to capital allocation, with a continued focus on capital efficiency and returns. We remain focused on converting our technology and operating strengths into sustainable, high-quality financial growth.”
+
+Scaling Robotaxi Commercialization and Global Operations
+
+
+- Delivering Strong Revenue Growth and Operating Momentum. 1) Fare-charging revenues increased by more than 800% year-over-year in the second quarter, with both Robotaxi services revenues and fare-charging revenues reaching record highs. 2) Our global Robotaxi fleet reached 1,975 vehicles1, representing steady progress toward our target of more than 3,500 vehicles by year-end. We expanded our operations in multiple cities, and all of our seventh-generation ("Gen-7") Robotaxis, including the Beijing Automotive Industry Corporation (“BAIC”), Guangzhou Automotive Corporation (“GAC”) and Toyota models, are in daily service. 3) PonyPilot registered users in China surpassed 1.5 million.
+- Expanding High-Density Urban Coverage and High-Value Mobility Use Cases in China. 1) In Guangzhou, we extended our Robotaxi services into the city center, with operations spanning Haizhu District, Tianhe District, Huangpu District and Panyu District. Our operational area expanded by over 300 square kilometers2 from the beginning of this year, covering a population of over 7 million. 2) In Shenzhen, building on our existing coverage of core urban areas, we extended our service network to three major transportation hubs, including Bao'an International Airport, Shenzhen Bay Port, and Shekou Cruise Port. 3) Our Robotaxi fleet continued to operate reliably under a range of demanding real-world conditions, including elevated demand during holiday periods, peak-hour traffic and heavy rainstorms.
+- Advancing Global Expansion through the Joint Deployment Model. 1) Our operating track record in China’s tier-one cities, highlighted by proven driving performance, 24/7 reliability, and positive unit economics ("UE"), provides international partners with confidence in adopting our joint deployment model. 2) We have secured multiple joint deployment model partners across overseas markets, including Uber for the contracted deployment of more than 2,000 Robotaxis in Europe, bringing the total number of vehicles under agreements in negotiation across international markets to over 4,000 Robotaxi vehicles. 3) In Luxembourg, we continued to advance our Robotaxi deployment in collaboration with Bolt and Stellantis. 4) In Singapore, our Robotaxi service became available to the general public through ComfortDelGro's Zig app. 5) Revenue contribution from the joint deployment model in China and overseas increased quarter-over-quarter in the second quarter of 2026.
+- Enhancing R&D and Operating Efficiency with PonyWorld 2.0. 1) PonyWorld 2.0 continued to enhance our R&D efficiency, enabling faster deployment across new countries and cities, without a proportionate increase in engineering resources. 2) Technology-driven improvements in fleet operations continued to increase operational efficiency, enabling our teams to support larger Robotaxi fleets as deployment scales. 3) The combination of improved R&D and operating efficiency enables faster deployment and scaling of our Robotaxi operations across new markets.
+
+Advancing Robotruck Commercialization and Gen-4 Robotruck Deployment
+
+
+- Delivering Revenue Growth and Advancing Gen-4 Robotruck Deployment. 1) We continued to deepen our collaboration with Sinotrans and Robotruck services revenues increased by 40.0% year-over-year in the second quarter of 2026. 2) Our fourth-generation ("Gen-4") Robotrucks entered into mass production on schedule, supporting broader commercial deployment.
+- Expanding Commercial Deployment at Mawan Port. We partnered with China Merchants Port at Mawan Port in Shenzhen to commence commercial deployment of our Gen-4 driverless Robotrucks, where our Robotrucks operate in mixed-fleet port logistics operations alongside human-driven vehicles.
+
+1 As of June 30, 2026.2 As of August 16, 2026.
+
+Unaudited Second Quarter Financial Results
+
+Revenues
+
+
+| (in USD thousands) |  | Three Months Ended |  | Six Months Ended |
+| --- | --- | --- | --- | --- |
+| ​ | ​ | June 30, 2025 |  | June 30, 2026 |  | June 30, 2025 |  | June 30, 2026 |
+|  |  |  |  |  |  |  |  |  |
+| Revenues: | ​ |  |  |  |  |  |  |  |
+| Robotaxi services |  | 1,526 |  | 12,073 |  | 3,256 |  | 20,643 |
+| Robotruck services |  | 9,520 |  | 13,329 |  | 17,300 |  | 23,524 |
+| Intelligent solutions |  | 10,409 |  | 10,818 |  | 14,878 |  | 26,303 |
+| Total revenues |  | 21,455 |  | 36,220 |  | 35,434 |  | 70,470 |
+|  |  |  |  |  |  |  |  |  |
+
+Total revenues were US$36.2 million (RMB245.8 million) in the second quarter of 2026, up 68.8% from US$21.5 million in the second quarter of 2025. The increase was mainly driven by strong growth in Robotaxi services revenues and Robotruck services revenues.
+
+
+- Robotaxi services revenues were US$12.1 million (RMB81.9 million) in the second quarter of 2026, representing an increase of 691.2% from US$1.5 million in the second quarter of 2025. Specifically, fare-charging revenues grew by more than 800% year-over-year, primarily driven by the launch of the Gen-7 fleet and the expansion of our commercial Robotaxi operations. In addition, increased vehicle deployments under our joint deployment model also contributed to revenue growth in the quarter. Revenue contribution from the joint deployment model in China and overseas increased quarter-over-quarter in the second quarter of 2026.
+- Robotruck services revenues were US$13.3 million (RMB90.4 million) in the second quarter of 2026, representing an increase of 40.0% from US$9.5 million in the second quarter of 2025. The increase was primarily attributable to growth in freight transportation services, supported by our collaboration with Sinotrans.
+- Intelligent solutions revenues were US$10.8 million (RMB73.4 million) in the second quarter of 2026, broadly flat compared to US$10.4 million in the second quarter of 2025, with growth moderating mainly due to delivery fluctuations from autonomous domain controllers ("ADC").
+
+For financial reporting purposes, our revenues are classified into service revenues and product revenues based on the nature of the underlying revenue streams. Service revenues were US$19.5 million (RMB132.1 million) in the second quarter of 2026, representing an increase of 71.9% from US$11.3 million in the second quarter of 2025, primarily attributable to Robotaxi services revenues and Robotruck transportation services revenues. Product revenues were US$16.8 million (RMB113.7 million) in the second quarter of 2026, representing an increase of 65.4% from US$10.1 million in the second quarter of 2025, primarily attributable to higher deliveries of Robotaxi vehicles under our joint deployment model.
+
+Cost of Revenues
+
+
+- Total cost of revenues was US$29.9 million (RMB202.7 million) in the second quarter of 2026, representing an increase of 66.0% from US$18.0 million in the second quarter of 2025, broadly in line with revenue trends.
+
+Gross Profit and Gross Margin
+
+
+- Gross profit was US$6.4 million (RMB43.1 million) in the second quarter of 2026, representing an increase of 83.4% from US$3.5 million in the second quarter of 2025.
+- Gross margin was 17.5% in the second quarter of 2026, compared to 16.1% in the second quarter of 2025. The improvement was mainly driven by an improved revenue mix, with a higher contribution from Robotaxi services, including revenues generated under the joint deployment model, which generated relatively higher margins during the quarter.
+
+Operating Expenses
+
+Operating expenses were US$72.1 million (RMB489.2 million) in the second quarter of 2026, representing an increase of 11.4% from US$64.7 million in the second quarter of 2025. Non-GAAP3 operating expenses were US$63.0 million (RMB427.8 million) in the second quarter of 2026, representing an increase of 9.6% from US$57.5 million in the second quarter of 2025. The increase was primarily driven by ongoing business expansion and our efforts to enhance R&D capabilities, reflecting our continued investment to support commercialization.
+
+
+- Research and development expenses were US$56.2 million (RMB381.6 million) in the second quarter of 2026, representing an increase of 14.7% from US$49.0 million in the second quarter of 2025. Non-GAAP research and development expenses were US$49.9 million (RMB338.4 million), representing an increase of 13.2% from US$44.1 million in the second quarter of 2025. The increase was primarily driven by i) higher personnel-related costs resulting from the expansion of our R&D team to enhance our capacity for large-scale deployment, ii) higher expenses related to development and testing, a portion of which represented non-recurring expenses incurred in connection with the development and engineering validation of the upgraded vehicle models.
+- Selling, general and administrative expenses were US$15.9 million (RMB107.6 million) in the second quarter of 2026, broadly flat compared to US$15.7 million in the second quarter of 2025. Non-GAAP selling, general and administrative expenses were US$13.2 million (RMB89.3 million), broadly flat compared to US$13.5 million in the second quarter of 2025.
+
+Loss from Operations
+
+
+- Loss from operations was US$65.7 million (RMB446.1 million) in the second quarter of 2026, representing an increase of 7.3% from US$61.3 million in the second quarter of 2025. Non-GAAP loss from operations was US$56.7 million (RMB384.7 million), representing an increase of 4.9% from US$54.1 million in the second quarter of 2025, primarily reflecting higher operating expenses discussed above, partially offset by improved gross profit.
+- Operating loss margin was 181.5% in the second quarter of 2026, narrowing from 285.6% in the second quarter of 2025. Non-GAAP operating loss margin was 156.5% in the second quarter of 2026, narrowing from 252.0% in the second quarter of 2025. The year-over-year reductions in operating loss margin and non-GAAP operating loss margin primarily reflected improved operating leverage as our operations continued to scale.
+
+Other Income (Expenses), Net
+
+
+- Other expenses, net was US$23.4 million (RMB158.9 million) in the second quarter of 2026, compared to other income, net of US$3.2 million in the second quarter of 2025, primarily attributable to a one-off impairment provision of US$25.0 million recognized on certain prepayments for long-term investments, which were determined to be unrecoverable following proactive strategic adjustments to the relevant business and the engagement of new strategic partners to better support the long-term development.
+
+Net Loss
+
+
+- Net loss was US$45.4 million (RMB307.7 million) in the second quarter of 2026, representing a decrease of 14.9% from US$53.3 million in the second quarter of 2025, primarily attributable to certain non-operating items, including an increase in fair value of trading securities, partially offset by certain other expenses recognized during the quarter. Non-GAAP net loss was US$44.7 million (RMB303.4 million) in the second quarter of 2026, broadly flat compared to US$44.3 million in the second quarter of 2025, as the changes in fair value of trading securities, share based compensation expenses and the impairment loss discussed above were excluded from the Non-GAAP financial measures.
+- Net loss margin was 125.2% in the second quarter of 2026, narrowing from 248.3% in the second quarter of 2025. Non-GAAP net loss margin was 123.5% in the second quarter of 2026, narrowing from 206.7% in the second quarter of 2025. The year-over-year reductions in both net loss margin and non-GAAP net loss margin primarily reflected improved operating leverage as our operations continued to scale. The reduction in net loss margin also reflected the impact of certain non-operating items.
+
+Net Loss Attributable to Pony AI Inc.
+
+
+- Net loss attributable to Pony AI Inc. was US$59.8 million (RMB406.0million) in the second quarter of 2026, compared to US$53.1 million in the second quarter of 2025. The difference between total net loss and Net loss attributable to Pony AI Inc. is the US$14.5 million of net income allocated to non-controlling interests during the quarter.
+
+Basic and Diluted Net Loss per Ordinary Share
+
+
+- Basic and diluted net loss per ordinary share was both US$0.14 (RMB0.95) in the second quarter of 2026, compared to US$0.14 in the second quarter of 2025. Non-GAAP basic and diluted net loss per ordinary share was both US$0.10 (RMB0.68) in the second quarter of 2026, compared to US$0.12 in the second quarter of 2025. Each American depositary share (“ADS”) represents one Class A ordinary share.
+
+Balance Sheet
+
+
+- Cash and cash equivalents, short-term investments, restricted cash and long-term debt instruments for wealth management were US$1,390.5 million (RMB9,434.9 million) as of June 30, 2026, compared to the balance of US$1,435.5 million as of March 31, 2026. The decrease primarily reflected operating cash outflows and capital expenditures during the period. Capital expenditures were US$32.2 million (RMB218.2 million) in the second quarter of 2026, compared to US$9.6 million in the second quarter of 2025, primarily attributable to investments supporting the continued mass production and deployment of the Gen-7 Robotaxi fleet, as well as expenditures for data centers and servers.
+
+3 Non-GAAP financial measures exclude share-based compensation expenses, changes in fair value of trading securities and a one-off impairment loss on prepayment for long-term investments as discussed under "Other Income (expenses), Net" section above. The exclusion of the impairment loss on prepayment for long-term investments is a new adjustment introduced in the second quarter of 2026. No comparable loss was recognized in the prior periods presented, and prior period non-GAAP measures are therefore unaffected by this change. Such adjustment has no impact on income tax. For further details, see the “Unaudited Reconciliation of U.S. GAAP and Non-GAAP Results” set forth at the end of this earnings release.
+
+Conference Call
+
+Pony.ai will hold a conference call at 8:00 AM U.S. Eastern Time on Tuesday, August 18, 2026 (8:00 PM Beijing/Hong Kong Time on the same day) to discuss financial results and answer questions from investors and analysts.
+
+For participants who wish to join the call by phone, please complete the online registration process using the link provided below prior to the scheduled call start time. Upon registration, participants will receive a confirmation email containing dial-in numbers, passcode, and a unique access PIN.
+
+Participant Online Registration: https://dpregister.com/sreg/10210583/1047a46a6e9
+
+A replay of the conference call will be accessible through August 25, 2026, by dialing the following numbers:
+
+
+| United States: | 1-855-669-9658 |
+| --- | --- |
+| International: | 1-412-317-0088 |
+| Replay Access Code: | 1628020 |
+|  |  |
+
+Additionally, a live and archived webcast of the conference call will be available on the Company’s investor relations website at https://ir.pony.ai.
+
+Exchange Rate
+
+This press release contains translations of certain RMB amounts into U.S. dollars ("US$" or "USD") at specified rates solely for the convenience of the reader. Unless otherwise stated, all translations from RMB to US$ were made at the rate of RMB6.7851 to US$1.00, the noon buying rate in effect on June 30, 2026, in the H.10 statistical release of the Federal Reserve Board. The Company makes no representation that the RMB or US$ amounts referred could be converted into US$ or RMB, as the case may be, at any particular rate or at all. For analytical presentation, all percentages are calculated using the numbers presented in the financial statements contained in this earnings release.
+
+Non-GAAP Financial Measures
+
+The non-GAAP financial measures are not presented in accordance with U.S. GAAP and may be different from non-GAAP methods of accounting and reporting used by other companies. The non-GAAP financial measures have limitations as analytical tools and when assessing the Company’s operating performance, investors should not consider them in isolation, or as a substitute for financial information prepared in accordance with U.S. GAAP. The Company encourages investors and others to review its financial information in its entirety and not rely on a single financial measure.
+
+The Company mitigates these limitations by reconciling the non-GAAP financial measures to the most comparable U.S. GAAP performance measures, all of which should be considered when evaluating the Company’s performance.
+
+For more information on the non-GAAP financial measures, please see the table captioned “Unaudited Reconciliation of U.S. GAAP and Non-GAAP Results” set forth at the end of this earnings release.
+
+About Pony AI Inc.
+
+Pony AI Inc. (NASDAQ: PONY; HKEX: 2026), founded in 2016, is a global leader in achieving large-scale mass production and commercialization of autonomous driving technology. Pony.ai is committed to delivering safe, advanced, and reliable autonomous driving technology and solutions. At the heart of Pony.ai’s strategy is its proprietary world model PonyWorld and its Virtual Driver technology. Together, they power the development and scaling of its Robotaxi services, Robotruck services, and Intelligent solutions businesses. With operations spanning China, Europe, East Asia, the Middle East, and beyond, Pony.ai stands among a select few companies globally to achieve fully driverless commercial operations. Pony.ai has forged deep and extensive partnerships across the autonomous driving value chain, enabling it to accelerate the commercialization of autonomous driving in line with its ultimate vision: “Autonomous Mobility Everywhere.” For more information, please visit: https://ir.pony.ai.
+
+Safe Harbor Statement
+
+For investor inquiries, please contact:
+
+Pony.aiInvestor RelationsEmail: ir@pony.ai
+
+
+| Pony AI Inc.Unaudited Condensed Consolidated Balance Sheets(All amounts in USD thousands) |
+| --- |
+| ​ | ​ | As of | ​ | As of |
+| December 31, 2025 |  | June 30, 2026 |
+|  |  |  |  |  |
+| Assets | ​ | ​ | ​ | ​ |
+| Current assets: | ​ | ​ | ​ | ​ |
+| Cash and cash equivalents | ​ | 293,489 |  | 327,111 |
+| Restricted cash, current | ​ | 1,936 |  | 4,678 |
+| Short-term investments | ​ | 872,158 |  | 787,008 |
+| Accounts receivable, net | ​ | 23,644 |  | 43,324 |
+| Amounts due from related parties, current | ​ | 11,338 |  | 12,907 |
+| Prepaid expenses and other current assets | ​ | 48,074 |  | 61,784 |
+| Total current assets | ​ | 1,250,639 |  | 1,236,812 |
+| Non-current assets: | ​ |  |  |  |
+| Restricted cash, non-current | ​ | 288 |  | 117 |
+| Property, equipment and software, net | ​ | 60,467 |  | 98,533 |
+| Operating lease right-of-use assets | ​ | 14,811 |  | 18,792 |
+| Long-term investments | ​ | 454,942 |  | 375,660 |
+| Prepayment for long-term investments |  | 25,000 |  | - |
+| Other non-current assets | ​ | 6,690 |  | 8,725 |
+| Total non-current assets | ​ | 562,198 |  | 501,827 |
+| Total assets | ​ | 1,812,837 |  | 1,738,639 |
+| Liabilities and Shareholders’ Equity | ​ |  |  |  |
+| Current liabilities: | ​ |  |  |  |
+| Accounts payable and other current liabilities | ​ | 85,261 |  | 70,818 |
+| Operating lease liabilities, current | ​ | 4,792 |  | 5,510 |
+| Amounts due to related parties, current |  | 1,422 |  | 1,250 |
+| Total current liabilities | ​ | 91,475 |  | 77,578 |
+| Operating lease liabilities, non-current | ​ | 10,375 |  | 13,515 |
+| Other non-current liabilities | ​ | 1,988 |  | 1,912 |
+| Total liabilities | ​ | 103,838 |  | 93,005 |
+| Total Pony AI Inc. shareholders’ equity | ​ | 1,652,277 |  | 1,575,534 |
+| Non-controlling interests | ​ | 56,722 |  | 70,100 |
+| Total shareholders’ equity | ​ | 1,708,999 |  | 1,645,634 |
+| Total liabilities and shareholders’ equity | ​ | 1,812,837 |  | 1,738,639 |
+
+
+| Pony AI Inc.Unaudited Condensed Consolidated Statements of Operations and Comprehensive Loss(All amounts in USD thousands, except for share and per share data) |
+| --- |
+|  |  | Three Months Ended |  | Six Months Ended |
+| ​ | ​ | June 30, 2025 |  | June 30, 2026 |  | June 30, 2025 |  | June 30, 2026 |
+|  |  |  |  |  |  |  |  |  |
+| Revenues: |  |  |  |  |  |  |  |  |
+| Service revenues | ​ | 11,324 |  |  | 19,468 |  |  | 21,685 |  |  | 36,194 |  |
+| Product revenues | ​ | 10,131 |  |  | 16,752 |  |  | 13,749 |  |  | 34,276 |  |
+| Total Revenues | ​ | 21,455 |  |  | 36,220 |  |  | 35,434 |  |  | 70,470 |  |
+| Cost of revenues | ​ | (17,992 | ) |  | (29,870 | ) |  | (29,655 | ) |  | (58,559 | ) |
+| Gross profit | ​ | 3,463 |  |  | 6,350 |  |  | 5,779 |  |  | 11,911 |  |
+| Operating expenses: | ​ |  |  |  |  |  |  |  |
+| Research and development expenses | ​ | (49,030 | ) |  | (56,236 | ) |  | (96,516 | ) |  | (104,114 | ) |
+| Selling, general and administrative expenses | ​ | (15,701 | ) |  | (15,856 | ) |  | (26,574 | ) |  | (31,876 | ) |
+| Total operating expenses | ​ | (64,731 | ) |  | (72,092 | ) |  | (123,090 | ) |  | (135,990 | ) |
+| Loss from operations |  | (61,268 | ) |  | (65,742 | ) |  | (117,311 | ) |  | (124,079 | ) |
+| Investment income | ​ | 6,513 |  |  | 10,398 |  |  | 28,687 |  |  | 22,200 |  |
+| Changes in fair value of trading securities | ​ | (1,710 | ) |  | 33,415 |  |  | (6,234 | ) |  | 25,663 |  |
+| Other income (expenses), net |  | 3,203 |  |  | (23,420 | ) |  | 4,219 |  |  | (22,644 | ) |
+| Loss before income tax | ​ | (53,262 | ) |  | (45,349 | ) |  | (90,639 | ) |  | (98,860 | ) |
+| Income tax expenses |  | (1 | ) |  | (1 | ) |  | (1 | ) |  | (1 | ) |
+| Net loss | ​ | (53,263 | ) |  | (45,350 | ) |  | (90,640 | ) |  | (98,861 | ) |
+| Net (loss) income attributable to non-controlling interests | ​ | (165 | ) |  | 14,494 |  |  | 5,446 |  |  | 11,390 |  |
+| Net loss attributable to Pony AI Inc. | ​ | (53,098 | ) |  | (59,844 | ) |  | (96,086 | ) |  | (110,251 | ) |
+| Weighted average number of ordinary shares outstanding used in computing net loss per ordinary share, basic and diluted | ​ | 366,831,015 |  |  | 433,551,136 |  |  | 359,375,886 |  |  | 433,546,371 |  |
+| Net loss per ordinary share, basic and diluted | ​ | (0.14 | ) |  | (0.14 | ) |  | (0.27 | ) |  | (0.25 | ) |
+| Net loss | ​ | (53,263 | ) |  | (45,350 | ) |  | (90,640 | ) |  | (98,861 | ) |
+| Other comprehensive (loss) income: |  |  |  |  |  |  |  |  |
+| Foreign currency translation adjustments | ​ | 10 |  |  | 8,915 |  |  | 114 |  |  | 19,670 |  |
+| Unrealized (loss) gain on available-for-sale investments | ​ | (47 | ) |  | 3,449 |  |  | (13,771 | ) |  | 2,436 |  |
+| Total other comprehensive (loss) income | ​ | (37 | ) |  | 12,364 |  |  | (13,657 | ) |  | 22,106 |  |
+| Total comprehensive loss | ​ | (53,300 | ) |  | (32,986 | ) |  | (104,297 | ) |  | (76,755 | ) |
+| Less: Comprehensive (loss) income attributable to non-controlling interests | ​ | (134 | ) |  | 15,476 |  |  | (252 | ) |  | 13,378 |  |
+| Total comprehensive loss attributable to Pony AI Inc. | ​ | (53,166 | ) |  | (48,462 | ) |  | (104,045 | ) |  | (90,133 | ) |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+| Pony AI Inc.Unaudited Condensed Consolidated Statements of Cash Flows(All amounts in USD thousands) |
+| --- |
+|  |  | Three Months Ended |  | Six Months Ended |
+|  |  | June 30, 2025 |  | June 30, 2026 |  | June 30, 2025 |  | June 30, 2026 |
+|  |  |  |  |  |  |  |  |  |
+| Net cash used in operating activities |  | (25,411 | ) |  | (44,014 | ) |  | (79,570 | ) |  | (118,215 | ) |
+| Net cash (used in) provided by investing activities |  | (67,145 | ) |  | 53,699 |  |  | (160,416 | ) |  | 160,870 |  |
+| Net cash provided by (used in) financing activities |  | 33,086 |  |  | (1,153 | ) |  | 23,600 |  |  | (376 | ) |
+| Effect of exchange rate changes on cash, cash equivalents and restricted cash | (1,167 | ) |  | (5,883 | ) |  | (1,045 | ) |  | (6,086 | ) |
+| Net change in cash, cash equivalents and restricted cash |  | (60,637 | ) |  | 2,649 |  |  | (217,431 | ) |  | 36,193 |  |
+| Cash, cash equivalents and restricted cash at beginning of period |  | 379,378 |  |  | 329,257 |  |  | 536,172 |  |  | 295,713 |  |
+| Cash, cash equivalents and restricted cash at end of period |  | 318,741 |  |  | 331,906 |  |  | 318,741 |  |  | 331,906 |  |
+
+
+| Pony AI Inc.Unaudited Reconciliation of U.S. GAAP and Non-GAAP Results(All amounts in USD thousands, except for share and per share data) |
+| --- |
+|  |  | Three Months Ended |  | Six Months Ended |
+|  |  | June 30, 2025 |  | June 30, 2026 |  | June 30, 2025 |  | June 30, 2026 |
+|  |  |  |  |  |  |  |  |  |
+| Research and development expenses |  | (49,030 | ) |  | (56,236 | ) |  | (96,516 | ) |  | (104,114 | ) |
+| Share-based compensation expenses |  | 4,970 |  |  | 6,358 |  |  | 11,874 |  |  | 8,982 |  |
+| Non-GAAP research and development expenses |  | (44,060 | ) |  | (49,878 | ) |  | (84,642 | ) |  | (95,132 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Selling, general and administrative expenses |  | (15,701 | ) |  | (15,856 | ) |  | (26,574 | ) |  | (31,876 | ) |
+| Share-based compensation expenses |  | 2,235 |  |  | 2,689 |  |  | 4,343 |  |  | 4,636 |  |
+| Non-GAAP selling, general and administrative expenses |  | (13,466 | ) |  | (13,167 | ) |  | (22,231 | ) |  | (27,240 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Operating expenses |  | (64,731 | ) |  | (72,092 | ) |  | (123,090 | ) |  | (135,990 | ) |
+| Share-based compensation expenses |  | 7,205 |  |  | 9,047 |  |  | 16,217 |  |  | 13,618 |  |
+| Non-GAAP operating expenses |  | (57,526 | ) |  | (63,045 | ) |  | (106,873 | ) |  | (122,372 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Loss from operations |  | (61,268 | ) |  | (65,742 | ) |  | (117,311 | ) |  | (124,079 | ) |
+| Share-based compensation expenses |  | 7,205 |  |  | 9,047 |  |  | 16,217 |  |  | 13,618 |  |
+| Non-GAAP loss from operations4 |  | (54,063 | ) |  | (56,695 | ) |  | (101,094 | ) |  | (110,461 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Net loss |  | (53,263 | ) |  | (45,350 | ) |  | (90,640 | ) |  | (98,861 | ) |
+| Share-based compensation expenses |  | 7,205 |  |  | 9,047 |  |  | 16,217 |  |  | 13,618 |  |
+| Changes in fair value of trading securities |  | 1,710 |  |  | (33,415 | ) |  | 6,234 |  |  | (25,663 | ) |
+| Impairment loss on prepayment for long-term investments |  | - |  |  | 25,000 |  |  | - |  |  | 25,000 |  |
+| Non-GAAP net loss |  | (44,348 | ) |  | (44,718 | ) |  | (68,189 | ) |  | (85,906 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Net loss attributable to Pony AI Inc. |  | (53,098 | ) |  | (59,844 | ) |  | (96,086 | ) |  | (110,251 | ) |
+| Share-based compensation expenses |  | 7,205 |  |  | 9,047 |  |  | 16,217 |  |  | 13,618 |  |
+| Changes in fair value of trading securities |  | 1,710 |  |  | (18,560 | ) |  | 6,234 |  |  | (13,584 | ) |
+| Impairment loss on prepayment for long-term investments |  | - |  |  | 25,000 |  |  | - |  |  | 25,000 |  |
+| Non-GAAP net loss attributable to Pony AI Inc. |  | (44,183 | ) |  | (44,357 | ) |  | (73,635 | ) |  | (85,217 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Weighted average number of ordinary shares outstanding used in computing net loss per ordinary share, basic |  | 366,831,015 |  |  | 433,551,136 |  |  | 359,375,886 |  |  | 433,546,371 |  |
+| Non-GAAP net loss per ordinary share, basic and diluted |  | (0.12 | ) |  | (0.10 | ) |  | (0.20 | ) |  | (0.20 | ) |
+|  |  |  |  |  |  |  |  |  |
+| Net cash used in operating activities |  | (25,411 | ) |  | (44,014 | ) |  | (79,570 | ) |  | (118,215 | ) |
+| Capital expenditures |  | (9,576 | ) |  | (32,163 | ) |  | (14,464 | ) |  | (44,618 | ) |
+| Free cash flows 5 (Non-GAAP) |  | (34,987 | ) |  | (76,177 | ) |  | (94,034 | ) |  | (162,833 | ) |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+4 Such adjustments have no impact on income tax for the three-month and six-month periods ended June 30, 2025 and 2026, as no deferred tax has been recognized in respect of the temporary differences arising from these Non-GAAP adjustments.5 Free Cash Flows are a non-GAAP measure, commonly defined as cash flows from operating activities as presented in the statement of cash flows, less capital expenditures. However, in the context of the Company, operating cash flows are a cash out (i.e., a cash outflow). Free Cash Flows represent the total of operating cash outflows plus capital expenditures. This metric reflects the Company's important cash outflows, as it combines the funds required to maintain operations and invest in growth.
+
+
+![](https://ml.globenewswire.com/media/YTM5MGQ0MTUtNzQwMi00YjRlLWJkOWYtOGE4ZDg3NmFkMjAzLTEzMDY3MTctMjAyNi0wOC0xOC1lbg==/tiny/Pony-AI-Inc-.png)

@@ -1,0 +1,942 @@
+Accelerating European Expansion Through Proven Asset-Light Model, Driving Rapid Overseas Revenue Growth; 2Q2026 Total Revenue Reached RMB231.7 Million, Up 82.2% Year over Year | WeRide Inc.
+Skip to main navigation
+Overview
+News & Events
+News Releases
+Events
+Shareholder Meetings
+Stock Information
+Stock Quote & Chart
+Analyst Coverage
+Governance
+Documents & Charters
+Board of Directors
+Management Team
+Committee Composition
+Financials & Filings
+SEC Filings
+HKEX Filings
+Quarterly Results
+Annual Reports
+ESG
+IR Resources
+Investor FAQs
+Email Alerts
+Contact IR
+EN
+English
+简体中文
+繁體中文
+Release Details
+Accelerating European Expansion Through Proven Asset-Light Model, Driving Rapid Overseas Revenue Growth; 2Q2026 Total Revenue Reached RMB231.7 Million, Up 82.2% Year over Year
+August 12, 2026
+PDF Version
+WeRide Inc. Announces Second Quarter and First Half 2026 Unaudited Financial Results
+NEW YORK, Aug. 12, 2026 (GLOBE NEWSWIRE) -- WeRide Inc. (“WeRide” or the “Company”) (Nasdaq: WRD; HKEX: 0800), a global leader in autonomous driving technology, today announced its unaudited financial results for the second quarter and first half ended June 30, 2026.
+Operational and Financial Highlights
+Sustained rapid revenue growth.
+2Q2026 total revenue increased by 82.2% year over year (YoY) and 103.1% quarter over quarter (QoQ), and 1H2026 total revenue increased by 73.3% YoY. 2Q2026 overseas revenue increased by 164.4% YoY and 169.3% QoQ, and 1H2026 total overseas revenue increased by 154.4% YoY.
+Continuous fleet expansion.
+As of July 31, 2026, our global L4 fleet comprised approximately 3,400 vehicles, including more than 1,800 robotaxis.
+Improved domestic robotaxi operational metrics.
+In 2Q2026, average daily rides per vehicle increased by 24% QoQ to over 21 rides, with peak daily completed rides per vehicle reaching 28. In 2Q2026, registered users of WeRide robotaxi service saw QoQ growth of 35%, with quarterly ride-hailing revenue increasing by approximately 140% QoQ.
+Progressive rollout of overseas asset-light strategy.
+We accelerated our overseas robotaxi expansion, particularly in Spain, Switzerland, Denmark, UAE and Singapore. As of the date of this announcement, our autonomous driving businesses have been expanded to more than 60 cities across 13 countries.
+L4 Business Update
+Robotaxi - Overseas Operations
+First Robotaxi Market Entry into Spain.
+WeRide and Uber announced plans to launch Spain’s first commercial robotaxi pilot in the Region of Madrid, marking the companies’ fourth joint deployment globally and the first joint entry into the European market. The service is expected to begin operations later this year, in collaboration with Madrid’s Regional Government (Comunidad de Madrid).
+Expanding Robotaxi Partnership and Deployment in Zurich, Switzerland.
+We are working with Uber to advance the deployment of robotaxi services in the Greater Zurich Region, marking the parties’ fifth joint deployment globally and second joint deployment in Europe. Prior to this, we have launched robotaxi services in Zurich in collaboration with Swiss Federal Railways (Schweizerische Bundesbahnen, “SBB”), Swiss Transit Lab and ioki, a well-known European provider of on-demand mobility services. In November 2025, our robotaxi secured the first driverless robotaxi operational permit in Europe from Switzerland’s Federal Roads Office (“FEDRO”), authorizing it to operate autonomously on public roads in Zurich.
+First Autonomous Mobility Program in Denmark.
+We announced a strategic partnership with GreenMobility, a Denmark-based shared electric mobility provider, to jointly develop commercial autonomous mobility service in Denmark. This marks the sixth European market for us and our first entry into the Nordic region. The companies aim to launch public services in 1H2027.
+Scaling Our Operational Footprint in the Middle East.
+Building on our achievement of fully driverless robotaxi operations in Abu Dhabi and Dubai, our overall approved service area covers more than 70% of the core urban area in the city. Our commercial deployment in the Middle East has entered a positive cycle and continues to support a scalable local robotaxi ecosystem. As of July 31, 2026, our robotaxi fleet in the Middle East reached approximately 400 vehicles.
+Robotaxi - China Operations
+Enhanced Operational Efficiency of Our Domestic Robotaxi Fleet.
+Fleet utilization and per-vehicle unit economics continued to improve, delivering strong performance across key operating metrics. In 2Q2026, average daily rides per vehicle increased by 24% QoQ to over 21 rides, with peak daily completed rides per vehicle reaching 28. In 2Q2026, registered users of WeRide robotaxi service saw QoQ growth of 35%. As a result, our quarterly domestic ride-hailing revenue increased by approximately 140% QoQ.
+Broader Domestic Service Coverage.
+In Beijing and Guangzhou, our core operational hubs, we have continuously expanded the service area of our fully driverless robotaxi services. In Guangzhou, our service area has tripled compared with the end of 2025, now covering Huangpu, Tianhe and Haizhu districts, with commercial operations available 24/7. These operating environments present high levels of complexity, effectively demonstrating the safety and operational stability of our autonomous driving system.
+Other L4 Business Lines
+Accelerating Global Robobus Rollout.
+Our robobuses in Zurich are now operating without a front-seat safety operator, marking the first such deployment in Europe. Our robobuses in Leuven, Belgium, are planned to operate commercially without a front-seat safety operator in 3Q2026. This year, we also partnered with Renault Group for the third consecutive year to provide robobus shuttle services during the Roland Garros French Open. In addition, we operate robobus mobility services in Japan, Saudi Arabia, Singapore, and the UAE.
+L4 Business Financial Performance
+In 2Q2026, revenue from L4 businesses
+1
+was RMB125.2 million (US$18.5 million), representing an increase of 47.3% YoY and an increase of 130.6% QoQ.
+L2++ / L3 Business Update
+L2++ / L3 Solution Entering a Phase of Rapid Growth.
+In 2Q2026, total deliveries of WRD 3.0, our one-stage end-to-end L2++ / L3 solution, were approximately 30,000 units. To date, we have secured L2++ production design wins for over 30 vehicle models and an L3 proof-of-concept project. WRD 3.0 has also begun on-road testing and localization validation in France, Germany, Japan and other overseas markets.
+Rapid Commercial Monetization.
+In 2Q2026, revenue from our L2++ / L3 business
+2
+increased by 2,593.8% YoY and 219.3% QoQ.
+Technology / Product Development
+Launch of WeRide WITT, Our Physical AI Cognitive Foundation Model.
+In July 2026, we officially introduced WeRide WITT (World Intelligence Toward Truth), which continuously extracts fundamental principles that govern the physical world from vast volumes of operational data, transforming real-world experience into structured knowledge through fact extraction, fact reasoning, fact verification and fact curation. Compared with general-purpose AI models that often rely on hundreds of billions of parameters, WeRide WITT delivers strong performance with a significantly more efficient architecture, reducing token costs by up to 98%, enabling up to 10,000 minutes of vehicle-operation video processing per day on a single GPU and delivering up to 200 times greater data-processing efficiency in comparable workloads, as well as helping improve AI training, evaluation and model iteration.
+WeRide GENESIS, Our Proprietary World Model, Wins Two Major International Awards.
+In June 2026, WeRide GENESIS received the Simulation Innovation Award at the 2026 Automotive Testing Technology International (“ATTI”) Awards and the Overall Gen-AI Solution of the Year at the 2026 AI Breakthrough Awards. WeRide GENESIS establishes a closed loop from perceiving to understanding the physical world, enabling autonomous driving systems to train, validate and iterate in large-scale, high-fidelity virtual environments. It can compress millions of kilometers of road testing into days while reducing data collection and annotation costs by more than 75%.
+Launch of Right-hand-drive Robotaxis, Accelerating Global Expansion.
+In June 2026, we announced the joint development of pre-installed robotaxis specifically designed for right-hand-drive markets, as part of a strategic partnership with Geely Farizon and Kwoon Chung Bus Holdings Limited. The deployment of commercial right-hand-drive robotaxi services will begin in Singapore and Hong Kong, bringing transformative autonomous mobility solutions to right-hand-drive markets worldwide.
+Management Commentary
+Tony Han, WeRide’s Founder, Chairman, and Chief Executive Officer, stated, “In 2Q2026, WeRide made significant strides across overseas acceleration, asset-light scaling, and self-sustaining cash generation. Total revenue nearly doubled YoY while gross margin climbed to 37.5%, with operating efficiency continuing to improve. Domestic robotaxi operations saw a marked uplift: daily orders per vehicle exceeded 21, up 24% QoQ, registered users grew 35% QoQ, and quarterly ride-hailing revenue rose approximately 140% QoQ, reflecting a steadily improving per-vehicle economic model. On the technology front, our 3,400-strong L4 fleet — anchored by robotaxi — and our one-stage end-to-end L2++ solution, which delivered approximately 30,000 units in a single quarter, have both achieved scaled commercial deployment, positioning WeRide at the forefront of the industry. A comprehensive safety record and deep operational know-how accumulated through years of large-scale deployments across multiple markets have built a formidable competitive moat. WeRide is now transitioning from technology leadership to global scaled deployment, entering the next chapter of autonomous driving commercialization.”
+Jennifer Li, WeRide’s Chief Financial Officer and Head of International, stated, “WeRide is delivering rapid revenue growth and is firmly on the path toward self-sustaining cash generation. Backed by proven autonomous vehicle performance and a well-established overseas ecosystem, our asset-light model has demonstrated strong replicability and is scaling rapidly across multiple cities. While global commercialization of autonomous driving remains at an early stage, the addressable market is substantial, and growth visibility is high. This model delivers compelling marginal economics and is expected to generate sustained cash flow contributions, having already become a key profit center and cash flow business for the Company. In parallel, our one-stage end-to-end L2++/L3 solution has entered a phase of rapid commercial growth, opening an additional high-growth revenue stream. WeRide remains committed to balancing business defensibility, scale expansion, and cash flow stability, and will continue to advance steadily along this path.”
+Second Quarter 2026 Financial Results
+Revenue
+Total revenue increased by 82.2% YoY to RMB231.7 million (US$34.2 million) in 2Q2026, compared with RMB127.2 million in 2Q2025. The revenue increase was primarily driven by the expansion of our L4 business, led by robotaxi and robobus, as well as the rapid growth of our L2++ / L3 business.
+Cost of Revenue
+Cost of revenue was RMB144.8 million (US$21.3 million) in 2Q2026, compared with RMB91.5 million in 2Q2025. The increase was primarily attributable to, and generally in line with, revenue growth in our L4 and AI infrastructure businesses
+3
+.
+Gross Profit and Gross Margin
+Gross profit was RMB86.9 million (US$12.8 million) in 2Q2026, compared with RMB35.7 million in 2Q2025. Gross margin increased to 37.5% from 28.1% in 2Q2025. The gross margin expansion was mainly driven by increased revenue contribution from our higher-margin L2++ / L3 business and overseas L4 business.
+Operating Expenses
+Operating expenses were RMB532.5 million (US$78.5 million) in 2Q2026, compared with RMB487.8 million in 2Q2025.
+R&D expenses were RMB434.3 million (US$64.0 million) in 2Q2026, compared with RMB318.9 million in 2Q2025. The increase was primarily due to higher personnel and outsourcing labor costs, depreciation and amortization expenses and cloud service fees.
+Administrative expenses were RMB69.0 million (US$10.2 million) in 2Q2026, compared with RMB155.1 million in 2Q2025. The decrease was primarily due to lower share-based compensation expenses and reduced professional services fees related to our global offering and legal compliance matters.
+Selling expenses were RMB29.2 million (US$4.3 million) in 2Q2026, compared with RMB13.8 million in 2Q2025. The increase was primarily due to higher personnel costs and increased marketing and advertising expenses.
+Loss for the Period
+Loss for the period was RMB400.7 million (US$59.1 million) in 2Q2026, compared with RMB406.4 million in 2Q2025.
+Non-IFRS adjusted loss for the period
+4
+was RMB338.5 million (US$49.9 million) in 2Q2026, compared with RMB300.6 million in 2Q2025.
+Earnings Before Interest, Taxes, Depreciation, and Amortization (“EBITDA
+5
+”)
+EBITDA was negative RMB335.4 million (US$49.4 million) in 2Q2026, narrowing by 8.1%, compared with negative RMB364.8 million in 2Q2025.
+Basic and Diluted Loss Per ADS
+6
+Basic and diluted loss per ordinary share was RMB0.41 (US$0.06) in 2Q2026, compared with RMB0.45 in 2Q2025.
+Basic and diluted loss per ADS was RMB1.23 (US$0.18) in 2Q2026, compared with RMB1.35 in 2Q2025.
+First Half of 2026 Financial Results
+Revenue
+Total revenue increased by 73.3% YoY to RMB345.9 million (US$51.0 million) in 1H2026, compared with RMB199.6 million in 1H2025. This increase was primarily driven by continued expansion of our L4 business, led by robotaxi and robobus, as well as the rapid growth of our L2++ / L3 business.
+Cost of Revenue
+Cost of revenue was RMB219.4 million (US$32.3 million) in 1H2026, compared with RMB138.6 million in 1H2025. The increase was primarily attributable to, and generally in line with, revenue growth in our L4 and AI infrastructure businesses.
+Gross Profit and Gross Margin
+Gross profit was RMB126.5 million (US$18.6 million) in 1H2026, compared with RMB61.1 million in 1H2025. Gross margin increased to 36.6% from 30.6% in 1H2025. The gross margin expansion was mainly driven by increased revenue contribution from our higher-margin L2++ / L3 business and overseas L4 business.
+Operating Expenses
+Operating expenses were RMB1,001.6 million (US$147.6 million) in 1H2026, compared with RMB951.4 million in 1H2025.
+R&D expenses were RMB797.7 million (US$117.6 million) in 1H2026, compared with RMB644.6 million in 1H2025. The increase was primarily due to higher personnel and outsourcing labor costs, depreciation and amortization expenses and cloud service fees.
+Administrative expenses were RMB152.1 million (US$22.4 million) in 1H2026, compared with RMB278.9 million in 1H2025. The decrease was primarily due to lower share-based compensation expenses and reduced professional services fees related to our global offering and legal compliance matters.
+Selling expenses were RMB51.9 million (US$7.6 million) in 1H2026, compared with RMB27.8 million in 1H 2025. The increase was primarily due to higher personnel costs and increased marketing and advertising expenses.
+Loss for the Period
+Loss for the period was RMB789.8 million (US$116.4 million) in 1H2026, compared with RMB791.5 million in 1H2025.
+Non-IFRS adjusted loss for the period was RMB664.6 million (US$98.0 million) in 1H2026, compared with RMB595.1 million in 1H2025.
+EBITDA
+EBITDA was negative RMB667.0 million (US$98.3 million) in 1H2026, narrowing by 6.5% compared with negative RMB713.3 million in 1H2025.
+Basic and Diluted Loss Per ADS
+7
+Basic and diluted loss per ordinary share in 1H2026 was RMB0.79 (US$0.12), compared with RMB0.87 in 1H2025.
+Basic and diluted loss per ADS in 1H2026 was RMB2.37 (US$0.36), compared with RMB2.61 in 1H2025.
+Balance Sheet
+As of June 30, 2026, WeRide held RMB5,374.8 million (US$792.2 million) in cash and cash equivalents and time deposits, RMB2.3 million (US$0.3 million) in investments in wealth management products recorded as current financial assets at FVTPL, and RMB21.4 million (US$3.2 million) in restricted cash, for an aggregate amount of RMB5,398.5 million (US$795.6 million).
+Exchange Rate Information
+This announcement contains translations of certain Renminbi (“RMB”) amounts into U.S. dollars (“US$”) at specified rates solely for the convenience of the reader. Unless otherwise noted, all translations from RMB to US$ were made at a rate of RMB6.7851 to US$1.00, the exchange rate in effect as of June 30, 2026, as set forth in the H.10 statistical release of the Board of Governors of the Federal Reserve System. The Company makes no representation that any RMB or US$ amounts could have been, or could be, converted into US$ or RMB, as the case may be, at any particular rate, or at all.
+Use of Non-IFRS Financial Measures
+In evaluating its business, the Company considers and uses the non-IFRS financial measures of (i) adjusted loss for the period and (ii) EBITDA as supplemental measures to review and assess operating performance. The Company believes that adjusted loss for the period and EBITDA provide useful information to investors and others in understanding and evaluating the Company’s consolidated results of operations in the same manner as it helps the Company’s management. The Company defines adjusted loss for the period as loss for the period excluding share-based compensation expenses and fair value changes of financial assets at FVTPL. The Company defines EBITDA as loss for the period excluding income tax, finance costs, depreciation and amortization expenses.
+The Company presents the non-IFRS financial measures because they are used by its management to evaluate its operating performance and formulate business plans. Adjusted loss for the period enables the Company’s management to assess the Company’s operating results without considering the impact of the aforementioned non-cash adjustment items that it does not consider to be indicative of its core operations. EBITDA enables the Company’s management to assess the Company’s operating results without considering the impact of income tax, finance costs, and depreciation and amortization expenses and focus more on the operating cash items. Accordingly, the Company believes that the use of these non-IFRS financial measures provide useful information to investors and others in understanding and evaluating its operating results in the same manner as its management and board of directors.
+These non-IFRS financial measures are not defined under IFRS and are not presented in accordance with IFRS. The non-IFRS financial measures have limitations as analytical tools. One of the key limitations of using the non-IFRS financial measures is that they do not reflect all items of expenses that affect the Company’s operations. Further, these non-IFRS measures may differ from the non-IFRS information used by other companies, including peer companies, and therefore the comparability may be limited.
+The non-IFRS financial measures should not be considered in isolation or construed as alternatives to loss for the period or any other measure of performance information prepared and presented in accordance with IFRS or as an indicator of the Company’s operating performance. Investors are encouraged to review the Company’s historical non-IFRS financial measures in light of the most directly comparable IFRS measure, as shown below. The non-IFRS financial measures presented here may not be comparable to similarly titled measures presented by other companies. Other companies may calculate similarly titled measures differently, limiting the usefulness of such measures when analyzing the Company’s data comparatively. It is encouraged that you review the Company’s financial information in its entirety and not rely on a single financial measure.
+Conference Call
+The Company’s management will hold an earnings conference call at 8:00 A.M. U.S. Eastern Time or 8:00 P.M. Hong Kong Time on Wednesday, August 12, 2026. Details for the conference call are as follows:
+Event Title: WeRide Inc. Second Quarter and First Half 2026 Earnings Call
+Registration Link: https://register-conf.media-server.com/register/BIae5622619adf4da3b99161c402e831e8
+Chinese Simultaneous Interpretation Registration Link (listen-only mode): https://register-conf.media-server.com/register/BI0c260dd324304548982b2c9490587a36
+All participants must use the link provided above to complete the online registration process in advance of the conference call. Upon registering, each participant will receive a set of participant dial-in numbers and a unique access PIN, which can be used to join the conference call. A live and archived webcast of the conference call will be available at the Company’s investor relations website at https://ir.weride.ai.
+About WeRide
+WeRide is a global leader and a first mover in the autonomous driving industry, as well as the first publicly traded robotaxi company. Our autonomous vehicles have been tested or operated in over 60 cities across 13 countries. We are also the first and only technology company whose products have received autonomous driving permits in eight markets: China, Switzerland, the UAE, Singapore, France, Saudi Arabia, Belgium, and the U.S. Empowered by the smart, versatile, cost-effective, and highly adaptable WeRide One platform, WeRide provides autonomous driving products and services from L2 to L4, addressing transportation needs in the mobility, logistics, and sanitation industries. WeRide was named to Fortune’s 2025 Change the World and 2025 Future 50 lists.
+Safe Harbor Statement
+This press release contains statements that may constitute “forward-looking” statements pursuant to the “safe harbor” provisions of the U.S. Private Securities Litigation Reform Act of 1995. These forward-looking statements can be identified by terminology such as “will,” “expects,” “anticipates,” “aims,” “future,” “intends,” “plans,” “believes,” “estimates,” “likely to,” and similar statements. Statements that are not historical facts, including statements about WeRide’s beliefs, plans, and expectations, are forward-looking statements. Forward-looking statements involve inherent risks and uncertainties. Further information regarding these and other risks is included in WeRide’s filings with the SEC and announcements on the website of the Hong Kong Stock Exchange. All information provided in this press release is as of the date of this press release, and WeRide does not undertake any obligation to update any forward-looking statement, except as required under applicable law.
+Contacts
+Investor inquiries:
+[email protected]
+Press inquiries:
+[email protected]
+Piacente Financial Communications
+E-mail:
+[email protected]
+WeRide
+Inc.
+Unaudited
+Condensed
+Consolidated
+Statements
+of
+Financial
+Position
+As
+of
+June 30,
+2026
+June 30,
+2026
+December
+31,
+2025
+RMB’000
+US$’000
+RMB’000
+ASSETS
+Non-current
+assets
+Property and equipment
+573,233
+84,484
+378,769
+Right-of-use assets
+139,560
+20,569
+65,870
+Intangible assets
+16,426
+2,421
+17,966
+Goodwill
+44,758
+6,597
+44,758
+Restricted cash – non-current
+10,988
+1,619
+6,487
+Financial assets at FVTPL – non-current
+252,411
+37,201
+188,083
+Other non-current assets
+89,964
+13,259
+23,668
+Total
+non-current
+assets
+1,127,340
+166,150
+725,601
+Current
+assets
+Inventories
+439,112
+64,717
+321,021
+Contract assets
+23,964
+3,532
+23,305
+Trade receivables
+455,765
+67,171
+462,135
+Prepayments and other receivables
+303,486
+44,729
+269,986
+Prepayments to and amounts due from
+related parties
+18,217
+2,685
+9,010
+Financial assets at FVTPL – current
+2,293
+338
+144,252
+Time deposits
+1,099,805
+162,091
+301,401
+Cash and cash equivalents
+4,275,014
+630,059
+6,666,304
+Restricted cash – current
+10,420
+1,536
+12,910
+Total
+current
+assets
+6,628,076
+976,858
+8,210,324
+Total
+assets
+7,755,416
+1,143,008
+8,935,925
+EQUITY
+Total
+equity
+6,395,302
+942,552
+7,900,174
+WeRide
+Inc.
+Unaudited
+Condensed
+Consolidated
+Statements
+of
+Financial
+Position
+(Continued)
+As
+of
+June 30,
+2026
+June 30,
+2026
+December
+31,
+2025
+RMB’000
+US$’000
+RMB’000
+LIABILITIES
+Non-current
+liabilities
+Lease liabilities – non-current
+95,397
+14,060
+23,241
+Deferred tax liabilities
+2,991
+441
+3,489
+Other non-current liabilities
+24,994
+3,684
+7,720
+Total
+non-current
+liabilities
+123,382
+18,185
+34,450
+Current
+liabilities
+Short-term bank loans
+485,047
+71,487
+324,263
+Trade payables
+243,563
+35,897
+163,000
+Other payables, deposits received and accrued
+expenses
+385,088
+56,755
+408,357
+Contract liabilities
+48,053
+7,082
+28,512
+Lease liabilities – current
+35,390
+5,216
+31,920
+Amounts due to related parties
+7,910
+1,166
+1,949
+Put option liabilities
+31,681
+4,668
+43,300
+Total
+current
+liabilities
+1,236,732
+182,271
+1,001,301
+Total
+liabilities
+1,360,114
+200,456
+1,035,751
+Total
+equity
+and
+liabilities
+7,755,416
+1,143,008
+8,935,925
+WeRide
+Inc.
+Unaudited
+Condensed
+Consolidated
+Statements
+of
+Profit
+or
+Loss
+Six Months Ended June 30,
+Three Months Ended June 30,
+2026
+2025
+2026
+2025
+RMB’000
+US$’000
+RMB’000
+RMB’000
+US$’000
+RMB’000
+Revenue
+Product revenue
+112,783
+16,622
+69,281
+92,322
+13,607
+59,781
+Service revenue
+233,074
+34,351
+130,334
+139,395
+20,544
+67,397
+345,857
+50,973
+199,615
+231,717
+34,151
+127,178
+Cost of revenue
+(b)
+Cost of goods sold
+(75,578
+)
+(11,139
+)
+(35,461
+)
+(62,442
+)
+(9,203
+)
+(30,699
+)
+Cost of services
+(143,806
+)
+(21,194
+)
+(103,095
+)
+(82,406
+)
+(12,145
+)
+(60,775
+)
+(219,384
+)
+(32,333
+)
+(138,556
+)
+(144,848
+)
+(21,348
+)
+(91,474
+)
+Gross profit
+126,473
+18,640
+61,059
+86,869
+12,803
+35,704
+Research and development expenses
+(a)(b)
+(797,654
+)
+(117,560
+)
+(644,635
+)
+(434,329
+)
+(64,012
+)
+(318,918
+)
+Selling expenses
+(a)(b)
+(51,891
+)
+(7,648
+)
+(27,780
+)
+(29,210
+)
+(4,305
+)
+(13,849
+)
+Administrative expenses
+(a)(b)
+(152,066
+)
+(22,412
+)
+(278,942
+)
+(68,998
+)
+(10,169
+)
+(155,061
+)
+Other net income
+22,612
+3,333
+3,021
+10,980
+1,618
+337
+Impairment loss on receivables and contract assets
+(384
+)
+(57
+)
+(2,800
+)
+12,754
+1,880
+(2,077
+)
+Operating loss
+(852,910
+)
+(125,704
+)
+(890,077
+)
+(421,934
+)
+(62,185
+)
+(453,864
+)
+Net foreign exchange (loss)/gain
+(24,489
+)
+(3,609
+)
+5,629
+(13,654
+)
+(2,012
+)
+1,557
+Interest income
+98,506
+14,518
+74,946
+44,602
+6,574
+35,200
+Fair value changes of financial assets at FVTPL
+(5,909
+)
+(871
+)
+23,154
+(7,121
+)
+(1,050
+)
+13,971
+Finance costs
+(5,089
+)
+(750
+)
+(3,292
+)
+(2,788
+)
+(411
+)
+(1,873
+)
+Loss before taxation
+(789,891
+)
+(116,416
+)
+(789,640
+)
+(400,895
+)
+(59,084
+)
+(405,009
+)
+Income tax
+141
+21
+(1,877
+)
+230
+34
+(1,436
+)
+Loss for the period
+(789,750
+)
+(116,395
+)
+(791,517
+)
+(400,665
+)
+(59,050
+)
+(406,445
+)
+Loss attributable to ordinary shareholders of the Company
+(789,750
+)
+(116,395
+)
+(791,517
+)
+(400,665
+)
+(59,050
+)
+(406,445
+)
+Loss per ordinary share
+Basic and diluted loss per Class A and Class B ordinary share
+(0.79
+)
+(0.12
+)
+(0.87
+)
+(0.41
+)
+(0.06
+)
+(0.45
+)
+Loss per ADS
+Basic and diluted loss per ADS
+(2.37
+)
+(0.36
+)
+(2.61
+)
+(1.23
+)
+(0.18
+)
+(1.35
+)
+Note:
+(a) Includes share-based compensation expenses as follows:
+Six Months Ended June 30,
+Three Months Ended June 30,
+2026
+2025
+2026
+2025
+RMB’000
+US$’000
+RMB’000
+RMB’000
+US$’000
+RMB’000
+Research and development expenses
+(79,381
+)
+(11,699
+)
+(86,386
+)
+(38,327
+)
+(5,649
+)
+(38,663
+)
+Administrative expenses
+(37,225
+)
+(5,486
+)
+(129,414
+)
+(15,151
+)
+(2,233
+)
+(79,421
+)
+Selling expenses
+(2,604
+)
+(384
+)
+(3,722
+)
+(1,613
+)
+(238
+)
+(1,774
+)
+Total share-based compensation expenses
+(119,210
+)
+(17,569
+)
+(219,522
+)
+(55,091
+)
+(8,120
+)
+(119,858
+)
+(b) Includes depreciation and amortization expenses as follows:
+Six Months Ended June 30,
+Three Months Ended June 30,
+2026
+2025
+2026
+2025
+RMB’000
+US$’000
+RMB’000
+RMB’000
+US$’000
+RMB’000
+Costs of sales
+(4,715
+)
+(695
+)
+(3,976
+)
+(2,191
+)
+(323
+)
+(2,354
+)
+Research and development expenses
+(97,123
+)
+(14,314
+)
+(56,342
+)
+(52,305
+)
+(7,709
+)
+(30,114
+)
+Administrative expenses
+(14,339
+)
+(2,113
+)
+(11,634
+)
+(7,256
+)
+(1,069
+)
+(5,210
+)
+Selling expenses
+(1,636
+)
+(241
+)
+(1,075
+)
+(977
+)
+(144
+)
+(629
+)
+Total depreciation and amortization expenses
+(117,813
+)
+(17,363
+)
+(73,027
+)
+(62,729
+)
+(9,245
+)
+(38,307
+)
+WeRide
+Inc.
+Reconciliation
+of
+IFRS
+Measures
+to
+Non-IFRS
+Measures
+The table below sets forth a reconciliation of loss for the period to non-IFRS adjusted loss for the periods indicated:
+Six Months Ended June 30,
+Three Months Ended June 30,
+2026
+2025
+2026
+2025
+RMB’000
+US$’000
+RMB’000
+RMB’000
+US$’000
+RMB’000
+Loss for the period
+(789,750
+)
+(116,395
+)
+(791,517
+)
+(400,665
+)
+(59,050
+)
+(406,445
+)
+Add:
+Share-based compensation expenses
+119,210
+17,569
+219,522
+55,091
+8,120
+119,858
+Fair value changes of financial assets at FVTPL
+5,909
+871
+(23,154
+)
+7,121
+1,050
+(13,971
+)
+Adjusted loss for the period
+(664,631
+)
+(97,955
+)
+(595,149
+)
+(338,453
+)
+(49,880
+)
+(300,558
+)
+The table below sets forth a reconciliation of loss for the period to EBITDA for the periods indicated:
+Six Months Ended June 30,
+Three Months Ended June 30,
+2026
+2025
+2026
+2025
+RMB’000
+US$’000
+RMB’000
+RMB’000
+US$’000
+RMB’000
+Loss for the period
+(789,750
+)
+(116,395
+)
+(791,517
+)
+(400,665
+)
+(59,050
+)
+(406,445
+)
+Add:
+Income tax
+(141
+)
+(21
+)
+1,877
+(230
+)
+(34
+)
+1,436
+Finance costs
+5,089
+750
+3,292
+2,788
+411
+1,873
+Depreciation and amortization expenses
+117,813
+17,363
+73,027
+62,729
+9,245
+38,307
+EBITDA
+(666,989
+)
+(98,303
+)
+(713,321
+)
+(335,378
+)
+(49,428
+)
+(364,829
+)
+___________________________
+1
+L4 business represents sales of autonomous driving vehicles and provision of autonomous driving related operational and technical support services.
+2
+L2++ / L3 business represents ADAS research and development services.
+3
+AI infrastructure business mainly represents intelligent data services.
+4
+Non-IFRS adjusted loss for the period is defined as loss for the period excluding share-based compensation expenses and fair value changes of financial assets at FVTPL.
+5
+EBITDA is defined as loss for the period excluding income tax, finance costs and depreciation and amortization expenses.
+6
+ADS-to-Class A ordinary share ratio is 1:3.
+7
+ADS-to-Class A ordinary share ratio is 1:3.
+Investor Contact
+email
+[email protected]
+Subscribe to our Email Alerts
+Email
+Submit
+© WeRide Inc.
+Site - Social Media

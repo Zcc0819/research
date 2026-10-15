@@ -1,0 +1,126 @@
+{
+  "2026H1_interim.pdf": {
+    "name": "2026H1_interim.pdf",
+    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0914/2026091401019.pdf",
+    "retrieved": "2026-09-17T10:18:37.405148",
+    "bytes": 3437460,
+    "sha256": "7ed778620bdb1d7b3b931af8a78e2fbfe2d468927b7aefe8b08ffde99908f200",
+    "pages": 89
+  },
+  "policy_mot_2023.html": {
+    "name": "policy_mot_2023.html",
+    "url": "https://xxgk.mot.gov.cn/2020/jigou/ysfws/202312/t20231205_3962490.html",
+    "retrieved": "2026-09-17T10:18:38.265804",
+    "bytes": 37532,
+    "sha256": "80f35b2a0ae8acbab215778255095233477b2b6e81331e7917ed2babbae3213f"
+  },
+  "BIDU_2026Q2.html": {
+    "name": "BIDU_2026Q2.html",
+    "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results/",
+    "error": "HTTPSConnectionPool(host='ir.baidu.com', port=443): Read timed out. (read timeout=65)"
+  },
+  "FY2025_20F.pdf": {
+    "name": "FY2025_20F.pdf",
+    "url": "https://ir.weride.ai/system/files-encrypted/nasdaq_kms/assets/2026/04/23/10-08-17/20-F.pdf",
+    "retrieved": "2026-09-17T10:22:08.106732",
+    "bytes": 3588086,
+    "sha256": "b9fe48cffd62a9c231c2bc6d27dbc73e181030b1d4fea542b320a519db160c7b",
+    "pages": 298
+  },
+  "FY2024_20F.pdf": {
+    "name": "FY2024_20F.pdf",
+    "url": "https://ir.weride.ai/static-files/72a895d1-7999-4f63-9d97-476c54e7ecab",
+    "retrieved": "2026-09-17T10:22:13.456678",
+    "bytes": 4404797,
+    "sha256": "410d2ec70882b18aa200a13208078c1e742cf7040387e877b4385ce211a57007",
+    "pages": 353
+  },
+  "2024_US_424B4.pdf": {
+    "name": "2024_US_424B4.pdf",
+    "url": "https://ir.weride.ai/static-files/406cbf25-bb49-4020-b913-f9cca1283c6e",
+    "retrieved": "2026-09-17T10:22:20.854500",
+    "bytes": 13434010,
+    "sha256": "94d9e9e9a7ac2bff42af3c38350307ddad4567ddb74fcd5d9db3cabb6c5d6ddd",
+    "pages": 378
+  },
+  "2025_HK_prospectus.pdf": {
+    "name": "2025_HK_prospectus.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1028/2025102800019.pdf",
+    "retrieved": "2026-09-17T10:22:27.539269",
+    "bytes": 10890582,
+    "sha256": "9b17e891b18c088f6f11383bb48fb25e6ceb1893289489e415e3c514edab7d16",
+    "pages": 714
+  },
+  "2026Q2_release.html": {
+    "name": "2026Q2_release.html",
+    "url": "https://ir.weride.ai/news-releases/news-release-details/accelerating-european-expansion-through-proven-asset-light-model",
+    "retrieved": "2026-09-17T10:22:30.312796",
+    "bytes": 182687,
+    "sha256": "44b2bf533c3417f6d3baff71de5651f35b7356d10ec3a49de9d83b7bf9bb98b4"
+  },
+  "2026Q1_release.html": {
+    "name": "2026Q1_release.html",
+    "url": "https://ir.weride.ai/news-releases/news-release-details/wrd-30-becomes-chinas-first-four-time-urban-intelligent-driving",
+    "retrieved": "2026-09-17T10:22:30.931768",
+    "bytes": 161674,
+    "sha256": "1459948cd139e74094b80059b0c70a18691fcc639432d889c622a8a5649cd896"
+  },
+  "2025Q2_release.html": {
+    "name": "2025Q2_release.html",
+    "url": "https://ir.weride.ai/news-releases/news-release-details/weride-accelerates-global-growth-robotaxi-revenue-grew-8367",
+    "retrieved": "2026-09-17T10:22:31.667533",
+    "bytes": 162582,
+    "sha256": "e324892590c7a263acb48f67a7a7c8b52bcfa870eb4f153fae7c9b493afd2c02"
+  },
+  "quarterly_index.html": {
+    "name": "quarterly_index.html",
+    "url": "https://ir.weride.ai/financials-filings/quarterly-results",
+    "retrieved": "2026-09-17T10:22:32.359775",
+    "bytes": 48257,
+    "sha256": "c6232703dcbe09952e492907e573f96bedb2c57332e4a8ab8a5f5e1b23f35cf7"
+  },
+  "annual_index.html": {
+    "name": "annual_index.html",
+    "url": "https://ir.weride.ai/financials-filings/annual-reports",
+    "retrieved": "2026-09-17T10:22:33.263972",
+    "bytes": 32589,
+    "sha256": "987ed64aa56ce1c88a1be1c0d14d04dd7535da0439e1ba9692ddff23e3072252"
+  },
+  "edgar_submissions.json": {
+    "name": "edgar_submissions.json",
+    "url": "https://data.sec.gov/submissions/CIK0001867729.json",
+    "retrieved": "2026-09-17T10:22:35.227817",
+    "bytes": 28533,
+    "sha256": "d79d03ce8ae580badb9590a88b60f704dc2ab000c2479c6fca79736ec14614e9"
+  },
+  "edgar_companyfacts.json": {
+    "name": "edgar_companyfacts.json",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001867729.json",
+    "retrieved": "2026-09-17T10:22:35.822785",
+    "bytes": 118475,
+    "sha256": "2cf7e0bef9a7362558625a1da0bdf60ecbc85674db8ae6bbc9c55106cb9d3582"
+  },
+  "PONY_2026Q2.html": {
+    "name": "PONY_2026Q2.html",
+    "url": "https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-reports-second-quarter-2026-financial-results-total",
+    "error": "HTTPSConnectionPool(host='ir.pony.ai', port=443): Read timed out. (read timeout=65)"
+  },
+  "PONY_2026Q2_webfetch.txt": {
+    "url": "https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-reports-second-quarter-2026-financial-results-total",
+    "retrieved": "2026-09-17",
+    "method": "WebFetch正文缓存；requests超时降级，非原始HTML",
+    "sha256": "c0c3462acf38acdadabb6a9687d2cebe15ed389147d110b5a41873c3937bb8b1"
+  },
+  "BIDU_2026Q2_webfetch.txt": {
+    "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results/",
+    "retrieved": "2026-09-17",
+    "method": "WebFetch正文缓存；requests超时降级，非原始HTML",
+    "sha256": "727c8f559f761b8a5ce6789fb80c5f2cdb872a5837056f50149b7d111df8ccbf"
+  },
+  "PONY_2026Q1_webfetch.txt": {
+    "url": "https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-reports-first-quarter-2026-financial-results",
+    "retrieved": "2026-09-17",
+    "method": "WebFetch正文缓存；requests超时降级，非原始HTML",
+    "sha256": "93ff18426cb3fa030192bb5e5c6ceb895bfc19a90f818cc56894fbdb929b2bdb"
+  }
+}

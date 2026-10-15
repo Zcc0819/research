@@ -1,0 +1,143 @@
+===== PDF PAGE 282 =====
+
+Table of Contents
+
+  Consolidated Statements of Financial Position (continued)
+  (Expressed in thousands of RMB)
+
+                                                                                                                    As of December 31,
+                                                                                                         Note     2022             2023
+                                                                                                                 RMB’000        RMB’000
+  LIABILITIES
+  Non-current liabilities
+  Lease liabilities – non-current                                                                         22        35,864         22,309
+  Preferred shares and other financial instruments subject to redemption and other preferential rights    23     7,017,554      8,181,722
+  Put option liabilities                                                                                  24        39,812         40,449
+  Deferred tax liabilities                                                                               9(b)        6,481          5,483
+  Other non-current liabilities                                                                           25         5,943          6,522
+                                                                                                                 7,105,654      8,256,485
+  Current liabilities
+  Trade payables                                                                                          26        11,505        16,962
+  Other payables, deposits received and accrued expenses                                                  26       217,195       271,306
+  Contract liabilities                                                                                   17(b)       4,200        12,498
+  Lease liabilities – current                                                                             22        32,009        31,098
+  Amounts due to related parties                                                                         33(d)      24,832        77,827
+  Financial liabilities measured at FVTPL                                                                27(b)      72,112            —
+                                                                                                                   361,853       409,691
+  Total liabilities                                                                                              7,467,507      8,666,176
+  Total deficit and liabilities                                                                                  5,385,391      5,614,258
+
+  The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                             F-6
+
+
+
+===== PDF PAGE 291 =====
+
+Table of Contents
+
+        Upon the completion of the Reorganization in March 2023, the Group consolidated Guangzhou Jingqi and its subsidiaries via legal ownership
+  interests as opposed to contractual arrangements. The following consolidated assets and liabilities information of the Group’s VIE as of December 31,
+  2021 and 2022, and consolidated revenue, net loss and cash flow information for the years ended December 31, 2021 and 2022, have been included in
+  the accompanying consolidated financial statements. All intercompany transactions and balances with the Company, and its wholly-owned subsidiaries
+  have been eliminated upon consolidation:
+
+                                                                                                                                 As of December 31,
+                                                                                                                                2021            2022
+                                                                                                                               RMB’000       RMB’000
+  ASSETS
+  Non-current assets
+  Property and equipment                                                                                                          49,548       27,443
+  Right-of-use assets                                                                                                             30,518       24,092
+  Intangible assets                                                                                                               30,134       26,114
+  Goodwill                                                                                                                        44,758       44,758
+  Deferred tax assets                                                                                                              3,990        2,992
+  Other non-current assets                                                                                                        15,100       14,835
+                                                                                                                                 174,048      140,234
+  Current assets
+  Inventories                                                                                                                      2,644          756
+  Trade receivables                                                                                                                1,525          607
+  Prepayments and other receivables                                                                                               25,698        9,499
+  Amounts due from related parties                                                                                                 3,148          620
+  Amounts due from the Company and its subsidiaries*                                                                             290,753      130,347
+  Time deposit                                                                                                                        —        10,000
+  Cash                                                                                                                           764,207       41,427
+                                                                                                                               1,087,975      193,256
+  Total assets                                                                                                                 1,262,023      333,490
+  LIABILITIES
+  Non-current liabilities
+  Lease liabilities – non-current                                                                                                 13,855        7,724
+  Put option liabilities                                                                                                          39,184       39,812
+  Deferred tax liabilities                                                                                                         7,479        6,481
+  Other non-current liabilities                                                                                                   49,177          977
+                                                                                                                                 109,695       54,994
+  Current liabilities
+  Trade payables                                                                                                                   1,733        2,472
+  Other payables, deposits received and accrued expenses                                                                          21,284       69,301
+  Contract liabilities                                                                                                               942           —
+  Lease liabilities – current                                                                                                     10,341       11,257
+  Amounts due to the Company and its subsidiaries*                                                                             1,271,609      538,008
+                                                                                                                               1,305,909      621,038
+  Total liabilities                                                                                                            1,415,604      676,032
+
+
+  * Amounts due from / to the Company and its subsidiaries represent the amounts due from / to WeRide Inc. and its wholly-owned subsidiaries, which
+    are eliminated upon consolidation.
+
+                                                                          F-15
+
+
+
+===== PDF PAGE 310 =====
+
+Table of Contents
+
+                     (iii) Both entities are joint ventures of the same third party.
+                     (iv) One entity is a joint venture of a third entity and the other entity is an associate of the third entity.
+                     (v) The entity is a post-employment benefit plan for the benefit of employees of either the Group or an entity related to the Group.
+                     (vi) The entity is controlled or jointly controlled by a person identified in (a).
+                     (vii) A person identified in (a)(i) has significant influence over the entity or is a member of the key management personnel of the
+               entity (or of a parent of the entity).
+                   (viii) The entity, or any member of a group of which it is a part, provides key management personnel services to the Group or to the
+               Group’s parent.
+
+        Close members of the family of a person are those family members who may be expected to influence, or be influenced by, that person in their
+  dealings with the entity.
+
+
+  3     Accounting estimates and judgments
+        Estimates and judgements are continually evaluated and are based on historical experience and other factors, including expectations of future
+  events that are believed to be reasonable under the circumstances.
+
+         The Group makes estimates and assumptions concerning the future. The resulting accounting estimates will, by definition, seldom equal the
+  related actual results. The estimates and assumptions that have a significant risk of causing a material adjustment to the carrying amounts of assets and
+  liabilities within the next financial year are addressed below.
+
+
+        (a) Fair value of warrant liabilities
+         The Group measures the warrant liabilities (Note 2(s)(ii)) at fair value. There are no quoted prices in an active market, the fair value of warrant
+  liabilities are established with the assistance of an independent valuer using generally accepted valuation techniques. The assumptions adopted by the
+  independent valuer in the valuation models make maximum use of market inputs. However, it should be noted that some inputs, such as the fair value of
+  the Company’s ordinary shares and the estimated probability of the occurrence of triggering events, require management estimates. Management’s
+  estimates and assumptions are reviewed periodically and are adjusted if necessary. Should any of the estimates and assumptions change, it may lead to a
+  change in the fair value of warrant liabilities.
+
+
+        (b) Share-based compensation
+         The Group measures the cost of equity-settled transactions with employees by reference to the fair value of the equity instruments at the date at
+  which they are granted and at the end of each year presented, respectively. The fair value is estimated using a model which requires the determination of
+  the appropriate inputs. The Group has to estimate the forfeiture rate in order to determine the amount of share-based compensation expenses charged to
+  the statement of profit or loss. The Group also has to estimate the vesting periods of the share awards which is variable and subject to an estimate of
+  when an initial public offering of the Group will occur. The assumptions and models used for estimating the fair value of share-based compensation are
+  disclosed in Note 29.
+
+
+  4     Segment reporting
+        For the purpose of resources allocation and performance assessment, the chief operating decision maker (“CODM”) reviews the overall results
+  and financial position of the Group as a whole. Accordingly, the Group has only one operating segment and no further discrete financial information nor
+  analysis of this single segment is presented.
+
+                                                                                F-34
+
+

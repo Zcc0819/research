@@ -1,0 +1,54 @@
+[
+  {
+    "tag": "Revenue",
+    "pdf_CNY": 361134000,
+    "structured": [
+      {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": 361134000,
+        "accn": "0001193125-25-062519",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "20-F",
+        "filed": "2025-03-25",
+        "frame": "CY2024"
+      }
+    ],
+    "equal": true
+  },
+  {
+    "tag": "ProfitLossAttributableToOwnersOfParent",
+    "pdf_CNY": -2516808000,
+    "structured": [
+      {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "val": -2516808000,
+        "accn": "0001193125-25-062519",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "20-F",
+        "filed": "2025-03-25",
+        "frame": "CY2024"
+      }
+    ],
+    "equal": true
+  },
+  {
+    "tag": "Assets",
+    "pdf_CNY": 7693770000,
+    "structured": [
+      {
+        "end": "2024-12-31",
+        "val": 7693770000,
+        "accn": "0001193125-25-062519",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "20-F",
+        "filed": "2025-03-25"
+      }
+    ],
+    "equal": true
+  }
+]

@@ -1,0 +1,335 @@
+===== PDF PAGE 111 =====
+
+Table of Contents
+
+
+
+     The non-IFRS financial measure should not be considered in isolation or construed as an alternative to loss for the year or any other measure of performance
+information prepared and presented in accordance with IFRS or as an indicator of our operating performance. Investors are encouraged to review our historical
+non-IFRS financial measure in light of the most directly comparable IFRS measure, as shown below. The non-IFRS financial measure presented here may not be
+comparable to similarly titled measure presented by other companies. Other companies may calculate similarly titled measures differently, limiting the usefulness
+of such measures when analyzing our data comparatively. We encourage you to review our financial information in its entirety and not rely on a single financial
+measure.
+
+    The following table reconciles our adjusted net loss for the years indicated to the most directly comparable financial measure calculated and presented in
+accordance with IFRS, which is loss for the year:
+
+                                                                                                                                For the year ended December 31,
+                                                                                                          2023                       2024                       2025
+                                                                                                  ​​​     RMB             ​​​        RMB         ​​​    RMB        ​​​    US$
+                                                                                                                                         (in thousands)
+Reconciliation of loss for the year to adjusted net loss:                                                             ​                         ​                  ​              ​
+Loss for the year                                                                                       (1,949,101)               (2,516,808)        (1,654,900)         (236,646)
+Add:
+Share-based compensation expenses                                                                         931,784                  1,187,867            449,983            64,347
+Fair value changes of financial assets at FVTPL                                                           (42,960)                    61,834            (41,822)           (5,980)
+Fair value changes of financial liabilities measured at FVTPL                                               4,549                         —                  —                 —
+Changes in the carrying amounts of preferred shares and other financial instruments subject to
+ redemption and other preferential rights                                                                 554,048                    465,254                 —                 —
+Non-IFRS adjusted net loss                                                                               (501,680)                  (801,853)        (1,246,739)         (178,279)
+
+B. LIQUIDITY AND CAPITAL RESOURCES
+
+Sources of Liquidity, Cash Flow and Working Capital
+
+     As of December 31, 2025, we have financed our operating and investing activities mainly through historical equity financing activities. In October 2024, we
+completed our U.S. IPO and our ADSs commenced trading on the Nasdaq Stock Market. We raised an aggregate of US$125.5 million in net proceeds from this
+offering and the underwriters’ partial exercise of their option to purchase additional ADSs, after deducting underwriting commissions and the offering expenses
+payable by us. In November 2025, we completed the Hong Kong Listing and our Class A ordinary shares commenced trading on the Main Board of the Hong
+Kong Stock Exchange. We raised from this Global Offering in connection with the Hong Kong Listing approximately HK$2,314.6 million in net proceeds, after
+deducting underwriting commissions, fees and the offering expenses.
+
+    As of December 31, 2024 and 2025, our cash and cash equivalents were RMB4,268.3 and RMB6,666.3 million (US$953.3 million), respectively. As of
+December 31, 2024 and 2025, our time deposits were RMB620.1 million and RMB301.4 million (US$43.1 million), respectively. As of December 31, 2024 and
+2025, our financial assets at FVTPL were RMB1,742.1 million and RMB332.3 million (US$47.5 million), respectively. Our financial assets at FVTPL primarily
+represents our investments in wealth management products, certain private investment funds and in a listed company.
+
+     We believe our cash will be sufficient to meet our current and anticipated working capital requirements and capital expenditures for at least the next
+12 months. We may, however, need additional cash resources in the future to satisfy capital requirements, respond to adverse developments or changes in our
+circumstances or unforeseen events or conditions, or fund organic or inorganic growth. If we determine that our cash requirements exceed the amount of cash we
+have on hand, we may seek to issue equity or equity linked securities or obtain debt financing. The issuance and sale of additional equity would result in further
+dilution to our shareholders. The incurrence of indebtedness could expose us to additional obligations and restrictions with respect to our operations. In the event
+that we are unable to secure sufficient financing resources in amounts or on terms acceptable to us, our business, financial condition and results of operations
+may be materially and adversely affected.
+
+
+                                                                                108
+
+
+
+===== PDF PAGE 171 =====
+
+Table of Contents
+
+
+
+Consolidated Statements of Profit or Loss
+(Expressed in thousands of Renminbi (“RMB”), except for per share data)
+
+                                                                                                 ​​​                               For the year ended December 31,
+                                                                                                         Note                 2023               2024              2025
+                                                                                                 ​​​                   ​​​   RMB’000     ​​​  RMB’000       ​​​  RMB’000
+Revenue                                                                                                            ​                       ​                 ​                 ​
+  Product revenue (including product revenue from related parties of RMB10,218, RMB2,840 and
+    nil for the years ended December 31, 2023, 2024 and 2025, respectively)                                                     54,190            87,710           359,843
+  Service revenue (including service revenue from related parties of RMB38,288, RMB29,397
+    and RMB7,632 for the years ended December 31, 2023, 2024 and 2025, respectively)                                           347,654           273,424           324,744
+Total revenue                                                                                             5                    401,844           361,134           684,587
+Cost of revenue                                                                                            ​                               ​                 ​                 ​
+  Cost of goods sold (including cost of goods sold from related parties of RMB10,788, RMB9,119
+    and nil for the years ended December 31, 2023, 2024 and 2025, respectively)                                                (34,138)          (71,716)         (253,530)
+  Cost of services (including cost of services from a related party of RMB50,743, RMB21,133
+    and RMB3,200 for the years ended December 31, 2023, 2024 and 2025, respectively)                                          (184,230)         (178,703)         (224,235)
+Total cost of revenue                                                                                     7                   (218,368)         (250,419)         (477,765)
+Gross profit                                                                                                                   183,476           110,715           206,822
+Other net income                                                                                          6                     15,750            16,491             4,912
+Research and development expenses (including research and development expenses from a
+  related party of RMB60,789, RMB68,922 and RMB63,605 for the years ended December 31,
+  2023, 2024 and 2025, respectively)                                                                      7                  (1,058,395)       (1,091,357)       (1,372,191)
+Administrative expenses                                                                                   7                    (625,369)       (1,138,802)         (596,060)
+Selling expenses                                                                                          7                     (41,447)          (53,566)          (73,628)
+Impairment loss on receivables and contract assets (including provision of impairment loss of
+  RMB1,292 and RMB160 for the years ended December 31, 2023 and 2024, respectively, and
+  reversal of impairment loss of RMB335 on receivables from related parties for the year ended
+  December 31, 2025)                                                                                    31(a)                   (40,217)          (28,664)          (16,625)
+Operating loss                                                                                                               (1,566,202)       (2,185,183)       (1,846,770)
+Net foreign exchange gain/(loss)                                                                                                  7,052            27,880            (9,031)
+Interest income                                                                                                                 132,042           176,902           172,307
+Fair value changes of financial assets at fair value through profit or loss (“FVTPL”)                   31(e)                    42,960           (61,834)           41,822
+Other finance costs                                                                                       8                      (3,490)           (3,451)           (9,128)
+Fair value changes of financial liabilities measured at FVTPL                                            27                      (4,549)               —                 —
+Changes in the carrying amounts of preferred shares and other financial instruments subject to
+  redemption and other preferential rights                                                             23(a)(b)                (554,048)         (465,254)               —
+Loss before taxation                                                                                                         (1,946,235)       (2,510,940)       (1,650,800)
+Income tax                                                                                               9(a)                    (2,866)           (5,868)           (4,100)
+Loss for the year                                                                                                            (1,949,101)       (2,516,808)       (1,654,900)
+Loss attributable to shareholders of the Company                                                                             (1,949,101)       (2,516,808)       (1,654,900)
+Loss per ordinary share                                                                                    ​                               ​              ​
+Basic and diluted loss per Class A and Class B ordinary share (in RMB)                                 10(a)(ii)                 (16.86)            (8.54)            (1.79)
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+
+
+
+                                                                              F-4
+
+
+
+===== PDF PAGE 173 =====
+
+Table of Contents
+
+
+
+Consolidated Statements of Financial Position
+(Expressed in thousands of RMB)
+
+                                                                                          ​​​   Note        ​​​       As of December 31,
+                                                                                                                   2024                2025
+                                                                                          ​​​               ​​​   RMB’000     ​​​   RMB’000
+ASSETS                                                                                                  ​                       ​                 ​
+Non-current assets                                                                                      ​                       ​                 ​
+Property and equipment                                                                           11                 178,179            378,769
+Right-of-use assets                                                                              12                  73,564             65,870
+Intangible assets                                                                                13                  21,664             17,966
+Goodwill                                                                                         14                  44,758             44,758
+Restricted cash–non-current                                                                      15                   9,669              6,487
+Deferred tax assets                                                                             9(b)                    997                 —
+Financial assets at FVTPL–non-current                                                            20                  56,919            188,083
+Other non-current assets                                                                         19                  20,025             23,668
+                                                                                                                    405,775            725,601
+Current assets                                                                                     ​                            ​
+Inventories                                                                                      16                  204,705            321,021
+Contract assets                                                                                 17(a)                 28,005             23,305
+Trade receivables                                                                                18                  252,607            462,135
+Prepayments and other receivables                                                                18                  197,652            269,986
+Prepayments to and amounts due from related parties                                             34(d)                 26,618              9,010
+Financial assets at FVTPL–current                                                                20                1,685,146            144,252
+Time deposits                                                                                   21(a)                620,148            301,401
+Cash and cash equivalents                                                                       21(a)              4,268,300          6,666,304
+Restricted cash–current                                                                          15                    4,814             12,910
+                                                                                                                   7,287,995          8,210,324
+Total assets                                                                                                       7,693,770          8,935,925
+EQUITY                                                                                             ​                            ​               ​
+Class A ordinary shares                                                                         29(a)                     54                 69
+Class B ordinary shares                                                                         29(a)                      4                  4
+Share premium                                                                                                     12,750,598         14,962,531
+Reserves                                                                                        29(b)              2,946,715          3,223,822
+Accumulated losses                                                                                                (8,631,352)       (10,286,252)
+Total equity                                                                                                       7,066,019          7,900,174
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+
+
+                                                                              F-6
+
+
+
+===== PDF PAGE 174 =====
+
+Table of Contents
+
+
+
+Consolidated Statements of Financial Position (continued)
+(Expressed in thousands of RMB)
+
+                                                                                          ​​​   Note        ​​​      As of December 31,
+                                                                                                                   2024              2025
+                                                                                          ​​​               ​​​   RMB’000     ​​​  RMB’000
+LIABILITIES                                                                                             ​                     ​               ​
+Non-current liabilities                                                                                 ​                     ​               ​
+Lease liabilities–non-current                                                                    22                  26,059          23,241
+Long-term bank loan                                                                              28                  50,040              —
+Deferred tax liabilities                                                                        9(b)                  4,486           3,489
+Other non-current liabilities                                                                    25                   4,677           7,720
+                                                                                                                     85,262          34,450
+Current liabilities                                                                                ​                          ​
+Short-term bank loans                                                                            28                  30,019         324,263
+Trade payables                                                                                   26                  20,713         163,000
+Other payables, deposits received and accrued expenses                                           26                 397,755         408,357
+Contract liabilities                                                                            17(b)                 4,476          28,512
+Lease liabilities–current                                                                        22                  36,900          31,920
+Amounts due to related parties                                                                  34(d)                 9,450           1,949
+Put option liabilities                                                                           24                  41,099          43,300
+Income taxes payable                                                                                                  2,077              —
+                                                                                                                    542,489       1,001,301
+Net current assets                                                                                                6,745,506       7,209,023
+Total liabilities                                                                                                   627,751       1,035,751
+Total equity and liabilities                                                                                      7,693,770       8,935,925
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+
+
+                                                                              F-7
+
+
+
+===== PDF PAGE 178 =====
+
+Table of Contents
+
+
+
+Consolidated Statements of Cash Flows
+(Expressed in thousands of RMB)
+
+                                                                                          ​​​                                     For the year ended December 31,
+                                                                                          ​​​        Note             ​​​    2023       ​​​     2024       ​​​    2025
+                                                                                                                            RMB’000          RMB’000            RMB’000
+Operating activities                                                                                              ​                      ​                 ​                  ​
+Cash used in operations                                                                             21(b)                    (472,024)         (589,804)       (1,317,634)
+Income tax paid                                                                                                                (2,866)           (3,791)           (4,100)
+Net cash used in operating activities                                                                                        (474,890)         (593,595)       (1,321,734)
+Investing activities                                                                                    ​                               ​                ​
+Payments for purchase of property and equipment                                                                                (36,650)         (84,004)         (247,598)
+Payments for purchase of intangible assets                                                                                        (304)          (1,504)             (848)
+Proceeds from disposal of property, equipment and intangible assets                                                              1,903            1,060             1,444
+Purchase of time deposits                                                                                                   (2,915,337)      (3,257,020)       (1,089,504)
+Proceeds from maturity of time deposits                                                                                      1,454,366        5,156,836         1,411,560
+Payments for purchase of financial assets at FVTPL                                                                          (1,965,328)      (1,807,527)         (365,034)
+Proceeds from sales of financial assets at FVTPL                                                    31(e)                    2,925,265          324,791         1,777,236
+Payment for loans to employees                                                                       18                        (10,859)         (14,236)             (357)
+Proceeds from collection of loans to employees                                                       18                             —             7,109            18,982
+Net cash (used in)/generated from investing activities                                                                        (546,944)         325,505         1,505,881
+Financing activities                                                                                   ​                                ​                ​                 ​
+Proceeds from issuance of ordinary shares                                                           29(a)                       42,519                1                —
+Proceeds from issuance of non-redeemable preferred shares                                           29(a)                           31               —                 —
+Proceeds from initial public offering and exercise of the over-allotment option, net of
+  commissions                                                                                                                       —         3,170,810                —
+Proceeds from Global Offering, net of commissions                                                                                   —                —          2,111,642
+Proceeds from issuance of preferred shares and other financial instruments subject to
+  redemption and other preferential rights                                                          21(c)                     485,262                —                 —
+Payment of capital element of lease liabilities                                                     21(c)                     (38,163)          (44,976)          (46,629)
+Payment of interest element of lease liabilities                                                    21(c)                      (2,853)           (2,276)           (2,745)
+Payment of listing expenses                                                                                                      (720)           (4,342)          (12,452)
+Repayment of subscription price for the financial instruments subject to redemption and
+  other preferential rights                                                                         23(a)                      (39,122)              —                    —
+Proceeds from receipts of subscription price for the convertible redeemable preferred
+  shares                                                                                            23(a)                          —             19,319               —
+Proceeds from issuance of Class A ordinary shares for exercise of share options                    29(a)(x)                        —                 —            57,452
+Payment of withholding tax arising from the settlement of vested RSUs                           34(c) 29(a)(ix)                    —           (394,195)         (50,846)
+Proceeds from bank loans                                                                            21(c)                          —             80,000          332,408
+Repayment of bank loans                                                                             21(c)                          —                 —           (88,323)
+Payment of interest of bank loans                                                                   21(c)                          —               (466)          (4,063)
+Advances to a management personnel                                                                                                 —             (1,425)              —
+Proceeds from collection of the advances to a management personnel                                                                 —              1,425               —
+Net cash generated from financing activities                                                                                  446,954         2,823,875        2,296,444
+Net (decrease)/increase in cash and cash equivalents                                                                         (574,880)        2,555,785        2,480,591
+Cash and cash equivalents as of January 1                                                           21(a)                   2,233,691         1,661,152        4,268,300
+Effect of foreign exchange rate changes                                                                                         2,341            51,363          (82,587)
+Cash and cash equivalents as of December 31                                                         21(a)                   1,661,152         4,268,300        6,666,304
+
+The accompanying notes are an integral part of these consolidated financial statements.
+
+
+
+
+                                                                              F-11
+
+
+
+===== PDF PAGE 179 =====
+
+Table of Contents
+
+
+
+Notes to the Consolidated Financial Statements
+(Expressed in thousands of RMB, unless otherwise indicated)
+
+1   General information and basis of presentation
+
+(a) General information
+
+    WeRide Inc. (the “Company”), an exempted company with limited liability, was incorporated in the Cayman Islands under the Companies Act, Cap. 22
+    (Law 3 of 1961, as consolidated and revised) of the Cayman Islands on March 13, 2017. The Company’s American Depositary Shares (“ADSs”) have been
+    listed on the Nasdaq Stock Market since October 25, 2024 and the Company completed its initial public offering (“IPO”) on October 28, 2024. Each ADS of
+    the Company represents three ordinary shares.
+
+    On November 6, 2025, the Company completed its global offering (“Global Offering”), including the Hong Kong Public Offering and the International
+    Offering, on the Stock Exchange of Hong Kong Limited (“HKEX”).
+
+    The Company is an investment holding company. The Company, through its wholly-owned subsidiaries (collectively referred to as the “Group”), is
+    principally engaged in providing autonomous driving products and services. The Group’s principal operations and geographic markets are in the People’s
+    Republic of China (the “PRC”).
+
+(b) VIE reorganization
+
+    Historically, the Company conducted its surveying and mapping in internet mapping service category and held the relevant license through Guangzhou
+    Jingqi Technology Co., Ltd. (“Guangzhou Jingqi” or the former “VIE”) and its subsidiaries prior to March 2023. The Company had control over the former
+    VIE via a series of contractual arrangements (“VIE Arrangements”). The directors of the Company consider that the VIE Arrangements were in compliance
+    with the relevant PRC laws and regulations and were legally binding and enforceable. In March 2023, the Group acquired 100% equity interest of the former
+    VIE and its subsidiaries at the consideration of RMB0.6 million and the previous VIE Arrangements were terminated. Since March 2023, the Company
+    controls the former VIE and its subsidiaries through legal ownership interests and the former VIE and its subsidiaries accounted for as consolidated
+    subsidiaries of the Company.
+
+(c) Basis of preparation and presentation
+
+    The Group has adopted December 31 as its financial year end date. These consolidated financial statements have been prepared in accordance with all
+    applicable International Financial Reporting Standards Accounting Standards (“IFRS” or “IFRS Accounting Standards”) as issued by the International
+    Accounting Standards Board (“IASB”). These consolidated financial statements were approved and authorised for issue by the Board of Directors on April
+    21, 2026. Material accounting policies adopted by the Group are disclosed in Note 2.
+
+    The IASB has issued a number of new and revised IFRS Accounting Standards that are first effective or available for early adoption for the annual
+    accounting periods beginning on January 1, 2025. Note 1(d) provides information on any changes in accounting policies resulting from initial application of
+    these developments to the extent that they are relevant to the Group for the year ended December 31, 2025 reflected in these consolidated financial
+    statements. The new and revised accounting standards and interpretations issued but not yet effective for the accounting period beginning on January 1, 2025
+    are set out in Note 36.
+
+    The consolidated financial statements for the years presented comprise the Company and its subsidiaries.
+
+    The measurement basis used in the preparation of these consolidated financial statements is the historical cost basis except that the following assets and
+    liabilities are stated at their fair value as explained in the accounting policies set out below:
+
+    -    Other investments in securities (see Note 2(g)); and
+
+    -    Financial liabilities measured at FVTPL (see Note (2(s)).
+
+
+                                                                             F-12
+
+

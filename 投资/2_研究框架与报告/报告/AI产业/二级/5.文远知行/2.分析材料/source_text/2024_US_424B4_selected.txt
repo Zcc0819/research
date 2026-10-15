@@ -1,0 +1,365 @@
+===== PDF PAGE 278 =====
+
+Table of Contents
+
+                                               Report of Independent Registered Public Accounting Firm
+
+  To the Shareholders and Board of Directors
+  WeRide Inc.:
+
+
+  Opinion on the Consolidated Financial Statements
+        We have audited the accompanying consolidated statements of financial position of WeRide Inc. and subsidiaries (the Company) as of
+  December 31, 2022 and 2023, the related consolidated statements of profit or loss, profit or loss and other comprehensive income, changes in equity, and
+  cash flows for each of the years in the three-year period ended December 31, 2023, and the related notes (collectively, the consolidated financial
+  statements). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of
+  December 31, 2022 and 2023, and the results of its operations and its cash flows for each of the years in the three-year period ended December 31, 2023,
+  in conformity with International Financial Reporting Standards as issued by the International Accounting Standards Board.
+
+
+  Basis for Opinion
+        These consolidated financial statements are the responsibility of the Company’s management. Our responsibility is to express an opinion on these
+  consolidated financial statements based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board
+  (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the
+  applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+         We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain
+  reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud. Our audits
+  included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and
+  performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures
+  in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by
+  management, as well as evaluating the overall presentation of the consolidated financial statements. We believe that our audits provide a reasonable
+  basis for our opinion.
+
+  /s/ KPMG Huazhen LLP
+
+  We have served as the Company’s auditor since 2022.
+
+  Beijing, China
+  May 30, 2024
+
+                                                                            F-2
+
+
+
+===== PDF PAGE 279 =====
+
+Table of Contents
+
+  Consolidated Statements of Profit or Loss
+  (Expressed in thousands of Renminbi (“RMB”), except for per share data)
+
+                                                                                                                    For the year ended December 31,
+                                                                                                     Note       2021              2022            2023
+                                                                                                               RMB’000         RMB’000         RMB’000
+  Revenue
+      Product revenue (including product revenue from related parties of RMB18,857, RMB44,973
+         and RMB10,218 for the years ended December 31, 2021, 2022 and 2023, respectively)                       101,597        337,717          54,190
+      Service revenue (including service revenue from related parties of RMB18,399 RMB9,083
+         and RMB38,288 for the years ended December 31, 2021, 2022 and 2023, respectively)                        36,575        189,826         347,654
+  Total revenue                                                                                       5          138,172        527,543         401,844
+  Cost of revenue
+      Cost of goods sold (including cost of goods from related parties of RMB57,775, RMB111,694
+         and RMB10,788 for the years ended December 31, 2021, 2022 and 2023, respectively)                       (77,383)       (192,523)       (34,138)
+      Cost of services (including cost of services from related parties of nil, RMB13,175 and
+         RMB50,743 for the years ended December 31, 2021, 2022 and 2023, respectively)                            (9,129)       (102,475)      (184,230)
+  Total cost of revenue                                                                               7          (86,512)       (294,998)      (218,368)
+  Gross profit                                                                                                    51,660         232,545        183,476
+  Other net income                                                                                    6           10,775          19,296         15,750
+  Research and development expenses (including services from related parties of nil, RMB17,099
+    and RMB60,789 for the years ended December 31, 2021, 2022 and 2023, respectively)                 7         (443,178)       (758,565)    (1,058,395)
+  Administrative expenses                                                                             7         (107,119)       (237,236)      (625,369)
+  Selling expenses                                                                                    7          (12,225)        (23,574)       (41,447)
+  Impairment loss on receivables and contract assets (including impairment loss of RMB9,
+    RMB1,234 and RMB1,292 on receivables from related parties for the years ended December 31,
+    2021, 2022 and 2023, respectively)                                                                              (409)        (11,696)       (40,217)
+  Operating loss                                                                                                (500,496)       (779,230)    (1,566,202)
+  Net foreign exchange (loss)/gain                                                                                (5,073)         20,209          7,052
+  Interest income                                                                                                 29,770          36,111        132,042
+  Fair value changes of financial assets at fair value through profit or loss (“FVTPL”)             31(e)          3,479           7,731         42,960
+  Other finance costs                                                                                 8           (6,917)         (4,202)        (3,490)
+  Inducement charges of warrants                                                                    27(b)             —         (125,213)            —
+  Fair value changes of financial liabilities measured at FVTPL                                    27(a)(b)     (259,872)         25,308         (4,549)
+  Changes in the carrying amounts of preferred shares and other financial instruments subject to
+     redemption and other preferential rights                                                      23(a)(b)      (268,142)      (479,210)      (554,048)
+  Loss before taxation                                                                                         (1,007,251)    (1,298,496)    (1,946,235)
+  Income tax                                                                                         9(a)              —              —          (2,866)
+  Loss for the year                                                                                            (1,007,251)    (1,298,496)    (1,949,101)
+  Deemed distribution to a preferred shareholder                                                    27(b)              —              —         (32,767)
+  Loss attributable to ordinary equity shareholders of the Company                                             (1,007,251)    (1,298,496)    (1,981,868)
+  Loss per ordinary share
+  Basic and diluted loss per ordinary share (in RMB)                                               10(a)(ii)        (9.96)        (12.44)         (18.92)
+
+  The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                                F-3
+
+
+
+===== PDF PAGE 281 =====
+
+Table of Contents
+
+  Consolidated Statements of Financial Position
+  (Expressed in thousands of RMB)
+
+                                                                                                       As of December 31,
+                                                                                            Note     2022              2023
+                                                                                                    RMB’000         RMB’000
+  ASSETS
+  Non-current assets
+  Property and equipment                                                                     11        113,878         98,574
+  Right-of-use assets                                                                        12         64,410         51,658
+  Intangible assets                                                                          13         28,603         24,594
+  Goodwill                                                                                   30         44,758         44,758
+  Restricted cash – non-current                                                              15         11,004          1,575
+  Deferred tax assets                                                                       9(b)         2,992          1,994
+  Other non-current assets                                                                   19         46,273         21,082
+                                                                                                       311,918        244,235
+  Current assets
+  Inventories                                                                                16        156,005        218,220
+  Contract assets                                                                           17(a)       92,597         82,826
+  Trade receivables                                                                          18        236,390        266,933
+  Prepayments and other receivables                                                          18         74,459        192,530
+  Amounts due from related parties                                                          33(d)        3,122         26,923
+  Subscription receivables                                                                  23(a)           —          43,924
+  Financial assets at FVTPL                                                                  20      1,218,524        317,042
+  Time deposits                                                                                      1,057,292      2,550,279
+  Cash                                                                                      21(a)    2,233,691      1,661,152
+  Restricted cash – current                                                                  15          1,393         10,194
+                                                                                                     5,073,473      5,370,023
+  Total assets                                                                                       5,385,391      5,614,258
+  DEFICIT IN EQUITY
+  Ordinary shares                                                                           28(a)             8              8
+  Series Seed-1 Preferred Shares                                                            28(a)             5              5
+  Series Seed-2 Preferred Shares                                                            28(a)             4              4
+  Series A Preferred Shares                                                                 28(a)             6              6
+  Share premium                                                                                       1,061,570      1,104,120
+  Reserves                                                                                  28(b)     1,140,635      2,110,151
+  Accumulated losses                                                                                (4,132,676)    (6,114,544)
+  Treasury shares                                                                           28(c)     (151,668)      (151,668)
+  Total deficit                                                                                     (2,082,116)    (3,051,918)
+
+  The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                            F-5
+
+
+
+===== PDF PAGE 286 =====
+
+Table of Contents
+
+  Consolidated Statements of Cash Flows
+  (Expressed in thousands of RMB)
+
+                                                                                                         For the year ended December 31,
+                                                                                            Note     2021              2022            2023
+                                                                                                    RMB’000         RMB’000         RMB’000
+  Operating activities
+  Cash used in operations                                                                   21(b)    (506,667)      (670,381)       (474,890)
+  Net cash used in operating activities                                                              (506,667)      (670,381)       (474,890)
+  Investing activities
+  Payments for purchase of property and equipment                                                     (25,156)       (80,812)        (36,650)
+  Payments for purchase of intangible assets                                                 13          (481)        (1,881)           (304)
+  Proceeds from disposal of property, equipment and intangible assets                                   1,254          2,166           1,903
+  Purchase of time deposits                                                                          (270,000)    (1,487,859)     (2,915,337)
+  Proceeds from maturity of time deposits                                                             270,000        477,360       1,454,366
+  Payments for purchase of financial assets at FVTPL                                        31(e)    (520,273)    (2,041,173)     (1,965,328)
+  Proceeds from sales of financial assets at FVTPL                                          31(e)   1,075,029        929,785       2,925,265
+  Payment for a loan to an employee                                                          18            —              —          (10,859)
+  Acquisition of a subsidiary, net of cash acquired                                          30       (69,470)            —               —
+  Net cash generated from/(used in) investing activities                                              460,903     (2,202,414)       (546,944)
+
+  The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                           F-10
+
+
+
+===== PDF PAGE 287 =====
+
+Table of Contents
+
+  Consolidated Statements of Cash Flows (continued)
+  (Expressed in thousands of RMB)
+
+                                                                                                                 For the year ended December 31,
+                                                                                                     Note     2021             2022            2023
+                                                                                                             RMB’000        RMB’000         RMB’000
+  Financing activities
+  Proceeds from issuance of ordinary shares                                                          28(a)      45,160         13,442         42,519
+  Proceeds from issuance of non-redeemable preferred shares                                          28(a)      28,750             —              31
+  Proceeds from sales of treasury shares                                                             28(c)      19,887          6,480             —
+  Proceeds from issuance of preferred shares and other financial instruments subject to redemption
+     and other preferential rights                                                                   21(c)   2,683,290      2,163,410       485,262
+  Proceeds from issuance of financial liabilities measured at FVTPL                                  21(c)     107,095        143,829            —
+  Payment of capital element of lease liabilities                                                    21(c)     (21,632)       (34,448)      (38,163)
+  Payment of interest element of lease liabilities                                                   21(c)      (3,147)        (3,574)       (2,853)
+  Payment of listing expenses relating to the initial public offering                                               —            (284)         (720)
+  Payment of repurchase of redeemable preferred shares                                               28(c)          —         (59,825)           —
+  Repayment for put option liabilities                                                               21(c)     (28,280)            —             —
+  Net changes in restricted cash for the issuance of bank loans                                                 46,800             —             —
+  Payment for repurchase of ordinary shares and non-redeemable preferred shares                      28(c)    (181,240)       (44,442)           —
+  Repayment of subscription price for the financial instruments subject to redemption and other
+     preferential rights                                                                              23            —              —        (39,122)
+  Interest of loans and borrowings paid                                                              21(c)      (2,422)            —             —
+  Repayment of loans and borrowings                                                                  21(c)     (91,208)            —             —
+  Net cash generated from financing activities                                                               2,603,053      2,184,588       446,954
+  Net increase/(decrease) in cash                                                                            2,557,289       (688,207)      (574,880)
+  Cash and cash equivalents as of January 1                                                          21(a)     212,622      2,725,568      2,233,691
+  Effect of foreign exchange rate changes                                                                      (44,343)       196,330          2,341
+  Cash as of December 31                                                                             21(a)   2,725,568      2,233,691      1,661,152
+
+  The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                           F-11
+
+
+
+===== PDF PAGE 354 =====
+
+Table of Contents
+
+        In July 2024, the Board of Directors and shareholders of the Company approved the issuance of a total of 12,806,568 ordinary shares to holders of
+  Series D and Series D+ preferred shares at par value of USD0.00001, for an aggregate consideration of USD128.1, which were issued in August 2024.
+  The Company was entitled an option to repurchase these ordinary shares at USD128.1 if an IPO does not consummate on or before March 31, 2025. The
+  Company expected to account for these issuances as a shareholder transaction with an increase in the Company’s shareholder’s equity of USD128.1.
+  Such transaction would have no impact on profit or loss.
+
+        In July 2024, the Group entered into a share subscription agreement (the “SPA”) with Alliance Ventures, B.V. (“Alliance”), one of the Company’s
+  shareholders. Pursuant to the SPA, Alliance committed to subscribe shares of the Company as a cornerstone investor with an aggregate purchase price of
+  USD97.0 million. The number of shares and price per share was not fixed. The Group has not received the subscription consideration yet.
+
+         In July and August 2024, the Group entered into certain SPAs with cornerstone investors, pursuant to which, these cornerstone investors
+  committed to subscribe shares of the Company with aggregate purchase price of USD223.5 million. The number of shares and price per share was not
+  fixed. The Group has not received the subscription consideration yet.
+
+        In July 2024, the Company granted 13,500,000 restricted share units and 9,866,002 share options with a weighted-average exercise price of
+  US$1.1 per share to certain management personnel only subject to an IPO condition. The grant date fair value of these restricted share units and share
+  options was RMB739.7 million (equivalent to US$101.8 million) in aggregate, which is expected to be fully recognized as share-based compensation
+  expenses by the completion of an IPO.
+
+         In July 2024, the Company issued 80,544,159 ordinary shares to settle vested restricted share units held by certain management personnel and
+  withheld 45,449,991 vested restricted share units to fund the withholding tax payable by the Company arising from the settlement of these vested
+  restricted share units.
+
+                                                                           F-78
+
+
+
+===== PDF PAGE 355 =====
+
+Table of Contents
+
+  Unaudited Condensed Consolidated Statements of Profit or Loss
+  (Expressed in thousands of RMB, except for per share data)
+
+                                                                                                                  For the six months ended June 30,
+                                                                                                        Note        2023                    2024
+                                                                                                                  RMB’000                RMB’000
+  Revenue
+      Product revenue (including product revenue from related parties of RMB1,890 and
+         RMB2,620 for the six months ended June 30, 2023 and 2024, respectively)                           3          18,553                 21,045
+      Service revenue (including service revenue from related parties of RMB9,577 and
+         RMB13,138 for the six months ended June 30, 2023 and 2024, respectively)                          3         164,316                129,253
+  Total revenue                                                                                            3         182,869                150,298
+  Cost of revenue
+      Cost of goods sold (including cost of goods from related parties of RMB6,300 and
+         RMB3,809 for the six months ended June 30, 2023 and 2024, respectively)                           5         (14,393)                (17,157)
+      Cost of services (including cost of services from related parties of RMB16,708 and
+         RMB24,861, for the six months ended June 30, 2023 and 2024, respectively)                         5         (84,501)                (78,352)
+  Total cost of revenue                                                                                              (98,894)                (95,509)
+  Gross profit                                                                                                        83,975                  54,789
+  Other net income                                                                                         4          13,592                   7,939
+  Research and development expenses (including services from related parties of RMB22,165 and
+    RMB40,696 for the six months ended June 30, 2023 and 2024, respectively)                               5        (376,121)              (517,210)
+  Administrative expenses                                                                                  5        (217,101)              (208,293)
+  Selling expenses                                                                                         5         (14,619)               (22,784)
+  Impairment loss on receivables and contract assets (including accrual and reversal of impairment
+    loss of RMB1,432 and RMB750 on receivables from related parties for the six months ended
+    June 30, 2023 and 2024, respectively)                                                                            (27,996)               (13,424)
+  Operating loss                                                                                                    (538,270)              (698,983)
+  Net foreign exchange gain                                                                                            5,299                  4,659
+  Interest income                                                                                                     59,433                 89,294
+  Fair value changes of financial assets at FVTPL                                                         21(a)       25,864                  4,503
+  Other finance costs                                                                                      6          (1,784)                (1,356)
+  Fair value changes of financial liabilities measured at FVTPL                                                       (4,549)                   —
+  Changes in the carrying amounts of preferred shares and other financial instruments subject to
+     redemption and other preferential rights                                                             18        (266,520)              (278,226)
+  Loss before taxation                                                                                              (720,527)              (880,109)
+  Income tax                                                                                               7          (2,565)                (1,591)
+  Loss for the period                                                                                               (723,092)              (881,700)
+  Deemed distribution to a preferred shareholder                                                                     (32,767)                   —
+  Loss attributable to ordinary shareholders of the Company                                                         (755,859)              (881,700)
+  Loss per ordinary share
+  Basic and diluted loss per ordinary share (in RMB)                                                       8            (7.28)                 (8.27)
+
+  The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+
+                                                                            F-79
+
+
+
+===== PDF PAGE 361 =====
+
+Table of Contents
+
+  Unaudited Condensed Consolidated Statements of Cash Flows
+  (Expressed in thousands of RMB)
+
+                                                                                                                        For the six months ended June 30
+                                                                                                                Note       2023                 2024
+                                                                                                                         RMB’000              RMB’000
+  Operating activities
+  Cash used in operations                                                                                                  (223,742)            (327,558)
+  Net cash used in operating activities                                                                                    (223,742)            (327,558)
+  Investing activities
+  Payments for purchase of property and equipment                                                                          (15,906)              (33,272)
+  Payments for purchase of intangible assets                                                                                  (127)                   —
+  Proceeds from disposal of property and equipment                                                                             816                   100
+  Purchase of time deposits                                                                                             (1,052,627)           (1,921,878)
+  Proceeds from maturity of time deposits                                                                                  358,817             2,088,146
+  Payments for purchase of financial assets at FVTPL                                                            21(a)   (1,183,447)               (1,829)
+  Proceeds from sales of financial assets at FVTPL                                                              21(a)    1,347,757               318,416
+  Payment for a loan to an employee                                                                              14        (10,859)                   —
+  Proceeds from collection of the loan to an employee                                                            14             —                  3,553
+  Net cash (used in) / generated from investing activities                                                                (555,576)              453,236
+
+  The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+
+                                                                          F-85
+
+
+
+===== PDF PAGE 362 =====
+
+Table of Contents
+
+  Unaudited Condensed Consolidated Statements of Cash Flows (continued)
+  (Expressed in thousands of RMB)
+
+                                                                                                                       For the six months ended June 30,
+                                                                                                                Note       2023                2024
+                                                                                                                        RMB’000              RMB’000
+  Financing activities
+  Proceeds from issuance of ordinary shares                                                                                 42,519                   —
+  Proceeds from issuance of non-redeemable preferred shares                                                                     31                   —
+  Proceeds from issuance of convertible redeemable preferred share                                                         215,355               19,319
+  Payment of capital element of lease liabilities                                                                          (19,023)             (25,333)
+  Payment of interest element of lease liabilities                                                                          (1,469)              (1,034)
+  Payment of listing expenses relating to the initial public offering                                                         (577)                 (26)
+  Repayment of subscription price for the financial instruments subject to redemption and other preferential
+    rights                                                                                                                 (43,480)                   —
+  Advances to a management personnel                                                                                            —                 (1,425)
+  Net cash generated from / (used in) financing activities                                                                 193,356                (8,499)
+  Net (decrease)/increase in cash and cash equivalents                                                                    (585,962)             117,179
+  Cash as of January 1                                                                                          17       2,233,691            1,661,152
+  Effect of foreign exchange rate changes                                                                                   12,241               50,612
+  Cash and cash equivalents as of June 30                                                                       17       1,659,970            1,828,943
+
+  The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+
+                                                                            F-86
+
+

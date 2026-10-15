@@ -1,0 +1,91 @@
+===== PDF PAGE 171 =====
+
+Table of Contents
+
+ Consolidated Statements of Financial Position
+ (Expressed in thousands of RMB)
+
+                                                                                           Note       As of December 31,
+                                                                                                    2023             2024
+                                                                                                   RMB’000        RMB’000
+ ASSETS
+ Non-current assets
+ Property and equipment                                                                     11        98,574       178,179
+ Right-of-use assets                                                                        12        51,658        73,564
+ Intangible assets                                                                          13        24,594        21,664
+ Goodwill                                                                                   14        44,758        44,758
+ Restricted cash – non-current                                                              15         1,575         9,669
+ Deferred tax assets                                                                       9(b)        1,994           997
+ Financial assets at FVTPL – non-current                                                    20           —          56,919
+ Other non-current assets                                                                   19        21,082        20,025
+                                                                                                     244,235       405,775
+ Current assets
+ Inventories                                                                                16       218,220        204,705
+ Contract assets                                                                           17(a)      82,826         28,005
+ Trade receivables                                                                          18       266,933        252,607
+ Prepayments and other receivables                                                          18       192,530        197,652
+ Prepayments to and amounts due from related parties                                       34(d)      26,923         26,618
+ Financial assets at FVTPL – current                                                        20       317,042      1,685,146
+ Time deposits                                                                             21(a)   2,550,279        620,148
+ Cash and cash equivalents                                                                 21(a)   1,661,152      4,268,300
+ Restricted cash – current                                                                  15        10,194          4,814
+ Subscription receivables                                                                  23(a)      43,924            —
+                                                                                                   5,370,023      7,287,995
+ Total assets                                                                                      5,614,258      7,693,770
+ EQUITY
+ Class A ordinary shares                                                                   29(a)          —              54
+ Class B ordinary shares                                                                   29(a)          —               4
+ Ordinary shares                                                                           29(a)            8           —
+ Series Seed-1 Preferred Shares                                                            29(a)            5           —
+ Series Seed-2 Preferred Shares                                                            29(a)            4           —
+ Series A Preferred Shares                                                                 29(a)            6           —
+ Share premium                                                                                      1,104,120    12,750,598
+ Reserves                                                                                  29(b)    2,110,151     2,946,715
+ Accumulated losses                                                                                (6,114,544)   (8,631,352)
+ Treasury shares                                                                           29(c)     (151,668)          —
+ Total (deficit)/equity                                                                            (3,051,918)    7,066,019
+
+ The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                           F-5
+
+
+
+===== PDF PAGE 172 =====
+
+Table of Contents
+
+ Consolidated Statements of Financial Position (continued)
+ (Expressed in thousands of RMB)
+
+                                                                                                        Note      As of December 31,
+                                                                                                                 2023            2024
+                                                                                                                RMB’000       RMB’000
+ LIABILITIES
+ Non-current liabilities
+ Lease liabilities – non-current                                                                         22        22,309       26,059
+ Put option liabilities– non-current                                                                     24        40,449          —
+ Long-term bank loan                                                                                     28           —         50,040
+ Deferred tax liabilities                                                                               9(b)        5,483        4,486
+ Other non-current liabilities                                                                           25         6,522        4,677
+                                                                                                                   74,763       85,262
+ Current liabilities
+ Short-term bank loans                                                                                   28           —         30,019
+ Trade payables                                                                                          26        16,962       20,713
+ Preferred shares and other financial instruments subject to redemption and other preferential rights    23     8,181,722          —
+ Other payables, deposits received and accrued expenses                                                  26       271,306      397,755
+ Contract liabilities                                                                                   17(b)      12,498        4,476
+ Lease liabilities – current                                                                             22        31,098       36,900
+ Amounts due to related parties                                                                         34(d)      77,827        9,450
+ Put option liabilities – current                                                                        24           —         41,099
+ Income taxes payable                                                                                                 —          2,077
+                                                                                                                8,591,413      542,489
+ Net current (liabilities)/assets                                                                               (3,221,390)   6,745,506
+ Total liabilities                                                                                              8,666,176      627,751
+ Total equity and liabilities                                                                                   5,614,258     7,693,770
+
+ The accompanying notes are an integral part of these consolidated financial statements.
+
+                                                                            F-6
+
+

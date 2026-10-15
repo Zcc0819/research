@@ -1,0 +1,277 @@
+===== PDF PAGE 110 =====
+
+Table of Contents
+
+ Cost of revenue(2)
+       Cost of goods sold                                                (192,523)     (36.5)       (34,138)      (8.5)      (71,716)       (9,825)       (19.9)
+       Cost of services                                                  (102,475)     (19.4)      (184,230)     (45.8)     (178,703)      (24,482)       (49.5)
+ Total cost of revenue                                                   (294,998)     (55.9)      (218,368)     (54.3)     (250,419)      (34,307)       (69.3)
+ Gross profit                                                             232,545       44.1        183,476       45.7       110,715        15,168         30.7
+ Other net income                                                          19,296        3.7         15,750        3.9        16,491         2,259          4.6
+ Research and development expenses(2)                                    (758,565)    (143.8)    (1,058,395)    (263.4)   (1,091,357)     (149,515)      (302.2)
+ Administrative expenses(2)                                              (237,236)     (45.0)      (625,369)    (155.6)   (1,138,802)     (156,015)      (315.3)
+ Selling expenses(2)                                                      (23,574)      (4.5)       (41,447)     (10.3)      (53,566)       (7,339)       (14.8)
+ Impairment loss on receivables and contract asset                        (11,696)      (2.2)       (40,217)     (10.0)      (28,664)       (3,927)        (7.9)
+ Operating loss                                                          (779,230)    (147.7)    (1,566,202)    (389.8)   (2,185,183)     (299,369)      (605.1)
+ Net foreign exchange (loss)/gain                                          20,209        3.8          7,052        1.8        27,880         3,820          7.7
+ Interest income                                                           36,111        6.8        132,042       32.9       176,902        24,235         49.0
+ Fair value changes of financial assets at fair value through profit
+    or loss (“FVTPL”)                                                       7,731        1.5         42,960       10.7        (61,834)       (8,471)        (17.1)
+ Other finance costs                                                       (4,202)      (0.8)        (3,490)      (0.9)        (3,451)         (473)         (1.0)
+ Inducement charges of warrants                                          (125,213)     (23.7)           —         —               —             —            —
+ Fair value changes of financial liabilities measured at FVTPL             25,308        4.8         (4,549)      (1.1)           —             —            —
+ Changes in the carrying amounts of preferred shares and other
+    financial instruments subject to redemption and other
+    preferential rights                                                  (479,210)     (90.8)      (554,048)    (137.9)     (465,254)      (63,740)      (128.8)
+ Loss before taxation                                                  (1,298,496)    (246.1)    (1,946,235)    (484.3)   (2,510,940)     (343,998)      (695.3)
+ Income tax                                                                   —          —           (2,866)      (0.7)       (5,868)         (804)        (1.6)
+ Loss for the year                                                     (1,298,496)    (246.1)    (1,949,101)    (485.0)   (2,516,808)     (344,802)      (696.9)
+ Non-IFRS adjusted net loss(1)                                           (401,683)     (76.1)     (501,680)     (124.8)      (801,853)    (109,854)      (222.0)
+
+ Notes:
+ (1)   For discussions of our adjusted net loss and reconciliation of adjusted net loss to loss for the year, see “—Non-IFRS Financial Measures” for
+       details.
+ (2)   Share-based compensation expenses were allocated as follows:
+
+                                                                                                                For the year ended December 31,
+                                                                                                        2022          2023                2024
+                                                                                                        RMB          RMB              RMB          US$
+                                                                                                                          (in thousands)
+       Cost of revenues                                                                                   —         10,284           7,161            981
+       Research and development expenses                                                              231,000      440,138         234,350         32,106
+       Administrative expenses                                                                         89,978      465,678         937,660        128,459
+       Selling expenses                                                                                 4,451       15,684           8,696          1,191
+       Total                                                                                          325,429      931,784       1,187,867        162,737
+
+
+ Year Ended December 31, 2024 Compared to Year Ended December 31, 2023
+ Revenue
+       Our revenue decreased by 10.1% from RMB401.8 million in 2023 to RMB361.1 million (US$49.5 million) in 2024.
+
+        Our product revenue increased by 61.9% from RMB54.2 million in 2023 to RMB87.7 million (US$12.0 million) in 2024, primarily due to (i) the
+ sales of 49 robosweepers in 2024, (ii) the increase of in the sales of robotaxis from 3 units in 2023 to 18 units in 2024 and (iii) the sales of 10 robovan in
+ 2024, partially offset by the decrease in the sales of our robobuses from 19 units in 2023 to 14 units in 2024.
+
+                                                                              106
+
+
+
+===== PDF PAGE 111 =====
+
+Table of Contents
+
+       The following table illustrates our product sales in the years presented:
+
+                                                                                                        For the Year Ended December 31,
+                                                                                                        2023                      2024
+                                                                                                                      (unit)
+                    Sales of robotaxis                                                                         3                          18
+                    Sales of robosweepers                                                                      0                          49
+                    Sales of robovans                                                                          0                          10
+                    Sales of robobuses                                                                        19                          14
+
+       Our service revenue decreased by 21.4% from RMB347.7 million in 2023 to RMB273.4 million (US$37.5 million) in 2024, primarily due to a
+ decrease of RMB97.5 million (US$13.4 million) in revenue from other technology services as our customized R&D services for certain client had been
+ completed since the third quarter of 2024 and partially offset by an increase of RMB23.2 million (US$3.2 million) in revenue from autonomous driving
+ related operational and technical support services as enlarged operational services generated from robobuses and robosweepers.
+
+
+ Cost of revenue
+       Our cost of goods sold increased from RMB34.1 million in 2023 to RMB71.7 million (US$9.8 million) in 2024, primarily as a result of the
+ increase in the sales of our robotaxis, robosweepers and robovans.
+
+       Our cost of services decreased from RMB184.2 million in 2023 to RMB178.7 million (US$24.5 million) in 2024, mainly due to a decrease in
+ service fee for other technology services from RMB139.6 million in 2023 to RMB115.9 million (US$15.9 million) in 2024 as our customized R&D
+ services for certain client was completed during the third quarter of 2024, paralleling the decrease in our service revenue, partially offset by an increase
+ of RMB18.4 million in operational and technical supporting services.
+
+
+ Gross profit and gross margin
+       Our gross profit decreased from RMB183.5 million in 2023 to RMB110.7 million (US$15.2 million) in 2024. Our gross margin decreased from
+ 45.7% in 2023 to 30.7% in 2024. The decrease was primarily due to (i) the fluctuation of revenue mix with more products of lower profit margin, such
+ as robosweepers and robobuses sold in 2024 and because we adopted a more competitive sales strategy in 2024 with lower prices (ii) the increased labor
+ resources and cloud service fees for delivering ADAS research and development services to Bosch in 2024, and (iii) relatively low profit margin from
+ our enlarged intelligent data services which commenced in 2024.
+
+
+ Research and development expenses
+        Our research and development expenses increased by 3.1% from RMB1,058.4 million in 2023 to RMB1,091.4 million (US$149.5 million) in
+ 2024, mainly due to (i) an increase of RMB161.1 million (US$22.1 million) in payroll and employee benefits, mainly for strengthening and enhancing
+ the technological leadership and position in the industry, (ii) an increase of RMB44.2 million (US$6.1 million) in professional service fee for sensor
+ suites upgrading related to our autonomous driving vehicles, and (iii) an increase of RMB8.1 million (US$1.1 million) in service fee from a related party
+ for surveying and mapping services partially offset by a decrease in share-based compensation of RMB205.8 million (US$28.2 million), primarily
+ resulting from the recognition of the share-based compensation for restricted share units since August 2023 when the vesting of the restricted share units
+ has since become probable.
+
+                                                                             107
+
+
+
+===== PDF PAGE 113 =====
+
+Table of Contents
+
+ Changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights
+       Changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights decreased
+ by 16.0% from RMB554.0 million in 2023 to RMB465.3 million (US$63.7 million) in 2024 because our convertible preferred shares liabilities were
+ converted to equity after our initial public offering completed in October 2024.
+
+
+ Income Tax Expense
+      We had income tax expenses of RMB5.9 million (US$0.8 million) in 2024, as compared to income tax expenses of RMB2.9 million in 2023,
+ primarily due to an increase in our interest income from our overseas subsidiary.
+
+
+ Loss for the year
+       As a result of the foregoing, our loss for the period increased by 29.1% from RMB1,949.1 million in 2023 to RMB2,516.8 million (US$344.8
+ million) in 2024.
+
+
+ Non-IFRS adjusted net loss
+       Our non-IFRS adjusted net loss increased by 59.8% from RMB501.7 million in 2023 to RMB801.9 million (US$109.9 million) in 2024. For
+ discussions of our adjusted net loss and reconciliation of adjusted net loss to loss for the year, see “—Non-IFRS Financial Measures” for details.
+
+
+ Year Ended December 31, 2023 Compared to Year Ended December 31, 2022
+ Revenue
+       Our revenue decreased by 23.8% from RMB527.5 million in 2022 to RMB401.8 million in 2023.
+
+      Our product revenue decreased from RMB337.7 million in 2022 to RMB54.2 million in 2023, primarily due to (i) the decrease in the sales of our
+ robobuses from 90 units in 2022 to 19 units in 2023; and (ii) the decrease in the sales of robotaxis from 11 units in 2022 to three units in 2023.
+
+       The following table illustrates our product sales in the years presented:
+
+                                                                                                 For the Year Ended December 31,
+                                                                                                 2022                      2023
+                          Sales of robobuses                                                           90                          19
+                          Sales of robotaxis                                                           11                           3
+
+        The decreases in sales in 2023 were mainly as a result of a challenging macroeconomic environment. Based on our communication with our
+ potential business partners, we have an understanding that they prioritized their budgets in 2023 for investment in other fields. As a result, we recorded
+ less revenue than anticipated in 2023.
+
+       Our service revenue increased by 83.1% from RMB189.8 million in 2022 to RMB347.7 million in 2023, primarily due to an increase of
+ RMB105.2 million in ADAS research and development service revenue as a result of the customized research and development services we provided to
+ Bosch, and an increase of RMB52.6 million in the provision of operational and technical support services for robobuses, robotaxis and robosweepers.
+ ADAS research and development service revenue historically contributed a significant portion of our service revenue. Going forward, we expect the
+ revenue from the provision of operational and technical support services as a percentage of service revenue to rise as the operation of our L4
+ autonomous driving fleet scales. We also generated an insignificant amount of revenue from the offering of robotaxi rides through WeRide Go in 2022
+ and 2023.
+
+                                                                             109
+
+
+
+===== PDF PAGE 160 =====
+
+Table of Contents
+
+ Management’s Annual Report on Internal Control over Financial Reporting
+        This annual report does not include a report of management’s assessment regarding internal control over financial reporting or an attestation report
+ of the company’s registered public accounting firm due to a transition period established by rules of the Securities and Exchange Commission for newly
+ public companies.
+
+
+ Internal Control Over Financial Reporting
+
+       In connection with the audits of our consolidated financial statements included in this annual report, we and our independent registered public
+ accounting firm identified one material weakness in our internal control over financial reporting as of December 31, 2024. As defined in the standards
+ established by the U.S. Public Company Accounting Oversight Board, a “material weakness” is a deficiency, or combination of deficiencies, in internal
+ control over financial reporting, such that there is a reasonable possibility that a material misstatement of the annual or interim financial statements will
+ not be prevented or detected on a timely basis.
+
+       The material weakness identified is that we lack sufficient financial reporting and accounting personnel with appropriate knowledge of IFRS and
+ the SEC reporting requirements to properly address complex IFRS accounting issues and related disclosures in accordance with IFRS and financial
+ reporting requirements set forth by the SEC. The material weakness, if not remediated timely, may lead to material misstatements in our consolidated
+ financial statements in the future. Neither we nor our independent registered public accounting firm undertook a comprehensive assessment of our
+ internal control for purposes of identifying and reporting material weaknesses and other control deficiencies in our internal control over financial
+ reporting. Had we performed a formal assessment of our internal control over financial reporting or had our independent registered public accounting
+ firm performed an audit of our internal control over financial reporting, additional deficiencies may have been identified.
+
+         We have implemented and plan to implement a number of measures to address the material weakness that has been identified in connection with
+ the audit of our consolidated financial statements as of and for the years ended December 31, 2022, 2023 and 2024. We have taken measures and plan to
+ continue to take measures to remediate these deficiencies. We plan to (i) provide IFRS and SEC reporting training to enhance our team’s finance and
+ accounting capabilities, (ii) hire more experienced professionals and engage external experts when needed to strengthen the financial reporting function,
+ (iii) conduct regular internal control assessments, (iv) update financial reporting policies to ensure compliance, and (v) further improve our reporting
+ processes for timely and accurate handling of complex accounting issues. However, we cannot assure you that all these measures will be sufficient to
+ remediate our material weakness in time, or at all. See “Item 3. Key Information—D. Risk Factors—Risks Related to Our Business and Industry—If we
+ fail to develop and maintain an effective system of internal control over financial reporting, we may be unable to accurately report our financial results
+ or prevent fraud.”
+
+       As a company with less than US$1.235 billion in revenue for fiscal year of 2024, we qualify as an “emerging growth company” pursuant to the
+ JOBS Act. An emerging growth company may take advantage of specified reduced reporting and other requirements that are otherwise applicable
+ generally to public companies. These provisions include exemption from the auditor attestation requirement under Section 404 of the Sarbanes-Oxley
+ Act of 2002 in the assessment of the emerging growth company’s internal control over financial reporting.
+
+
+ Changes in Internal Control over Financial Reporting
+       There were no changes in our internal control over financial reporting that occurred during the period covered by this annual report on Form 20-F
+ that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
+
+                                                                              156
+
+
+
+===== PDF PAGE 203 =====
+
+Table of Contents
+
+ (b)   Share-based compensation
+       The Group measures the cost of equity-settled transactions with employees by reference to the fair value of the equity instruments at the date at
+       which they are granted. The fair value is estimated using a model which requires the determination of the appropriate inputs. The Group has to
+       estimate the forfeiture rate in order to determine the amount of share-based compensation expenses charged to the statement of profit or loss. The
+       Group had to estimate the vesting periods of the share awards which were variable and subject to an estimate of when an IPO of the Company
+       would occur before it completed its IPO in October 2024. The assumptions and models used for estimating the fair value of share-based
+       compensation are disclosed in Note 30.
+
+
+ 4     Segment reporting
+       For the purpose of resources allocation and performance assessment, the chief operating decision maker (“CODM”) reviews the overall results
+       and financial position of the Group as a whole. Accordingly, the Group has only one operating segment and no further discrete financial
+       information nor analysis of this single segment is presented.
+
+
+       Geographic information
+       The Company is an investment holding company incorporated in the Cayman Islands and the principal place of the Group’s business operation is
+       in the PRC. No geographical information is presented as the Group’s revenue and non-current assets are predominately generated/located in the
+       PRC.
+
+
+ 5     Revenue
+       The principal activities of the Group are (i) the sales of autonomous driving vehicles, primarily including robobuses, robotaxis, robosweepers and
+       related sensor suites; (ii) the provision of autonomous driving related operational and technical support services; and (iii) the provision of other
+       technology services, including ADAS R&D services and intelligent data services.
+
+
+ (i)   Disaggregation of revenue
+       Disaggregation of revenue from contracts with customers by major products or service lines and timing of revenue recognition are as follows:
+
+                                                                                                                              For the year ended December 31,
+                                                                                                                              2022          2023       2024
+                                                                                                                             RMB’000 RMB’000 RMB’000
+       Disaggregated by major products or service lines:
+       Autonomous driving related operational and technical support services                                                  32,627       85,285     108,523
+       Other technology services                                                                                             157,199      262,369     164,901
+       Provision of services                                                                                                 189,826      347,654     273,424
+       Sales of autonomous driving vehicles                                                                                  337,717       54,190      87,710
+                                                                                                                             527,543      401,844     361,134
+       Timing of revenue recognition
+       Point in time                                                                                                         337,717       54,190      87,710
+       Over time                                                                                                             189,826      347,654     273,424
+                                                                                                                             527,543      401,844     361,134
+
+       The major customers, which individually contributed more than 10% of total revenue of the Group for the years ended December 31, 2022, 2023
+       and 2024, are as follows. Details of concentrations of credit risk of the Group are set out in Note 31(a).
+
+                                                                                                                        For the year ended December 31,
+                                                                                                                 2022                 2023              2024
+       Customer A                                                                                                   30%                55%                24%
+       Customer B                                                                                                   12%                 *                  *
+       Customer C                                                                                                   18%                 *                  *
+       Customer D                                                                                                   11%                 *                  *
+
+       *   represents that the amount of aggregated revenue from such customer is individually less than 10% of the total revenue for respective year.
+
+                                                                            F-37
+
+

@@ -1,0 +1,754 @@
+WeRide Accelerates Global Growth, Robotaxi Revenue Grew 836.7% | WeRide Inc.
+Skip to main navigation
+Overview
+News & Events
+News Releases
+Events
+Shareholder Meetings
+Stock Information
+Stock Quote & Chart
+Analyst Coverage
+Governance
+Documents & Charters
+Board of Directors
+Management Team
+Committee Composition
+Financials & Filings
+SEC Filings
+HKEX Filings
+Quarterly Results
+Annual Reports
+ESG
+IR Resources
+Investor FAQs
+Email Alerts
+Contact IR
+EN
+English
+简体中文
+繁體中文
+Release Details
+WeRide Accelerates Global Growth, Robotaxi Revenue Grew 836.7%
+July 31, 2025
+PDF Version
+WeRide Announces Unaudited Financial Results for Q2 2025
+NEW YORK, July 31, 2025 (GLOBE NEWSWIRE) -- WeRide Inc. (“WeRide” or the “Company”) (Nasdaq: WRD), a global leader in autonomous driving technology, today announced its unaudited financial results for the three months ended June 30, 2025.
+Recent Highlights
+Total revenue grew 60.8% year-over-year (YoY) to
+RMB127.2 million (US$17.8 million) in 2Q2025, demonstrating undisputed and accelerating commercial momentum.
+2Q2025 robotaxi revenue grew 836.7% YoY to RMB45.9 million (US$6.4 million) in 2Q2025, the highest-ever quarterly robotaxi revenue since Company inception;
+The highest quarterly robotaxi revenue concentration since 2021, with 36.1% of our total revenue in 2Q2025 from robotaxi business;
+Gross Profit grew 40.6% YoY to RMB35.7 million (US$5.0 million) in 2Q2025, with an industry-leading margin of 28.1%.
+WeRide launched High-performance Computing 3.0 Platform powered by NVIDIA DRIVE AGX Thor chips, reducing autonomous driving suite cost by 50% and achieving 100% automotive grade.
+WeRide launched Saudi Arabia’s first-ever robotaxi pilot operation in Riyadh, becoming the world's only technology company with products holding autonomous driving permits in 6 countries.
+WeRide operates the largest robotaxi fleet in the Middle East. The WeRide-Uber robotaxi fleet in Abu Dhabi has tripled in size since the joint launch in 2024, covering about 50% of the city’s core area. WeRide-Uber aims to continue growing the fleet to hundreds of robotaxis in Abu Dhabi alone.
+WeRide maintains over 2,200 days of public operations with zero regulatory discipline due to autonomous system failures.
+Redefining Autonomous Driving with Leading Technology Breakthroughs
+High-Performance Computing (HPC) 3.0 Platform Powered by NVIDIA DRIVE AGX Thor Chips
+In July 2025, WeRide launched the HPC 3.0 high-performance computing platform, jointly developed with Lenovo and powered by NVIDIA's latest DRIVE AGX Thor chips.
+The new HPC 3.0 platform made its debut on WeRide's latest-generation robotaxi GXR – making it the world's first mass-produced level-4 (L4) autonomous vehicle built on NVIDIA DRIVE AGX Thor.
+Fully automotive-grade, HPC 3.0 reduces autonomous driving system costs by 50%, paving the way for large-scale commercial deployment.
+Delivering up to 2,000 TOPS of AI compute, HPC 3.0 features dual NVIDIA DRIVE AGX Thor chips and now ranks among the most powerful computing platforms available to support L4 autonomy.
+Partnership with Chery on New-Generation Robotaxi to Revolutionize Urban Mobility
+In April 2025, WeRide and Chery Group unveiled their jointly-developed, new generation robotaxi model, CER, at Auto Shanghai 2025. The CER is built on WeRide’s universal autonomous driving platform, WeRide One, and EXEED’s STERRA ET vehicle architecture.
+In July 2025, WeRide and Chery showcased the CER robotaxi in active operation during the World Artificial Intelligence Conference (WAIC 2025) in Shanghai.
+Equipped with WeRide’s HPC and Sensor Suite 5.6, the CER features over 20 sensors – including cost-efficient LiDARs, HD cameras, and RTK-precision navigation modules – and incorporates five layers of redundant safety systems (steering, braking, parking, communication, and power supply redundancy).
+The CER’s spacious interior and extended range on the EXEED STERRA ET platform enable it to support long-distance, all-scenario, high-frequency driverless shuttle services.
+Unparalleled Robotaxi Footprint Validated by Global Operations
+Abu Dhabi, UAE
+Since launching in Abu Dhabi in December 2024, the WeRide-Uber robotaxi fleet has tripled in size. Each vehicle is expected to average dozens of trips per day during a 12-hour shift with each ride typically exceeding six kilometers.
+In July 2025, WeRide and Uber started robotaxi services on Al Reem and Al Maryah Islands in Abu Dhabi, in partnership with the Abu Dhabi Integrated Transport Centre. The expansion is expected to double ride volumes, with the service now covering about half of Abu Dhabi’s core areas, including highways and the airport.
+WeRide and Uber announced their goal to grow their fleet to hundreds of robotaxis in Abu Dhabi, with plans to extend services into Khalifa City, Masdar City, and more areas of downtown Abu Dhabi later this year.
+WeRide’s robotaxi fleet has begun driverless testing, paving the way for a commercial driverless launch in the coming months.
+Shanghai, China
+In July 2025, WeRide had been allowed to conduct regulation-compliant, Level 4 (L4) autonomous robotaxi ride-hailing services in Shanghai, partnering with Chery Group and Jinjiang Taxi.
+As part of WAIC’s L4 Intelligent Vehicle Experience Showcase, the three partners jointly launched L4 robotaxi shuttle service powered by our latest pre-installed model CER. This also marked WeRide robotaxi’s official entry into its tenth city globally.
+The service connected key Shanghai transport hubs and cultural-tourism landmarks, including the Shanghai World Expo Center, Jinqiao, Huamu, Shanghai Pudong International Airport, and Shanghai Disney Resort.
+Riyadh, Saudi Arabia
+In July 2025, WeRide's robotaxi was granted Saudi Arabia's first robotaxi autonomous driving permit, making WeRide the world's only technology company with products holding autonomous driving permits in six countries: Saudi Arabia, China, the UAE, Singapore, France, and the US.
+With this permit, WeRide is authorized to operate an autonomous vehicle business and deploy robotaxis nationwide in Saudi Arabia, starting with its pilot operations in Riyadh with Uber and local partner Ai Driver.
+This pilot marked WeRide's third market deployment with Uber, following previous launches in Abu Dhabi and Dubai.
+The pilot covers King Khalid International Airport and several key locations throughout Riyadh, including major highways and selected city center destinations. Commercial robotaxi service is expected to launch by end-2025 through a partnership between WeRide and Uber.
+Dubai, UAE
+In June 2025, WeRide signed a Memorandum of Understanding with Dubai’s Roads and Transport Authority and Uber to commence pilot robotaxi operation later in 2025 via the Uber platform in Dubai.
+In the initial phase, the vehicles will operate with a safety driver onboard, paving the way for commercial rollout of driverless services in 2026.
+Driving Continued Global Expansion Beyond Robotaxis
+Robobus
+Singapore.
+In July 2025, WeRide has obtained approval from the Land Transport Authority of Singapore to offer fully autonomous rides to the public. WeRide has launched fully driverless robobus operations at Resorts World Sentosa, Singapore (RWS) – the first autonomous vehicle in Southeast Asia to operate without a safety officer on board. This achievement comes after a year of safe service since June 2024, during which the robobus transported tens of thousands of passengers within RWS and completed thousands of autonomous trips.
+Paris, France.
+In June 2025, WeRide partnered with Renault Group, for the second consecutive year, to provide a L4 autonomous minibus shuttle service for Roland-Garros tennis tournament – one of the world's most prestigious sporting events. A new night service, which was added this year, operated from 10pm to midnight, offering greater convenience and extended access for guests.
+Riyadh, KSA.
+In May 2025, WeRide announced that it has been testing and deploying its robobus in several key areas across Saudi Arabia, including King Fahad Medical City, Aramco residential communities, AlUla, etc. The L4 autonomous vehicle is designed to address last-mile transportation gaps and complements transit networks like Riyadh Metro, enhancing the overall travel experience. Well suited to the region’s hot climate, it serves a wide range of use cases – from parks to large-scale hotels and tourist attractions.
+Management Commentary
+Tony Han, WeRide’s Founder, Chairman, and Chief Executive Officer, commented, “Our second-quarter performance marks a pivotal moment in WeRide’s global journey. The rapid growth of our robotaxi business demonstrates that our strategic vision – grounded in expansion and strong partnerships both at home and abroad – is delivering real-world results. Our commercial success also reflects the strength of our advanced technology, with the latest NVIDIA DRIVE AGX Thor Chips-powered HPC 3.0 platform deployed on our GXR robotaxi — setting new benchmarks for scalable, high-performance autonomous driving. As we continue to break new ground, including recent regulatory wins in the Middle East, our focus remains on expanding access to safe, autonomous transportation and leading the evolution of mobility worldwide.”
+Jennifer Li, WeRide’s Chief Financial Officer and Head of International, added, “This quarter’s strong topline performance reflects the sound execution of our growth strategy and the continued scaling of our operations. A major driver of our momentum is the increasing contribution from our robotaxi business, which now plays a central role in our revenue mix and overall financial strength. As our international footprint grows – particularly in regions like Abu Dhabi – we are seeing clear signs of improved unit economics and growing commercial viability. With the support of our global strategic partners, we are at an inflection point where effectively operating a robotaxi fleet with sustainable unit economics is becoming a reality.”
+Unaudited Second Quarter 2025 Financial Results
+Revenues
+Total revenue grew 60.8% YoY to RMB127.2 million (US$17.8 million) in 2Q2025, compared to RMB79.1 million in the same period of 2024.
+Product revenue increased 309.6% YoY to RMB59.8 million (US$8.3 million) in 2Q2025 from RMB14.6 million in the same period of 2024. The increase was primarily attributable to an increase in the sales of robotaxis and robosweepers in 2Q2025, partially offset by a decrease in the sales of robobuses.
+Service revenue increased 4.3% YoY to RMB67.4 million (US$9.4 million) in 2Q2025 from RMB64.6 million in the same period of 2024. The increase was primarily due to an increase of RMB35.8 million in revenue from intelligent data services which commenced in the second half of 2024 and an increase of RMB2.5 million from autonomous driving related operational and technical support services, partially offset by a decrease of RMB35.5 million in revenue from ADAS research and development services as the customized R&D services for certain clients had been completed in the third quarter of 2024.
+In 2Q2025, robotaxi revenue increased by 836.7% YoY to RMB45.9 million (US$6.4 million), marking the highest quarterly revenue since the Company’s inception. Robotaxi revenue accounted for 36.1% of our total revenue in 2Q2025, representing the highest quarterly revenue contribution from the robotaxi business since 2021.
+Cost of Revenue
+Cost of revenue was RMB91.5 million (US$12.8 million) compared to RMB53.7 million in the same period of 2024.
+Cost of goods sold increased to RMB30.7 million (US$4.3 million) from RMB11.0 million in the same period of 2024, in line with the increase of product revenue.
+Cost of services increased to RMB60.8 million (US$8.5 million) from RMB42.7 million in the same period of 2024. The increase was mainly due to an increase of RMB29.8 million in costs for intelligent data services and RMB9.4 million in costs of operational and technical support services, partially offset by a decrease of RMB21.1 million in costs of ADAS research and development services which had been completed in the third quarter of 2024.
+Gross Profit and Gross Margin
+Gross profit was comprised of gross profit for products of RMB29.1 million (US$4.1 million) with a gross margin rate of 48.6%, and gross profit for services of RMB6.6 million (US$0.9 million) at a gross margin rate of 9.8%.
+Operating Expenses
+Operating expenses were RMB487.8 million (US$68.1 million) compared to RMB342.4 million in the same period of 2024. The change was mainly due to an increase of RMB63.6 million in personnel-related expenses (including share-based compensation expenses), an increase of RMB31.5 million in service fees for autonomous driving research and development as well as an increase of RMB28.9 million in audit and legal compliance service compared to the same period in 2024.
+Research and development (R&D) expenses were RMB318.9 million (US$44.5 million), compared to RMB239.6 million in the same period of 2024. Excluding share-based compensation, R&D expenses were RMB280.3 million, compared to RMB186.3 million in the same period of 2024, representing an increase of 50.5%. The significant increase in R&D expenses was primarily due to (i) an increase of RMB45.1 million in personnel-related expenses from headcount increase and average salary increase, (ii) an increase of RMB31.5 million in service fees for R&D projects, and (iii) an increase of RMB14.3 million in material consumption and depreciation and amortization expenses.
+Selling expenses were RMB13.8 million (US$1.9 million), compared to RMB12.3 million in the same period of 2024. Excluding share-based compensation, selling expenses were RMB12.1 million, compared to RMB10.3 million in the same period of 2024, representing an increase of 17.5% that was well below sales increase.
+Administrative expenses were RMB155.1 million (US$21.6 million), compared to RMB90.5 million in the same period of 2024. Excluding share-based compensation, administrative expenses were RMB75.6 million, compared to RMB39.0 million in the same period of 2024, representing an increase of 93.8%. The significant increase was primarily due to (i) an increase of RMB28.9 million in professional services fees mainly related to audit and legal compliance service, and (ii) an increase of RMB5.1 million in personnel costs to build necessary support functions for a growing business.
+Net Loss
+Net loss was RMB406.4 million (US$56.7 million), compared to RMB413.6 million in the same period of 2024.
+Non-IFRS adjusted net loss
+1
+was RMB300.6 million (US$42.0 million), compared to RMB174.6 million in the same period of 2024.
+Basic and Diluted Net Loss Per ADS
+2
+Basic and diluted net loss per ordinary share was RMB0.45 (US$0.06), compared to RMB3.37 in the same period of 2024.
+Basic and diluted net loss per ADS were RMB1.35 (US$0.18), compared to RMB10.11 in the same period of 2024.
+Balance Sheet
+As of June 30, 2025, the Company had RMB4,087.9 million (US$570.6 million) in cash and cash equivalents and time deposits, RMB1,735.3 million (US$242.2 million) in investments in wealth management products, which were included in financial assets measured at fair value through profit or loss, and RMB15.4 million (US$2.2 million) in restricted cash.
+As of June 30, 2025, the Company had long-term bank borrowings of RMB47.5 million (US$6.6 million) and short-term bank borrowings of RMB102.3 million (US$14.3 million).
+Exchange Rate Information
+This announcement contains translations of certain RMB amounts into U.S. dollars at specified rates solely for the convenience of the reader. Unless otherwise noted, all translations from RMB to U.S. dollars are made at a rate of RMB7.1636 to US$1.00, the exchange rate set forth in the H.10 statistical release of the Board of Governors of the Federal Reserve System as of June 30, 2025.
+Use of Non-IFRS Financial Measures
+In evaluating its business, the Company considers and uses the non-IFRS financial measure of adjusted net loss as a supplemental measure to review and assess operating performance. The Company believes that adjusted net loss provides useful information to investors and others in understanding and evaluating the Company’s consolidated results of operations in the same manner as it helps the Company’s management. The Company defines adjusted net loss as net loss for the period excluding share-based compensation expenses, fair value changes of financial assets at FVTPL and changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights.
+The Company presents the non-IFRS financial measure because it is used by its management to evaluate its operating performance and formulate business plans. Adjusted net loss enables the Company’s management to assess the Company’s operating results without considering the impact of the aforementioned non-cash adjustment items that it does not consider to be indicative of its core operations. Accordingly, the Company believes that the use of this non-IFRS financial measure provides useful information to investors and others in understanding and evaluating its operating results in the same manner as its management and board of directors.
+This non-IFRS financial measure is not defined under IFRS and is not presented in accordance with IFRS. The non-IFRS financial measure has limitations as an analytical tool. One of the key limitations of using the adjusted net loss is that it does not reflect all items of expenses that affect the Company’s operations. Further, this non-IFRS measure may differ from the non-IFRS information used by other companies, including peer companies, and therefore its comparability may be limited.
+The non-IFRS financial measure should not be considered in isolation or construed as an alternative to loss for the period or any other measure of performance information prepared and presented in accordance with IFRS or as an indicator of the Company’s operating performance. Investors are encouraged to review the Company’s historical non-IFRS financial measure in light of the most directly comparable IFRS measure, as shown below. The non-IFRS financial measure presented here may not be comparable to similarly titled measure presented by other companies. Other companies may calculate similarly titled measures differently, limiting the usefulness of such measures when analyzing the Company’s data comparatively. It is encouraged that you review the Company’s financial information in its entirety and not rely on a single financial measure.
+Conference Call Information
+The Company’s management team will host an earnings conference call at 8:00 AM U.S. Eastern Time on Thursday, July 31, 2025 (or at 8:00 PM Beijing Time on Thursday, July 31, 2025). Details for the conference call are as follows:
+Event Title: WeRide Inc. Second Quarter 2025 Earnings Call
+Registration Link:
+https://register-conf.media-server.com/register/BI47b984221bb74f7db1dcbd3748e8a875
+All participants must use the link provided above to complete the online registration process in advance of the conference call. Upon registering, each participant will receive a set of participant dial-in numbers and a unique access PIN, which can be used to join the conference call.
+A live and archived webcast of the conference call will be available at the Company's investor relations website at ir.weride.ai.
+About WeRide
+WeRide is a global leader and a first mover in the autonomous driving industry, as well as the first publicly traded robotaxi company. Our autonomous vehicles have been tested or operated in over 30 cities across 10 countries. We are also the first and only technology company whose products have received autonomous driving permits in six markets: China, France, Saudi Arabia, Singapore, the UAE, and the US. Empowered by the smart, versatile, cost-effective, and highly adaptable WeRide One platform, WeRide provides autonomous driving products and services from L2 to L4, addressing transportation needs in the mobility, logistics, and sanitation industries. WeRide was named in Fortune Magazine's 2024 “The Future 50” list. For more information, please visit
+https://www.weride.ai
+.
+Safe Harbor Statement
+This press release contains statements that may constitute “forward-looking” statements pursuant to the “safe harbor” provisions of the U.S. Private Securities Litigation Reform Act of 1995. These forward-looking statements can be identified by terminology such as “will,” “expects,” “anticipates,” “aims,” “future,” “intends,” “plans,” “believes,” “estimates,” “likely to,” and similar statements. Statements that are not historical facts, including statements about WeRide’s beliefs, plans, and expectations, are forward-looking statements. Forward-looking statements involve inherent risks and uncertainties. Further information regarding these and other risks is included in WeRide’s filings with the SEC. All information provided in this press release is as of the date of this press release, and WeRide does not undertake any obligation to update any forward-looking statement, except as required under applicable law.
+Contacts
+Investor inquiries:
+[email protected]
+Press inquiries:
+[email protected]
+WeRide Inc.
+Unaudited Condensed Consolidated Statements of Financial Position
+As of
+June 30,
+June 30,
+December 31,
+2025
+2025
+2024
+RMB’000
+USD’000
+RMB’000
+ASSETS
+Non-current assets
+Property and equipment
+281,968
+39,361
+178,179
+Right-of-use assets
+72,951
+10,184
+73,564
+Intangible assets
+19,544
+2,728
+21,664
+Goodwill
+44,758
+6,248
+44,758
+Restricted cash – non-current
+12,142
+1,695
+9,669
+Deferred tax assets
+498
+70
+997
+Financial assets at FVTPL – non-current
+58,151
+8,118
+56,919
+Other non-current assets
+20,684
+2,885
+20,025
+Total non-current assets
+510,696
+71,289
+405,775
+Current assets
+Inventories
+289,929
+40,473
+204,705
+Contract assets
+35,336
+4,933
+28,005
+Trade receivables
+241,372
+33,694
+252,607
+Prepayments and other receivables
+191,127
+26,680
+197,652
+Prepayments to and amounts due from related parties
+50,917
+7,108
+26,618
+Financial assets at FVTPL - current
+1,735,333
+242,243
+1,685,146
+Time deposits
+251,733
+35,141
+620,148
+Cash and cash equivalents
+3,836,137
+535,504
+4,268,300
+Restricted cash – current
+3,273
+457
+4,814
+Total current assets
+6,635,157
+926,233
+7,287,995
+Total assets
+7,145,853
+997,522
+7,693,770
+EQUITY
+Total equity
+6,463,756
+902,305
+7,066,019
+WeRide Inc.
+Unaudited Condensed Consolidated Statements of Financial Position
+As of
+June 30,
+June 30,
+December 31,
+2025
+2025
+2024
+RMB’000
+USD’000
+RMB’000
+LIABILITIES
+Non-current liabilities
+Lease liabilities – non-current
+21,198
+2,959
+26,059
+Long-term bank loan
+47,534
+6,635
+50,040
+Deferred tax liabilities
+3,988
+557
+4,486
+Other non-current liabilities
+8,097
+1,130
+4,677
+Total non-current liabilities
+80,817
+11,281
+85,262
+Current liabilities
+Short-term bank loan
+102,275
+14,277
+30,019
+Trade payables
+47,117
+6,577
+20,713
+Other payables, deposits received and accrued expenses
+330,848
+46,185
+397,755
+Contract liabilities
+30,574
+4,268
+4,476
+Lease liabilities – current
+34,386
+4,800
+36,900
+Amounts due to related parties
+14,656
+2,046
+9,450
+Put option liabilities – current
+41,424
+5,783
+41,099
+Income taxes payable
+-
+-
+2,077
+Total current liabilities
+601,280
+83,936
+542,489
+Total liabilities
+682,097
+95,217
+627,751
+Total equity and liabilities
+7,145,853
+997,522
+7,693,770
+WeRide Inc.
+Unaudited Condensed Consolidated Statements of Profit or Loss
+Six Months Ended June 30,
+Three Months Ended June 30,
+2025
+2024
+2025
+2024
+RMB’000
+USD’000
+RMB’000
+RMB’000
+USD’000
+RMB’000
+Revenue
+Product revenue
+69,281
+9,671
+21,045
+59,781
+8,345
+14,567
+Service revenue
+130,334
+18,194
+129,253
+67,397
+9,408
+64,556
+199,615
+27,865
+150,298
+127,178
+17,753
+79,123
+Cost of revenue
+(a)
+Cost of goods sold
+(35,461
+)
+(4,950
+)
+(17,157
+)
+(30,699
+)
+(4,285
+)
+(10,989
+)
+Cost of services
+(103,095
+)
+(14,392
+)
+(78,352
+)
+(60,775
+)
+(8,484
+)
+(42,711
+)
+(138,556
+)
+(19,342
+)
+(95,509
+)
+(91,474
+)
+(12,769
+)
+(53,700
+)
+Gross profit
+61,059
+8,523
+54,789
+35,704
+4,984
+25,423
+Research and development expenses
+(a)
+(644,635
+)
+(89,988
+)
+(517,210
+)
+(318,918
+)
+(44,519
+)
+(239,579
+)
+Selling expenses
+(a)
+(27,780
+)
+(3,878
+)
+(22,784
+)
+(13,849
+)
+(1,933
+)
+(12,263
+)
+Administrative expenses
+(a)
+(278,942
+)
+(38,939
+)
+(208,293
+)
+(155,061
+)
+(21,646
+)
+(90,510
+)
+Other net income
+3,021
+422
+7,939
+337
+47
+1,973
+Impairment loss on receivables and contract assets
+(2,800
+)
+(391
+)
+(13,424
+)
+(2,077
+)
+(290
+)
+(7,757
+)
+Operating loss
+(890,077
+)
+(124,251
+)
+(698,983
+)
+(453,864
+)
+(63,357
+)
+(322,713
+)
+Net foreign exchange gain
+5,629
+786
+4,659
+1,557
+217
+937
+Interest income
+74,946
+10,462
+89,294
+35,200
+4,914
+40,347
+Fair value changes of financial assets at FVTPL
+23,154
+3,232
+4,503
+13,971
+1,950
+1,094
+Other finance costs
+(3,292
+)
+(460
+)
+(1,356
+)
+(1,873
+)
+(261
+)
+(648
+)
+Changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights
+-
+-
+(278,226
+)
+-
+-
+(131,842
+)
+Loss before taxation
+(789,640
+)
+(110,231
+)
+(880,109
+)
+(405,009
+)
+(56,537
+)
+(412,825
+)
+Income tax
+(1,877
+)
+(262
+)
+(1,591
+)
+(1,436
+)
+(200
+)
+(793
+)
+Loss for the period
+(791,517
+)
+(110,493
+)
+(881,700
+)
+(406,445
+)
+(56,737
+)
+(413,618
+)
+Loss attributable to ordinary shareholders of the Company
+(791,517
+)
+(110,493
+)
+(881,700
+)
+(406,445
+)
+(56,737
+)
+(413,618
+)
+Loss per ordinary share
+Basic and diluted loss per Class A and Class B ordinary share
+(0.87
+)
+(0.12
+)
+(7.38
+)
+(0.45
+)
+(0.06
+)
+(3.37
+)
+Loss per ADS
+Basic and diluted loss per ADS
+(2.61
+)
+(0.36
+)
+(22.14
+)
+(1.35
+)
+(0.18
+)
+(10.11
+)
+Notes:
+(a) Includes share-based compensation expenses as follows:
+Six Months Ended June 30,
+Three Months Ended June 30,
+2025
+2024
+2025
+2024
+RMB’000
+USD’000
+RMB’000
+RMB’000
+USD’000
+RMB’000
+Cost of revenue
+-
+-
+(3,021
+)
+-
+-
+(1,591
+)
+Research and development expenses
+(86,386
+)
+(12,059
+)
+(150,368
+)
+(38,663
+)
+(5,397
+)
+(53,293
+)
+Administrative expenses
+(129,414
+)
+(18,065
+)
+(133,328
+)
+(79,421
+)
+(11,087
+)
+(51,474
+)
+Selling expenses
+(3,722
+)
+(520
+)
+(5,183
+)
+(1,774
+)
+(248
+)
+(1,916
+)
+Total share-based compensation expenses
+(219,522
+)
+(30,644
+)
+(291,900
+)
+(119,858
+)
+(16,732
+)
+(108,274
+)
+WeRide Inc.
+Reconciliation of IFRS and Non-IFRS results
+Six Months Ended June 30,
+Three Months Ended June 30,
+2025
+2024
+2025
+2024
+RMB’000
+USD’000
+RMB’000
+RMB’000
+USD’000
+RMB’000
+Loss for the period
+(791,517
+)
+(110,493
+)
+(881,700
+)
+(406,445
+)
+(56,737
+)
+(413,618
+)
+Add:
+Share-based compensation expenses
+219,522
+30,644
+291,900
+119,858
+16,732
+108,274
+Fair value changes of financial assets at FVTPL
+(23,154
+)
+(3,232
+)
+(4,503
+)
+(13,971
+)
+(1,950
+)
+(1,094
+)
+Changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights
+-
+-
+278,226
+-
+-
+131,842
+Adjusted net loss
+(595,149
+)
+(83,081
+)
+(316,077
+)
+(300,558
+)
+(41,955
+)
+(174,596
+)
+____________________________
+1
+Adjusted net loss is defined as net loss for the period excluding share-based compensation expenses, fair value changes of financial assets at FVTPL and changes in the carrying amounts of preferred shares and other financial instruments subject to redemption and other preferential rights.
+2
+ADS-to-Class A ordinary share ratio is 1:3.
+Investor Contact
+email
+[email protected]
+Subscribe to our Email Alerts
+Email
+Submit
+© WeRide Inc.
+Site - Social Media
